@@ -163,7 +163,19 @@ Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva 
 
 ## Current Focus
 
-<details open>
+<p align="center">
+  <img src="https://img.shields.io/badge/Leviathan-Launcher%20%26%20Platform-0d1117?style=for-the-badge&logo=github" alt="Leviathan" />
+  <img src="https://img.shields.io/badge/Nimbus-AntiCheat-0d1117?style=for-the-badge" alt="Nimbus AntiCheat" />
+  <img src="https://img.shields.io/badge/Shared-Engineering-0d1117?style=for-the-badge" alt="Shared Engineering" />
+</p>
+
+| Focus | Current work |
+| --- | --- |
+| **Leviathan** | Launcher · client systems · authentication · identity · social platform · creator systems · cosmetics · economy · APIs · security · mobile/platform expansion |
+| **Nimbus AntiCheat** | Packet inspection · movement prediction · combat validation · staff tooling · integrations · false-positive reduction · server security |
+| **Shared Engineering** | Java 21 · backend services · testing · release engineering · UI/UX · documentation · infrastructure · security |
+
+<details>
 <summary><strong>Leviathan</strong></summary>
 
 ### Launcher & Client
@@ -308,14 +320,54 @@ Across both projects, current priorities include:
 
 ---
 
+## Project Status
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Leviathan
+
+**Status:** Private development / pre-release
+
+Current work includes launcher and client systems, Microsoft/Minecraft authentication, account identity, security, connected platform services and release infrastructure.
+
+[Repository](https://github.com/Lapinite/Leviathan-Launcher)
+
+</td>
+<td width="50%" valign="top">
+
+### Nimbus AntiCheat
+
+**Status:** Active development
+
+Current work includes packet-based detection, prediction, staff tooling, integrations, performance safeguards and server-side security.
+
+[SpigotMC](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lapinite&show_icons=true&hide_title=true&hide_rank=true&theme=github_dark&hide_border=true" alt="GitHub activity statistics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Lapinite&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub activity statistics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lapinite&layout=compact&theme=github_dark&hide_border=true" alt="Most used languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lapinite&layout=compact&theme=github_dark&hide_border=true" alt="Most used languages" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lapinite&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Lapinite&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub profile trophies" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true" alt="GitHub contribution activity graph" />
 </p>
 
 ---
@@ -326,6 +378,6 @@ Across both projects, current priorities include:
 
 [GitHub](https://github.com/Lapinite) · [Discord](https://discord.gg/MREADUBJ97) · [YouTube](https://youtube.com/@leviathanclient) · [TikTok](https://tiktok.com/@leviathanclient) · [Instagram](https://instagram.com/leviathanclient) · [X](https://x.com/leviathanrealm) · [Twitch](https://twitch.tv/leviathanclient) · [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
 
-<sub>Leviathan Project · Leviathan & Nimbus</sub>
+<sub>Leviathan Project · Minecraft software portfolio · Leviathan & Nimbus</sub>
 
 </div>
