@@ -6,6 +6,8 @@
 
 **Launchers · Clients · AntiCheat · Authentication · Identity · Backend Services · Security · APIs · Infrastructure · Platform Systems**
 
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&center=true&vCenter=true&width=760&lines=Building+Leviathan+%E2%80%94+launcher+%26+connected+platform;Developing+Nimbus+%E2%80%94+packet-based+server+security;Authentication+%C2%B7+Identity+%C2%B7+APIs+%C2%B7+Security+%C2%B7+Infrastructure" alt="Animated project focus" />
+
 [![Leviathan](https://img.shields.io/badge/LEVIATHAN-Launcher%20%26%20Platform-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
 [![Nimbus](https://img.shields.io/badge/NIMBUS-AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
 
@@ -17,22 +19,36 @@
 
 ## About
 
-This profile represents the **Leviathan project portfolio**, with active development centered around **Leviathan** and **Nimbus**.
+The **Leviathan project portfolio** is focused on Minecraft software engineering and connected platform development, with active work centered around **Leviathan** and **Nimbus**.
 
-The portfolio covers Minecraft-focused engineering and product development across:
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- desktop launchers and client systems
-- packet-level server software and anticheat systems
+### Platform & Application
+
+- Desktop launcher and client systems
 - Microsoft and Minecraft authentication
-- account identity and verification
-- backend services and REST APIs
-- security, abuse protection and account recovery
-- server integrations and infrastructure
+- Account identity and verification
+- Backend services and REST APIs
 - UI, UX and connected player services
-- creator, cosmetic, marketplace and economy architecture
-- testing, release engineering and technical documentation
 
-Development spans the full product stack, from low-level detection and backend systems to player-facing interfaces, staff tooling and platform services.
+</td>
+<td width="50%" valign="top">
+
+### Security & Infrastructure
+
+- Packet-level server and anticheat systems
+- Security, abuse protection and recovery
+- Server integrations and infrastructure
+- Creator, cosmetic and economy architecture
+- Testing, release engineering and documentation
+
+</td>
+</tr>
+</table>
+
+Development spans the full stack, from low-level detection and backend systems to player-facing interfaces, staff tooling and platform services.
 
 ---
 
@@ -131,33 +147,84 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
   <img src="https://img.shields.io/badge/ProGuard-Obfuscation-1f1f1f?style=flat-square" alt="ProGuard" />
 </p>
 
-### Languages & Markup
+### Engineering Stack
 
-Java · C · C++ · C# · JavaScript · Kotlin · Python · Lua · PHP · PowerShell · Skript (.sk) · HTML · CSS · Markdown · JSON · YAML
+<table>
+<tr>
+<td width="50%" valign="top">
 
-### Minecraft & Server Engineering
+#### Languages
 
-Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · Skript (.sk) · custom commands · events · conditions · expressions · functions · variables · GUIs · gameplay systems · server automation · PacketEvents · Citizens API · LiteBans API · PlaceholderAPI · plugin messaging · event-driven systems · packet handling · movement prediction · combat validation · anticheat systems · latency compensation · TPS monitoring · server hardening · configuration auditing · compatibility checks · localization
+`Java` · `C` · `C++` · `C#` · `JavaScript` · `Kotlin` · `Python` · `Lua` · `PHP` · `PowerShell` · `Skript` · `HTML` · `CSS` · `Markdown` · `JSON` · `YAML`
 
-### Application, Backend & Web
+#### Minecraft & Server
+
+`Paper` · `Bukkit` · `SpigotMC` · `PacketEvents` · `Citizens` · `PlaceholderAPI` · `LiteBans`
+
+Packet handling · movement prediction · combat validation · inventory systems · GUIs · automation · localization
+
+</td>
+<td width="50%" valign="top">
+
+#### Application & Backend
+
+`React` · `Node.js` · `FastAPI` · `MySQL` · REST APIs · embedded Java HTTP services · PWAs · Service Workers
+
+Desktop applications · client systems · account services · platform services · responsive interfaces
+
+#### Authentication & Security
+
+Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · session handling · rate limiting · abuse protection · CSP · Discord integrations
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### Testing & Release
+
+`JUnit 5` · unit testing · regression testing · API smoke tests · PowerShell smoke tests · configuration validation · SHA-256 checksums · release manifests · build verification
+
+</td>
+<td width="50%" valign="top">
+
+#### Infrastructure & Workflow
+
+`Azure` · `Cloudflare` · `Maven` · `Git` · `GitHub` · `GitHub Actions` · `GitLab` · `Sentry` · `Windows` · `PowerShell` · `ProGuard` · Java 21
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Creative & Product Tools</strong></summary>
+
+`Blender` · `Adobe Photoshop` · `Adobe Illustrator` · `Adobe After Effects` · `Canva`
+
+UI/UX · product design · branding · technical documentation · platform specifications
+
+</details>
+
+<details>
+<summary><strong>Detailed Minecraft Engineering</strong></summary>
+
+Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · Skript (.sk) · custom commands · events · conditions · expressions · functions · variables · gameplay systems · server automation · event-driven systems · inventory GUIs · packet handling · movement prediction · combat validation · anticheat systems · latency compensation · TPS monitoring · server hardening · configuration auditing · compatibility checks · localization
+
+</details>
+
+<details>
+<summary><strong>Detailed Application, Backend & Web</strong></summary>
 
 Desktop applications · client systems · embedded Java HTTP services · REST-style JSON APIs · Fetch API · React · Node.js · FastAPI · MySQL · HTML/CSS/JavaScript frontends · Progressive Web Apps · Service Workers · localStorage · responsive desktop/mobile interfaces · account services · platform services
 
-### Authentication, Security & Integrations
+</details>
 
-Microsoft Authentication · Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks · Discord integrations
+<details>
+<summary><strong>Detailed Security, Integrations & Release Engineering</strong></summary>
 
-### Testing, Quality & Release Engineering
+Microsoft Authentication · Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth flows · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks · Discord integrations · JUnit 5 · regression testing · API smoke testing · package validation · SHA-256 checksums · release manifests · build verification
 
-JUnit 5 · unit testing · regression testing · PowerShell smoke tests · API smoke testing · configuration validation · self-test systems · package validation · SHA-256 checksums · release manifests · build verification
-
-### Infrastructure & Developer Workflow
-
-Azure · Cloudflare · Maven · Git · GitHub · GitHub Actions · GitLab · Sentry · Windows · PowerShell · CMD scripting · ProGuard · repository management · dependency management · build and release workflows · Java 21
-
-### Creative & Product
-
-Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI & UX · product design · branding · technical documentation · platform specifications
+</details>
 
 ---
 
@@ -312,11 +379,46 @@ Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva 
 
 ## Project Direction
 
-The current direction is to grow **Leviathan** into a complete connected Minecraft platform while continuing to develop **Nimbus** as a focused server-side security product.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Across both projects, current priorities include:
+### Leviathan
 
-**security · reliability · performance · clean architecture · identity · account protection · server integration · developer workflow · polished player and staff experiences**
+Build Leviathan into a connected Minecraft platform around:
+
+- launcher and client systems
+- account identity and security
+- social and creator features
+- cosmetics and economy architecture
+- backend APIs and service infrastructure
+- release, update and platform operations
+
+</td>
+<td width="50%" valign="top">
+
+### Nimbus
+
+Continue developing Nimbus as a focused server-side security product around:
+
+- packet-based detection
+- movement and combat validation
+- latency-aware prediction
+- staff inspection and moderation tooling
+- integrations and automation
+- performance and false-positive reduction
+
+</td>
+</tr>
+</table>
+
+### Shared Priorities
+
+<p align="center">
+
+`Security` · `Reliability` · `Performance` · `Clean Architecture` · `Identity` · `Account Protection` · `Server Integration` · `Developer Workflow` · `Player & Staff Experience`
+
+</p>
 
 ---
 
@@ -328,22 +430,28 @@ Across both projects, current priorities include:
 
 ### Leviathan
 
-**Status:** Private development / pre-release
+![Development](https://img.shields.io/badge/STATUS-PRIVATE%20DEVELOPMENT-555?style=flat-square)
+![Pre-release](https://img.shields.io/badge/RELEASE-PRE--RELEASE-555?style=flat-square)
 
-Current work includes launcher and client systems, Microsoft/Minecraft authentication, account identity, security, connected platform services and release infrastructure.
+**Launcher & connected platform**
 
-[Repository](https://github.com/Lapinite/Leviathan-Launcher)
+Microsoft/Minecraft authentication · launcher/client systems · identity · account security · profiles · APIs · connected platform services · update infrastructure
+
+**[View repository →](https://github.com/Lapinite/Leviathan-Launcher)**
 
 </td>
 <td width="50%" valign="top">
 
 ### Nimbus AntiCheat
 
-**Status:** Active development
+![Development](https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-555?style=flat-square)
+![Java 21](https://img.shields.io/badge/JAVA-21-555?style=flat-square)
 
-Current work includes packet-based detection, prediction, staff tooling, integrations, performance safeguards and server-side security.
+**Packet-based server security**
 
-[SpigotMC](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+Packet inspection · movement prediction · combat validation · latency compensation · staff tooling · integrations · false-positive reduction
+
+**[View on SpigotMC →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
 
 </td>
 </tr>
@@ -353,30 +461,50 @@ Current work includes packet-based detection, prediction, staff tooling, integra
 
 ## GitHub Activity
 
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+
+### Profile Overview
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Lapinite&theme=github_dark" alt="GitHub profile statistics" />
+
+</td>
+<td width="50%" align="center" valign="top">
+
+### Languages
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Lapinite&theme=github_dark" alt="Repositories by language" />
+
+</td>
+</tr>
+</table>
+
 <p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Lapinite&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true" alt="GitHub activity statistics" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lapinite&layout=compact&theme=github_dark&hide_border=true" alt="Most used languages" />
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
 </p>
+
+<details>
+<summary><strong>More GitHub statistics</strong></summary>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lapinite&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Lapinite&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub profile trophies" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true" alt="GitHub contribution activity graph" />
-</p>
+</details>
 
 ---
 
 <div align="center">
 
-### Connect
+## Connect
 
-[GitHub](https://github.com/Lapinite) · [Discord](https://discord.gg/MREADUBJ97) · [YouTube](https://youtube.com/@leviathanclient) · [TikTok](https://tiktok.com/@leviathanclient) · [Instagram](https://instagram.com/leviathanclient) · [X](https://x.com/leviathanrealm) · [Twitch](https://twitch.tv/leviathanclient) · [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
+[![GitHub](https://img.shields.io/badge/GitHub-Lapinite-181717?style=for-the-badge&logo=github)](https://github.com/Lapinite)
+[![Discord](https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
+[![YouTube](https://img.shields.io/badge/YouTube-Leviathan_Client-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@leviathanclient)
+[![Twitch](https://img.shields.io/badge/Twitch-Leviathan_Client-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/leviathanclient)
+
+[Instagram](https://instagram.com/leviathanclient) · [TikTok](https://tiktok.com/@leviathanclient) · [X](https://x.com/leviathanrealm) · [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
 
 <sub>Leviathan Project · Minecraft software portfolio · Leviathan & Nimbus</sub>
 
