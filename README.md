@@ -152,25 +152,135 @@ Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva 
 ## Current Focus
 
 ```text
-PROJECTS
-├── LEVIATHAN
-│   ├── Launcher & Client
-│   ├── Authentication & Identity
-│   ├── Social & Creator Systems
-│   ├── Cosmetics & Marketplace
-│   ├── Backend & APIs
-│   └── Platform Infrastructure
+CURRENT FOCUS
 │
-└── NIMBUS
-    ├── Packet Inspection
-    ├── Movement Prediction
-    ├── Combat & World Detection
-    ├── Lag & Latency Compensation
-    ├── Staff & Reporting Tools
-    └── Plugin Integrations
+├── LEVIATHAN
+│   │
+│   ├── Launcher & Client
+│   │   ├── Desktop launcher experience
+│   │   ├── Minecraft installation & instance management
+│   │   ├── Profiles, settings & customization
+│   │   ├── Client-side platform integration
+│   │   ├── Update delivery & release channels
+│   │   └── Performance, reliability & recovery flows
+│   │
+│   ├── Accounts, Authentication & Identity
+│   │   ├── Microsoft & Minecraft authentication
+│   │   ├── Account linking & ownership verification
+│   │   ├── Minecraft server code verification
+│   │   ├── Sessions, device trust & account security
+│   │   ├── Player identity & profile systems
+│   │   └── Privacy, permissions & account recovery
+│   │
+│   ├── Social Platform
+│   │   ├── Player profiles
+│   │   ├── Friends & relationships
+│   │   ├── Presence & activity
+│   │   ├── Privacy controls
+│   │   ├── Community-facing features
+│   │   └── Connected player services
+│   │
+│   ├── Creator Platform
+│   │   ├── Creator identity
+│   │   ├── Creator profiles & tools
+│   │   ├── Publishing workflows
+│   │   ├── Content ownership
+│   │   └── Creator monetization systems
+│   │
+│   ├── Cosmetics & Economy
+│   │   ├── Skins & digital cosmetics
+│   │   ├── Inventories & ownership
+│   │   ├── Virtual currency
+│   │   ├── Marketplace architecture
+│   │   ├── Purchases & gifting
+│   │   └── Creator economy
+│   │
+│   ├── Backend & API Architecture
+│   │   ├── Authentication services
+│   │   ├── Account & identity services
+│   │   ├── Social services
+│   │   ├── Creator & marketplace services
+│   │   ├── Launcher / client APIs
+│   │   ├── Server integrations
+│   │   └── Service boundaries, versioning & data flows
+│   │
+│   ├── Security & Trust
+│   │   ├── Rate limiting & brute-force protection
+│   │   ├── Verification limits & lockouts
+│   │   ├── Session security
+│   │   ├── Abuse prevention
+│   │   ├── Audit & recovery flows
+│   │   └── Secure account/server linking
+│   │
+│   ├── Mobile & Platform Expansion
+│   │   ├── Companion mobile experience
+│   │   ├── Account & profile management
+│   │   ├── Social access
+│   │   ├── Marketplace access
+│   │   └── Notifications & connected services
+│   │
+│   └── Infrastructure & Operations
+│       ├── Update infrastructure
+│       ├── Release manifests & integrity checks
+│       ├── Cloud / CDN delivery
+│       ├── Service monitoring & diagnostics
+│       ├── Build & release automation
+│       └── Technical & user documentation
+│
+├── NIMBUS ANTICHEAT
+│   │
+│   ├── Detection Engine
+│   │   ├── Packet inspection
+│   │   ├── Movement prediction
+│   │   ├── Combat validation
+│   │   ├── World interaction checks
+│   │   ├── Inventory / action checks
+│   │   └── Violation tracking
+│   │
+│   ├── Accuracy & Compensation
+│   │   ├── Ping / latency compensation
+│   │   ├── TPS & lag awareness
+│   │   ├── False-positive reduction
+│   │   ├── Calibration systems
+│   │   └── Configurable thresholds
+│   │
+│   ├── Staff & Moderation
+│   │   ├── Alerts & inspection tools
+│   │   ├── Staff GUIs
+│   │   ├── Player reports
+│   │   ├── Violation history
+│   │   └── Administrative workflows
+│   │
+│   ├── Integrations
+│   │   ├── PacketEvents
+│   │   ├── PlaceholderAPI
+│   │   ├── Citizens
+│   │   ├── LiteBans
+│   │   └── Discord webhooks
+│   │
+│   └── Reliability & Server Security
+│       ├── Async processing
+│       ├── Performance safeguards
+│       ├── Configuration validation
+│       ├── Compatibility checks
+│       ├── Regression / smoke testing
+│       └── Server hardening
+│
+└── SHARED ENGINEERING
+    ├── Java 21 & Minecraft server development
+    ├── Paper / Bukkit / Spigot ecosystems
+    ├── Skript (.sk) server scripting
+    ├── REST APIs & backend services
+    ├── Authentication & security engineering
+    ├── Git, Maven & automated build workflows
+    ├── Testing, validation & release engineering
+    ├── UI / UX & product architecture
+    └── Documentation, branding & platform design
 ```
 
-The current focus is building reliable Minecraft software across both the player-facing platform and the server-side systems behind it.
+The main goal is to grow **Leviathan** into a complete connected Minecraft platform while continuing to develop **Nimbus** as a focused server-side security product.
+
+Across both projects, I am currently prioritizing **security, reliability, performance, clean architecture, strong account and identity systems, server integration, better developer workflows and polished player/staff experiences**.
 
 ---
 
