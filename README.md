@@ -84,7 +84,7 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 | **Authentication & Identity** | Microsoft authentication · Minecraft accounts · account linking · verification · sessions · player identity · permissions · privacy |
 | **Backend & APIs** | REST APIs · embedded HTTP services · account services · platform services · service integrations · data flows |
 | **Security** | Rate limiting · abuse protection · session security · account recovery · server hardening · validation · trust and safety flows |
-| **Minecraft Server Systems** | Paper/Bukkit plugins · PacketEvents · event-driven systems · staff GUIs · reports · permissions · plugin integrations |
+| **Minecraft Server Systems** | Paper/Bukkit plugins · Skript (.sk) · custom commands · events · GUIs · server automation · PacketEvents · staff tools · reports · permissions · plugin integrations |
 | **Performance & Reliability** | Async processing · latency compensation · TPS monitoring · lag-aware checks · build verification · regression testing |
 | **Social & Community** | Profiles · friends · presence · privacy controls · player interaction · connected community features |
 | **Creators & Economy** | Creator tools · cosmetics · inventories · ownership · marketplace systems · virtual currency · gifting |
@@ -108,6 +108,7 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Skript-.sk_Server_Scripting-1f1f1f?style=flat-square" alt="Skript" />
   <img src="https://img.shields.io/badge/Paper-Plugin_Development-1f1f1f?style=flat-square" alt="Paper" />
   <img src="https://img.shields.io/badge/SpigotMC-Server_Development-ED8106?style=flat-square" alt="SpigotMC" />
   <img src="https://img.shields.io/badge/PacketEvents-Packet_Handling-1f1f1f?style=flat-square" alt="PacketEvents" />
@@ -120,11 +121,11 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 ### Languages & Markup
 
-Java · C · C++ · C# · JavaScript · Kotlin · Python · Lua · PHP · PowerShell · HTML · CSS · Markdown · JSON · YAML
+Java · C · C++ · C# · JavaScript · Kotlin · Python · Lua · PHP · PowerShell · Skript (.sk) · HTML · CSS · Markdown · JSON · YAML
 
 ### Minecraft & Server Engineering
 
-Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · PacketEvents · Citizens API · LiteBans API · PlaceholderAPI · plugin messaging · event-driven systems · inventory GUIs · packet handling · movement prediction · combat validation · anticheat systems · latency compensation · TPS monitoring · server hardening · configuration auditing · compatibility checks · localization
+Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · Skript (.sk) · custom commands · events · conditions · expressions · functions · variables · GUIs · gameplay systems · server automation · PacketEvents · Citizens API · LiteBans API · PlaceholderAPI · plugin messaging · event-driven systems · inventory GUIs · packet handling · movement prediction · combat validation · anticheat systems · latency compensation · TPS monitoring · server hardening · configuration auditing · compatibility checks · localization
 
 ### Application, Backend & Web
 
