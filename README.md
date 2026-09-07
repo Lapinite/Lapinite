@@ -465,7 +465,7 @@ Packet inspection · movement prediction · combat validation · latency compens
 <tr>
 <td width="50%" align="center" valign="top">
 
-### Profile Overview
+### Overview
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Lapinite&theme=github_dark" alt="GitHub profile statistics" />
 
@@ -481,17 +481,8 @@ Packet inspection · movement prediction · combat validation · latency compens
 </table>
 
 <p align="center">
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
 </p>
-
-<details>
-<summary><strong>More GitHub statistics</strong></summary>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lapinite&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
-</p>
-
-</details>
 
 ---
 
@@ -504,7 +495,10 @@ Packet inspection · movement prediction · combat validation · latency compens
 [![YouTube](https://img.shields.io/badge/YouTube-Leviathan_Client-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@leviathanclient)
 [![Twitch](https://img.shields.io/badge/Twitch-Leviathan_Client-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/leviathanclient)
 
-[Instagram](https://instagram.com/leviathanclient) · [TikTok](https://tiktok.com/@leviathanclient) · [X](https://x.com/leviathanrealm) · [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
+[![Instagram](https://img.shields.io/badge/Instagram-Leviathan_Client-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/leviathanclient)
+[![TikTok](https://img.shields.io/badge/TikTok-Leviathan_Client-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@leviathanclient)
+[![X](https://img.shields.io/badge/X-LeviathanRealm-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/leviathanrealm)
+[![Bluesky](https://img.shields.io/badge/Bluesky-Leviathan_Client-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/leviathanclient.bsky.social)
 
 <sub>Leviathan Project · Minecraft software portfolio · Leviathan & Nimbus</sub>
 
