@@ -6,12 +6,12 @@
 
 **Launchers · Clients · AntiCheat · Authentication · Identity · Backend Services · Security · APIs · Infrastructure · Platform Systems**
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&center=true&vCenter=true&width=760&lines=Building+Leviathan+%E2%80%94+launcher+%26+connected+platform;Developing+Nimbus+%E2%80%94+packet-based+server+security;Authentication+%C2%B7+Identity+%C2%B7+APIs+%C2%B7+Security+%C2%B7+Infrastructure" alt="Animated project focus" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&center=true&vCenter=true&width=760&lines=Building+Leviathan+%E2%80%94+launcher+%26+connected+platform" alt="Leviathan typing animation" />
 
 [![Leviathan](https://img.shields.io/badge/LEVIATHAN-Launcher%20%26%20Platform-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
 [![Nimbus](https://img.shields.io/badge/NIMBUS-AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
 
-[GitHub](https://github.com/Lapinite) · [Discord](https://discord.gg/MREADUBJ97) · [YouTube](https://youtube.com/@leviathanclient) · [TikTok](https://tiktok.com/@leviathanclient) · [Instagram](https://instagram.com/leviathanclient) · [X](https://x.com/leviathanrealm) · [Twitch](https://twitch.tv/leviathanclient) · [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
+[GitHub](https://github.com/Lapinite) · [Discord](https://discord.gg/MREADUBJ97) · [YouTube](https://youtube.com/@leviathanclient) · [TikTok](https://tiktok.com/@leviathanclient) · [Instagram](https://instagram.com/leviathanclient)
 
 </div>
 
@@ -208,21 +208,21 @@ UI/UX · product design · branding · technical documentation · platform speci
 <details>
 <summary><strong>Detailed Minecraft Engineering</strong></summary>
 
-Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · Skript (.sk) · custom commands · events · conditions · expressions · functions · variables · gameplay systems · server automation · event-driven systems · inventory GUIs · packet handling · movement prediction · combat validation · anticheat systems · latency compensation · TPS monitoring · server hardening · configuration auditing · compatibility checks · localization
+Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · Skript (.sk) · custom commands · events · conditions · expressions · functions · variables · gameplay systems · server automation · localization
 
 </details>
 
 <details>
 <summary><strong>Detailed Application, Backend & Web</strong></summary>
 
-Desktop applications · client systems · embedded Java HTTP services · REST-style JSON APIs · Fetch API · React · Node.js · FastAPI · MySQL · HTML/CSS/JavaScript frontends · Progressive Web Apps · Service Workers · localStorage · responsive desktop/mobile interfaces · account services · platform services
+Desktop applications · client systems · embedded Java HTTP services · REST-style JSON APIs · Fetch API · React · Node.js · FastAPI · MySQL · HTML/CSS/JavaScript frontends · Progressive Web Applications · Service Workers
 
 </details>
 
 <details>
 <summary><strong>Detailed Security, Integrations & Release Engineering</strong></summary>
 
-Microsoft Authentication · Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth flows · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks · Discord integrations · JUnit 5 · regression testing · API smoke testing · package validation · SHA-256 checksums · release manifests · build verification
+Microsoft Authentication · Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth flows · PKCE · account linking · session handling · rate limiting · abuse protection · security hardening · integration patterns · update delivery · release manifests · build verification
 
 </details>
 
