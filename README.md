@@ -78,6 +78,8 @@ Documentation & platform design
 </tr>
 </table>
 
+<br>
+
 <p align="center">
 Development spans the full stack — from low-level detection and backend systems to player-facing interfaces, staff tooling and connected platform services.
 </p>
@@ -141,42 +143,44 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 ---
 
-## Engineering Areas
+<h2 align="center">Engineering Areas</h2>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="25%" align="center" valign="top">
 
-### Launcher, Client & Platform
-
-- Desktop launcher and instance management
-- Profiles, customization and game management
-- Social, creator and connected platform systems
-- Marketplace, economy and player services
-
-### Authentication & Identity
-
-- Microsoft and Minecraft authentication
-- Account linking and verification
-- Sessions, identity and permissions
-- Privacy and account recovery
+### Launcher & Client
+Desktop launcher  
+Instances & updates  
+Profiles & customization  
+Connected platform systems
 
 </td>
-<td width="50%" valign="top">
+<td width="25%" align="center" valign="top">
 
-### Security & Server Engineering
+### Security & Identity
+Microsoft/Minecraft auth  
+Account verification  
+Sessions & recovery  
+Abuse protection
 
-- Packet inspection and anticheat systems
-- Rate limiting and abuse protection
-- Server hardening and validation
-- Staff tooling, reports and moderation flows
+</td>
+<td width="25%" align="center" valign="top">
 
-### Backend, APIs & Infrastructure
+### Server Engineering
+Packet inspection  
+AntiCheat systems  
+Staff tooling  
+Server integrations
 
-- REST APIs and embedded services
-- Service integrations and data flows
-- Release manifests and update delivery
-- Dependency, deployment and service architecture
+</td>
+<td width="25%" align="center" valign="top">
+
+### Backend & Platform
+REST APIs  
+Service architecture  
+Release infrastructure  
+Connected services
 
 </td>
 </tr>
@@ -203,7 +207,7 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 ---
 
-## Technology
+<h2 align="center">Technology</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,c,cpp,cs,js,kotlin,py,lua,php,powershell,html,css,md&perline=13" alt="Languages and markup" />
@@ -235,76 +239,50 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 <tr>
 <td width="50%" valign="top">
 
-#### Languages
+#### Core Development
 
-`Java` · `C` · `C++` · `C#` · `JavaScript` · `Kotlin` · `Python` · `Lua` · `PHP` · `PowerShell` · `Skript` · `HTML` · `CSS` · `Markdown` · `JSON` · `YAML`
+`Java` · `C` · `C++` · `C#` · `JavaScript` · `Kotlin` · `Python` · `Lua` · `PHP` · `PowerShell`
 
-#### Minecraft & Server
-
-`Paper` · `Bukkit` · `SpigotMC` · `PacketEvents` · `Citizens` · `PlaceholderAPI` · `LiteBans`
-
-Packet handling · movement prediction · combat validation · inventory systems · GUIs · automation · localization
+`Paper` · `Bukkit` · `SpigotMC` · `PacketEvents` · `Skript` · `JUnit 5`
 
 </td>
 <td width="50%" valign="top">
 
-#### Application & Backend
+#### Platform & Infrastructure
 
-`React` · `Node.js` · `FastAPI` · `MySQL` · REST APIs · embedded Java HTTP services · PWAs · Service Workers
+`React` · `Node.js` · `FastAPI` · `MySQL` · `Azure` · `Cloudflare`
 
-Desktop applications · client systems · account services · platform services · responsive interfaces
-
-#### Authentication & Security
-
-Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · session handling · rate limiting · abuse protection · CSP · Discord integrations
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### Testing & Release
-
-`JUnit 5` · unit testing · regression testing · API smoke tests · PowerShell smoke tests · configuration validation · SHA-256 checksums · release manifests · build verification
-
-</td>
-<td width="50%" valign="top">
-
-#### Infrastructure & Workflow
-
-`Azure` · `Cloudflare` · `Maven` · `Git` · `GitHub` · `GitHub Actions` · `GitLab` · `Sentry` · `Windows` · `PowerShell` · `ProGuard` · Java 21
+`Git` · `GitHub Actions` · `Maven` · `Sentry` · `Windows` · `ProGuard`
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><strong>Creative & Product Tools</strong></summary>
+<summary><strong>Application, Backend & Web</strong></summary>
 
-`Blender` · `Adobe Photoshop` · `Adobe Illustrator` · `Adobe After Effects` · `Canva`
-
-UI/UX · product design · branding · technical documentation · platform specifications
+Desktop applications · client systems · embedded Java HTTP services · REST-style JSON APIs · Fetch API · React · Node.js · FastAPI · MySQL · HTML/CSS/JavaScript frontends · Progressive Web Apps · Service Workers · responsive desktop/mobile interfaces · account services · platform services
 
 </details>
 
 <details>
-<summary><strong>Detailed Minecraft Engineering</strong></summary>
+<summary><strong>Authentication, Security & Integrations</strong></summary>
 
-Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · Skript (.sk) · custom commands · events · conditions · expressions · functions · variables · gameplay systems · server automation · event-driven systems · inventory GUIs · packet handling · movement prediction · combat validation · anticheat systems · latency compensation · TPS monitoring · server hardening · configuration auditing · compatibility checks · localization
-
-</details>
-
-<details>
-<summary><strong>Detailed Application, Backend & Web</strong></summary>
-
-Desktop applications · client systems · embedded Java HTTP services · REST-style JSON APIs · Fetch API · React · Node.js · FastAPI · MySQL · HTML/CSS/JavaScript frontends · Progressive Web Apps · Service Workers · localStorage · responsive desktop/mobile interfaces · account services · platform services
+Microsoft Authentication · Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks · Discord integrations
 
 </details>
 
 <details>
-<summary><strong>Detailed Security, Integrations & Release Engineering</strong></summary>
+<summary><strong>Minecraft & Server Engineering</strong></summary>
 
-Microsoft Authentication · Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth flows · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks · Discord integrations · JUnit 5 · regression testing · API smoke testing · package validation · SHA-256 checksums · release manifests · build verification
+Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · Skript (.sk) · custom commands · events · GUIs · gameplay systems · server automation · PacketEvents · Citizens API · LiteBans API · PlaceholderAPI · packet handling · movement prediction · combat validation · anticheat systems · latency compensation · TPS monitoring · server hardening · compatibility checks · localization
+
+</details>
+
+<details>
+<summary><strong>Creative, Product & Release</strong></summary>
+
+Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI/UX · product design · branding · documentation · release manifests · SHA-256 checksums · regression testing · build verification
 
 </details>
 
