@@ -88,7 +88,7 @@ Development spans the full stack — from low-level detection and backend system
 
 <h2 align="center">Featured Projects</h2>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="50%" valign="top" align="center">
 
@@ -145,7 +145,7 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 <h2 align="center">Engineering Areas</h2>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="25%" align="center" valign="top">
 
@@ -235,7 +235,7 @@ Connected services
 
 ### Engineering Stack
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="50%" valign="top">
 
@@ -290,7 +290,7 @@ Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva 
 
 <h2 align="center">Current Focus</h2>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="33%" align="center" valign="top">
 
@@ -353,7 +353,7 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
 
 <h2 align="center">Projects & Direction</h2>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="50%" valign="top" align="center">
 
@@ -429,7 +429,7 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
   <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
 </p>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="50%" align="center" valign="top">
 
@@ -461,7 +461,7 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
 
 <div align="center">
 
-## Project Ecosystem
+<h2 align="center">Project Ecosystem</h2>
 
 [![Leviathan](https://img.shields.io/badge/LEVIATHAN-Launcher%20%26%20Platform-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
 [![Nimbus](https://img.shields.io/badge/NIMBUS-AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
@@ -489,7 +489,7 @@ Minecraft software portfolio focused on **launchers, client systems, authenticat
 
 </div>
 
-<table>
+<table align="center" width="100%">
 <tr>
 <td width="33.33%" valign="top" align="center">
 
