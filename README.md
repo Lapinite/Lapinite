@@ -1,10 +1,12 @@
-## About me
-
 # [Lapinite](https://github.com/Lapinite)
 
 Founder and developer of **Leviathan**.
 
-I build software around Minecraft with a focus on launchers, client systems, authentication, backend services, APIs, security, infrastructure and connected platform features.
+I build software around Minecraft with a focus on launchers, client systems, authentication, backend services, APIs, security and infrastructure.
+
+## About Me
+
+Most of my work is focused on building and expanding Leviathan across desktop software, backend services, platform systems and player-facing features.
 
 ## Leviathan
 
@@ -50,9 +52,4 @@ I am currently expanding Leviathan beyond a standalone launcher into a connected
 
 ## Socials
 
-[GitHub](https://github.com/Lapinite)  
-[Discord](https://discord.gg/MREADUBJ97)  
-[TikTok](https://www.tiktok.com/@user148001391681)  
-[X](https://x.com/leviathanrealm)  
-[Twitch](https://www.twitch.tv/leviathanclient)  
-[Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
+[GITHUB](https://github.com/Lapinite) · [DISCORD](https://discord.gg/MREADUBJ97) · [TIKTOK](https://www.tiktok.com/@user148001391681) · [X](https://x.com/leviathanrealm) · [TWITCH](https://www.twitch.tv/leviathanclient) · [BLUESKY](https://bsky.app/profile/leviathanclient.bsky.social)
