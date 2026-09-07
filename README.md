@@ -8,10 +8,12 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&center=true&vCenter=true&width=760&lines=Building+Leviathan+%E2%80%94+launcher+%26+connected+platform;Developing+Nimbus+%E2%80%94+packet-based+server+security;Authentication+%C2%B7+Identity+%C2%B7+APIs+%C2%B7+Security+%C2%B7+Infrastructure" alt="Animated project focus" />
 
+![Profile Views](https://komarev.com/ghpvc/?username=Lapinite&style=flat-square&label=PROFILE+VIEWS)
+
 [![Leviathan](https://img.shields.io/badge/LEVIATHAN-Launcher%20%26%20Platform-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
 [![Nimbus](https://img.shields.io/badge/NIMBUS-AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
 
-[GitHub](https://github.com/Lapinite) · [Discord](https://discord.gg/MREADUBJ97) · [YouTube](https://youtube.com/@leviathanclient) · [TikTok](https://tiktok.com/@leviathanclient) · [Instagram](https://instagram.com/leviathanclient) · [X](https://x.com/leviathanrealm) · [Twitch](https://twitch.tv/leviathanclient) · [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
+[GitHub](https://github.com/Lapinite) · [Discord](https://discord.gg/MREADUBJ97) · [YouTube](https://youtube.com/@leviathanclient) · [Instagram](https://instagram.com/leviathanclient) · [X](https://x.com/leviathanrealm) · [Twitch](https://twitch.tv/leviathanclient) · [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
 
 </div>
 
@@ -52,13 +54,13 @@ Development spans the full stack, from low-level detection and backend systems t
 
 ---
 
-## Featured Projects
+<h2 align="center">Featured Projects</h2>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-<h3><a href="https://github.com/Lapinite/Leviathan-Launcher">Leviathan</a></h3>
+<h3>Leviathan</h3>
 
 <strong>Minecraft launcher & connected platform</strong>
 
@@ -73,13 +75,10 @@ Leviathan is being expanded beyond a standalone launcher into a connected platfo
 <strong>Core</strong><br>
 Java · Desktop Client · Microsoft Auth · Minecraft Services · APIs · Identity · Platform Services
 
-<br><br>
-<a href="https://github.com/Lapinite/Leviathan-Launcher">View on GitHub</a>
-
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
-<h3><a href="https://www.spigotmc.org/resources/nimbus-anticheat.136631/">Nimbus AntiCheat</a></h3>
+<h3>Nimbus AntiCheat</h3>
 
 <strong>Packet-based Minecraft anticheat</strong>
 
@@ -94,8 +93,17 @@ Nimbus includes configurable movement, combat, world, packet and inventory check
 <strong>Core</strong><br>
 Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Security
 
-<br><br>
-<a href="https://www.spigotmc.org/resources/nimbus-anticheat.136631/">View on SpigotMC</a>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+**[View on GitHub →](https://github.com/Lapinite/Leviathan-Launcher)**
+
+</td>
+<td width="50%" align="center">
+
+**[View on SpigotMC →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
 
 </td>
 </tr>
@@ -272,7 +280,7 @@ Microsoft Authentication · Microsoft Identity / Entra · Minecraft Services · 
 
 ---
 
-## Current Focus
+<h2 align="center">Current Focus</h2>
 
 <table>
 <tr>
@@ -335,11 +343,11 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
 
 ---
 
-## Projects & Direction
+<h2 align="center">Projects & Direction</h2>
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 ### Leviathan
 
@@ -348,7 +356,20 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
 
 **Minecraft launcher & connected platform**
 
-Current direction:
+</td>
+<td width="50%" valign="top" align="center">
+
+### Nimbus AntiCheat
+
+![Status](https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-555?style=flat-square)
+![Java](https://img.shields.io/badge/JAVA-21-555?style=flat-square)
+
+**Packet-based Minecraft server security**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
 - launcher and client systems
 - Microsoft/Minecraft authentication
@@ -358,19 +379,8 @@ Current direction:
 - backend APIs and service infrastructure
 - updates, release and platform operations
 
-**[View repository →](https://github.com/Lapinite/Leviathan-Launcher)**
-
 </td>
 <td width="50%" valign="top">
-
-### Nimbus AntiCheat
-
-![Status](https://img.shields.io/badge/STATUS-ACTIVE%20DEVELOPMENT-555?style=flat-square)
-![Java](https://img.shields.io/badge/JAVA-21-555?style=flat-square)
-
-**Packet-based Minecraft server security**
-
-Current direction:
 
 - packet-based detection
 - movement and combat validation
@@ -379,13 +389,23 @@ Current direction:
 - integrations and automation
 - performance and false-positive reduction
 
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+
+**[View repository →](https://github.com/Lapinite/Leviathan-Launcher)**
+
+</td>
+<td width="50%" align="center">
+
 **[View on SpigotMC →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
 
 </td>
 </tr>
 </table>
 
-### Shared Priorities
+<h3 align="center">Shared Priorities</h3>
 
 <p align="center">
 
@@ -395,10 +415,10 @@ Current direction:
 
 ---
 
-## GitHub Activity
+<h2 align="center">GitHub Activity</h2>
 
 <p align="center">
-  <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub activity summary" />
+  <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
 </p>
 
 <table>
@@ -440,13 +460,158 @@ Current direction:
 [![GitHub](https://img.shields.io/badge/GitHub-Lapinite-181717?style=for-the-badge&logo=github)](https://github.com/Lapinite)
 [![Discord](https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
 [![YouTube](https://img.shields.io/badge/YouTube-Leviathan_Client-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@leviathanclient)
-[![Twitch](https://img.shields.io/badge/Twitch-Leviathan_Client-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/leviathanclient)
 
 [![Instagram](https://img.shields.io/badge/Instagram-Leviathan_Client-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/leviathanclient)
-[![TikTok](https://img.shields.io/badge/TikTok-Leviathan_Client-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@leviathanclient)
 [![X](https://img.shields.io/badge/X-LeviathanRealm-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/leviathanrealm)
+[![Twitch](https://img.shields.io/badge/Twitch-Leviathan_Client-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/leviathanclient)
 [![Bluesky](https://img.shields.io/badge/Bluesky-Leviathan_Client-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/leviathanclient.bsky.social)
 
-<sub>Leviathan Project · Minecraft software portfolio · Leviathan & Nimbus</sub>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3500&pause=1200&center=true&vCenter=true&width=660&lines=Leviathan+Project+%C2%B7+Minecraft+software+portfolio;Leviathan+%C2%B7+Nimbus+AntiCheat;Security+%C2%B7+Identity+%C2%B7+Infrastructure+%C2%B7+Platform+Systems" alt="Animated portfolio footer" />
 
 </div>
+
+---
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### Projects
+
+[Leviathan](https://github.com/Lapinite/Leviathan-Launcher)  
+[Nimbus AntiCheat](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)  
+[GitHub Profile](https://github.com/Lapinite)
+
+</td>
+<td width="25%" valign="top">
+
+### Community
+
+[Discord](https://discord.gg/MREADUBJ97)  
+[YouTube](https://youtube.com/@leviathanclient)  
+[Instagram](https://instagram.com/leviathanclient)  
+[Twitch](https://twitch.tv/leviathanclient)
+
+</td>
+<td width="25%" valign="top">
+
+### Project Links
+
+[Leviathan Repository](https://github.com/Lapinite/Leviathan-Launcher)  
+[Security Policy](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)  
+[Support](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SUPPORT.md)  
+[Legal](https://github.com/Lapinite/Leviathan-Launcher/blob/main/LEGAL.md)
+
+</td>
+<td width="25%" valign="top">
+
+### Social
+
+[X / LeviathanRealm](https://x.com/leviathanrealm)  
+[Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)  
+[GitHub](https://github.com/Lapinite)
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=gradient&section=footer" width="100%" alt="" />
+
+## Project Ecosystem
+
+[![Leviathan](https://img.shields.io/badge/LEVIATHAN-Launcher%20%26%20Platform-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
+[![Nimbus](https://img.shields.io/badge/NIMBUS-AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+[![Security](https://img.shields.io/badge/SECURITY-Policies%20%26%20Engineering-0d1117?style=for-the-badge&logo=shield)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
+[![Docs](https://img.shields.io/badge/DOCS-Architecture%20%26%20Guides-0d1117?style=for-the-badge&logo=readthedocs)](https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs)
+
+</div>
+
+---
+
+<div align="center">
+
+### Public Project Metrics
+
+![Profile Views](https://komarev.com/ghpvc/?username=Lapinite&style=for-the-badge&label=PROFILE+VIEWS)
+![Repositories](https://img.shields.io/badge/ACTIVE%20PRODUCTS-2-0d1117?style=for-the-badge)
+![Java](https://img.shields.io/badge/PRIMARY%20RUNTIME-JAVA%2021-0d1117?style=for-the-badge&logo=openjdk)
+![Focus](https://img.shields.io/badge/FOCUS-SECURITY%20%26%20PLATFORM-0d1117?style=for-the-badge)
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3500&pause=1200&center=true&vCenter=true&width=760&lines=Leviathan+Project+%C2%B7+Minecraft+software+portfolio;Leviathan+%C2%B7+Nimbus+AntiCheat;Launchers+%C2%B7+Security+%C2%B7+Identity+%C2%B7+APIs+%C2%B7+Infrastructure" alt="Animated portfolio footer" />
+
+</div>
+
+---
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### Leviathan Project
+
+Minecraft software portfolio focused on launchers, client systems, authentication, identity, server security, APIs, infrastructure and connected platform services.
+
+**Projects**
+- [Leviathan](https://github.com/Lapinite/Leviathan-Launcher)
+- [Nimbus AntiCheat](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+
+</td>
+<td width="25%" valign="top">
+
+### Community
+
+- [Discord](https://discord.gg/MREADUBJ97)
+- [YouTube](https://youtube.com/@leviathanclient)
+- [Instagram](https://instagram.com/leviathanclient)
+- [Twitch](https://twitch.tv/leviathanclient)
+
+</td>
+<td width="25%" valign="top">
+
+### Resources
+
+- [Documentation](https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs)
+- [Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
+- [Support](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SUPPORT.md)
+- [Legal](https://github.com/Lapinite/Leviathan-Launcher/blob/main/LEGAL.md)
+- [Contributing](https://github.com/Lapinite/Leviathan-Launcher/blob/main/CONTRIBUTING.md)
+
+</td>
+<td width="25%" valign="top">
+
+### Social
+
+- [GitHub](https://github.com/Lapinite)
+- [X / LeviathanRealm](https://x.com/leviathanrealm)
+- [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-Lapinite-181717?style=for-the-badge&logo=github)](https://github.com/Lapinite)
+[![Discord](https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
+[![YouTube](https://img.shields.io/badge/YouTube-Leviathan_Client-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@leviathanclient)
+[![Instagram](https://img.shields.io/badge/Instagram-Leviathan_Client-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/leviathanclient)
+[![X](https://img.shields.io/badge/X-LeviathanRealm-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/leviathanrealm)
+[![Twitch](https://img.shields.io/badge/Twitch-Leviathan_Client-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/leviathanclient)
+[![Bluesky](https://img.shields.io/badge/Bluesky-Leviathan_Client-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/leviathanclient.bsky.social)
+
+<br>
+
+<sub>
+NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
+</sub>
+
+<br><br>
+
+<sub>© 2026 Leviathan project owner. All Rights Reserved.</sub>
+
+</div>
+
