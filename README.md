@@ -76,23 +76,57 @@ Active Development<br><br>
 
 ---
 
-## Technology
+## Skills & Technology
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,cs,cpp,c,js,kotlin,python,react,nodejs,mysql,azure,cloudflare,maven,git,github,gitlab&perline=16" alt="Core technologies" />
+  <img src="https://skillicons.dev/icons?i=java,c,cpp,cs,js,kotlin,py,lua,php,powershell,html,css,md&perline=13" alt="Languages and markup" />
 </p>
 
-**Languages**  
-Java · C · C++ · C# · JavaScript · Kotlin · Python · Lua · PHP · PowerShell
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,mysql,azure,cloudflare,maven,git,github,githubactions,gitlab,sentry,windows,discord&perline=14" alt="Development platforms and tooling" />
+</p>
 
-**Backend & Web**  
-React · Node.js · FastAPI · REST APIs · MySQL
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=blender,ps,ai,ae&perline=4" alt="Creative tools" />
+</p>
 
-**Infrastructure & Tooling**  
-Azure · Cloudflare · Maven · Git · GitHub · GitLab · Sentry · Testing Library · Jira
+<p align="center">
+  <img src="https://img.shields.io/badge/Paper_API-1.21-1f1f1f?style=flat-square" alt="Paper API" />
+  <img src="https://img.shields.io/badge/Bukkit_API-Plugin_Development-1f1f1f?style=flat-square" alt="Bukkit API" />
+  <img src="https://img.shields.io/badge/PacketEvents-Packet_Handling-1f1f1f?style=flat-square" alt="PacketEvents" />
+  <img src="https://img.shields.io/badge/JUnit_5-Testing-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5" />
+  <img src="https://img.shields.io/badge/ProGuard-Obfuscation-1f1f1f?style=flat-square" alt="ProGuard" />
+  <img src="https://img.shields.io/badge/PWA-Service_Workers-1f1f1f?style=flat-square" alt="Progressive Web Apps" />
+</p>
 
-**Creative & Product**  
-Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI and UX · Product Design
+### Languages & Markup
+
+Java · C · C++ · C# · JavaScript · Kotlin · Python · Lua · PHP · PowerShell · HTML · CSS · Markdown · JSON · YAML
+
+### Minecraft & Server Engineering
+
+Paper API · Bukkit API · Minecraft Java plugin development · PacketEvents · Citizens API · LiteBans API · PlaceholderAPI · plugin messaging · event-driven systems · inventory GUIs · packet handling · movement and combat validation · anticheat systems · server hardening · configuration auditing · compatibility checks · localization
+
+### Application, Backend & Web
+
+Desktop Applications · Client Systems · embedded Java HTTP services · REST-style JSON APIs · Fetch API · React · Node.js · FastAPI · MySQL · HTML/CSS/JavaScript frontends · Progressive Web Apps · Service Workers · localStorage · responsive desktop/mobile interfaces · account services · platform services
+
+### Authentication, Security & Integrations
+
+Microsoft Authentication · Microsoft Identity / Azure · Minecraft Services · Xbox / Microsoft Services · OAuth flows · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks · Discord integrations
+
+### Testing, Quality & Release Engineering
+
+JUnit 5 · unit testing · regression testing · PowerShell smoke tests · API smoke testing · configuration validation · self-test systems · package validation · SHA-256 checksums · release manifests · build verification
+
+### Infrastructure & Developer Workflow
+
+Azure · Cloudflare · Maven · Git · GitHub · GitHub Actions · GitLab · Sentry · Windows · PowerShell · CMD scripting · ProGuard · repository management · dependency management · build and release workflows · Java 21
+
+### Creative & Product
+
+Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI & UX · product design · branding · technical documentation · platform specifications
+
 
 ---
 
