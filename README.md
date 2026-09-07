@@ -1,49 +1,133 @@
-# [Lapinite](https://github.com/Lapinite)
+<div align="center">
 
-Founder and developer of **Leviathan**.
+# LAPINITE
 
-Building Minecraft software across desktop clients • backend infrastructure • authentication • security • APIs • identity • social systems • creator tools • cosmetics • marketplaces and platform services.
+### Founder and developer of Leviathan
 
-## About Me
+Building Minecraft software across desktop clients · authentication · identity · backend services · security · APIs · infrastructure · platform systems
 
-I work across both development and product design with most of my time focused on building Leviathan from the launcher and client experience through the backend systems that support it.
+[GITHUB](https://github.com/Lapinite) · [DISCORD](https://discord.gg/MREADUBJ97) · [YOUTUBE](https://youtube.com/@leviathanclient) · [TIKTOK](https://tiktok.com/@leviathanclient) · [INSTAGRAM](https://instagram.com/leviathanclient) · [X](https://x.com/leviathanrealm) · [TWITCH](https://twitch.tv/leviathanclient) · [BLUESKY](https://bsky.app/profile/leviathanclient.bsky.social)
 
-My work includes Java desktop applications • Minecraft integrations • account systems • authentication flows • APIs • infrastructure • security • UI and UX • platform architecture • documentation and connected player services.
+</div>
+
+---
+
+## About
+
+I design and build software around Minecraft with most of my current work focused on **Leviathan**.
+
+My work covers the full product stack including desktop applications, launcher and client systems, Microsoft and Minecraft authentication, account identity, backend services, REST APIs, security, server integrations, infrastructure, UI and UX, creator systems, digital economies and connected player services.
+
+I work across both engineering and product design, from the systems behind the platform to the experience players interact with.
+
+---
 
 ## Leviathan
 
-**Leviathan** is a Minecraft platform being built around a custom launcher and client with its own account • identity • social • creator • cosmetic and service infrastructure.
+<table>
+<tr>
+<td width="68%" valign="top">
 
-### Core Development
+<h3><a href="https://github.com/Lapinite/Leviathan-Launcher">Leviathan Launcher</a></h3>
 
-- **Launcher & Client** • Desktop launcher • client systems • installation • updates • profiles • customization
-- **Authentication & Identity** • Microsoft auth • Minecraft account linking • account verification • session handling • player identity
-- **Backend & APIs** • REST APIs • platform services • account services • server communication • service integrations
-- **Security** • Authentication security • verification systems • rate limits • abuse protection • account recovery flows
-- **Social Platform** • Profiles • friends • presence • social features • account privacy • player interaction systems
-- **Cosmetics** • Skins • customization • digital cosmetics • inventories • ownership systems
-- **Creator Systems** • Creator tools • creator identity • publishing • monetization infrastructure
-- **Marketplace & Economy** • Marketplace systems • virtual currency • purchases • gifting • creator economy
-- **Server Integration** • Minecraft server verification • account linking • server services • platform communication
-- **Infrastructure** • Update delivery • service architecture • platform infrastructure • deployment planning
-- **Product & Design** • UI • UX • launcher interfaces • platform flows • branding • documentation
+<p>
+A custom Minecraft Java desktop launcher focused on account management, Microsoft authentication, profiles, customization, security, updates and platform integration.
+</p>
 
-### [Leviathan Launcher](https://github.com/Lapinite/Leviathan-Launcher)
+<p>
+Leviathan is being expanded beyond a standalone launcher into a connected Minecraft platform with its own identity, social, creator, cosmetic, marketplace, economy and service infrastructure.
+</p>
 
-Custom Minecraft Java desktop launcher with Microsoft authentication • account management • profiles • customization • security and platform integrations.
+</td>
+<td width="32%" valign="top">
 
-## What I Work With
+<strong>ROLE</strong><br>
+Founder and Developer<br><br>
 
-**Development**  
-Java • Desktop Applications • Backend Systems • REST APIs • Authentication • Microsoft Services • Minecraft Services • Security • Server Infrastructure • Client Systems • Platform Services
+<strong>PLATFORM</strong><br>
+Minecraft Java<br><br>
 
-**Platform & Product**  
-UI & UX • Platform Architecture • Identity Systems • Social Systems • Creator Systems • Digital Cosmetics • Marketplace Systems • Economy Systems • Documentation • Product Design
+<strong>STATUS</strong><br>
+Active Development<br><br>
+
+<strong>PROJECT</strong><br>
+<a href="https://github.com/Lapinite/Leviathan-Launcher">View Repository</a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Engineering
+
+| Area | Systems |
+| --- | --- |
+| **Launcher & Client** | Desktop launcher · installations · updates · profiles · customization · client systems · player-facing features |
+| **Authentication & Identity** | Microsoft authentication · Minecraft accounts · account linking · verification · sessions · player identity · permissions · privacy |
+| **Backend & APIs** | REST APIs · account services · platform services · service integrations · backend architecture · data flows |
+| **Security** | Verification systems · rate limiting · abuse protection · session security · account recovery · trust and safety flows |
+| **Server Systems** | Minecraft server integration · player verification · account linking · platform communication · service connectivity |
+| **Social & Community** | Profiles · friends · presence · privacy controls · player interaction · connected community features |
+| **Creators & Cosmetics** | Creator identity · publishing · creator tools · skins · cosmetics · inventories · ownership systems |
+| **Marketplace & Economy** | Marketplace architecture · virtual currency · purchases · gifting · digital ownership · creator economy |
+| **Infrastructure** | Update delivery · deployment planning · platform architecture · backend infrastructure · service reliability |
+| **Product & Documentation** | UI and UX · product flows · launcher interfaces · platform design · branding · technical documentation |
+
+---
+
+## Technology
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,cs,cpp,c,js,kotlin,python,react,nodejs,mysql,azure,cloudflare,maven,git,github,gitlab&perline=16" alt="Core technologies" />
+</p>
+
+**Languages**  
+Java · C · C++ · C# · JavaScript · Kotlin · Python · Lua · PHP · PowerShell
+
+**Backend & Web**  
+React · Node.js · FastAPI · REST APIs · MySQL
+
+**Infrastructure & Tooling**  
+Azure · Cloudflare · Maven · Git · GitHub · GitLab · Sentry · Testing Library · Jira
+
+**Creative & Product**  
+Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI and UX · Product Design
+
+---
 
 ## Current Focus
 
-Expanding Leviathan from a standalone launcher into a connected Minecraft platform with its own client • identity • authentication • social • creator • cosmetic • marketplace • economy and backend infrastructure.
+```text
+LEVIATHAN
+├── Launcher & Client
+├── Accounts
+│   ├── Authentication
+│   ├── Identity
+│   ├── Verification
+│   └── Security
+├── Platform
+│   ├── Social
+│   ├── Creators
+│   ├── Cosmetics
+│   └── Marketplace
+├── Backend
+│   ├── APIs
+│   ├── Services
+│   └── Server Integration
+└── Infrastructure
+```
 
-## Socials
+The current focus is connecting these systems into one cohesive Minecraft platform while keeping the launcher fast, secure and easy to use.
 
-[GITHUB](https://github.com/Lapinite) · [DISCORD](https://discord.gg/MREADUBJ97) · [TIKTOK](https://www.tiktok.com/@user148001391681) · [X](https://x.com/leviathanrealm) · [TWITCH](https://www.twitch.tv/leviathanclient) · [BLUESKY](https://bsky.app/profile/leviathanclient.bsky.social)
+---
+
+<div align="center">
+
+### Connect
+
+[GITHUB](https://github.com/Lapinite) · [DISCORD](https://discord.gg/MREADUBJ97) · [YOUTUBE](https://youtube.com/@leviathanclient) · [TIKTOK](https://tiktok.com/@leviathanclient) · [INSTAGRAM](https://instagram.com/leviathanclient) · [X](https://x.com/leviathanrealm) · [TWITCH](https://twitch.tv/leviathanclient) · [BLUESKY](https://bsky.app/profile/leviathanclient.bsky.social)
+
+<sub>Building Leviathan</sub>
+
+</div>
