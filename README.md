@@ -15,7 +15,6 @@
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Lapinite&style=flat-square&label=PROFILE+VIEWS)
 ![Products](https://img.shields.io/badge/ACTIVE%20PRODUCTS-2-555?style=flat-square)
 ![Runtime](https://img.shields.io/badge/PRIMARY%20RUNTIME-JAVA%2021-555?style=flat-square&logo=openjdk)
 ![Focus](https://img.shields.io/badge/FOCUS-LAUNCHER%20%26%20SECURITY-555?style=flat-square)
@@ -32,15 +31,6 @@
 
 </div>
 
-
-<div align="center">
-
-## About
-
-I build Minecraft software, mainly **Leviathan** and **Nimbus**.
-
-</div>
-
 <h2 align="center">Featured Projects</h2>
 
 <table align="center" width="100%">
@@ -53,7 +43,7 @@ I build Minecraft software, mainly **Leviathan** and **Nimbus**.
 
 Custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, updates, customization, account systems and connected platform features.
 
-`Java` `Microsoft Auth` `Minecraft Services` `REST APIs`
+<sub>Java | Microsoft Auth | Minecraft Services | REST APIs</sub>
 
 </td>
 <td width="50%" valign="top" align="center">
@@ -64,7 +54,7 @@ Custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, update
 
 Server-side AntiCheat focused on packet analysis, movement prediction, combat validation, staff tooling and reliable detection.
 
-`Java 21` `Paper` `PacketEvents` `Prediction`
+<sub>Java 21 | Paper | PacketEvents | Prediction</sub>
 
 </td>
 </tr>
@@ -447,8 +437,6 @@ Packet Detection | Prediction | Combat | Staff Tooling | Integrations | Reliabil
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Lapinite&style=flat-square&label=PROFILE+VIEWS)
-![Active Products](https://img.shields.io/badge/ACTIVE%20PRODUCTS-2-555?style=flat-square)
 ![Primary Runtime](https://img.shields.io/badge/JAVA-21-555?style=flat-square&logo=openjdk)
 ![Focus](https://img.shields.io/badge/FOCUS-LAUNCHER%20%26%20SECURITY-555?style=flat-square)
 
