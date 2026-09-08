@@ -335,32 +335,29 @@ Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, 
 
 <p align="center">
   <a href="https://github.com/Lapinite">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/github.svg" alt="GitHub" />
+    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/github.svg" alt="GitHub" />
   </a>
   &nbsp;&nbsp;
   <a href="https://discord.gg/MREADUBJ97">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/discord.svg" alt="Discord" />
+    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/discord.svg" alt="Discord" />
   </a>
   &nbsp;&nbsp;
   <a href="https://youtube.com/@leviathanclient">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/youtube.svg" alt="YouTube" />
+    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/youtube.svg" alt="YouTube" />
   </a>
   &nbsp;&nbsp;
   <a href="https://instagram.com/leviathanclient">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/instagram.svg" alt="Instagram" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://x.com/leviathanrealm">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/x.svg" alt="X" />
+    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/instagram.svg" alt="Instagram" />
   </a>
   &nbsp;&nbsp;
   <a href="https://twitch.tv/leviathanclient">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/twitch.svg" alt="Twitch" />
+    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/twitch.svg" alt="Twitch" />
   </a>
-  &nbsp;&nbsp;
-  <a href="https://bsky.app/profile/leviathanclient.bsky.social">
-    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/bluesky.svg" alt="Bluesky" />
-  </a>
+</p>
+
+<p align="center">
+  <a href="https://x.com/leviathanrealm">X</a> |
+  <a href="https://bsky.app/profile/leviathanclient.bsky.social">Bluesky</a>
 </p>
 
 <p align="center">
