@@ -207,63 +207,21 @@ Server-side AntiCheat focused on packet analysis, movement prediction, combat va
   <img src="https://skillicons.dev/icons?i=blender,ps,ai,ae&perline=4" alt="Creative tools" />
 </p>
 
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
+| **Languages & Markup** | **Frontend & Web** |
+|---|---|
+| <p align="center"><img src="https://skillicons.dev/icons?i=java,c,cpp,cs,js,kotlin,py,lua,php,powershell,html,css,md&perline=7" alt="Languages"></p><p align="center"><img src="https://img.shields.io/badge/Java-21-151515?style=flat-square" alt="Java 21"> <img src="https://img.shields.io/badge/Skript-Server%20Scripts-151515?style=flat-square" alt="Skript"> <img src="https://img.shields.io/badge/JSON-Config%20%26%20Data-151515?style=flat-square" alt="JSON"> <img src="https://img.shields.io/badge/YAML-Configuration-151515?style=flat-square" alt="YAML"></p> | <p align="center"><img src="https://skillicons.dev/icons?i=react,html,css,js&perline=4" alt="Frontend"></p><p align="center"><img src="https://img.shields.io/badge/Responsive-Desktop%20%26%20Mobile-151515?style=flat-square" alt="Responsive"> <img src="https://img.shields.io/badge/PWA-Progressive%20Web%20Apps-151515?style=flat-square" alt="PWA"> <img src="https://img.shields.io/badge/Service%20Workers-Offline%20Support-151515?style=flat-square" alt="Service Workers"> <img src="https://img.shields.io/badge/localStorage-Client%20State-151515?style=flat-square" alt="localStorage"></p> |
 
-### Languages & Markup
+| **Backend & Data** | **Minecraft & Server** |
+|---|---|
+| <p align="center"><img src="https://skillicons.dev/icons?i=java,nodejs,fastapi,mysql&perline=4" alt="Backend"></p><p align="center"><img src="https://img.shields.io/badge/REST-APIs-151515?style=flat-square" alt="REST APIs"> <img src="https://img.shields.io/badge/Platform-Services-151515?style=flat-square" alt="Platform Services"> <img src="https://img.shields.io/badge/Account-Services-151515?style=flat-square" alt="Account Services"> <img src="https://img.shields.io/badge/JSON-APIs-151515?style=flat-square" alt="JSON APIs"></p> | <p align="center"><img src="https://img.shields.io/badge/Paper-API-151515?style=flat-square" alt="Paper API"> <img src="https://img.shields.io/badge/Bukkit-API-151515?style=flat-square" alt="Bukkit API"> <img src="https://img.shields.io/badge/SpigotMC-Plugins-151515?style=flat-square" alt="SpigotMC"> <img src="https://img.shields.io/badge/PacketEvents-Networking-151515?style=flat-square" alt="PacketEvents"> <img src="https://img.shields.io/badge/Citizens-NPCs-151515?style=flat-square" alt="Citizens API"> <img src="https://img.shields.io/badge/PlaceholderAPI-Placeholders-151515?style=flat-square" alt="PlaceholderAPI"> <img src="https://img.shields.io/badge/LiteBans-Integration-151515?style=flat-square" alt="LiteBans API"> <img src="https://img.shields.io/badge/Plugin-Messaging-151515?style=flat-square" alt="Plugin Messaging"></p> |
 
-Java 21, JavaScript, PHP, Kotlin, Python, C, C++, C#, Lua, PowerShell, Skript, HTML, CSS, Markdown, JSON, YAML
+| **Cloud, DevOps & Workflow** | **Authentication & Security** |
+|---|---|
+| <p align="center"><img src="https://skillicons.dev/icons?i=azure,cloudflare,git,github,githubactions,gitlab,maven,sentry,windows,powershell&perline=5" alt="Workflow"></p><p align="center"><img src="https://img.shields.io/badge/CMD-Scripting-151515?style=flat-square" alt="CMD scripting"> <img src="https://img.shields.io/badge/ProGuard-Build%20Protection-151515?style=flat-square" alt="ProGuard"> <img src="https://img.shields.io/badge/Release-Engineering-151515?style=flat-square" alt="Release Engineering"> <img src="https://img.shields.io/badge/SHA--256-Checksums-151515?style=flat-square" alt="SHA-256"></p> | <p align="center"><img src="https://img.shields.io/badge/Microsoft%20Identity-Entra-151515?style=flat-square" alt="Microsoft Identity / Entra"> <img src="https://img.shields.io/badge/OAuth-PKCE-151515?style=flat-square" alt="OAuth PKCE"> <img src="https://img.shields.io/badge/Xbox-Services-151515?style=flat-square" alt="Xbox Services"> <img src="https://img.shields.io/badge/Minecraft-Services-151515?style=flat-square" alt="Minecraft Services"> <img src="https://img.shields.io/badge/Rate-Limiting-151515?style=flat-square" alt="Rate limiting"> <img src="https://img.shields.io/badge/Abuse-Protection-151515?style=flat-square" alt="Abuse protection"> <img src="https://img.shields.io/badge/Security-Headers-151515?style=flat-square" alt="Security headers"> <img src="https://img.shields.io/badge/CSP-Policy-151515?style=flat-square" alt="Content Security Policy"></p> |
 
-### Frontend & Web
-
-React, HTML/CSS/JavaScript, Fetch API, Progressive Web Apps, Service Workers, localStorage, responsive desktop/mobile interfaces
-
-### Backend & Data
-
-Java services, embedded Java HTTP services, Node.js, FastAPI, REST APIs, MySQL, account services, platform services, JSON APIs
-
-</td>
-<td width="50%" valign="top">
-
-### Minecraft & Server
-
-Paper API, Bukkit API, SpigotMC, PacketEvents, Citizens API, PlaceholderAPI, LiteBans API, Skript, plugin messaging, server automation
-
-### Infrastructure & Workflow
-
-Azure, Cloudflare, Git, GitHub, GitHub Actions, GitLab, Maven, Sentry, Windows, PowerShell, CMD scripting, ProGuard
-
-### Testing & Release
-
-JUnit 5, unit testing, regression testing, API smoke testing, PowerShell smoke testing, configuration validation, self-tests, package validation, SHA-256 checksums, release manifests, build verification
-
-</td>
-</tr>
-</table>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### Authentication & Security
-
-Microsoft Identity / Entra, Microsoft Authentication, Minecraft Services, Xbox Services, OAuth, PKCE, account linking, session handling, rate limiting, abuse protection, security headers, Content Security Policy
-
-### Integrations
-
-Discord Rich Presence, Discord webhooks, Discord integrations
-
-</td>
-<td width="50%" valign="top">
-
-### Creative & Product
-
-Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, product design, branding, technical documentation, platform specifications
-
-</td>
-</tr>
-</table>
+| **Testing, Integrations & Creative** |
+|---|
+| <p align="center"><img src="https://skillicons.dev/icons?i=discord,blender,ps,ai,ae&perline=5" alt="Creative and integrations"></p><p align="center"><img src="https://img.shields.io/badge/JUnit%205-Testing-151515?style=flat-square" alt="JUnit 5"> <img src="https://img.shields.io/badge/Regression-Testing-151515?style=flat-square" alt="Regression testing"> <img src="https://img.shields.io/badge/API-Smoke%20Tests-151515?style=flat-square" alt="API smoke testing"> <img src="https://img.shields.io/badge/Discord-Rich%20Presence-151515?style=flat-square" alt="Discord Rich Presence"> <img src="https://img.shields.io/badge/Discord-Webhooks-151515?style=flat-square" alt="Discord webhooks"> <img src="https://img.shields.io/badge/UI%2FUX-Product%20Design-151515?style=flat-square" alt="UI/UX"> <img src="https://img.shields.io/badge/Branding-Documentation-151515?style=flat-square" alt="Branding and documentation"> <img src="https://img.shields.io/badge/Canva-Content-151515?style=flat-square" alt="Canva"></p> |
 
 
 <h2 align="center">GitHub Work</h2>
