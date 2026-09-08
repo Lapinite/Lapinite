@@ -165,36 +165,125 @@ Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
 
 <table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Launcher & Accounts
+### Launcher & Platform
 
-**Launcher**
-- desktop app
-- instances and updates
-- profiles and customization
-
-**Accounts**
-- Microsoft/Minecraft sign-in
-- linking and verification
-- sessions and recovery
+- desktop launcher and client systems
+- Minecraft installs and instances
+- profiles, settings and customization
+- launcher UI and responsive interfaces
+- social features, friends and presence
+- creator tools and publishing
+- cosmetics, inventories and ownership
+- marketplace, purchases and gifting
+- connected player services
+- mobile/platform expansion
+- update channels and recovery flows
 
 </td>
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-### Security & Backend
+### Auth & Security
 
-**Security**
-- AntiCheat
-- rate limits and abuse protection
+- Microsoft Identity / Entra
+- Minecraft Services and Xbox Services
+- OAuth and PKCE
+- account linking and ownership verification
+- Minecraft server code verification
+- sessions and device trust
+- privacy and permissions
 - account recovery
-- staff tools
+- rate limiting and brute-force protection
+- verification limits and lockouts
+- abuse prevention
+- audit and recovery flows
+- security headers and CSP
+- server hardening
 
-**Backend**
-- REST APIs
-- account and platform services
-- integrations
-- releases and deployment
+</td>
+<td width="33%" valign="top">
+
+### Backend & Release
+
+- Java backend and embedded HTTP services
+- Node.js and FastAPI
+- REST APIs and JSON data flows
+- MySQL
+- account, identity and social services
+- creator and marketplace services
+- launcher/client APIs
+- server integrations
+- service boundaries and versioning
+- GitHub Actions and Maven
+- unit, regression and smoke testing
+- configuration and package validation
+- SHA-256 integrity checks
+- release manifests and update delivery
+- Cloud/CDN delivery
+- monitoring and diagnostics
+- build and release automation
+
+</td>
+</tr>
+</table>
+
+<table align="center" width="100%">
+<tr>
+<td width="33%" valign="top">
+
+### Frontend & UI
+
+- JavaScript
+- HTML and CSS
+- React
+- Fetch API
+- Progressive Web Apps
+- Service Workers
+- localStorage
+- responsive desktop/mobile UI
+- launcher and account screens
+- profiles and social UI
+- staff/admin GUIs
+- UI/UX and product design
+
+</td>
+<td width="33%" valign="top">
+
+### Minecraft & Server
+
+- Java 21
+- Paper API and Bukkit API
+- SpigotMC
+- Minecraft plugin development
+- Skript
+- PacketEvents
+- Citizens API
+- PlaceholderAPI
+- LiteBans API
+- plugin messaging
+- commands, events and GUIs
+- gameplay and automation systems
+- localization
+
+</td>
+<td width="33%" valign="top">
+
+### AntiCheat & Reliability
+
+- packet handling and inspection
+- movement prediction
+- combat validation
+- world and inventory checks
+- violation tracking
+- latency compensation
+- TPS and lag awareness
+- false-positive reduction
+- calibration and thresholds
+- async processing
+- performance safeguards
+- compatibility checks
+- staff alerts and reports
 
 </td>
 </tr>
@@ -208,7 +297,7 @@ Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,mysql,azure,cloudflare,maven,git,github,githubactions,gitlab,sentry,windows,discord&perline=14" alt="Development platforms and tooling" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,mysql,azure,cloudflare,maven,git,github,githubactions,gitlab,sentry,windows,discord&perline=14" alt="Platforms and tooling" />
 </p>
 
 <p align="center">
@@ -219,191 +308,56 @@ Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
 <tr>
 <td width="50%" valign="top">
 
-### Core Engineering
+### Languages & Markup
 
-`Java 21` | `C` | `C++` | `C#` | `JavaScript` | `Kotlin` | `Python`
+Java 21 | JavaScript | PHP | Kotlin | Python | C | C++ | C# | Lua | PowerShell | Skript | HTML | CSS | Markdown | JSON | YAML
 
-`Paper` | `Bukkit` | `SpigotMC` | `PacketEvents` | `Skript` | `JUnit 5`
+### Frontend & Web
 
-</td>
-<td width="50%" valign="top">
+React | HTML/CSS/JavaScript | Fetch API | Progressive Web Apps | Service Workers | localStorage | responsive desktop/mobile interfaces
 
-### Platform & Infrastructure
+### Backend & Data
 
-`React` | `Node.js` | `FastAPI` | `MySQL` | `Azure` | `Cloudflare`
-
-`Git` | `GitHub Actions` | `Maven` | `Sentry` | `Windows` | `ProGuard`
-
-</td>
-</tr>
-</table>
-
-<h3 align="center">Full Tech Stack</h3>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### Application & Backend
-
-Desktop applications, client systems, embedded Java HTTP services, REST APIs, React, Node.js, FastAPI, MySQL, Progressive Web Apps, Service Workers, responsive interfaces, account services, platform services
-
-### Authentication & Security
-
-Microsoft Identity / Entra, Minecraft Services, Xbox Services, OAuth, PKCE, account linking, session handling, rate limiting, abuse protection, security headers, Content Security Policy, Discord integrations
+Java services | embedded Java HTTP services | Node.js | FastAPI | REST APIs | MySQL | account services | platform services | JSON APIs
 
 </td>
 <td width="50%" valign="top">
 
 ### Minecraft & Server
 
-Paper API, Bukkit API, SpigotMC, PacketEvents, Skript, Citizens API, LiteBans API, PlaceholderAPI, packet handling, movement prediction, combat validation, AntiCheat systems, latency compensation, TPS monitoring, server hardening
+Paper API | Bukkit API | SpigotMC | PacketEvents | Citizens API | PlaceholderAPI | LiteBans API | Skript | plugin messaging | server automation
 
-### Creative & Release
+### Infrastructure & Workflow
 
-Blender, Photoshop, Illustrator, After Effects, Canva, UI/UX, product design, branding, technical documentation, release manifests, SHA-256 checksums, regression testing, build verification
+Azure | Cloudflare | Git | GitHub | GitHub Actions | GitLab | Maven | Sentry | Windows | PowerShell | CMD scripting | ProGuard
 
-</td>
-</tr>
-</table>
+### Testing & Release
 
-
-<div align="center">
-
-## What I’m Working On
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=900&center=true&vCenter=true&width=860&lines=Leviathan%3A+launcher+%C2%B7+identity+%C2%B7+security+%C2%B7+platform+services;Nimbus%3A+packet+detection+%C2%B7+prediction+%C2%B7+staff+tooling;Shared%3A+APIs+%C2%B7+release+engineering+%C2%B7+infrastructure+%C2%B7+documentation" alt="Current development focus" />
-
-</div>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" align="center" valign="top">
-
-### Leviathan
-**Launcher & platform**
-
-Launcher and client  
-Microsoft/Minecraft sign-in  
-Accounts and security  
-Social and creator features  
-Backend APIs and services  
-Updates and releases
-
-</td>
-<td width="50%" align="center" valign="top">
-
-### Nimbus AntiCheat
-**Server AntiCheat**
-
-Packet checks and prediction  
-Movement & combat validation  
-Latency compensation  
-Staff tools  
-Integrations and automation  
-Reducing false positives
+JUnit 5 | unit tests | regression tests | API smoke tests | PowerShell smoke tests | configuration validation | self-tests | package validation | SHA-256 | release manifests | build verification
 
 </td>
 </tr>
 </table>
-
-<div align="center">
-
-### Shared Priorities
-
-`Security` | `Reliability` | `Performance` | `Clean Architecture` | `Identity` | `Account Protection` | `Server Integration` | `Developer Workflow`
-
-<br><br>
-
-[![Leviathan](https://img.shields.io/badge/EXPLORE-Leviathan-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
-[![Architecture](https://img.shields.io/badge/VIEW-Architecture-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md)
-[![Security](https://img.shields.io/badge/VIEW-Security-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
-[![Nimbus](https://img.shields.io/badge/VIEW-Nimbus%20AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
-
-</div>
-
-<h3 align="center">Leviathan: What I’m Working On</h3>
 
 <table align="center" width="100%">
 <tr>
 <td width="50%" valign="top">
 
-### Launcher & Identity
+### Authentication & Integrations
 
-- Desktop launcher and client experience
-- Minecraft installation and instance management
-- Microsoft/Minecraft sign-in
-- Account linking and ownership verification
-- Sessions, device trust and recovery
+Microsoft Identity / Entra | Microsoft Authentication | Minecraft Services | Xbox Services | OAuth | PKCE | Discord Rich Presence | Discord webhooks | Discord integrations
 
 </td>
 <td width="50%" valign="top">
 
-### Platform & Operations
+### Creative & Product
 
-- Profiles, social and connected player services
-- Creator, cosmetic and economy architecture
-- Backend APIs and service boundaries
-- Server integrations
-- Update delivery, monitoring and release automation
+Blender | Adobe Photoshop | Adobe Illustrator | Adobe After Effects | Canva | UI/UX | product design | branding | technical documentation | platform specifications
 
 </td>
 </tr>
 </table>
 
-<h3 align="center">Nimbus AntiCheat: What I’m Working On</h3>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### Detection & Accuracy
-
-- Packet inspection and movement prediction
-- Combat, world and inventory validation
-- Latency compensation
-- Reducing false positives
-- Calibration and configurable thresholds
-
-</td>
-<td width="50%" valign="top">
-
-### Staff & Reliability
-
-- Alerts, reports and inspection tools
-- Violation history and moderation workflows
-- External integrations
-- Async processing and compatibility validation
-- Server hardening and performance safeguards
-
-</td>
-</tr>
-</table>
-
-
-<div align="center">
-
-<div align="center">
-
-## Live Project Data
-
-These badges update automatically from the public Leviathan repository.
-
-[![Last Commit](https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=LAST%20COMMIT)](https://github.com/Lapinite/Leviathan-Launcher/commits/main)
-[![Commit Activity](https://img.shields.io/github/commit-activity/m/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=COMMITS%20THIS%20MONTH)](https://github.com/Lapinite/Leviathan-Launcher/commits/main)
-[![Top Language](https://img.shields.io/github/languages/top/Lapinite/Leviathan-Launcher?style=for-the-badge&label=TOP%20LANGUAGE)](https://github.com/Lapinite/Leviathan-Launcher)
-
-[![Repo Size](https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=for-the-badge&label=REPO%20SIZE)](https://github.com/Lapinite/Leviathan-Launcher)
-[![Stars](https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=STARS)](https://github.com/Lapinite/Leviathan-Launcher/stargazers)
-[![Forks](https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=FORKS)](https://github.com/Lapinite/Leviathan-Launcher/forks)
-
-
-<p align="center">
-  <strong>Nimbus AntiCheat 1.3.0</strong> | 52 total downloads | 0 ratings | first released Jun 30, 2026 | last updated Jul 7, 2026
-</p>
-</div>
-
----
 
 <h2 align="center">GitHub Work</h2>
 
