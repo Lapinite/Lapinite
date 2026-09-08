@@ -224,15 +224,12 @@ Connected services
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Skript-.sk_Server_Scripting-1f1f1f?style=flat-square" alt="Skript" />
-  <img src="https://img.shields.io/badge/Paper-Plugin_Development-1f1f1f?style=flat-square" alt="Paper" />
-  <img src="https://img.shields.io/badge/SpigotMC-Server_Development-ED8106?style=flat-square" alt="SpigotMC" />
-  <img src="https://img.shields.io/badge/PacketEvents-Packet_Handling-1f1f1f?style=flat-square" alt="PacketEvents" />
-  <img src="https://img.shields.io/badge/Citizens-NPC_API-1f1f1f?style=flat-square" alt="Citizens API" />
-  <img src="https://img.shields.io/badge/PlaceholderAPI-Integration-1f1f1f?style=flat-square" alt="PlaceholderAPI" />
-  <img src="https://img.shields.io/badge/LiteBans-Integration-1f1f1f?style=flat-square" alt="LiteBans" />
-  <img src="https://img.shields.io/badge/JUnit_5-Testing-25A162?style=flat-square&logo=junit5&logoColor=white" alt="JUnit 5" />
-  <img src="https://img.shields.io/badge/ProGuard-Obfuscation-1f1f1f?style=flat-square" alt="ProGuard" />
+  <img src="https://img.shields.io/badge/Paper-Plugin%20Development-555?style=flat-square" alt="Paper" />
+  <img src="https://img.shields.io/badge/SpigotMC-Server%20Development-555?style=flat-square" alt="SpigotMC" />
+  <img src="https://img.shields.io/badge/PacketEvents-Packet%20Handling-555?style=flat-square" alt="PacketEvents" />
+  <img src="https://img.shields.io/badge/Skript-.sk%20Scripting-555?style=flat-square" alt="Skript" />
+  <img src="https://img.shields.io/badge/JUnit%205-Testing-555?style=flat-square" alt="JUnit 5" />
+  <img src="https://img.shields.io/badge/ProGuard-Obfuscation-555?style=flat-square" alt="ProGuard" />
 </p>
 
 ### Engineering Stack
@@ -243,8 +240,10 @@ Connected services
 
 #### Core Development
 
+**Languages**  
 `Java` · `C` · `C++` · `C#` · `JavaScript` · `Kotlin` · `Python` · `Lua` · `PHP` · `PowerShell`
 
+**Minecraft & Server**  
 `Paper` · `Bukkit` · `SpigotMC` · `PacketEvents` · `Skript` · `JUnit 5`
 
 </td>
@@ -252,39 +251,53 @@ Connected services
 
 #### Platform & Infrastructure
 
-`React` · `Node.js` · `FastAPI` · `MySQL` · `Azure` · `Cloudflare`
+**Application & Backend**  
+`React` · `Node.js` · `FastAPI` · `MySQL` · REST APIs · embedded Java HTTP services
 
-`Git` · `GitHub Actions` · `Maven` · `Sentry` · `Windows` · `ProGuard`
+**Infrastructure & Workflow**  
+`Azure` · `Cloudflare` · `Git` · `GitHub Actions` · `Maven` · `Sentry` · `Windows` · `ProGuard`
+
+</td>
+</tr>
+</table>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+#### Authentication & Security
+
+Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · session handling · rate limiting · abuse protection · CSP · Discord integrations
+
+</td>
+<td width="50%" valign="top">
+
+#### Testing & Release
+
+Unit testing · regression testing · API smoke tests · configuration validation · SHA-256 checksums · release manifests · build verification
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><strong>Application, Backend & Web</strong></summary>
+<summary><strong>View full application, backend & web stack</strong></summary>
 
 Desktop applications · client systems · embedded Java HTTP services · REST-style JSON APIs · Fetch API · React · Node.js · FastAPI · MySQL · HTML/CSS/JavaScript frontends · Progressive Web Apps · Service Workers · responsive desktop/mobile interfaces · account services · platform services
 
 </details>
 
 <details>
-<summary><strong>Authentication, Security & Integrations</strong></summary>
-
-Microsoft Authentication · Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks · Discord integrations
-
-</details>
-
-<details>
-<summary><strong>Minecraft & Server Engineering</strong></summary>
+<summary><strong>View full Minecraft & server stack</strong></summary>
 
 Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · Skript (.sk) · custom commands · events · GUIs · gameplay systems · server automation · PacketEvents · Citizens API · LiteBans API · PlaceholderAPI · packet handling · movement prediction · combat validation · anticheat systems · latency compensation · TPS monitoring · server hardening · compatibility checks · localization
 
 </details>
 
 <details>
-<summary><strong>Creative, Product & Release</strong></summary>
+<summary><strong>View creative & product tools</strong></summary>
 
-Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI/UX · product design · branding · documentation · release manifests · SHA-256 checksums · regression testing · build verification
+Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI/UX · product design · branding · documentation · platform specifications
 
 </details>
 
