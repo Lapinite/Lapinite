@@ -4,7 +4,7 @@
 
 ### Minecraft projects: Leviathan & Nimbus
 
-**Launchers · Clients · AntiCheat · Authentication · Identity · Backend Services · Security · APIs · Infrastructure · Platform Systems**
+**Launchers | Clients | AntiCheat | Authentication | Identity | Backend Services | Security | APIs | Infrastructure | Platform Systems**
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&center=true&vCenter=true&width=820&lines=Building+Leviathan+%E2%80%94+launcher+%26+connected+platform;Developing+Nimbus+%E2%80%94+packet-based+server+security;Authentication+%C2%B7+Identity+%C2%B7+APIs+%C2%B7+Security+%C2%B7+Infrastructure" alt="Animated project focus" />
 
@@ -22,12 +22,12 @@
 
 <br>
 
-[GitHub](https://github.com/Lapinite) ·
-[Discord](https://discord.gg/MREADUBJ97) ·
-[YouTube](https://youtube.com/@leviathanclient) ·
-[Instagram](https://instagram.com/leviathanclient) ·
-[X](https://x.com/leviathanrealm) ·
-[Twitch](https://twitch.tv/leviathanclient) ·
+[GitHub](https://github.com/Lapinite) |
+[Discord](https://discord.gg/MREADUBJ97) |
+[YouTube](https://youtube.com/@leviathanclient) |
+[Instagram](https://instagram.com/leviathanclient) |
+[X](https://x.com/leviathanrealm) |
+[Twitch](https://twitch.tv/leviathanclient) |
 [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
 
 </div>
@@ -100,7 +100,7 @@ I’m also building the account, social, cosmetic, marketplace and backend syste
 </p>
 
 <strong>Core</strong><br>
-Java · Desktop Client · Microsoft Auth · Minecraft Services · APIs · Identity · Platform Services
+Java | Desktop Client | Microsoft Auth | Minecraft Services | APIs | Identity | Platform Services
 
 </td>
 <td width="50%" valign="top" align="center">
@@ -118,7 +118,7 @@ It also includes staff tools, reports, integrations and configuration for tuning
 </p>
 
 <strong>Core</strong><br>
-Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Security
+Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
 
 </td>
 </tr>
@@ -142,7 +142,7 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 ## Explore the Work
 
-**Launcher development · Minecraft auth · AntiCheat · backend APIs · security · release work**
+**Launcher development | Minecraft auth | AntiCheat | backend APIs | security | release work**
 
 <br>
 
@@ -154,6 +154,23 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 -
 
+
+<div align="center">
+
+### Nimbus on SpigotMC
+
+[![Spigot Downloads](https://img.shields.io/spiget/downloads/136631?label=Downloads&style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+[![Spigot Rating](https://img.shields.io/spiget/rating/136631?label=Rating&style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/reviews)
+[![Spigot Version](https://img.shields.io/spiget/version/136631?label=Version&style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+[![Tested Versions](https://img.shields.io/spiget/tested-versions/136631?label=Minecraft&style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+
+<sub>SpigotMC metrics update automatically through Spiget/Shields.io.</sub>
+
+</div>
+
+
+---
+
 <h2 align="center">Engineering Areas</h2>
 
 <table align="center" width="100%">
@@ -163,13 +180,13 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 ### Launcher & Accounts
 
 **Launcher**  
-Desktop app · instances · updates · profiles · customization
+Desktop app | instances | updates | profiles | customization
 
 **Accounts**  
-Microsoft/Minecraft sign-in · linking · verification · sessions · recovery
+Microsoft/Minecraft sign-in | linking | verification | sessions | recovery
 
 **Platform**  
-Profiles · social features · cosmetics · inventories · marketplace
+Profiles | social features | cosmetics | inventories | marketplace
 
 </td>
 <td width="50%" valign="top">
@@ -177,13 +194,13 @@ Profiles · social features · cosmetics · inventories · marketplace
 ### Security & Backend
 
 **Security**  
-AntiCheat · rate limits · abuse protection · account recovery · staff tools
+AntiCheat | rate limits | abuse protection | account recovery | staff tools
 
 **Backend**  
-REST APIs · account services · platform services · integrations
+REST APIs | account services | platform services | integrations
 
 **Release**  
-Testing · updates · release manifests · checksums · deployment
+Testing | updates | release manifests | checksums | deployment
 
 </td>
 </tr>
@@ -402,7 +419,37 @@ Reducing false positives
 
 <div align="center">
 
-## GitHub Work
+<div align="center">
+
+## Live Project Data
+
+These badges update automatically from the public Leviathan repository.
+
+[![Last Commit](https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=LAST%20COMMIT)](https://github.com/Lapinite/Leviathan-Launcher/commits/main)
+[![Commit Activity](https://img.shields.io/github/commit-activity/m/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=COMMITS%20THIS%20MONTH)](https://github.com/Lapinite/Leviathan-Launcher/commits/main)
+[![Top Language](https://img.shields.io/github/languages/top/Lapinite/Leviathan-Launcher?style=for-the-badge&label=TOP%20LANGUAGE)](https://github.com/Lapinite/Leviathan-Launcher)
+
+[![Repo Size](https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=for-the-badge&label=REPO%20SIZE)](https://github.com/Lapinite/Leviathan-Launcher)
+[![Stars](https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=STARS)](https://github.com/Lapinite/Leviathan-Launcher/stargazers)
+[![Forks](https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=FORKS)](https://github.com/Lapinite/Leviathan-Launcher/forks)
+
+
+
+<p align="center">
+  <strong>Nimbus AntiCheat 1.3.0</strong> · 52 total downloads · 0 ratings · first released Jun 30, 2026 · last updated Jul 7, 2026
+</p>
+</div>
+
+---
+
+<h2 align="center">GitHub Work</h2>
+
+<div align="center">
+
+**Recent work includes launcher architecture, Microsoft/Minecraft sign-in, account security, backend services, release controls and documentation.**
+
+</div>
+
 
 <p>
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
@@ -549,6 +596,21 @@ Packet Detection · Prediction · Combat · Staff Tooling · Integrations · Rel
 
 <div align="center">
 
+
+<div align="center">
+
+## Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake.svg" />
+</picture>
+
+</div>
+
+---
+
 ## Connect
 
 [![GitHub](https://img.shields.io/badge/GitHub-Lapinite-181717?style=for-the-badge&logo=github)](https://github.com/Lapinite)
@@ -573,6 +635,9 @@ Packet Detection · Prediction · Combat · Staff Tooling · Integrations · Rel
 <sub>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</sub>
 
 <br><br>
+
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3300&pause=1100&center=true&vCenter=true&width=760&lines=Leviathan+Launcher+%7C+Nimbus+AntiCheat;Auth+%7C+Backend+%7C+Security+%7C+Release;Minecraft+software+projects+by+Lapinite" alt="Animated project footer" />
 
 <sub>© 2026 Leviathan project owner. All Rights Reserved.</sub>
 
