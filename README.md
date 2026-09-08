@@ -69,6 +69,87 @@ Server-side AntiCheat focused on packet analysis, movement prediction, combat va
 
 ---
 
+<h2 align="center">Current Build</h2>
+
+<table align="center" width="100%">
+<tr>
+<td width="25%" valign="top" align="center">
+
+### Launcher
+
+<sub>Desktop launcher, instances, profiles, updates, customization and game management.</sub>
+
+</td>
+<td width="25%" valign="top" align="center">
+
+### Identity
+
+<sub>Microsoft OAuth + PKCE, Minecraft ownership, account linking, sessions and recovery.</sub>
+
+</td>
+<td width="25%" valign="top" align="center">
+
+### Platform
+
+<sub>Social, creator, cosmetics, economy, marketplace, APIs and connected services.</sub>
+
+</td>
+<td width="25%" valign="top" align="center">
+
+### Nimbus
+
+<sub>Packet detection, prediction, combat validation, staff tooling and reliability.</sub>
+
+</td>
+</tr>
+</table>
+
+<table align="center" width="100%">
+<tr>
+<td valign="top">
+
+```text
+Leviathan
+├── Launcher & Client
+├── Authentication & Identity
+├── Backend Services & APIs
+├── Social & Player Platform
+├── Creator & Marketplace Systems
+├── Cosmetics & Economy
+├── Security & Recovery
+└── Release & Update Infrastructure
+```
+
+</td>
+<td valign="top">
+
+```text
+Nimbus AntiCheat
+├── Packet Analysis
+├── Movement Prediction
+├── Combat Validation
+├── World & Inventory Checks
+├── Violation Tracking
+├── Lag / Ping Compensation
+├── Staff Alerts & Reports
+└── Calibration & False-Positive Control
+```
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Primary%20Runtime-Java%2021-151515?style=flat-square" alt="Java 21">
+  <img src="https://img.shields.io/badge/Auth-OAuth%20%2B%20PKCE-151515?style=flat-square" alt="OAuth PKCE">
+  <img src="https://img.shields.io/badge/Backend-REST%20APIs-151515?style=flat-square" alt="REST APIs">
+  <img src="https://img.shields.io/badge/Data-MySQL-151515?style=flat-square" alt="MySQL">
+  <img src="https://img.shields.io/badge/Server-Paper%20%2B%20PacketEvents-151515?style=flat-square" alt="Paper PacketEvents">
+  <img src="https://img.shields.io/badge/CI-GitHub%20Actions-151515?style=flat-square" alt="GitHub Actions">
+</p>
+
+---
+
 <h2 align="center">Engineering</h2>
 
 <table align="center" width="100%">
@@ -166,6 +247,11 @@ Server-side AntiCheat focused on packet analysis, movement prediction, combat va
 <h2 align="center">GitHub Dashboard</h2>
 
 <p align="center">
+  <img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Last%20Commit" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Repo%20Size" alt="Repository size">
+</p>
+
+<p align="center">
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="Contribution and repository activity">
 </p>
 
@@ -201,9 +287,6 @@ Server-side AntiCheat focused on packet analysis, movement prediction, combat va
 <img src="https://img.shields.io/github/issues-pr-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20PRs" alt="Closed PRs">
 
 <br>
-
-<img src="https://img.shields.io/github/commit-activity/m/Lapinite/Leviathan-Launcher?style=flat-square&label=Commits%20This%20Month" alt="Commit activity">
-<img src="https://img.shields.io/github/languages/count/Lapinite/Leviathan-Launcher?style=flat-square&label=Languages" alt="Languages">
 </td>
 </tr>
 </table>
