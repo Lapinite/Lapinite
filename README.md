@@ -495,7 +495,7 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
 
 ---
 
-<h2 align="center">GitHub Activity</h2>
+<h2 align="center">GitHub Activity & Work</h2>
 
 <p align="center">
   <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
@@ -520,6 +520,105 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
 </tr>
 </table>
 
+<div align="center">
+
+### What the Work Covers
+
+</div>
+
+<table align="center" width="100%">
+<tr>
+<td width="25%" align="center" valign="top">
+
+#### Launcher & Client
+
+Desktop launcher  
+Instance management  
+Profiles & settings  
+Update systems  
+Client integration
+
+</td>
+<td width="25%" align="center" valign="top">
+
+#### Auth & Identity
+
+Microsoft authentication  
+Minecraft Services  
+Account linking  
+Verification  
+Sessions & recovery
+
+</td>
+<td width="25%" align="center" valign="top">
+
+#### Security & Backend
+
+REST APIs  
+Rate limiting  
+Abuse protection  
+Service architecture  
+Server integrations
+
+</td>
+<td width="25%" align="center" valign="top">
+
+#### Release & Docs
+
+Build verification  
+Release policy  
+Security policy  
+Architecture docs  
+Roadmap & changelog
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### Development Signals
+
+![Java](https://img.shields.io/badge/Java-21-555?style=flat-square&logo=openjdk)
+![Auth](https://img.shields.io/badge/Microsoft-Authentication-555?style=flat-square&logo=microsoft)
+![Minecraft](https://img.shields.io/badge/Minecraft-Services-555?style=flat-square)
+![Security](https://img.shields.io/badge/Security-Engineering-555?style=flat-square)
+![API](https://img.shields.io/badge/Backend-REST%20APIs-555?style=flat-square)
+![CI](https://img.shields.io/badge/CI-GitHub%20Actions-555?style=flat-square&logo=githubactions)
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3200&pause=950&center=true&vCenter=true&width=820&lines=Launcher+%C2%B7+Client+%C2%B7+Authentication+%C2%B7+Identity;Backend+Services+%C2%B7+APIs+%C2%B7+Security+%C2%B7+Infrastructure;Testing+%C2%B7+Release+Engineering+%C2%B7+Documentation+%C2%B7+Platform+Design" alt="Animated development activity" />
+
+</div>
+
+### Repository Work
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+#### Leviathan Development
+
+- [README](https://github.com/Lapinite/Leviathan-Launcher/blob/main/README.md) — project overview
+- [Roadmap](https://github.com/Lapinite/Leviathan-Launcher/blob/main/ROADMAP.md) — planned development
+- [Changelog](https://github.com/Lapinite/Leviathan-Launcher/blob/main/CHANGELOG.md) — documented changes
+- [Architecture](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md) — system design
+- [Authentication](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/AUTHENTICATION.md) — authentication architecture
+
+</td>
+<td width="50%" valign="top">
+
+#### Security, Release & Operations
+
+- [Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md) — vulnerability and security policy
+- [Release Policy](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/RELEASE_POLICY.md) — release controls
+- [Service Management](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SERVICE_MANAGEMENT.md) — service context
+- [Minecraft Compliance](https://github.com/Lapinite/Leviathan-Launcher/blob/main/MINECRAFT_COMPLIANCE.md) — compliance controls
+- [Contributing](https://github.com/Lapinite/Leviathan-Launcher/blob/main/CONTRIBUTING.md) — contribution workflow
+
+</td>
+</tr>
+</table>
+
 <details>
 <summary><strong>Contribution streak</strong></summary>
 
@@ -529,9 +628,16 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
 
 </details>
 
----
+<details>
+<summary><strong>Contribution activity graph</strong></summary>
 
-<div align="center">
+<p align="center">
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
+</p>
+
+</details>
+
+---
 
 <div align="center">
 
