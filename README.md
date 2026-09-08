@@ -34,13 +34,15 @@
 
 ---
 
-<h2 align="center">About</h2>
+<div align="center">
 
-<p align="center">
-The <strong>Leviathan project portfolio</strong> focuses on Minecraft software engineering and connected platform development, with active work centered around <strong>Leviathan</strong> and <strong>Nimbus</strong>.
-</p>
+## About
 
-<table>
+The **Leviathan project portfolio** focuses on Minecraft software engineering and connected platform development, with active work centered around **Leviathan** and **Nimbus**.
+
+</div>
+
+<table align="center" width="100%">
 <tr>
 <td width="33.33%" valign="top" align="center">
 
@@ -78,11 +80,11 @@ Documentation & platform design
 </tr>
 </table>
 
-<br>
+<div align="center">
 
-<p align="center">
 Development spans the full stack — from low-level detection and backend systems to player-facing interfaces, staff tooling and connected platform services.
-</p>
+
+</div>
 
 ---
 
