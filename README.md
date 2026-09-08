@@ -137,29 +137,24 @@ Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
 
 <div align="center">
 
-## Explore the Work
+## Project Links
 
-**Launcher development | Minecraft auth | AntiCheat | backend APIs | security | release work**
-
-<br>
-
-[![Explore Leviathan](https://img.shields.io/badge/EXPLORE-Leviathan-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
-[![View Nimbus](https://img.shields.io/badge/VIEW-Nimbus%20AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
-[![Join Discord](https://img.shields.io/badge/JOIN-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
+[![Leviathan](https://img.shields.io/badge/Leviathan-Repository-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
+[![Nimbus](https://img.shields.io/badge/Nimbus-SpigotMC-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
 
 </div>
 
 
 <div align="center">
 
-### Nimbus on SpigotMC
+### Nimbus Stats
 
 [![Spigot Downloads](https://img.shields.io/spiget/downloads/136631?label=Downloads&style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
 [![Spigot Rating](https://img.shields.io/spiget/rating/136631?label=Rating&style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/reviews)
 [![Spigot Version](https://img.shields.io/spiget/version/136631?label=Version&style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
 [![Tested Versions](https://img.shields.io/spiget/tested-versions/136631?label=Minecraft&style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
 
-<sub>SpigotMC metrics update automatically through Spiget/Shields.io.</sub>
 
 </div>
 
@@ -174,55 +169,32 @@ Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
 
 ### Launcher & Accounts
 
-**Launcher**  
-Desktop app | instances | updates | profiles | customization
+**Launcher**
+- desktop app
+- instances and updates
+- profiles and customization
 
-**Accounts**  
-Microsoft/Minecraft sign-in | linking | verification | sessions | recovery
-
-**Platform**  
-Profiles | social features | cosmetics | inventories | marketplace
+**Accounts**
+- Microsoft/Minecraft sign-in
+- linking and verification
+- sessions and recovery
 
 </td>
 <td width="50%" valign="top">
 
 ### Security & Backend
 
-**Security**  
-AntiCheat | rate limits | abuse protection | account recovery | staff tools
+**Security**
+- AntiCheat
+- rate limits and abuse protection
+- account recovery
+- staff tools
 
-**Backend**  
-REST APIs | account services | platform services | integrations
-
-**Release**  
-Testing | updates | release manifests | checksums | deployment
-
-</td>
-</tr>
-</table>
-
-<h3 align="center">More Engineering Details</h3>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### Product & Platform
-
-- **Launcher & Client**: installations, instances, updates, profiles, customization, game management
-- **Authentication & Identity**: Microsoft/Minecraft auth, linking, verification, sessions, privacy, recovery
-- **Social & Community**: profiles, friends, presence, privacy controls, connected player features
-- **Creators & Economy**: creator tools, cosmetics, inventories, ownership, marketplace architecture
-
-</td>
-<td width="50%" valign="top">
-
-### Security & Infrastructure
-
-- **AntiCheat & Detection**: packet inspection, movement prediction, combat validation, false-positive reduction
-- **Backend & APIs**: REST APIs, embedded services, account/platform services, integrations, data flows
-- **Security**: rate limiting, abuse protection, account recovery, server hardening, validation
-- **Release & Reliability**: async processing, testing, update delivery, manifests, checksums, deployment planning
+**Backend**
+- REST APIs
+- account and platform services
+- integrations
+- releases and deployment
 
 </td>
 </tr>
