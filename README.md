@@ -32,7 +32,6 @@
 
 </div>
 
--
 
 <div align="center">
 
@@ -79,7 +78,6 @@ Most of the work is around:
 </tr>
 </table>
 
--
 
 <h2 align="center">Featured Projects</h2>
 
@@ -136,7 +134,6 @@ Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
 </tr>
 </table>
 
--
 
 <div align="center">
 
@@ -151,8 +148,6 @@ Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
 [![Join Discord](https://img.shields.io/badge/JOIN-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
 
 </div>
-
--
 
 
 <div align="center">
@@ -233,7 +228,6 @@ Testing | updates | release manifests | checksums | deployment
 </tr>
 </table>
 
--
 
 <h2 align="center">Technology</h2>
 
@@ -301,7 +295,6 @@ Blender, Photoshop, Illustrator, After Effects, Canva, UI/UX, product design, br
 </tr>
 </table>
 
--
 
 <div align="center">
 
@@ -415,7 +408,6 @@ Reducing false positives
 </tr>
 </table>
 
--
 
 <div align="center">
 
@@ -432,7 +424,6 @@ These badges update automatically from the public Leviathan repository.
 [![Repo Size](https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=for-the-badge&label=REPO%20SIZE)](https://github.com/Lapinite/Leviathan-Launcher)
 [![Stars](https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=STARS)](https://github.com/Lapinite/Leviathan-Launcher/stargazers)
 [![Forks](https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=for-the-badge&logo=github&label=FORKS)](https://github.com/Lapinite/Leviathan-Launcher/forks)
-
 
 
 <p align="center">
@@ -545,7 +536,6 @@ Security & compliance docs
 
 </div>
 
--
 
 <div align="center">
 
@@ -592,7 +582,6 @@ Packet Detection | Prediction | Combat | Staff Tooling | Integrations | Reliabil
 
 </div>
 
--
 
 <div align="center">
 
@@ -642,4 +631,3 @@ Packet Detection | Prediction | Combat | Staff Tooling | Integrations | Reliabil
 <sub>© 2026 Leviathan project owner. All Rights Reserved.</sub>
 
 </div>
-
