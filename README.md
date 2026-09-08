@@ -304,58 +304,57 @@ Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, 
 
 ### Project Files
 
-[![Architecture](https://img.shields.io/badge/ARCHITECTURE-System%20Design-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md)
-[![Authentication](https://img.shields.io/badge/AUTHENTICATION-Microsoft%20%26%20Minecraft-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/AUTHENTICATION.md)
-[![Security](https://img.shields.io/badge/SECURITY-Policy%20%26%20Engineering-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
-
-[![Roadmap](https://img.shields.io/badge/ROADMAP-Development%20Direction-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/ROADMAP.md)
-[![Release Policy](https://img.shields.io/badge/RELEASE-Policy%20%26%20Controls-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/RELEASE_POLICY.md)
-[![Service Management](https://img.shields.io/badge/SERVICE-Management-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SERVICE_MANAGEMENT.md)
-
-</div>
-
-<div align="center">
-
-### Contribution Activity
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Lapinite&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
-
-<br><br>
-
-[![Contributions](https://img.shields.io/badge/CONTRIBUTIONS-View%20GitHub%20Activity-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite?tab=overview)
+[Architecture](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md) |
+[Authentication](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/AUTHENTICATION.md) |
+[Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md) |
+[Roadmap](https://github.com/Lapinite/Leviathan-Launcher/blob/main/ROADMAP.md) |
+[Release Policy](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/RELEASE_POLICY.md) |
+[Service Management](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SERVICE_MANAGEMENT.md)
 
 </div>
 
 ---
 
-## Connect
+<h2 align="center">Contribution Activity</h2>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Lapinite-181717?style=for-the-badge&logo=github)](https://github.com/Lapinite)
-[![Discord](https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
-[![YouTube](https://img.shields.io/badge/YouTube-Leviathan_Client-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@leviathanclient)
-[![Twitch](https://img.shields.io/badge/Twitch-Leviathan_Client-9146FF?style=for-the-badge&logo=twitch&logoColor=white)](https://twitch.tv/leviathanclient)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
 
-[![Instagram](https://img.shields.io/badge/Instagram-Leviathan_Client-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/leviathanclient)
-[![X](https://img.shields.io/badge/X-LeviathanRealm-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/leviathanrealm)
-[![Bluesky](https://img.shields.io/badge/Bluesky-Leviathan_Client-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/leviathanclient.bsky.social)
+<p align="center">
+  <a href="https://github.com/Lapinite?tab=overview">View GitHub activity</a>
+</p>
 
-<br><br>
+---
 
-[Documentation](https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs) |
-[Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md) |
-[Support](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SUPPORT.md) |
-[Legal](https://github.com/Lapinite/Leviathan-Launcher/blob/main/LEGAL.md) |
-[Contributing](https://github.com/Lapinite/Leviathan-Launcher/blob/main/CONTRIBUTING.md)
+<h2 align="center">Connect</h2>
 
-<br><br>
+<p align="center">
+  <a href="https://github.com/Lapinite">GitHub</a> |
+  <a href="https://discord.gg/MREADUBJ97">Discord</a> |
+  <a href="https://youtube.com/@leviathanclient">YouTube</a> |
+  <a href="https://instagram.com/leviathanclient">Instagram</a> |
+  <a href="https://x.com/leviathanrealm">X</a> |
+  <a href="https://twitch.tv/leviathanclient">Twitch</a> |
+  <a href="https://bsky.app/profile/leviathanclient.bsky.social">Bluesky</a>
+</p>
 
-<sub>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</sub>
+<p align="center">
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs">Documentation</a> |
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md">Security</a> |
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/blob/main/SUPPORT.md">Support</a> |
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/blob/main/LEGAL.md">Legal</a> |
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/blob/main/CONTRIBUTING.md">Contributing</a>
+</p>
 
-<br><br>
+<p align="center">
+  <sub>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</sub>
+</p>
 
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3300&pause=1100&center=true&vCenter=true&width=760&lines=Leviathan+Launcher+%7C+Nimbus+AntiCheat;Auth+%7C+Backend+%7C+Security+%7C+Release;Minecraft+software+projects+by+Lapinite" alt="Animated project footer" />
-
-<sub>© 2026 Leviathan project owner. All Rights Reserved.</sub>
-
-</div>
+<p align="center">
+  <sub>© 2026 Leviathan project owner. All Rights Reserved.</sub>
+</p>
