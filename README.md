@@ -2,7 +2,7 @@
 
 # LEVIATHAN PROJECT
 
-### Minecraft software portfolio for Leviathan & Nimbus
+### Minecraft projects: Leviathan & Nimbus
 
 **Launchers · Clients · AntiCheat · Authentication · Identity · Backend Services · Security · APIs · Infrastructure · Platform Systems**
 
@@ -18,7 +18,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Lapinite&style=flat-square&label=PROFILE+VIEWS)
 ![Products](https://img.shields.io/badge/ACTIVE%20PRODUCTS-2-555?style=flat-square)
 ![Runtime](https://img.shields.io/badge/PRIMARY%20RUNTIME-JAVA%2021-555?style=flat-square&logo=openjdk)
-![Focus](https://img.shields.io/badge/FOCUS-SECURITY%20%26%20PLATFORM-555?style=flat-square)
+![Focus](https://img.shields.io/badge/FOCUS-LAUNCHER%20%26%20SECURITY-555?style=flat-square)
 
 <br>
 
@@ -38,7 +38,7 @@
 
 ## About
 
-The **Leviathan project portfolio** focuses on Minecraft software engineering and connected platform development, with active work centered around **Leviathan** and **Nimbus**.
+I use this profile for my Minecraft projects, mainly **Leviathan** and **Nimbus**.
 
 </div>
 
@@ -46,34 +46,38 @@ The **Leviathan project portfolio** focuses on Minecraft software engineering an
 <tr>
 <td width="50%" valign="top">
 
-### Platform & Product
+### Leviathan
 
-- Desktop launcher and client systems
-- Profiles, customization and connected player services
-- Backend services and REST APIs
-- Creator, cosmetic and economy architecture
-- UI/UX, documentation and product design
+I’m building a Minecraft launcher and the services around it.
+
+That includes:
+
+- launcher and client systems
+- Microsoft/Minecraft sign-in
+- profiles and account linking
+- backend APIs
+- security and recovery
+- social and platform features
 
 </td>
 <td width="50%" valign="top">
 
-### Security & Systems
+### Nimbus
 
-- Microsoft and Minecraft authentication
-- Account identity, verification and recovery
-- Packet-level server and AntiCheat systems
-- Abuse protection, validation and server hardening
-- Infrastructure, testing and release engineering
+Nimbus is my server-side AntiCheat project.
+
+Most of the work is around:
+
+- packet checks
+- movement prediction
+- combat validation
+- staff tools
+- false-positive reduction
+- performance and reliability
 
 </td>
 </tr>
 </table>
-
-<div align="center">
-
-Development spans the full stack — from low-level detection and backend systems to player-facing interfaces, staff tooling and connected platform services.
-
-</div>
 
 ---
 
@@ -88,11 +92,11 @@ Development spans the full stack — from low-level detection and backend system
 <strong>Minecraft launcher & connected platform</strong>
 
 <p>
-A custom Minecraft: Java Edition desktop launcher focused on legitimate Microsoft/Minecraft authentication, account management, profiles, customization, security, updates and platform integration.
+A custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, updates, customization and account features.
 </p>
 
 <p>
-Leviathan is being expanded beyond a standalone launcher into a connected platform with identity, social, creator, cosmetic, marketplace, economy, security and service infrastructure.
+I’m also building the account, social, cosmetic, marketplace and backend systems around the launcher.
 </p>
 
 <strong>Core</strong><br>
@@ -106,11 +110,11 @@ Java · Desktop Client · Microsoft Auth · Minecraft Services · APIs · Identi
 <strong>Packet-based Minecraft anticheat</strong>
 
 <p>
-A server-side anticheat built around packet inspection, movement prediction, latency-aware detection and false-positive reduction.
+A packet-based server AntiCheat focused on movement, combat and reliable detection.
 </p>
 
 <p>
-Nimbus includes configurable movement, combat, world, packet and inventory checks alongside staff inspection tools, player reports, calibration systems, Discord notifications and external plugin integrations.
+It also includes staff tools, reports, integrations and configuration for tuning checks.
 </p>
 
 <strong>Core</strong><br>
@@ -138,7 +142,7 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 ## Explore the Work
 
-**Launcher engineering · Minecraft authentication · packet security · backend services · APIs · platform architecture · release engineering**
+**Launcher development · Minecraft auth · AntiCheat · backend APIs · security · release work**
 
 <br>
 
@@ -156,37 +160,37 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 <tr>
 <td width="50%" valign="top">
 
-### Launcher, Client & Identity
+### Launcher & Accounts
 
-**Launcher & Client**  
-Desktop launcher · installations · instances · updates · profiles · customization · game management
+**Launcher**  
+Desktop app · instances · updates · profiles · customization
 
-**Authentication & Identity**  
-Microsoft/Minecraft authentication · linking · verification · sessions · privacy · recovery
+**Accounts**  
+Microsoft/Minecraft sign-in · linking · verification · sessions · recovery
 
-**Social & Product Systems**  
-Profiles · presence · creator systems · cosmetics · inventories · marketplace architecture
+**Platform**  
+Profiles · social features · cosmetics · inventories · marketplace
 
 </td>
 <td width="50%" valign="top">
 
-### Security, Backend & Infrastructure
+### Security & Backend
 
-**Security & Server Engineering**  
-Packet inspection · AntiCheat · rate limiting · abuse protection · server hardening · staff tooling
+**Security**  
+AntiCheat · rate limits · abuse protection · account recovery · staff tools
 
-**Backend & APIs**  
-REST APIs · embedded services · account services · platform services · integrations · data flows
+**Backend**  
+REST APIs · account services · platform services · integrations
 
-**Release & Reliability**  
-Async processing · testing · update delivery · release manifests · checksums · deployment planning
+**Release**  
+Testing · updates · release manifests · checksums · deployment
 
 </td>
 </tr>
 </table>
 
 <details align="center">
-<summary><strong>▸ Detailed Engineering Areas</strong></summary>
+<summary><strong>▸ More Engineering Details</strong></summary>
 
 <br>
 
@@ -257,7 +261,7 @@ Async processing · testing · update delivery · release manifests · checksums
 </table>
 
 <details align="center">
-<summary><strong>▸ Full Technology Stack</strong></summary>
+<summary><strong>▸ Full Tech Stack</strong></summary>
 
 <br>
 
@@ -294,7 +298,7 @@ Blender · Photoshop · Illustrator · After Effects · Canva · UI/UX · produc
 
 <div align="center">
 
-## Current Work
+## What I’m Working On
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=900&center=true&vCenter=true&width=860&lines=Leviathan%3A+launcher+%C2%B7+identity+%C2%B7+security+%C2%B7+platform+services;Nimbus%3A+packet+detection+%C2%B7+prediction+%C2%B7+staff+tooling;Shared%3A+APIs+%C2%B7+release+engineering+%C2%B7+infrastructure+%C2%B7+documentation" alt="Current development focus" />
 
@@ -305,27 +309,27 @@ Blender · Photoshop · Illustrator · After Effects · Canva · UI/UX · produc
 <td width="50%" align="center" valign="top">
 
 ### Leviathan
-**Launcher & connected platform**
+**Launcher & platform**
 
-Launcher/client systems  
-Microsoft/Minecraft authentication  
-Identity & account security  
-Social & creator systems  
-Backend APIs & platform services  
-Release & update infrastructure
+Launcher and client  
+Microsoft/Minecraft sign-in  
+Accounts and security  
+Social and creator features  
+Backend APIs and services  
+Updates and releases
 
 </td>
 <td width="50%" align="center" valign="top">
 
 ### Nimbus AntiCheat
-**Packet-based server security**
+**Server AntiCheat**
 
-Packet inspection & prediction  
+Packet checks and prediction  
 Movement & combat validation  
 Latency compensation  
-Staff inspection tooling  
-Integrations & automation  
-False-positive reduction
+Staff tools  
+Integrations and automation  
+Reducing false positives
 
 </td>
 </tr>
@@ -347,7 +351,7 @@ False-positive reduction
 </div>
 
 <details align="center">
-<summary><strong>▸ Leviathan — Detailed Current Work</strong></summary>
+<summary><strong>▸ Leviathan — Detailed What I’m Working On</strong></summary>
 
 <br>
 
@@ -359,7 +363,7 @@ False-positive reduction
 
 - Desktop launcher and client experience
 - Minecraft installation and instance management
-- Microsoft/Minecraft authentication
+- Microsoft/Minecraft sign-in
 - Account linking and ownership verification
 - Sessions, device trust and recovery
 
@@ -381,7 +385,7 @@ False-positive reduction
 </details>
 
 <details align="center">
-<summary><strong>▸ Nimbus AntiCheat — Detailed Current Work</strong></summary>
+<summary><strong>▸ Nimbus AntiCheat — Detailed What I’m Working On</strong></summary>
 
 <br>
 
@@ -394,7 +398,7 @@ False-positive reduction
 - Packet inspection and movement prediction
 - Combat, world and inventory validation
 - Latency compensation
-- False-positive reduction
+- Reducing false positives
 - Calibration and configurable thresholds
 
 </td>
@@ -418,7 +422,7 @@ False-positive reduction
 
 <div align="center">
 
-## GitHub Activity & Work
+## GitHub Work
 
 <p>
   <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
@@ -447,7 +451,7 @@ False-positive reduction
 
 <div align="center">
 
-### What I Work On
+### Main Areas
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3200&pause=950&center=true&vCenter=true&width=900&lines=Launcher+%C2%B7+Client+%C2%B7+Authentication+%C2%B7+Identity;Backend+Services+%C2%B7+APIs+%C2%B7+Security+%C2%B7+Infrastructure;Testing+%C2%B7+Release+Engineering+%C2%B7+Documentation+%C2%B7+Platform+Design" alt="Animated development activity" />
 
@@ -457,7 +461,7 @@ False-positive reduction
 <tr>
 <td width="33.33%" align="center" valign="top">
 
-### Product Engineering
+### Launcher & Platform
 
 Launcher & client systems  
 Profiles & customization  
@@ -467,7 +471,7 @@ UI/UX & product flows
 </td>
 <td width="33.33%" align="center" valign="top">
 
-### Identity & Security
+### Auth & Security
 
 Microsoft/Minecraft auth  
 Account linking & verification  
@@ -477,10 +481,10 @@ Abuse protection & validation
 </td>
 <td width="33.33%" align="center" valign="top">
 
-### Backend & Operations
+### Backend & Release
 
 REST APIs & services  
-Release & update infrastructure  
+Updates and releases  
 Testing & build verification  
 Security & compliance docs
 
@@ -490,7 +494,7 @@ Security & compliance docs
 
 <div align="center">
 
-### Repository Work
+### Project Files
 
 [![Architecture](https://img.shields.io/badge/ARCHITECTURE-System%20Design-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md)
 [![Authentication](https://img.shields.io/badge/AUTHENTICATION-Microsoft%20%26%20Minecraft-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/AUTHENTICATION.md)
@@ -518,7 +522,7 @@ Security & compliance docs
 
 <div align="center">
 
-## Project Ecosystem
+## Projects
 
 <table align="center" width="100%">
 <tr>
@@ -555,7 +559,7 @@ Packet Detection · Prediction · Combat · Staff Tooling · Integrations · Rel
 ![Profile Views](https://komarev.com/ghpvc/?username=Lapinite&style=flat-square&label=PROFILE+VIEWS)
 ![Active Products](https://img.shields.io/badge/ACTIVE%20PRODUCTS-2-555?style=flat-square)
 ![Primary Runtime](https://img.shields.io/badge/JAVA-21-555?style=flat-square&logo=openjdk)
-![Focus](https://img.shields.io/badge/FOCUS-SECURITY%20%26%20PLATFORM-555?style=flat-square)
+![Focus](https://img.shields.io/badge/FOCUS-LAUNCHER%20%26%20SECURITY-555?style=flat-square)
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3600&pause=1200&center=true&vCenter=true&width=720&lines=Leviathan+%C2%B7+Nimbus+AntiCheat;Launchers+%C2%B7+Security+%C2%B7+Identity+%C2%B7+APIs;Building+connected+Minecraft+software+systems" alt="Animated portfolio footer" />
 
