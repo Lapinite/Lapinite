@@ -269,8 +269,16 @@ Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, 
 <h2 align="center">GitHub Work</h2>
 
 <p align="center">
-  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=Lapinite&show_icons=true&include_all_commits=true&hide_border=true&theme=transparent" alt="Lapinite GitHub statistics" />
-  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lapinite&layout=compact&langs_count=8&hide_border=true&theme=transparent" alt="Lapinite top languages" />
+  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=Lapinite&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=percentile&number_format=long&hide_border=true&theme=transparent" alt="Lapinite GitHub statistics" />
+  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lapinite&layout=compact&langs_count=12&size_weight=0.5&count_weight=0.5&hide_border=true&theme=transparent" alt="Lapinite top languages" />
+</p>
+
+<h3 align="center">Repository Data</h3>
+
+<p align="center">
+  <a href="https://github.com/Lapinite/Leviathan-Launcher">
+    <img width="58%" src="https://github-stats-extended.vercel.app/api/pin/?username=Lapinite&repo=Leviathan-Launcher&show_owner=false&hide_border=true&theme=transparent" alt="Leviathan Launcher repository statistics" />
+  </a>
 </p>
 
 <div align="center">
