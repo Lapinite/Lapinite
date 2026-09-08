@@ -4,32 +4,13 @@
 
 ### Minecraft projects: Leviathan & Nimbus
 
-**Launchers | Clients | AntiCheat | Authentication | Identity | Backend Services | Security | APIs | Infrastructure | Platform Systems**
+Building Minecraft software across launchers, client systems, authentication, backend services, security, APIs and server tooling.
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3200&pause=900&center=true&vCenter=true&width=820&lines=Building+Leviathan+%E2%80%94+launcher+%26+connected+platform;Developing+Nimbus+%E2%80%94+packet-based+server+security;Authentication+%C2%B7+Identity+%C2%B7+APIs+%C2%B7+Security+%C2%B7+Infrastructure" alt="Animated project focus" />
-
-<br>
-
-[![Leviathan](https://img.shields.io/badge/LEVIATHAN-Launcher%20%26%20Platform-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
-[![Nimbus](https://img.shields.io/badge/NIMBUS-AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
-
-<br>
-
-![Products](https://img.shields.io/badge/ACTIVE%20PRODUCTS-2-555?style=flat-square)
-![Runtime](https://img.shields.io/badge/PRIMARY%20RUNTIME-JAVA%2021-555?style=flat-square&logo=openjdk)
-![Focus](https://img.shields.io/badge/FOCUS-LAUNCHER%20%26%20SECURITY-555?style=flat-square)
-
-<br>
-
-[GitHub](https://github.com/Lapinite) |
-[Discord](https://discord.gg/MREADUBJ97) |
-[YouTube](https://youtube.com/@leviathanclient) |
-[Instagram](https://instagram.com/leviathanclient) |
-[X](https://x.com/leviathanrealm) |
-[Twitch](https://twitch.tv/leviathanclient) |
-[Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
+[GitHub](https://github.com/Lapinite) | [Discord](https://discord.gg/MREADUBJ97) | [YouTube](https://youtube.com/@leviathanclient) | [Instagram](https://instagram.com/leviathanclient) | [X](https://x.com/leviathanrealm) | [Twitch](https://twitch.tv/leviathanclient) | [Bluesky](https://bsky.app/profile/leviathanclient.bsky.social)
 
 </div>
+
+---
 
 <h2 align="center">Featured Projects</h2>
 
@@ -45,6 +26,10 @@ Custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, update
 
 <sub>Java | Microsoft Auth | Minecraft Services | REST APIs</sub>
 
+<br><br>
+
+**[View on GitHub →](https://github.com/Lapinite/Leviathan-Launcher)**
+
 </td>
 <td width="50%" valign="top" align="center">
 
@@ -56,33 +41,13 @@ Server-side AntiCheat focused on packet analysis, movement prediction, combat va
 
 <sub>Java 21 | Paper | PacketEvents | Prediction</sub>
 
-</td>
-</tr>
-<tr>
-<td width="50%" align="center">
+<br><br>
 
-**[GitHub →](https://github.com/Lapinite/Leviathan-Launcher)**
-
-</td>
-<td width="50%" align="center">
-
-**[SpigotMC →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
+**[View on SpigotMC →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
 
 </td>
 </tr>
 </table>
-
-
-<div align="center">
-
-## Project Links
-
-[![Leviathan](https://img.shields.io/badge/Leviathan-Repository-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
-[![Nimbus](https://img.shields.io/badge/Nimbus-SpigotMC-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
-[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
-
-</div>
-
 
 <div align="center">
 
