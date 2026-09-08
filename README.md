@@ -189,10 +189,7 @@ Testing · updates · release manifests · checksums · deployment
 </tr>
 </table>
 
-<details align="center">
-<summary><strong>▸ More Engineering Details</strong></summary>
-
-<br>
+### More Engineering Details
 
 <table align="center" width="100%">
 <tr>
@@ -218,8 +215,6 @@ Testing · updates · release manifests · checksums · deployment
 </td>
 </tr>
 </table>
-
-</details>
 
 ---
 
@@ -260,10 +255,7 @@ Testing · updates · release manifests · checksums · deployment
 </tr>
 </table>
 
-<details align="center">
-<summary><strong>▸ Full Tech Stack</strong></summary>
-
-<br>
+### Full Tech Stack
 
 <table align="center" width="100%">
 <tr>
@@ -291,8 +283,6 @@ Blender · Photoshop · Illustrator · After Effects · Canva · UI/UX · produc
 </td>
 </tr>
 </table>
-
-</details>
 
 ---
 
@@ -350,10 +340,7 @@ Reducing false positives
 
 </div>
 
-<details align="center">
-<summary><strong>▸ Leviathan — Detailed What I’m Working On</strong></summary>
-
-<br>
+### Leviathan — What I’m Working On
 
 <table align="center" width="100%">
 <tr>
@@ -382,12 +369,7 @@ Reducing false positives
 </tr>
 </table>
 
-</details>
-
-<details align="center">
-<summary><strong>▸ Nimbus AntiCheat — Detailed What I’m Working On</strong></summary>
-
-<br>
+### Nimbus AntiCheat — What I’m Working On
 
 <table align="center" width="100%">
 <tr>
@@ -415,8 +397,6 @@ Reducing false positives
 </td>
 </tr>
 </table>
-
-</details>
 
 ---
 
