@@ -47,9 +47,9 @@ I use this profile for my Minecraft projects, mainly **Leviathan** and **Nimbus*
 
 ### Leviathan
 
-I’m building a Minecraft launcher and the services around it.
+**Minecraft launcher & platform**
 
-That includes:
+Building the launcher, account systems and connected player features.
 
 - launcher and client systems
 - Microsoft/Minecraft sign-in
@@ -63,9 +63,9 @@ That includes:
 
 ### Nimbus
 
-Nimbus is my server-side AntiCheat project.
+**Server-side Minecraft AntiCheat**
 
-Most of the work is around:
+Focused on reliable packet-based detection and staff tooling.
 
 - packet checks
 - movement prediction
@@ -85,50 +85,38 @@ Most of the work is around:
 <tr>
 <td width="50%" valign="top" align="center">
 
-<h3>Leviathan</h3>
+### Leviathan
 
-<strong>Minecraft launcher & connected platform</strong>
+**Minecraft launcher & platform**
 
-<p>
-A custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, updates, customization and account features.
-</p>
+Custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, updates, customization and connected account features.
 
-<p>
-I’m also building the account, social, cosmetic, marketplace and backend systems around the launcher.
-</p>
-
-<strong>Core</strong><br>
-Java | Desktop Client | Microsoft Auth | Minecraft Services | APIs | Identity | Platform Services
+**Core stack**  
+Java | Desktop Client | Microsoft Auth | Minecraft Services | REST APIs
 
 </td>
 <td width="50%" valign="top" align="center">
 
-<h3>Nimbus AntiCheat</h3>
+### Nimbus AntiCheat
 
-<strong>Packet-based Minecraft anticheat</strong>
+**Packet-based Minecraft AntiCheat**
 
-<p>
-A packet-based server AntiCheat focused on movement, combat and reliable detection.
-</p>
+Server-side AntiCheat focused on packet analysis, movement prediction, combat validation and reliable detection.
 
-<p>
-It also includes staff tools, reports, integrations and configuration for tuning checks.
-</p>
-
-<strong>Core</strong><br>
-Java 21 | Paper | PacketEvents | Prediction | Async Processing | Server Security
+**Core stack**  
+Java 21 | Paper | PacketEvents | Prediction | Async Processing
 
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 
-**[View on GitHub →](https://github.com/Lapinite/Leviathan-Launcher)**
+**[View Leviathan →](https://github.com/Lapinite/Leviathan-Launcher)**
 
 </td>
 <td width="50%" align="center">
 
-**[View on SpigotMC →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
+**[View Nimbus →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
 
 </td>
 </tr>
