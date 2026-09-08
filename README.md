@@ -145,6 +145,41 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 ---
 
+<h2 align="center">Why Follow This Profile?</h2>
+
+<table align="center" width="100%">
+<tr>
+<td width="33.33%" align="center" valign="top">
+
+### Building in Public
+Architecture, authentication, security, launcher systems, backend services and connected platform design.
+
+</td>
+<td width="33.33%" align="center" valign="top">
+
+### Minecraft Engineering
+Desktop clients, server software, packet-level systems, AntiCheat research and platform integrations.
+
+</td>
+<td width="33.33%" align="center" valign="top">
+
+### Product + Engineering
+From low-level systems and APIs to UI/UX, release workflows, documentation and player-facing experiences.
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+[![Explore Leviathan](https://img.shields.io/badge/EXPLORE-Leviathan-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
+[![View Nimbus](https://img.shields.io/badge/VIEW-Nimbus%20AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
+[![Join Discord](https://img.shields.io/badge/JOIN-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/MREADUBJ97)
+
+</div>
+
+---
+
 <h2 align="center">Engineering Areas</h2>
 
 <table align="center" width="100%">
@@ -303,6 +338,14 @@ Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva 
 
 ---
 
+<div align="center">
+
+## Currently Building
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=900&center=true&vCenter=true&width=840&lines=Leviathan%3A+launcher+%C2%B7+identity+%C2%B7+security+%C2%B7+platform+services;Nimbus%3A+packet+detection+%C2%B7+prediction+%C2%B7+staff+tooling;Shared%3A+APIs+%C2%B7+release+engineering+%C2%B7+infrastructure+%C2%B7+documentation" alt="Current development focus" />
+
+</div>
+
 <h2 align="center">Current Focus</h2>
 
 <table align="center" width="100%">
@@ -435,6 +478,20 @@ Java 21 · Paper/Bukkit/Spigot · Skript (.sk) · REST APIs · backend services 
 `Security` · `Reliability` · `Performance` · `Clean Architecture` · `Identity` · `Account Protection` · `Server Integration` · `Developer Workflow` · `Player & Staff Experience`
 
 </p>
+
+---
+
+<div align="center">
+
+### Explore the Work
+
+[Leviathan Repository](https://github.com/Lapinite/Leviathan-Launcher) ·
+[Architecture](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md) ·
+[Authentication](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/AUTHENTICATION.md) ·
+[Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md) ·
+[Roadmap](https://github.com/Lapinite/Leviathan-Launcher/blob/main/ROADMAP.md)
+
+</div>
 
 ---
 
