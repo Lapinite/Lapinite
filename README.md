@@ -37,33 +37,9 @@
 
 ## About
 
-I use this profile for my Minecraft projects, mainly **Leviathan** and **Nimbus**.
+I build Minecraft software, mainly **Leviathan** and **Nimbus**.
 
 </div>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top" align="center">
-
-### Leviathan
-
-**Minecraft launcher & platform**
-
-Launcher, accounts, APIs, security, social systems and connected player features.
-
-</td>
-<td width="50%" valign="top" align="center">
-
-### Nimbus
-
-**Server-side Minecraft AntiCheat**
-
-Packet-based detection, prediction, combat checks, staff tooling and reliability.
-
-</td>
-</tr>
-</table>
-
 
 <h2 align="center">Featured Projects</h2>
 
@@ -73,12 +49,11 @@ Packet-based detection, prediction, combat checks, staff tooling and reliability
 
 ### Leviathan
 
-**Minecraft launcher & connected platform**
+**Minecraft launcher & platform**
 
-Custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, updates, customization and platform services.
+Custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, updates, customization, account systems and connected platform features.
 
-**Stack**  
-Java | Microsoft Auth | Minecraft Services | REST APIs
+`Java` `Microsoft Auth` `Minecraft Services` `REST APIs`
 
 </td>
 <td width="50%" valign="top" align="center">
@@ -87,10 +62,9 @@ Java | Microsoft Auth | Minecraft Services | REST APIs
 
 **Packet-based server AntiCheat**
 
-Built around packet analysis, movement prediction, combat validation and false-positive reduction.
+Server-side AntiCheat focused on packet analysis, movement prediction, combat validation, staff tooling and reliable detection.
 
-**Stack**  
-Java 21 | Paper | PacketEvents | Prediction
+`Java 21` `Paper` `PacketEvents` `Prediction`
 
 </td>
 </tr>
