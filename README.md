@@ -269,8 +269,8 @@ Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, 
 <h2 align="center">GitHub Work</h2>
 
 <p align="center">
-  <img width="49%" src="./profile/stats.svg" alt="GitHub statistics" />
-  <img width="49%" src="./profile/top-langs.svg" alt="Top languages" />
+  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=Lapinite&show_icons=true&include_all_commits=true&hide_border=true&theme=transparent" alt="Lapinite GitHub statistics" />
+  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lapinite&layout=compact&langs_count=8&hide_border=true&theme=transparent" alt="Lapinite top languages" />
 </p>
 
 <div align="center">
