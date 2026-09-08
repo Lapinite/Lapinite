@@ -268,37 +268,10 @@ Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, 
 
 <h2 align="center">GitHub Work</h2>
 
-<div align="center">
-
-**Launcher, authentication, backend, security, release engineering and documentation.**
-
-</div>
-
-
-<p>
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
+<p align="center">
+  <img width="49%" src="./profile/stats.svg" alt="GitHub statistics" />
+  <img width="49%" src="./profile/top-langs.svg" alt="Top languages" />
 </p>
-
-</div>
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" align="center" valign="top">
-
-### Activity
-
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Lapinite&theme=github_dark" alt="GitHub profile statistics" />
-
-</td>
-<td width="50%" align="center" valign="top">
-
-### Productive Time
-
-<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Lapinite&theme=github_dark&utcOffset=2" alt="GitHub productive time" />
-
-</td>
-</tr>
-</table>
 
 <div align="center">
 
@@ -334,29 +307,22 @@ Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, 
 <h2 align="center">Connect</h2>
 
 <p align="center">
-  <a href="https://github.com/Lapinite">
-    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/github.svg" alt="GitHub" />
-  </a>
+  <a href="https://github.com/Lapinite"><img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" alt="GitHub"></a>
   &nbsp;&nbsp;
-  <a href="https://discord.gg/MREADUBJ97">
-    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/discord.svg" alt="Discord" />
-  </a>
+  <a href="https://discord.gg/MREADUBJ97"><img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/discord.svg" alt="Discord"></a>
   &nbsp;&nbsp;
-  <a href="https://youtube.com/@leviathanclient">
-    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/youtube.svg" alt="YouTube" />
-  </a>
+  <a href="https://youtube.com/@leviathanclient"><img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/youtube.svg" alt="YouTube"></a>
   &nbsp;&nbsp;
-  <a href="https://instagram.com/leviathanclient">
-    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/instagram.svg" alt="Instagram" />
-  </a>
+  <a href="https://instagram.com/leviathanclient"><img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/instagram.svg" alt="Instagram"></a>
   &nbsp;&nbsp;
-  <a href="https://twitch.tv/leviathanclient">
-    <img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/refs/heads/main/large/filled/twitch.svg" alt="Twitch" />
-  </a>
+  <a href="https://twitch.tv/leviathanclient"><img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/twitch.svg" alt="Twitch"></a>
 </p>
 
 <p align="center">
-  <a href="https://x.com/leviathanrealm">X</a> |
+  <a href="https://x.com/leviathanrealm"><img width="32" height="32" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/twitter-x.svg" alt="X"></a>
+</p>
+
+<p align="center">
   <a href="https://bsky.app/profile/leviathanclient.bsky.social">Bluesky</a>
 </p>
 
