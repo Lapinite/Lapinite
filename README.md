@@ -186,25 +186,35 @@ Async processing · testing · update delivery · release manifests · checksums
 </table>
 
 <details align="center">
-<summary><strong>View detailed engineering areas</strong></summary>
+<summary><strong>▸ Detailed Engineering Areas</strong></summary>
 
-<div align="left">
+<br>
 
-| Area | Systems |
-| --- | --- |
-| **Launcher & Client** | Desktop launcher · installations · instances · updates · profiles · customization · game management · client systems |
-| **AntiCheat & Detection** | Packet inspection · movement prediction · combat validation · world checks · inventory checks · violation systems · false-positive calibration |
-| **Authentication & Identity** | Microsoft authentication · Minecraft accounts · account linking · verification · sessions · player identity · permissions · privacy |
-| **Backend & APIs** | REST APIs · embedded HTTP services · account services · platform services · integrations · data flows |
-| **Security** | Rate limiting · abuse protection · session security · account recovery · server hardening · validation · trust and safety flows |
-| **Minecraft Server Systems** | Paper/Bukkit plugins · Skript (.sk) · commands · events · GUIs · automation · PacketEvents · staff tools · reports · permissions · integrations |
-| **Performance & Reliability** | Async processing · latency compensation · TPS monitoring · lag-aware checks · build verification · regression testing |
-| **Social & Community** | Profiles · friends · presence · privacy controls · player interaction · connected community features |
-| **Creators & Economy** | Creator tools · cosmetics · inventories · ownership · marketplace systems · virtual currency · gifting |
-| **Infrastructure & Release** | Update delivery · deployment planning · release manifests · checksums · dependency management · service architecture |
-| **Product & Documentation** | UI & UX · product flows · launcher interfaces · staff tools · branding · technical documentation |
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
 
-</div>
+### Product & Platform
+
+- **Launcher & Client** — installations, instances, updates, profiles, customization, game management
+- **Authentication & Identity** — Microsoft/Minecraft auth, linking, verification, sessions, privacy, recovery
+- **Social & Community** — profiles, friends, presence, privacy controls, connected player features
+- **Creators & Economy** — creator tools, cosmetics, inventories, ownership, marketplace architecture
+
+</td>
+<td width="50%" valign="top">
+
+### Security & Infrastructure
+
+- **AntiCheat & Detection** — packet inspection, movement prediction, combat validation, false-positive reduction
+- **Backend & APIs** — REST APIs, embedded services, account/platform services, integrations, data flows
+- **Security** — rate limiting, abuse protection, account recovery, server hardening, validation
+- **Release & Reliability** — async processing, testing, update delivery, manifests, checksums, deployment planning
+
+</td>
+</tr>
+</table>
+
 </details>
 
 ---
@@ -247,43 +257,37 @@ Async processing · testing · update delivery · release manifests · checksums
 </table>
 
 <details align="center">
-<summary><strong>Authentication, security & integrations</strong></summary>
+<summary><strong>▸ Full Technology Stack</strong></summary>
 
-<div align="left">
+<br>
 
-Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
 
-</div>
-</details>
+### Application & Backend
 
-<details align="center">
-<summary><strong>Application, backend & web</strong></summary>
+Desktop applications · client systems · embedded Java HTTP services · REST APIs · React · Node.js · FastAPI · MySQL · Progressive Web Apps · Service Workers · responsive interfaces · account services · platform services
 
-<div align="left">
+### Authentication & Security
 
-Desktop applications · client systems · embedded Java HTTP services · REST-style JSON APIs · React · Node.js · FastAPI · MySQL · Progressive Web Apps · Service Workers · responsive desktop/mobile interfaces · account services · platform services
+Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord integrations
 
-</div>
-</details>
+</td>
+<td width="50%" valign="top">
 
-<details align="center">
-<summary><strong>Minecraft & server engineering</strong></summary>
+### Minecraft & Server
 
-<div align="left">
+Paper API · Bukkit API · SpigotMC · PacketEvents · Skript · Citizens API · LiteBans API · PlaceholderAPI · packet handling · movement prediction · combat validation · AntiCheat systems · latency compensation · TPS monitoring · server hardening
 
-Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · PacketEvents · Citizens API · LiteBans API · PlaceholderAPI · packet handling · movement prediction · combat validation · AntiCheat systems · latency compensation · TPS monitoring · server hardening · compatibility checks
+### Creative & Release
 
-</div>
-</details>
+Blender · Photoshop · Illustrator · After Effects · Canva · UI/UX · product design · branding · technical documentation · release manifests · SHA-256 checksums · regression testing · build verification
 
-<details align="center">
-<summary><strong>Creative, product & release tools</strong></summary>
+</td>
+</tr>
+</table>
 
-<div align="left">
-
-Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI/UX · product design · branding · documentation · release manifests · SHA-256 checksums · regression testing · build verification
-
-</div>
 </details>
 
 ---
@@ -343,45 +347,71 @@ False-positive reduction
 </div>
 
 <details align="center">
-<summary><strong>Leviathan — detailed current work</strong></summary>
+<summary><strong>▸ Leviathan — Detailed Current Work</strong></summary>
 
-<div align="left">
+<br>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### Launcher & Identity
 
 - Desktop launcher and client experience
 - Minecraft installation and instance management
-- Microsoft/Minecraft authentication and account linking
-- Identity, sessions, device trust and recovery
+- Microsoft/Minecraft authentication
+- Account linking and ownership verification
+- Sessions, device trust and recovery
+
+</td>
+<td width="50%" valign="top">
+
+### Platform & Operations
+
 - Profiles, social and connected player services
 - Creator, cosmetic and economy architecture
-- Backend APIs, service boundaries and server integrations
+- Backend APIs and service boundaries
+- Server integrations
 - Update delivery, monitoring and release automation
 
-</div>
+</td>
+</tr>
+</table>
+
 </details>
 
 <details align="center">
-<summary><strong>Nimbus AntiCheat — detailed current work</strong></summary>
+<summary><strong>▸ Nimbus AntiCheat — Detailed Current Work</strong></summary>
 
-<div align="left">
+<br>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### Detection & Accuracy
 
 - Packet inspection and movement prediction
 - Combat, world and inventory validation
-- Latency compensation and false-positive reduction
-- Staff alerts, reports and inspection tools
-- External integrations and server hardening
+- Latency compensation
+- False-positive reduction
+- Calibration and configurable thresholds
+
+</td>
+<td width="50%" valign="top">
+
+### Staff & Reliability
+
+- Alerts, reports and inspection tools
+- Violation history and moderation workflows
+- External integrations
 - Async processing and compatibility validation
+- Server hardening and performance safeguards
 
-</div>
-</details>
+</td>
+</tr>
+</table>
 
-<details align="center">
-<summary><strong>Shared engineering</strong></summary>
-
-<div align="left">
-
-Java 21 · backend services · authentication · security · APIs · testing · release engineering · UI/UX · infrastructure · documentation
-
-</div>
 </details>
 
 ---
