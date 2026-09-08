@@ -32,7 +32,7 @@
 
 </div>
 
----
+-
 
 <div align="center">
 
@@ -79,7 +79,7 @@ Most of the work is around:
 </tr>
 </table>
 
----
+-
 
 <h2 align="center">Featured Projects</h2>
 
@@ -136,7 +136,7 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 </tr>
 </table>
 
----
+-
 
 <div align="center">
 
@@ -152,7 +152,7 @@ Java 21 · Paper · PacketEvents · Prediction · Async Processing · Server Sec
 
 </div>
 
----
+-
 
 <h2 align="center">Engineering Areas</h2>
 
@@ -189,7 +189,7 @@ Testing · updates · release manifests · checksums · deployment
 </tr>
 </table>
 
-### More Engineering Details
+<h3 align="center">More Engineering Details</h3>
 
 <table align="center" width="100%">
 <tr>
@@ -197,26 +197,26 @@ Testing · updates · release manifests · checksums · deployment
 
 ### Product & Platform
 
-- **Launcher & Client** — installations, instances, updates, profiles, customization, game management
-- **Authentication & Identity** — Microsoft/Minecraft auth, linking, verification, sessions, privacy, recovery
-- **Social & Community** — profiles, friends, presence, privacy controls, connected player features
-- **Creators & Economy** — creator tools, cosmetics, inventories, ownership, marketplace architecture
+- **Launcher & Client**: installations, instances, updates, profiles, customization, game management
+- **Authentication & Identity**: Microsoft/Minecraft auth, linking, verification, sessions, privacy, recovery
+- **Social & Community**: profiles, friends, presence, privacy controls, connected player features
+- **Creators & Economy**: creator tools, cosmetics, inventories, ownership, marketplace architecture
 
 </td>
 <td width="50%" valign="top">
 
 ### Security & Infrastructure
 
-- **AntiCheat & Detection** — packet inspection, movement prediction, combat validation, false-positive reduction
-- **Backend & APIs** — REST APIs, embedded services, account/platform services, integrations, data flows
-- **Security** — rate limiting, abuse protection, account recovery, server hardening, validation
-- **Release & Reliability** — async processing, testing, update delivery, manifests, checksums, deployment planning
+- **AntiCheat & Detection**: packet inspection, movement prediction, combat validation, false-positive reduction
+- **Backend & APIs**: REST APIs, embedded services, account/platform services, integrations, data flows
+- **Security**: rate limiting, abuse protection, account recovery, server hardening, validation
+- **Release & Reliability**: async processing, testing, update delivery, manifests, checksums, deployment planning
 
 </td>
 </tr>
 </table>
 
----
+-
 
 <h2 align="center">Technology</h2>
 
@@ -255,7 +255,7 @@ Testing · updates · release manifests · checksums · deployment
 </tr>
 </table>
 
-### Full Tech Stack
+<h3 align="center">Full Tech Stack</h3>
 
 <table align="center" width="100%">
 <tr>
@@ -284,7 +284,7 @@ Blender · Photoshop · Illustrator · After Effects · Canva · UI/UX · produc
 </tr>
 </table>
 
----
+-
 
 <div align="center">
 
@@ -340,7 +340,7 @@ Reducing false positives
 
 </div>
 
-### Leviathan — What I’m Working On
+<h3 align="center">Leviathan: What I’m Working On</h3>
 
 <table align="center" width="100%">
 <tr>
@@ -369,7 +369,7 @@ Reducing false positives
 </tr>
 </table>
 
-### Nimbus AntiCheat — What I’m Working On
+<h3 align="center">Nimbus AntiCheat: What I’m Working On</h3>
 
 <table align="center" width="100%">
 <tr>
@@ -398,7 +398,7 @@ Reducing false positives
 </tr>
 </table>
 
----
+-
 
 <div align="center">
 
@@ -498,7 +498,7 @@ Security & compliance docs
 
 </div>
 
----
+-
 
 <div align="center">
 
@@ -545,7 +545,7 @@ Packet Detection · Prediction · Combat · Staff Tooling · Integrations · Rel
 
 </div>
 
----
+-
 
 <div align="center">
 
