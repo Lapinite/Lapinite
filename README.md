@@ -200,7 +200,7 @@ Server-side AntiCheat focused on packet analysis, movement prediction, combat va
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,mysql,azure,cloudflare,maven,git,github,githubactions,gitlab,sentry,windows,discord&perline=14" alt="Platforms and tooling" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,fastapi,mysql,azure,cloudflare,maven,git,github,githubactions,gitlab,sentry,windows,discord&perline=14" alt="Development platforms and tooling" />
 </p>
 
 <p align="center">
@@ -213,30 +213,30 @@ Server-side AntiCheat focused on packet analysis, movement prediction, combat va
 
 ### Languages & Markup
 
-Java 21 | JavaScript | PHP | Kotlin | Python | C | C++ | C# | Lua | PowerShell | Skript | HTML | CSS | Markdown | JSON | YAML
+Java 21, JavaScript, PHP, Kotlin, Python, C, C++, C#, Lua, PowerShell, Skript, HTML, CSS, Markdown, JSON, YAML
 
 ### Frontend & Web
 
-React | HTML/CSS/JavaScript | Fetch API | Progressive Web Apps | Service Workers | localStorage | responsive desktop/mobile interfaces
+React, HTML/CSS/JavaScript, Fetch API, Progressive Web Apps, Service Workers, localStorage, responsive desktop/mobile interfaces
 
 ### Backend & Data
 
-Java services | embedded Java HTTP services | Node.js | FastAPI | REST APIs | MySQL | account services | platform services | JSON APIs
+Java services, embedded Java HTTP services, Node.js, FastAPI, REST APIs, MySQL, account services, platform services, JSON APIs
 
 </td>
 <td width="50%" valign="top">
 
 ### Minecraft & Server
 
-Paper API | Bukkit API | SpigotMC | PacketEvents | Citizens API | PlaceholderAPI | LiteBans API | Skript | plugin messaging | server automation
+Paper API, Bukkit API, SpigotMC, PacketEvents, Citizens API, PlaceholderAPI, LiteBans API, Skript, plugin messaging, server automation
 
 ### Infrastructure & Workflow
 
-Azure | Cloudflare | Git | GitHub | GitHub Actions | GitLab | Maven | Sentry | Windows | PowerShell | CMD scripting | ProGuard
+Azure, Cloudflare, Git, GitHub, GitHub Actions, GitLab, Maven, Sentry, Windows, PowerShell, CMD scripting, ProGuard
 
 ### Testing & Release
 
-JUnit 5 | unit tests | regression tests | API smoke tests | PowerShell smoke tests | configuration validation | self-tests | package validation | SHA-256 | release manifests | build verification
+JUnit 5, unit testing, regression testing, API smoke testing, PowerShell smoke testing, configuration validation, self-tests, package validation, SHA-256 checksums, release manifests, build verification
 
 </td>
 </tr>
@@ -246,16 +246,20 @@ JUnit 5 | unit tests | regression tests | API smoke tests | PowerShell smoke tes
 <tr>
 <td width="50%" valign="top">
 
-### Authentication & Integrations
+### Authentication & Security
 
-Microsoft Identity / Entra | Microsoft Authentication | Minecraft Services | Xbox Services | OAuth | PKCE | Discord Rich Presence | Discord webhooks | Discord integrations
+Microsoft Identity / Entra, Microsoft Authentication, Minecraft Services, Xbox Services, OAuth, PKCE, account linking, session handling, rate limiting, abuse protection, security headers, Content Security Policy
+
+### Integrations
+
+Discord Rich Presence, Discord webhooks, Discord integrations
 
 </td>
 <td width="50%" valign="top">
 
 ### Creative & Product
 
-Blender | Adobe Photoshop | Adobe Illustrator | Adobe After Effects | Canva | UI/UX | product design | branding | technical documentation | platform specifications
+Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, product design, branding, technical documentation, platform specifications
 
 </td>
 </tr>
@@ -266,7 +270,7 @@ Blender | Adobe Photoshop | Adobe Illustrator | Adobe After Effects | Canva | UI
 
 <div align="center">
 
-**Recent work includes launcher architecture, Microsoft/Minecraft sign-in, account security, backend services, release controls and documentation.**
+**Launcher, authentication, backend, security, release engineering and documentation.**
 
 </div>
 
@@ -298,49 +302,6 @@ Blender | Adobe Photoshop | Adobe Illustrator | Adobe After Effects | Canva | UI
 
 <div align="center">
 
-### Main Areas
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3200&pause=950&center=true&vCenter=true&width=900&lines=Launcher+%C2%B7+Client+%C2%B7+Authentication+%C2%B7+Identity;Backend+Services+%C2%B7+APIs+%C2%B7+Security+%C2%B7+Infrastructure;Testing+%C2%B7+Release+Engineering+%C2%B7+Documentation+%C2%B7+Platform+Design" alt="Animated development activity" />
-
-</div>
-
-<table align="center" width="100%">
-<tr>
-<td width="33.33%" align="center" valign="top">
-
-### Launcher & Platform
-
-Launcher & client systems  
-Profiles & customization  
-Connected platform services  
-UI/UX & product flows
-
-</td>
-<td width="33.33%" align="center" valign="top">
-
-### Auth & Security
-
-Microsoft/Minecraft auth  
-Account linking & verification  
-Sessions & recovery  
-Abuse protection & validation
-
-</td>
-<td width="33.33%" align="center" valign="top">
-
-### Backend & Release
-
-REST APIs & services  
-Updates and releases  
-Testing & build verification  
-Security & compliance docs
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
 ### Project Files
 
 [![Architecture](https://img.shields.io/badge/ARCHITECTURE-System%20Design-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md)
@@ -362,66 +323,6 @@ Security & compliance docs
 <br><br>
 
 [![Contributions](https://img.shields.io/badge/CONTRIBUTIONS-View%20GitHub%20Activity-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite?tab=overview)
-
-</div>
-
-
-<div align="center">
-
-## Projects
-
-<table align="center" width="100%">
-<tr>
-<td width="50%" align="center" valign="top">
-
-### Leviathan
-
-[![Leviathan](https://img.shields.io/badge/Launcher%20%26%20Platform-Leviathan-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
-
-Authentication | Identity | Client Systems | Social | Creator | Economy | APIs | Security
-
-[Repository](https://github.com/Lapinite/Leviathan-Launcher) |
-[Docs](https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs) |
-[Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
-
-</td>
-<td width="50%" align="center" valign="top">
-
-### Nimbus AntiCheat
-
-[![Nimbus](https://img.shields.io/badge/Server%20Security-Nimbus%20AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
-
-Packet Detection | Prediction | Combat | Staff Tooling | Integrations | Reliability
-
-[SpigotMC](https://www.spigotmc.org/resources/nimbus-anticheat.136631/) |
-[GitHub Profile](https://github.com/Lapinite)
-
-</td>
-</tr>
-</table>
-
-<br>
-
-![Primary Runtime](https://img.shields.io/badge/JAVA-21-555?style=flat-square&logo=openjdk)
-![Focus](https://img.shields.io/badge/FOCUS-LAUNCHER%20%26%20SECURITY-555?style=flat-square)
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=13&duration=3600&pause=1200&center=true&vCenter=true&width=720&lines=Leviathan+%C2%B7+Nimbus+AntiCheat;Launchers+%C2%B7+Security+%C2%B7+Identity+%C2%B7+APIs;Building+connected+Minecraft+software+systems" alt="Animated portfolio footer" />
-
-</div>
-
-
-<div align="center">
-
-
-<div align="center">
-
-## Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/Lapinite/Lapinite/output/github-contribution-grid-snake.svg" />
-</picture>
 
 </div>
 
