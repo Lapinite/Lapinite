@@ -269,16 +269,36 @@ Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, 
 <h2 align="center">GitHub Work</h2>
 
 <p align="center">
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="Lapinite contribution and repository activity" />
+</p>
+
+<p align="center">
   <img width="49%" src="https://github-stats-extended.vercel.app/api?username=Lapinite&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=percentile&number_format=long&hide_border=true&theme=transparent" alt="Lapinite GitHub statistics" />
   <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lapinite&layout=compact&langs_count=12&size_weight=0.5&count_weight=0.5&hide_border=true&theme=transparent" alt="Lapinite top languages" />
 </p>
 
-<h3 align="center">Repository Data</h3>
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Lapinite&theme=github_dark" alt="Repositories per language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Lapinite&theme=github_dark" alt="Most committed languages" />
+</p>
+
+<p align="center">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Lapinite&theme=github_dark" alt="GitHub account totals" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Lapinite&theme=github_dark&utcOffset=2" alt="Productive commit time" />
+</p>
 
 <p align="center">
   <a href="https://github.com/Lapinite/Leviathan-Launcher">
     <img width="58%" src="https://github-stats-extended.vercel.app/api/pin/?username=Lapinite&repo=Leviathan-Launcher&show_owner=false&hide_border=true&theme=transparent" alt="Leviathan Launcher repository statistics" />
   </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/stargazers"><img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=flat&label=Stars" alt="Leviathan stars"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/network/members"><img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=flat&label=Forks" alt="Leviathan forks"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/issues"><img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Launcher?style=flat&label=Open%20Issues" alt="Open issues"></a>
+  <img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat&label=Last%20Commit" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat&label=Repo%20Size" alt="Repository size">
 </p>
 
 <div align="center">
