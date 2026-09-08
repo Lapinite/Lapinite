@@ -255,18 +255,18 @@ Testing | updates | release manifests | checksums | deployment
 
 ### Core Engineering
 
-`Java 21` · `C` · `C++` · `C#` · `JavaScript` · `Kotlin` · `Python`
+`Java 21` | `C` | `C++` | `C#` | `JavaScript` | `Kotlin` | `Python`
 
-`Paper` · `Bukkit` · `SpigotMC` · `PacketEvents` · `Skript` · `JUnit 5`
+`Paper` | `Bukkit` | `SpigotMC` | `PacketEvents` | `Skript` | `JUnit 5`
 
 </td>
 <td width="50%" valign="top">
 
 ### Platform & Infrastructure
 
-`React` · `Node.js` · `FastAPI` · `MySQL` · `Azure` · `Cloudflare`
+`React` | `Node.js` | `FastAPI` | `MySQL` | `Azure` | `Cloudflare`
 
-`Git` · `GitHub Actions` · `Maven` · `Sentry` · `Windows` · `ProGuard`
+`Git` | `GitHub Actions` | `Maven` | `Sentry` | `Windows` | `ProGuard`
 
 </td>
 </tr>
@@ -280,22 +280,22 @@ Testing | updates | release manifests | checksums | deployment
 
 ### Application & Backend
 
-Desktop applications · client systems · embedded Java HTTP services · REST APIs · React · Node.js · FastAPI · MySQL · Progressive Web Apps · Service Workers · responsive interfaces · account services · platform services
+Desktop applications, client systems, embedded Java HTTP services, REST APIs, React, Node.js, FastAPI, MySQL, Progressive Web Apps, Service Workers, responsive interfaces, account services, platform services
 
 ### Authentication & Security
 
-Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord integrations
+Microsoft Identity / Entra, Minecraft Services, Xbox Services, OAuth, PKCE, account linking, session handling, rate limiting, abuse protection, security headers, Content Security Policy, Discord integrations
 
 </td>
 <td width="50%" valign="top">
 
 ### Minecraft & Server
 
-Paper API · Bukkit API · SpigotMC · PacketEvents · Skript · Citizens API · LiteBans API · PlaceholderAPI · packet handling · movement prediction · combat validation · AntiCheat systems · latency compensation · TPS monitoring · server hardening
+Paper API, Bukkit API, SpigotMC, PacketEvents, Skript, Citizens API, LiteBans API, PlaceholderAPI, packet handling, movement prediction, combat validation, AntiCheat systems, latency compensation, TPS monitoring, server hardening
 
 ### Creative & Release
 
-Blender · Photoshop · Illustrator · After Effects · Canva · UI/UX · product design · branding · technical documentation · release manifests · SHA-256 checksums · regression testing · build verification
+Blender, Photoshop, Illustrator, After Effects, Canva, UI/UX, product design, branding, technical documentation, release manifests, SHA-256 checksums, regression testing, build verification
 
 </td>
 </tr>
@@ -346,7 +346,7 @@ Reducing false positives
 
 ### Shared Priorities
 
-`Security` · `Reliability` · `Performance` · `Clean Architecture` · `Identity` · `Account Protection` · `Server Integration` · `Developer Workflow`
+`Security` | `Reliability` | `Performance` | `Clean Architecture` | `Identity` | `Account Protection` | `Server Integration` | `Developer Workflow`
 
 <br><br>
 
@@ -436,7 +436,7 @@ These badges update automatically from the public Leviathan repository.
 
 
 <p align="center">
-  <strong>Nimbus AntiCheat 1.3.0</strong> · 52 total downloads · 0 ratings · first released Jun 30, 2026 · last updated Jul 7, 2026
+  <strong>Nimbus AntiCheat 1.3.0</strong> | 52 total downloads | 0 ratings | first released Jun 30, 2026 | last updated Jul 7, 2026
 </p>
 </div>
 
@@ -559,10 +559,10 @@ Security & compliance docs
 
 [![Leviathan](https://img.shields.io/badge/Launcher%20%26%20Platform-Leviathan-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
 
-Authentication · Identity · Client Systems · Social · Creator · Economy · APIs · Security
+Authentication | Identity | Client Systems | Social | Creator | Economy | APIs | Security
 
-[Repository](https://github.com/Lapinite/Leviathan-Launcher) ·
-[Docs](https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs) ·
+[Repository](https://github.com/Lapinite/Leviathan-Launcher) |
+[Docs](https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs) |
 [Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
 
 </td>
@@ -572,9 +572,9 @@ Authentication · Identity · Client Systems · Social · Creator · Economy · 
 
 [![Nimbus](https://img.shields.io/badge/Server%20Security-Nimbus%20AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
 
-Packet Detection · Prediction · Combat · Staff Tooling · Integrations · Reliability
+Packet Detection | Prediction | Combat | Staff Tooling | Integrations | Reliability
 
-[SpigotMC](https://www.spigotmc.org/resources/nimbus-anticheat.136631/) ·
+[SpigotMC](https://www.spigotmc.org/resources/nimbus-anticheat.136631/) |
 [GitHub Profile](https://github.com/Lapinite)
 
 </td>
@@ -624,10 +624,10 @@ Packet Detection · Prediction · Combat · Staff Tooling · Integrations · Rel
 
 <br><br>
 
-[Documentation](https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs) ·
-[Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md) ·
-[Support](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SUPPORT.md) ·
-[Legal](https://github.com/Lapinite/Leviathan-Launcher/blob/main/LEGAL.md) ·
+[Documentation](https://github.com/Lapinite/Leviathan-Launcher/tree/main/docs) |
+[Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md) |
+[Support](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SUPPORT.md) |
+[Legal](https://github.com/Lapinite/Leviathan-Launcher/blob/main/LEGAL.md) |
 [Contributing](https://github.com/Lapinite/Leviathan-Launcher/blob/main/CONTRIBUTING.md)
 
 <br><br>
