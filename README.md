@@ -185,8 +185,10 @@ Async processing · testing · update delivery · release manifests · checksums
 </tr>
 </table>
 
-<details>
+<details align="center">
 <summary><strong>View detailed engineering areas</strong></summary>
+
+<div align="left">
 
 | Area | Systems |
 | --- | --- |
@@ -202,6 +204,7 @@ Async processing · testing · update delivery · release manifests · checksums
 | **Infrastructure & Release** | Update delivery · deployment planning · release manifests · checksums · dependency management · service architecture |
 | **Product & Documentation** | UI & UX · product flows · launcher interfaces · staff tools · branding · technical documentation |
 
+</div>
 </details>
 
 ---
@@ -243,32 +246,44 @@ Async processing · testing · update delivery · release manifests · checksums
 </tr>
 </table>
 
-<details>
+<details align="center">
 <summary><strong>Authentication, security & integrations</strong></summary>
+
+<div align="left">
 
 Microsoft Identity / Entra · Minecraft Services · Xbox Services · OAuth · PKCE · account linking · session handling · rate limiting · abuse protection · security headers · Content Security Policy · Discord Rich Presence · Discord webhooks
 
+</div>
 </details>
 
-<details>
+<details align="center">
 <summary><strong>Application, backend & web</strong></summary>
+
+<div align="left">
 
 Desktop applications · client systems · embedded Java HTTP services · REST-style JSON APIs · React · Node.js · FastAPI · MySQL · Progressive Web Apps · Service Workers · responsive desktop/mobile interfaces · account services · platform services
 
+</div>
 </details>
 
-<details>
+<details align="center">
 <summary><strong>Minecraft & server engineering</strong></summary>
+
+<div align="left">
 
 Paper API · Bukkit API · SpigotMC · Minecraft Java plugin development · PacketEvents · Citizens API · LiteBans API · PlaceholderAPI · packet handling · movement prediction · combat validation · AntiCheat systems · latency compensation · TPS monitoring · server hardening · compatibility checks
 
+</div>
 </details>
 
-<details>
+<details align="center">
 <summary><strong>Creative, product & release tools</strong></summary>
+
+<div align="left">
 
 Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva · UI/UX · product design · branding · documentation · release manifests · SHA-256 checksums · regression testing · build verification
 
+</div>
 </details>
 
 ---
@@ -327,8 +342,10 @@ False-positive reduction
 
 </div>
 
-<details>
+<details align="center">
 <summary><strong>Leviathan — detailed current work</strong></summary>
+
+<div align="left">
 
 - Desktop launcher and client experience
 - Minecraft installation and instance management
@@ -339,10 +356,13 @@ False-positive reduction
 - Backend APIs, service boundaries and server integrations
 - Update delivery, monitoring and release automation
 
+</div>
 </details>
 
-<details>
+<details align="center">
 <summary><strong>Nimbus AntiCheat — detailed current work</strong></summary>
+
+<div align="left">
 
 - Packet inspection and movement prediction
 - Combat, world and inventory validation
@@ -351,13 +371,17 @@ False-positive reduction
 - External integrations and server hardening
 - Async processing and compatibility validation
 
+</div>
 </details>
 
-<details>
+<details align="center">
 <summary><strong>Shared engineering</strong></summary>
+
+<div align="left">
 
 Java 21 · backend services · authentication · security · APIs · testing · release engineering · UI/UX · infrastructure · documentation
 
+</div>
 </details>
 
 ---
@@ -448,23 +472,17 @@ Security & compliance docs
 
 </div>
 
-<details>
-<summary><strong>Contribution streak</strong></summary>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Lapinite&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
-</p>
+### Contribution Activity
 
-</details>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Lapinite&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
 
-<details>
-<summary><strong>Contribution activity graph</strong></summary>
+<br><br>
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
-</p>
+[![Contributions](https://img.shields.io/badge/CONTRIBUTIONS-View%20GitHub%20Activity-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite?tab=overview)
 
-</details>
+</div>
 
 ---
 
