@@ -275,27 +275,74 @@ Blender · Adobe Photoshop · Adobe Illustrator · Adobe After Effects · Canva 
 
 <div align="center">
 
-## Currently Building
+## Current Work
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=3000&pause=900&center=true&vCenter=true&width=900&lines=Leviathan%3A+launcher+%C2%B7+identity+%C2%B7+security+%C2%B7+platform+services;Nimbus%3A+packet+detection+%C2%B7+prediction+%C2%B7+staff+tooling;Shared%3A+APIs+%C2%B7+release+engineering+%C2%B7+infrastructure+%C2%B7+documentation" alt="Current development focus" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=3000&pause=900&center=true&vCenter=true&width=860&lines=Leviathan%3A+launcher+%C2%B7+identity+%C2%B7+security+%C2%B7+platform+services;Nimbus%3A+packet+detection+%C2%B7+prediction+%C2%B7+staff+tooling;Shared%3A+APIs+%C2%B7+release+engineering+%C2%B7+infrastructure+%C2%B7+documentation" alt="Current development focus" />
+
+</div>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" align="center" valign="top">
+
+### Leviathan
+**Launcher & connected platform**
+
+Launcher/client systems  
+Microsoft/Minecraft authentication  
+Identity & account security  
+Social & creator systems  
+Backend APIs & platform services  
+Release & update infrastructure
+
+</td>
+<td width="50%" align="center" valign="top">
+
+### Nimbus AntiCheat
+**Packet-based server security**
+
+Packet inspection & prediction  
+Movement & combat validation  
+Latency compensation  
+Staff inspection tooling  
+Integrations & automation  
+False-positive reduction
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### Shared Priorities
+
+`Security` · `Reliability` · `Performance` · `Clean Architecture` · `Identity` · `Account Protection` · `Server Integration` · `Developer Workflow`
+
+<br><br>
+
+[![Leviathan](https://img.shields.io/badge/EXPLORE-Leviathan-0d1117?style=for-the-badge&logo=github)](https://github.com/Lapinite/Leviathan-Launcher)
+[![Architecture](https://img.shields.io/badge/VIEW-Architecture-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md)
+[![Security](https://img.shields.io/badge/VIEW-Security-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
+[![Nimbus](https://img.shields.io/badge/VIEW-Nimbus%20AntiCheat-0d1117?style=for-the-badge)](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)
 
 </div>
 
 <details>
-<summary><strong>Leviathan — current work</strong></summary>
+<summary><strong>Leviathan — detailed current work</strong></summary>
 
-- Launcher & client experience
+- Desktop launcher and client experience
+- Minecraft installation and instance management
 - Microsoft/Minecraft authentication and account linking
 - Identity, sessions, device trust and recovery
-- Social, creator and connected player services
-- Cosmetics, inventories and marketplace architecture
+- Profiles, social and connected player services
+- Creator, cosmetic and economy architecture
 - Backend APIs, service boundaries and server integrations
 - Update delivery, monitoring and release automation
 
 </details>
 
 <details>
-<summary><strong>Nimbus AntiCheat — current work</strong></summary>
+<summary><strong>Nimbus AntiCheat — detailed current work</strong></summary>
 
 - Packet inspection and movement prediction
 - Combat, world and inventory validation
@@ -317,38 +364,13 @@ Java 21 · backend services · authentication · security · APIs · testing · 
 
 <div align="center">
 
-## Current Priorities
+## GitHub Activity & Work
 
-`Security` · `Reliability` · `Performance` · `Clean Architecture` · `Identity` · `Account Protection` · `Server Integration` · `Developer Workflow` · `Player & Staff Experience`
-
-<br><br>
-
-**Leviathan:** grow from a launcher into a connected Minecraft platform.  
-**Nimbus:** continue as a focused packet-based server security product.
-
-</div>
-
----
-
-<div align="center">
-
-### Explore the Work
-
-[Leviathan Repository](https://github.com/Lapinite/Leviathan-Launcher) ·
-[Architecture](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md) ·
-[Authentication](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/AUTHENTICATION.md) ·
-[Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md) ·
-[Roadmap](https://github.com/Lapinite/Leviathan-Launcher/blob/main/ROADMAP.md)
-
-</div>
-
----
-
-<h2 align="center">GitHub Activity & Work</h2>
-
-<p align="center">
-  <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
+<p>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="GitHub profile activity summary" />
 </p>
+
+</div>
 
 <table align="center" width="100%">
 <tr>
@@ -356,14 +378,14 @@ Java 21 · backend services · authentication · security · APIs · testing · 
 
 ### Activity
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Lapinite&theme=github_dark" alt="GitHub profile statistics" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Lapinite&theme=github_dark" alt="GitHub profile statistics" />
 
 </td>
 <td width="50%" align="center" valign="top">
 
 ### Productive Time
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Lapinite&theme=github_dark&utcOffset=2" alt="GitHub productive time" />
+<img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Lapinite&theme=github_dark&utcOffset=2" alt="GitHub productive time" />
 
 </td>
 </tr>
@@ -379,59 +401,52 @@ Java 21 · backend services · authentication · security · APIs · testing · 
 
 <table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="33.33%" align="center" valign="top">
 
 ### Product Engineering
 
-- Desktop launcher and client systems
-- Microsoft/Minecraft authentication
-- Account identity, linking and verification
-- Profiles, customization and connected services
-- Backend APIs and platform architecture
-- Social, creator and economy systems
+Launcher & client systems  
+Profiles & customization  
+Connected platform services  
+UI/UX & product flows
 
 </td>
-<td width="50%" valign="top">
+<td width="33.33%" align="center" valign="top">
 
-### Security & Operations
+### Identity & Security
 
-- Packet-level AntiCheat and server tooling
-- Rate limiting, abuse protection and recovery
-- Release manifests and update infrastructure
-- Build verification and regression testing
-- Security, compliance and operational documentation
-- Service management and integration design
+Microsoft/Minecraft auth  
+Account linking & verification  
+Sessions & recovery  
+Abuse protection & validation
+
+</td>
+<td width="33.33%" align="center" valign="top">
+
+### Backend & Operations
+
+REST APIs & services  
+Release & update infrastructure  
+Testing & build verification  
+Security & compliance docs
 
 </td>
 </tr>
 </table>
+
+<div align="center">
 
 ### Repository Work
 
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top">
+[![Architecture](https://img.shields.io/badge/ARCHITECTURE-System%20Design-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md)
+[![Authentication](https://img.shields.io/badge/AUTHENTICATION-Microsoft%20%26%20Minecraft-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/AUTHENTICATION.md)
+[![Security](https://img.shields.io/badge/SECURITY-Policy%20%26%20Engineering-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
 
-**Architecture & Product**
-- [README](https://github.com/Lapinite/Leviathan-Launcher/blob/main/README.md)
-- [Roadmap](https://github.com/Lapinite/Leviathan-Launcher/blob/main/ROADMAP.md)
-- [Changelog](https://github.com/Lapinite/Leviathan-Launcher/blob/main/CHANGELOG.md)
-- [Architecture](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/ARCHITECTURE.md)
-- [Authentication](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/AUTHENTICATION.md)
+[![Roadmap](https://img.shields.io/badge/ROADMAP-Development%20Direction-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/ROADMAP.md)
+[![Release Policy](https://img.shields.io/badge/RELEASE-Policy%20%26%20Controls-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/RELEASE_POLICY.md)
+[![Service Management](https://img.shields.io/badge/SERVICE-Management-0d1117?style=for-the-badge)](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SERVICE_MANAGEMENT.md)
 
-</td>
-<td width="50%" valign="top">
-
-**Security & Release**
-- [Security](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md)
-- [Release Policy](https://github.com/Lapinite/Leviathan-Launcher/blob/main/docs/RELEASE_POLICY.md)
-- [Service Management](https://github.com/Lapinite/Leviathan-Launcher/blob/main/SERVICE_MANAGEMENT.md)
-- [Minecraft Compliance](https://github.com/Lapinite/Leviathan-Launcher/blob/main/MINECRAFT_COMPLIANCE.md)
-- [Contributing](https://github.com/Lapinite/Leviathan-Launcher/blob/main/CONTRIBUTING.md)
-
-</td>
-</tr>
-</table>
+</div>
 
 <details>
 <summary><strong>Contribution streak</strong></summary>
@@ -446,7 +461,7 @@ Java 21 · backend services · authentication · security · APIs · testing · 
 <summary><strong>Contribution activity graph</strong></summary>
 
 <p align="center">
-  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="GitHub contribution activity graph" />
 </p>
 
 </details>
