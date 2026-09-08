@@ -43,36 +43,22 @@ I use this profile for my Minecraft projects, mainly **Leviathan** and **Nimbus*
 
 <table align="center" width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 ### Leviathan
 
 **Minecraft launcher & platform**
 
-Building the launcher, account systems and connected player features.
-
-- launcher and client systems
-- Microsoft/Minecraft sign-in
-- profiles and account linking
-- backend APIs
-- security and recovery
-- social and platform features
+Launcher, accounts, APIs, security, social systems and connected player features.
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" valign="top" align="center">
 
 ### Nimbus
 
 **Server-side Minecraft AntiCheat**
 
-Focused on reliable packet-based detection and staff tooling.
-
-- packet checks
-- movement prediction
-- combat validation
-- staff tools
-- false-positive reduction
-- performance and reliability
+Packet-based detection, prediction, combat checks, staff tooling and reliability.
 
 </td>
 </tr>
@@ -87,36 +73,36 @@ Focused on reliable packet-based detection and staff tooling.
 
 ### Leviathan
 
-**Minecraft launcher & platform**
+**Minecraft launcher & connected platform**
 
-Custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, updates, customization and connected account features.
+Custom Minecraft: Java Edition launcher with Microsoft sign-in, profiles, updates, customization and platform services.
 
-**Core stack**  
-Java | Desktop Client | Microsoft Auth | Minecraft Services | REST APIs
+**Stack**  
+Java | Microsoft Auth | Minecraft Services | REST APIs
 
 </td>
 <td width="50%" valign="top" align="center">
 
 ### Nimbus AntiCheat
 
-**Packet-based Minecraft AntiCheat**
+**Packet-based server AntiCheat**
 
-Server-side AntiCheat focused on packet analysis, movement prediction, combat validation and reliable detection.
+Built around packet analysis, movement prediction, combat validation and false-positive reduction.
 
-**Core stack**  
-Java 21 | Paper | PacketEvents | Prediction | Async Processing
+**Stack**  
+Java 21 | Paper | PacketEvents | Prediction
 
 </td>
 </tr>
 <tr>
 <td width="50%" align="center">
 
-**[View Leviathan →](https://github.com/Lapinite/Leviathan-Launcher)**
+**[GitHub →](https://github.com/Lapinite/Leviathan-Launcher)**
 
 </td>
 <td width="50%" align="center">
 
-**[View Nimbus →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
+**[SpigotMC →](https://www.spigotmc.org/resources/nimbus-anticheat.136631/)**
 
 </td>
 </tr>
