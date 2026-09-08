@@ -334,13 +334,33 @@ Blender, Adobe Photoshop, Adobe Illustrator, Adobe After Effects, Canva, UI/UX, 
 <h2 align="center">Connect</h2>
 
 <p align="center">
-  <a href="https://github.com/Lapinite">GitHub</a> |
-  <a href="https://discord.gg/MREADUBJ97">Discord</a> |
-  <a href="https://youtube.com/@leviathanclient">YouTube</a> |
-  <a href="https://instagram.com/leviathanclient">Instagram</a> |
-  <a href="https://x.com/leviathanrealm">X</a> |
-  <a href="https://twitch.tv/leviathanclient">Twitch</a> |
-  <a href="https://bsky.app/profile/leviathanclient.bsky.social">Bluesky</a>
+  <a href="https://github.com/Lapinite">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/github.svg" alt="GitHub" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://discord.gg/MREADUBJ97">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/discord.svg" alt="Discord" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://youtube.com/@leviathanclient">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/youtube.svg" alt="YouTube" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://instagram.com/leviathanclient">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/instagram.svg" alt="Instagram" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://x.com/leviathanrealm">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/x.svg" alt="X" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://twitch.tv/leviathanclient">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/twitch.svg" alt="Twitch" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://bsky.app/profile/leviathanclient.bsky.social">
+    <img src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/small/light/bluesky.svg" alt="Bluesky" />
+  </a>
 </p>
 
 <p align="center">
