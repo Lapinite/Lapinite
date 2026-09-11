@@ -1,107 +1,111 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#01060d"/><stop offset=".52" stop-color="#061827"/><stop offset="1" stop-color="#020a12"/></linearGradient>
-  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0787ff"/><stop offset=".5" stop-color="#38efff"/><stop offset="1" stop-color="#00a7ff"/></linearGradient>
-  <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f6fcff"/><stop offset=".45" stop-color="#f6fcff"/><stop offset=".55" stop-color="#7cf7ff"/><stop offset=".65" stop-color="#f6fcff"/><stop offset="1" stop-color="#f6fcff"/><animate attributeName="x1" values="-1;1" dur="7s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="7s" repeatCount="indefinite"/></linearGradient>
-  <radialGradient id="halo"><stop offset="0" stop-color="#55eeff" stop-opacity=".72"/><stop offset=".35" stop-color="#05bfe7" stop-opacity=".22"/><stop offset="1" stop-color="#006cff" stop-opacity="0"/></radialGradient>
-  <linearGradient id="serpent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#31efff"/><stop offset="1" stop-color="#0b73ff"/></linearGradient>
-  <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#113149" stroke-width="1" opacity=".27"/></pattern>
-  <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#17415a" opacity=".25"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#01050b"/><stop offset=".48" stop-color="#061725"/><stop offset="1" stop-color="#020911"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#087cff"/><stop offset=".48" stop-color="#49f3ff"/><stop offset="1" stop-color="#00a8ff"/></linearGradient>
+  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f7fdff"/><stop offset=".43" stop-color="#f7fdff"/><stop offset=".52" stop-color="#72f7ff"/><stop offset=".60" stop-color="#f7fdff"/><stop offset="1" stop-color="#f7fdff"/><animate attributeName="x1" values="-1;1" dur="7s" repeatCount="indefinite"/><animate attributeName="x2" values="0;2" dur="7s" repeatCount="indefinite"/></linearGradient>
+  <radialGradient id="core"><stop stop-color="#76f8ff" stop-opacity=".72"/><stop offset=".28" stop-color="#0bc8ed" stop-opacity=".24"/><stop offset="1" stop-color="#087aff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="serpent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#52f5ff"/><stop offset=".5" stop-color="#13c9ec"/><stop offset="1" stop-color="#2379ff"/></linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="18"/></filter>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#12354b" opacity=".24"/></pattern>
+  <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".65" fill="#17435c" opacity=".25"/></pattern>
 </defs>
 
-<rect width="1200" height="460" rx="28" fill="url(#bg)"/>
-<rect width="1200" height="460" rx="28" fill="url(#grid)"/>
-<rect width="1200" height="460" rx="28" fill="url(#micro)"/>
-<rect x="1" y="1" width="1198" height="458" rx="27" fill="none" stroke="#17394f"/>
+<rect width="1200" height="500" rx="30" fill="url(#bg)"/>
+<rect width="1200" height="500" rx="30" fill="url(#grid)"/>
+<rect width="1200" height="500" rx="30" fill="url(#dots)"/>
 
-<!-- animated current lines -->
-<g fill="none" stroke="#0c6f94" stroke-width="1.2" opacity=".23" stroke-dasharray="10 18">
-  <path d="M676 95 C760 55 851 63 923 104 C995 145 1082 140 1164 98"><animate attributeName="stroke-dashoffset" values="0;-140" dur="9s" repeatCount="indefinite"/></path>
-  <path d="M676 126 C755 93 847 101 916 139 C990 180 1075 178 1164 138"><animate attributeName="stroke-dashoffset" values="0;-140" dur="11s" repeatCount="indefinite"/></path>
-  <path d="M686 336 C770 376 860 374 930 337 C998 302 1080 302 1162 341"><animate attributeName="stroke-dashoffset" values="0;140" dur="10s" repeatCount="indefinite"/></path>
+<!-- ambient holographic currents -->
+<g fill="none" stroke="#0b739b" stroke-width="1.1" opacity=".22" stroke-dasharray="7 18">
+  <path d="M690 92 C770 45 870 52 945 98 C1025 147 1094 145 1172 94"><animate attributeName="stroke-dashoffset" values="0;-160" dur="11s" repeatCount="indefinite"/></path>
+  <path d="M675 130 C770 91 860 104 935 143 C1008 180 1087 179 1170 142"><animate attributeName="stroke-dashoffset" values="0;-150" dur="8s" repeatCount="indefinite"/></path>
+  <path d="M684 370 C775 411 869 400 943 357 C1010 318 1084 320 1168 365"><animate attributeName="stroke-dashoffset" values="0;160" dur="10s" repeatCount="indefinite"/></path>
 </g>
 
-<!-- top system rail -->
-<g font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">
-  <text x="54" y="31" fill="#557b90">SYSTEM</text><text x="111" y="31" fill="#51eafa">LEVIATHAN</text>
-  <text x="248" y="31" fill="#557b90">MODE</text><text x="295" y="31" fill="#9cc7d8">INTERNAL DEVELOPMENT</text>
-  <text x="522" y="31" fill="#557b90">BASELINE</text><text x="593" y="31" fill="#9cc7d8">v51.0.6</text>
-  <text x="719" y="31" fill="#557b90">STATE</text><text x="763" y="31" fill="#56efaa">STABILIZATION</text>
-  <circle cx="1124" cy="27" r="4" fill="#4ef2a8" filter="url(#glow)"><animate attributeName="opacity" values=".35;1;.35" dur="1.6s" repeatCount="indefinite"/></circle>
-  <text x="1138" y="31" fill="#77a1b6">ONLINE</text>
+<!-- top rail -->
+<g font-family="ui-monospace,Consolas,monospace" font-size="9.5" letter-spacing="1.25">
+  <text x="48" y="31" fill="#557b90">LEVIATHAN SYSTEM</text>
+  <text x="201" y="31" fill="#6d94a9">//</text>
+  <text x="226" y="31" fill="#50edff">COMMAND INTERFACE</text>
+  <text x="518" y="31" fill="#557b90">BASELINE</text><text x="584" y="31" fill="#9cc8d8">v51.0.6</text>
+  <text x="695" y="31" fill="#557b90">PHASE</text><text x="739" y="31" fill="#56e9aa">STABILIZATION</text>
+  <circle cx="1113" cy="27" r="4" fill="#53efa7" filter="url(#glow)"><animate attributeName="opacity" values=".3;1;.3" dur="1.5s" repeatCount="indefinite"/></circle><text x="1126" y="31" fill="#779bae">ONLINE</text>
 </g>
-<line x1="42" y1="47" x2="1158" y2="47" stroke="#15384d"/>
-<circle r="3" fill="#5ef5ff" filter="url(#glow)"><animateMotion dur="8s" repeatCount="indefinite" path="M60 47 H1140"/></circle>
+<line x1="40" y1="48" x2="1160" y2="48" stroke="#14364b"/>
+<circle r="3" fill="#66f5ff" filter="url(#glow)"><animateMotion path="M52 48 H1148" dur="8s" repeatCount="indefinite"/></circle>
 
-<!-- left identity block -->
-<rect x="58" y="92" width="7" height="238" rx="3.5" fill="url(#cyan)" filter="url(#glow)"/>
-<text x="95" y="120" fill="#58ecff" font-family="ui-monospace,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="4">LEVIATHAN // COMMAND INTERFACE</text>
-<text x="92" y="201" fill="url(#titleGrad)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="74" font-weight="850" letter-spacing="1">LEVIATHAN</text>
-<text x="95" y="239" fill="#b2c8d5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Minecraft software, security, services and developer tooling.</text>
+<!-- brand -->
+<rect x="57" y="86" width="7" height="282" rx="4" fill="url(#cyan)" filter="url(#glow)"/>
+<text x="93" y="116" fill="#58ecff" font-family="ui-monospace,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="3.8">LEVIATHAN // INTERFACE ONLINE</text>
+<text x="90" y="197" fill="url(#title)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="75" font-weight="850" letter-spacing="1">LEVIATHAN</text>
 
-<!-- capability rail -->
-<g font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="1.1">
-  <text x="95" y="280" fill="#6e91a5">LAUNCHER</text><circle cx="168" cy="276" r="3" fill="#2ee9ff"/>
-  <text x="185" y="280" fill="#6e91a5">CLIENT</text><circle cx="241" cy="276" r="3" fill="#2ee9ff"/>
-  <text x="258" y="280" fill="#6e91a5">PLATFORM</text><circle cx="337" cy="276" r="3" fill="#2ee9ff"/>
-  <text x="354" y="280" fill="#6e91a5">NIMBUS</text><circle cx="415" cy="276" r="3" fill="#2ee9ff"/>
-  <text x="432" y="280" fill="#6e91a5">API</text><circle cx="461" cy="276" r="3" fill="#2ee9ff"/>
-  <text x="478" y="280" fill="#6e91a5">CAST</text><circle cx="517" cy="276" r="3" fill="#2ee9ff"/>
-  <text x="534" y="280" fill="#6e91a5">TELEMETRY</text>
+<!-- reactive rotating statement area -->
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <g opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.22;.25;1" dur="16s" repeatCount="indefinite"/><text x="94" y="236" fill="#c0d5df" font-size="20">Analyzing the connected Minecraft platform.</text><text x="94" y="262" fill="#4fdff2" font-family="ui-monospace,Consolas,monospace" font-size="10.5" letter-spacing="1.3">MODE // ANALYSIS</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.25;.28;.47;.50;1" dur="16s" repeatCount="indefinite"/><text x="94" y="236" fill="#c0d5df" font-size="20">Routing launcher, client and service signals.</text><text x="94" y="262" fill="#8c8aff" font-family="ui-monospace,Consolas,monospace" font-size="10.5" letter-spacing="1.3">MODE // PLATFORM</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.50;.53;.72;.75;1" dur="16s" repeatCount="indefinite"/><text x="94" y="236" fill="#c0d5df" font-size="20">Nimbus protection layer synchronized.</text><text x="94" y="262" fill="#ffb35f" font-family="ui-monospace,Consolas,monospace" font-size="10.5" letter-spacing="1.3">MODE // SECURITY</text></g>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.75;.78;.97;1" dur="16s" repeatCount="indefinite"/><text x="94" y="236" fill="#c0d5df" font-size="20">Stabilization and validation in progress.</text><text x="94" y="262" fill="#52efa7" font-family="ui-monospace,Consolas,monospace" font-size="10.5" letter-spacing="1.3">MODE // VALIDATION</text></g>
 </g>
 
-<!-- development state strip -->
-<rect x="94" y="304" width="540" height="64" rx="13" fill="#061621" stroke="#163d53"/>
-<circle cx="117" cy="330" r="5" fill="#49efaa" filter="url(#glow)"><animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/></circle>
-<text x="136" y="326" fill="#79a0b5" font-family="ui-monospace,Consolas,monospace" font-size="9.5" letter-spacing="1.1">CURRENT PHASE</text>
-<text x="136" y="347" fill="#effbff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">STABILIZATION + VALIDATION</text>
-<text x="405" y="326" fill="#79a0b5" font-family="ui-monospace,Consolas,monospace" font-size="9.5" letter-spacing="1.1">SOURCE</text>
-<text x="405" y="347" fill="#effbff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">PRIVATE</text>
-<g transform="translate(555 318)"><rect width="58" height="8" rx="4" fill="#102c3d"/><rect width="42" height="8" rx="4" fill="#20dca4"><animate attributeName="width" values="34;46;34" dur="3.4s" repeatCount="indefinite"/></rect><text x="0" y="31" fill="#63879a" font-family="ui-monospace,Consolas,monospace" font-size="8">VALIDATING</text></g>
-
-<!-- Leviathan core -->
-<circle cx="950" cy="223" r="202" fill="url(#halo)" opacity=".5"><animate attributeName="opacity" values=".22;.6;.22" dur="6s" repeatCount="indefinite"/></circle>
-<circle cx="950" cy="223" r="144" fill="none" stroke="#0abbe2" stroke-width="1.5" stroke-dasharray="5 12" opacity=".48"><animateTransform attributeName="transform" type="rotate" from="0 950 223" to="360 950 223" dur="22s" repeatCount="indefinite"/></circle>
-<circle cx="950" cy="223" r="115" fill="none" stroke="#51ecff" stroke-width="1" stroke-dasharray="2 8" opacity=".6"><animateTransform attributeName="transform" type="rotate" from="360 950 223" to="0 950 223" dur="15s" repeatCount="indefinite"/></circle>
-<circle cx="950" cy="223" r="84" fill="none" stroke="#157fb8" stroke-width="1" stroke-dasharray="14 6" opacity=".55"><animateTransform attributeName="transform" type="rotate" from="0 950 223" to="360 950 223" dur="30s" repeatCount="indefinite"/></circle>
-<path id="serpentPath" d="M870 174 C912 136 991 142 1029 184 C1058 216 1041 254 1007 267 C968 282 923 261 914 231 C907 205 926 187 949 189 C975 191 989 211 983 232 C978 251 954 258 936 249" fill="none" stroke="url(#serpent)" stroke-width="9" stroke-linecap="round" opacity=".9" filter="url(#glow)"/>
-<path d="M862 166 L879 171 L870 188 Z" fill="#4beeff" opacity=".92"/>
-<circle cx="870" cy="175" r="3" fill="#e8feff" filter="url(#glow)"/>
-<circle r="4" fill="#8ef7ff" filter="url(#glow)"><animateMotion dur="4.6s" repeatCount="indefinite"><mpath href="#serpentPath"/></animateMotion></circle>
-<circle r="2.5" fill="#4cf0b1"><animateMotion dur="7s" begin="1.2s" repeatCount="indefinite" path="M950 79 A144 144 0 1 1 949 79"/></circle>
-
-<!-- orbit nodes -->
-<g font-family="ui-monospace,Consolas,monospace" font-size="9" text-anchor="middle">
-  <g><circle cx="950" cy="72" r="5" fill="#4beaff" filter="url(#glow)"/><text x="950" y="56" fill="#6f9caf">SECURITY</text></g>
-  <g><circle cx="1097" cy="168" r="5" fill="#7770ff" filter="url(#glow)"/><text x="1097" y="151" fill="#6f9caf">PLATFORM</text></g>
-  <g><circle cx="1053" cy="352" r="5" fill="#43dca2" filter="url(#glow)"/><text x="1053" y="372" fill="#6f9caf">OBSERVABILITY</text></g>
-  <g><circle cx="796" cy="326" r="5" fill="#28cbe7" filter="url(#glow)"/><text x="796" y="347" fill="#6f9caf">PLAYER</text></g>
-</g>
-<g stroke="#1b607c" stroke-width="1" opacity=".45"><line x1="950" y1="88" x2="950" y2="112"/><line x1="1082" y1="177" x2="1050" y2="189"/><line x1="1040" y1="338" x2="1016" y2="309"/><line x1="810" y1="314" x2="842" y2="287"/></g>
-
-<!-- scanner and signal bars -->
-<rect x="715" y="78" width="455" height="1" fill="#50efff" opacity=".18"><animate attributeName="y" values="78;366;78" dur="7s" repeatCount="indefinite"/></rect>
-<g transform="translate(718 370)" fill="#1f7898" opacity=".6">
-  <rect x="0" y="16" width="5" height="8" rx="2"><animate attributeName="height" values="8;18;8" attributeType="XML" dur="1.8s" repeatCount="indefinite"/><animate attributeName="y" values="16;6;16" dur="1.8s" repeatCount="indefinite"/></rect>
-  <rect x="10" y="12" width="5" height="12" rx="2"><animate attributeName="height" values="12;23;12" dur="2.2s" repeatCount="indefinite"/><animate attributeName="y" values="12;1;12" dur="2.2s" repeatCount="indefinite"/></rect>
-  <rect x="20" y="8" width="5" height="16" rx="2"><animate attributeName="height" values="16;9;16" dur="1.6s" repeatCount="indefinite"/><animate attributeName="y" values="8;15;8" dur="1.6s" repeatCount="indefinite"/></rect>
-  <rect x="30" y="14" width="5" height="10" rx="2"><animate attributeName="height" values="10;21;10" dur="2.5s" repeatCount="indefinite"/><animate attributeName="y" values="14;3;14" dur="2.5s" repeatCount="indefinite"/></rect>
+<!-- capability line -->
+<g font-family="ui-monospace,Consolas,monospace" font-size="10.5" letter-spacing="1">
+  <text x="94" y="294" fill="#6f91a4">LAUNCHER</text><circle cx="157" cy="290" r="2.6" fill="#37eaff"/><text x="172" y="294" fill="#6f91a4">CLIENT</text><circle cx="221" cy="290" r="2.6" fill="#37eaff"/><text x="236" y="294" fill="#6f91a4">PLATFORM</text><circle cx="304" cy="290" r="2.6" fill="#37eaff"/><text x="319" y="294" fill="#6f91a4">NIMBUS</text><circle cx="370" cy="290" r="2.6" fill="#37eaff"/><text x="385" y="294" fill="#6f91a4">API</text><circle cx="410" cy="290" r="2.6" fill="#37eaff"/><text x="425" y="294" fill="#6f91a4">CAST</text><circle cx="460" cy="290" r="2.6" fill="#37eaff"/><text x="475" y="294" fill="#6f91a4">TELEMETRY</text>
 </g>
 
-<!-- footer rail -->
-<line x1="42" y1="400" x2="1158" y2="400" stroke="#15384d"/>
-<g font-family="ui-monospace,Consolas,monospace" font-size="9" letter-spacing="1">
-  <text x="54" y="426" fill="#537b91">PUBLIC SURFACE</text><text x="155" y="426" fill="#7aa5b9">PROFILE / DOCS / SDK / API DOCS / EXAMPLES / INTEGRATIONS / STATUS</text>
-  <text x="1015" y="426" fill="#537b91">SIGNAL</text>
-  <circle cx="1078" cy="423" r="3" fill="#52efff"><animate attributeName="opacity" values=".2;1;.2" dur="1.3s" repeatCount="indefinite"/></circle>
-  <text x="1090" y="426" fill="#7aa5b9">NOMINAL</text>
+<!-- status console -->
+<rect x="93" y="315" width="548" height="72" rx="13" fill="#061722" stroke="#174156"/>
+<g font-family="ui-monospace,Consolas,monospace">
+  <circle cx="117" cy="341" r="5" fill="#49e9a5" filter="url(#glow)"><animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/></circle>
+  <text x="135" y="337" fill="#6e91a5" font-size="9" letter-spacing="1">CURRENT PHASE</text><text x="135" y="357" fill="#effbff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">STABILIZATION + VALIDATION</text>
+  <text x="397" y="337" fill="#6e91a5" font-size="9" letter-spacing="1">SOURCE</text><text x="397" y="357" fill="#effbff" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">PRIVATE</text>
+  <text x="525" y="337" fill="#6e91a5" font-size="9" letter-spacing="1">RELEASE GATE</text><text x="525" y="357" fill="#ffb25b" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">CLOSED</text>
+</g>
+<rect x="111" y="373" width="502" height="3" rx="2" fill="#102d3e"/><rect x="111" y="373" width="318" height="3" rx="2" fill="url(#cyan)"><animate attributeName="width" values="250;400;318;250" dur="7s" repeatCount="indefinite"/></rect>
+
+<!-- holographic Leviathan core -->
+<circle cx="950" cy="242" r="210" fill="url(#core)" opacity=".50"><animate attributeName="opacity" values=".22;.58;.22" dur="6s" repeatCount="indefinite"/></circle>
+<g fill="none">
+  <circle cx="950" cy="242" r="151" stroke="#13b9db" stroke-width="1.4" stroke-dasharray="6 11" opacity=".48"><animateTransform attributeName="transform" type="rotate" from="0 950 242" to="360 950 242" dur="24s" repeatCount="indefinite"/></circle>
+  <circle cx="950" cy="242" r="121" stroke="#57efff" stroke-width="1" stroke-dasharray="2 8" opacity=".65"><animateTransform attributeName="transform" type="rotate" from="360 950 242" to="0 950 242" dur="14s" repeatCount="indefinite"/></circle>
+  <circle cx="950" cy="242" r="91" stroke="#237daf" stroke-width="1" stroke-dasharray="13 6" opacity=".6"><animateTransform attributeName="transform" type="rotate" from="0 950 242" to="360 950 242" dur="32s" repeatCount="indefinite"/></circle>
+  <circle cx="950" cy="242" r="63" stroke="#36dff3" stroke-width=".8" stroke-dasharray="1 6" opacity=".4"><animateTransform attributeName="transform" type="rotate" from="360 950 242" to="0 950 242" dur="9s" repeatCount="indefinite"/></circle>
 </g>
 
-<!-- LEVIATHAN_GLOW_BORDER_V2 -->
-<linearGradient id="leviathanBorderGradient" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#067dff"/><stop offset=".34" stop-color="#32efff"/><stop offset=".62" stop-color="#11bddf"/><stop offset="1" stop-color="#4a65ff"/></linearGradient>
-<filter id="leviathanBorderGlow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<rect x="4" y="4" width="1192" height="452" rx="26" fill="none" stroke="#0b3346" stroke-width="1.5" opacity=".9"/>
-<rect x="4" y="4" width="1192" height="452" rx="26" fill="none" stroke="url(#leviathanBorderGradient)" stroke-width="3" stroke-linecap="round" stroke-dasharray="430 1570" filter="url(#leviathanBorderGlow)" opacity=".92"><animate attributeName="stroke-dashoffset" values="0;-2000" dur="8s" repeatCount="indefinite"/></rect>
-<rect x="12" y="12" width="1176" height="436" rx="18" fill="none" stroke="#27dff5" stroke-width=".7" stroke-dasharray="2 12" opacity=".2"><animate attributeName="stroke-dashoffset" values="0;28" dur="5s" repeatCount="indefinite"/></rect>
+<!-- serpent signal -->
+<path id="levPath" d="M863 188 C903 141 987 143 1034 184 C1074 219 1057 271 1013 286 C968 302 916 275 912 238 C909 207 932 185 959 189 C987 193 1001 217 993 240 C986 263 958 270 938 256" fill="none" stroke="url(#serpent)" stroke-width="9" stroke-linecap="round" filter="url(#glow)" opacity=".92"/>
+<path d="M855 178 L875 184 L863 201 Z" fill="#54f1ff"/><circle cx="864" cy="188" r="3" fill="#fff" filter="url(#glow)"/>
+<circle r="4.5" fill="#a3fbff" filter="url(#glow)"><animateMotion dur="4.4s" repeatCount="indefinite"><mpath href="#levPath"/></animateMotion></circle>
+<circle r="2.7" fill="#55f0ad"><animateMotion path="M950 91 A151 151 0 1 1 949 91" dur="7s" repeatCount="indefinite"/></circle>
+<circle r="2.3" fill="#8d83ff"><animateMotion path="M950 121 A121 121 0 1 0 949 121" dur="5s" repeatCount="indefinite"/></circle>
+
+<!-- reactive nodes and contextual paths -->
+<g font-family="ui-monospace,Consolas,monospace" font-size="8.5" text-anchor="middle">
+  <g><circle cx="950" cy="78" r="5" fill="#38eaff"/><text x="950" y="61" fill="#6e96aa">ANALYSIS</text></g>
+  <g><circle cx="1099" cy="178" r="5" fill="#7b74ff"/><text x="1099" y="160" fill="#6e96aa">PLATFORM</text></g>
+  <g><circle cx="851" cy="108" r="5" fill="#ffad56"/><text x="851" y="91" fill="#6e96aa">SECURITY</text></g>
+  <g><circle cx="1054" cy="369" r="5" fill="#45e4a1"/><text x="1054" y="389" fill="#6e96aa">VALIDATION</text></g>
+</g>
+<g fill="none" stroke-width="2" stroke-linecap="round">
+  <path d="M950 93 Q950 135 950 154" stroke="#38eaff" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.03;.22;.25;1" dur="16s" repeatCount="indefinite"/></path>
+  <path d="M1085 185 Q1042 198 1020 215" stroke="#7b74ff" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.25;.28;.47;.50;1" dur="16s" repeatCount="indefinite"/></path>
+  <path d="M865 118 Q902 153 920 178" stroke="#ffad56" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.50;.53;.72;.75;1" dur="16s" repeatCount="indefinite"/></path>
+  <path d="M1044 356 Q1015 324 997 299" stroke="#45e4a1" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.75;.78;.97;1" dur="16s" repeatCount="indefinite"/></path>
+</g>
+
+<!-- scan plane -->
+<rect x="716" y="74" width="455" height="1.2" fill="#55efff" opacity=".17"><animate attributeName="y" values="74;397;74" dur="7s" repeatCount="indefinite"/></rect>
+
+<!-- footer telemetry -->
+<line x1="40" y1="421" x2="1160" y2="421" stroke="#14364b"/>
+<g font-family="ui-monospace,Consolas,monospace" font-size="8.5" letter-spacing="1">
+  <text x="49" y="450" fill="#557e92">PUBLIC SURFACE</text><text x="145" y="450" fill="#7ba1b5">PROFILE / DOCS / SDK / API / EXAMPLES / INTEGRATIONS / STATUS</text>
+  <text x="875" y="450" fill="#557e92">SYSTEM</text><text x="931" y="450" fill="#4deca8">NOMINAL</text><text x="1000" y="450" fill="#557e92">RELEASE</text><text x="1058" y="450" fill="#ffad56">INTERNAL ONLY</text>
+</g>
+
+<!-- LEVIATHAN_GLOW_BORDER_V1 -->
+<linearGradient id="leviathanBorderGradient" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#067dff"/><stop offset=".34" stop-color="#32efff"/><stop offset=".62" stop-color="#11bddf"/><stop offset="1" stop-color="#4a65ff"/></linearGradient>
+<filter id="leviathanBorderGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<rect x="4" y="4" width="1192" height="492" rx="27" fill="none" stroke="#0b3346" stroke-width="1.5"/>
+<rect x="4" y="4" width="1192" height="492" rx="27" fill="none" stroke="url(#leviathanBorderGradient)" stroke-width="3" stroke-linecap="round" stroke-dasharray="440 1620" filter="url(#leviathanBorderGlow)" opacity=".92"><animate attributeName="stroke-dashoffset" values="0;-2060" dur="8s" repeatCount="indefinite"/></rect>
+<rect x="12" y="12" width="1176" height="476" rx="19" fill="none" stroke="#27dff5" stroke-width=".7" stroke-dasharray="2 12" opacity=".2"><animate attributeName="stroke-dashoffset" values="0;28" dur="5s" repeatCount="indefinite"/></rect>
 </svg>
