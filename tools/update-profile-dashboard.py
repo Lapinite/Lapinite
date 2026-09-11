@@ -43,9 +43,12 @@ def event_description(event: dict) -> tuple[str, str]:
     repo_url = f"https://github.com/{repo}"
 
     if event_type == "PushEvent":
-        count = len(payload.get("commits", []))
+        count = payload.get("distinct_size") or payload.get("size") or len(payload.get("commits", []))
         ref = payload.get("ref", "").replace("refs/heads/", "")
-        label = f"Pushed {count} commit{'s' if count != 1 else ''} to {repo}"
+        if count:
+            label = f"Pushed {count} commit{'s' if count != 1 else ''} to {repo}"
+        else:
+            label = f"Pushed updates to {repo}"
         if ref:
             label += f" ({html.escape(ref)})"
         return label, f"{repo_url}/commits/{html.escape(ref)}" if ref else repo_url
