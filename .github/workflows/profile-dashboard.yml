@@ -54,7 +54,7 @@ jobs:
               "<!-- REPOSITORY_FRESHNESS_END -->",
               "<!-- PUBLIC_ANALYTICS_START -->",
               "<!-- PUBLIC_ANALYTICS_END -->",
-              "Contributions in the Last Year",
+              "Public Commit Activity in the Last Year",
               "Public Development Analytics",
           ]
 
