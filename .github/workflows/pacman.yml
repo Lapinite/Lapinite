@@ -1,0 +1,59 @@
+name: Pacman Contribution Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "31 2 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/pacman.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pacman-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v5
+
+      - name: Generate Pacman contribution graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+
+      - name: Install generated graph
+        shell: bash
+        run: |
+          mkdir -p assets/profile
+          if [ -f dist/pacman-contribution-graph-dark.svg ]; then
+            cp dist/pacman-contribution-graph-dark.svg assets/profile/pacman.svg
+          elif [ -f dist/pacman-contribution-graph.svg ]; then
+            cp dist/pacman-contribution-graph.svg assets/profile/pacman.svg
+          else
+            echo "Pacman generator did not produce an SVG."
+            find dist -maxdepth 2 -type f -print || true
+            exit 1
+          fi
+
+      - name: Commit graph
+        shell: bash
+        run: |
+          if git diff --quiet -- assets/profile/pacman.svg; then
+            echo "Pacman graph already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile/pacman.svg
+          git commit -m "chore: refresh pacman contribution graph"
+          git push
