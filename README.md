@@ -38,6 +38,14 @@ Leviathan is under active internal development. The current internal baseline is
 
 The Neural Core is a deliberately simplified public system map. It communicates the product ecosystem without exposing proprietary source code, private endpoints, internal service topology, credentials or sensitive implementation details.
 
+## Leviathan Data Platform
+
+<p align="center">
+  <img width="100%" src="assets/profile/data-platform.svg" alt="Animated high-level Leviathan data platform architecture">
+</p>
+
+The data layer is designed as a shared platform capability for accounts, launcher/client state, APIs, telemetry, analytics, Nimbus/security metadata, licensing, commerce, operations and recovery. The public diagram is intentionally high level; schemas, hosts, credentials and sensitive implementation details remain private.
+
 ## Development Roadmap
 
 <p align="center">
@@ -74,16 +82,19 @@ The current focus is stabilization, testing and internal release preparation. Pu
 <p align="center"><sub>Java 21 · JavaScript · HTML · CSS · PowerShell · Kotlin DSL / Gradle · Windows CMD · Shell · Inno Setup · JSON · YAML · Markdown</sub></p>
 <p align="center"><sub>High-level technology names only. Proprietary Leviathan source code remains private.</sub></p>
 
-## Platform Areas
+## Leviathan Ecosystem
 
-<table width="100%">
-<tr>
-<td width="25%" valign="top"><strong>Player Software</strong><br><sub>Launcher · Client · Profiles · Instances · Updates · Customization</sub></td>
-<td width="25%" valign="top"><strong>Platform</strong><br><sub>Authentication · APIs · Accounts · Cast · Connected Services</sub></td>
-<td width="25%" valign="top"><strong>Protection</strong><br><sub>Nimbus · Security · Integrity · Abuse Protection · Reliability</sub></td>
-<td width="25%" valign="top"><strong>Observability</strong><br><sub>Telemetry · Analytics · Logging · Monitoring · Status</sub></td>
-</tr>
-</table>
+<p align="center">
+  <img width="100%" src="assets/profile/ecosystem-overview.svg" alt="Animated Leviathan ecosystem overview">
+</p>
+
+## Data Platform
+
+<p align="center">
+  <img width="100%" src="assets/profile/data-platform.svg" alt="Animated Leviathan database and data platform architecture">
+</p>
+
+The data layer is planned around a relational core with separate ephemeral caching, object storage and event processing. Public diagrams stay intentionally high-level while schemas, hosts, credentials and sensitive implementation details remain private.
 
 ## Public Developer Repositories
 

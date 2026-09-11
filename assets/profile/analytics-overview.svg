@@ -39,15 +39,15 @@
 <text x="630" y="308" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="11">PullRequest</text>
 <rect x="775" y="296" width="300" height="14" rx="5" fill="#102532"/>
 <rect x="775" y="296" width="300" height="14" rx="5" fill="#3988ff"/>
-<text x="1093" y="308" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">44</text>
+<text x="1093" y="308" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">46</text>
 <text x="630" y="338" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="11">Push</text>
 <rect x="775" y="326" width="300" height="14" rx="5" fill="#102532"/>
-<rect x="775" y="326" width="280" height="14" rx="5" fill="#3988ff"/>
-<text x="1093" y="338" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">41</text>
+<rect x="775" y="326" width="241" height="14" rx="5" fill="#3988ff"/>
+<text x="1093" y="338" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">37</text>
 <text x="630" y="368" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="11">Create</text>
 <rect x="775" y="356" width="300" height="14" rx="5" fill="#102532"/>
-<rect x="775" y="356" width="102" height="14" rx="5" fill="#3988ff"/>
-<text x="1093" y="368" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">15</text>
+<rect x="775" y="356" width="111" height="14" rx="5" fill="#3988ff"/>
+<text x="1093" y="368" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">17</text>
 <rect x="42" y="464" width="548" height="190" rx="16" fill="#05131d" stroke="#173b50"/>
 <text x="62" y="494" fill="#eaf9ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">Largest Public Repositories</text>
 <text x="62" y="513" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="10">Relative GitHub-reported repository size</text>
@@ -87,12 +87,12 @@
 <circle cx="865" cy="618" r="3" fill="#51eaff"><title>2026-09-04: 0 events</title></circle>
 <circle cx="900" cy="618" r="3" fill="#51eaff"><title>2026-09-05: 0 events</title></circle>
 <circle cx="936" cy="618" r="3" fill="#51eaff"><title>2026-09-06: 0 events</title></circle>
-<circle cx="972" cy="615" r="3" fill="#51eaff"><title>2026-09-07: 3 events</title></circle>
-<circle cx="1008" cy="605" r="3" fill="#51eaff"><title>2026-09-08: 14 events</title></circle>
+<circle cx="972" cy="618" r="3" fill="#51eaff"><title>2026-09-07: 0 events</title></circle>
+<circle cx="1008" cy="610" r="3" fill="#51eaff"><title>2026-09-08: 9 events</title></circle>
 <circle cx="1043" cy="617" r="3" fill="#51eaff"><title>2026-09-09: 1 events</title></circle>
 <circle cx="1079" cy="618" r="3" fill="#51eaff"><title>2026-09-10: 0 events</title></circle>
-<circle cx="1115" cy="540" r="3" fill="#51eaff"><title>2026-09-11: 82 events</title></circle>
-<polyline points="650,618 686,618 722,618 757,618 793,618 829,618 865,618 900,618 936,618 972,615 1008,605 1043,617 1079,618 1115,540" fill="none" stroke="#4fcfff" stroke-width="2.5"/>
+<circle cx="1115" cy="540" r="3" fill="#51eaff"><title>2026-09-11: 90 events</title></circle>
+<polyline points="650,618 686,618 722,618 757,618 793,618 829,618 865,618 900,618 936,618 972,618 1008,610 1043,617 1079,618 1115,540" fill="none" stroke="#4fcfff" stroke-width="2.5"/>
 <text x="650" y="638" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9">Aug 29</text>
 <text x="1115" y="638" text-anchor="end" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9">Sep 11</text>
 <rect x="42" y="675" width="1116" height="2" rx="1" fill="#0c5067"><animate attributeName="x" values="42;1080;42" dur="9s" repeatCount="indefinite"/></rect>
