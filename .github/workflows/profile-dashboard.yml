@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - "tools/update-profile-dashboard.py"
+      - "tools/generate-profile-visuals.py"
       - ".github/workflows/profile-dashboard.yml"
 
 permissions:
@@ -39,6 +40,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/update-profile-dashboard.py
+
+      - name: Generate detailed Leviathan visuals
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/generate-profile-visuals.py
 
       - name: Clarify public language analytics
         shell: bash
@@ -102,6 +108,17 @@ jobs:
           languages = Path("assets/profile/languages.svg").read_text(encoding="utf-8")
           if "Public Repository Language Mix" not in languages:
               raise SystemExit("Public language analytics label is misleading or missing")
+
+          visual_checks = {
+              "assets/profile/contributions.svg": ["TOTAL COMMITS", "MONTHLY OUTPUT", "365 DAY SIGNAL"],
+              "assets/profile/roadmap.svg": ["OUTSTANDING MANUAL GATES", "PHASE 07", "PUBLIC RELEASE GATE REMAINS CLOSED"],
+              "assets/profile/neural-core.svg": ["PUBLIC ARCHITECTURE MAP", "INTEGRATIONS", "PUBLIC SANITIZED MODEL"],
+          }
+          for filename, markers in visual_checks.items():
+              content = Path(filename).read_text(encoding="utf-8")
+              for marker in markers:
+                  if marker not in content:
+                      raise SystemExit(f"Detailed visual validation failed: {filename} missing {marker}")
 
           print("Profile dashboard validation passed.")
           for path in required_assets:

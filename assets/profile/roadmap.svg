@@ -1,20 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03101a"/><stop offset="1" stop-color="#071b28"/></linearGradient><filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<rect width="1200" height="300" rx="22" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="298" rx="21" fill="none" stroke="#16364a"/>
-<text x="42" y="46" fill="#53e9ff" font-family="ui-monospace,Consolas,monospace" font-size="15" letter-spacing="3">LEVIATHAN DEVELOPMENT ROADMAP</text>
-<text x="42" y="72" fill="#7c9cb0" font-family="Segoe UI,Arial" font-size="12">Internal development status. No public release is implied.</text>
-<path d="M110 170 H1090" fill="none" stroke="#183c50" stroke-width="6" stroke-linecap="round"/>
-<path d="M110 170 H890" fill="none" stroke="#0aa8d8" stroke-width="6" stroke-linecap="round" opacity=".75"/>
-<circle r="5" fill="#63efff" filter="url(#g)"><animateMotion dur="5s" repeatCount="indefinite" path="M110 170 H890"/></circle>
-<g font-family="Segoe UI,Arial" text-anchor="middle">
-  <g transform="translate(110 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Research</text></g>
-  <g transform="translate(250 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Architecture</text></g>
-  <g transform="translate(390 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Build</text></g>
-  <g transform="translate(530 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Integration</text></g>
-  <g transform="translate(670 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Security</text></g>
-  <g transform="translate(810 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Testing</text></g>
-  <g transform="translate(890 170)"><circle r="22" fill="#082335" stroke="#71f4ff" stroke-width="3" filter="url(#g)"><animate attributeName="r" values="19;23;19" dur="2s" repeatCount="indefinite"/></circle><circle r="7" fill="#71f4ff"/><text y="-38" fill="#71f4ff" font-size="13" font-weight="700">CURRENT</text><text y="48" fill="#ffffff" font-size="13" font-weight="700">Stabilization</text></g>
-  <g transform="translate(1090 170)"><circle r="14" fill="#0a131b" stroke="#46606f" stroke-width="2"/><text y="48" fill="#718b9b" font-size="13">Release Prep</text></g>
-</g>
-<text x="890" y="260" fill="#7898aa" font-family="ui-monospace,Consolas,monospace" font-size="11" text-anchor="middle">v51.0.6 INTERNAL BASELINE</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020913"/><stop offset="0.55" stop-color="#061726"/><stop offset="1" stop-color="#020b13"/></linearGradient>
+<linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#087dff"/><stop offset="0.52" stop-color="#29e7ff"/><stop offset="1" stop-color="#00a7ff"/></linearGradient>
+<radialGradient id="core"><stop offset="0" stop-color="#65f3ff" stop-opacity=".9"/><stop offset=".38" stop-color="#00c8ff" stop-opacity=".28"/><stop offset="1" stop-color="#007dff" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#12344b" stroke-width="1" opacity=".24"/></pattern>
+</defs>
+<rect width="1200" height="720" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="720" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="718" rx="23" fill="none" stroke="#173a50"/>
+<text x="42" y="46" fill="#59eaff" font-family="ui-monospace,Consolas,monospace" font-size="15" letter-spacing="3">LEVIATHAN DEVELOPMENT ROADMAP // INTERNAL</text>
+<text x="42" y="72" fill="#7f9eb2" font-family="Segoe UI,Arial,sans-serif" font-size="12">Detailed development path. Current work is internal development, testing, stabilization and release preparation only.</text>
+<rect x="42" y="94" width="1116" height="58" rx="14" fill="#061724" stroke="#17455d"/>
+<text x="62" y="117" fill="#6b8ea4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.5">CURRENT BASELINE</text>
+<text x="62" y="141" fill="#effbff" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="750">v51.0.6 // Stabilization and validation</text>
+<text x="760" y="118" fill="#6b8ea4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.5">OUTSTANDING MANUAL GATES</text>
+<text x="760" y="141" fill="#b7d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="12">Legacy Fabric 1.8.9 • Modrinth pagination • Installer/uninstall • Physical Android TV Cast</text>
+<path d="M96 204 V628" fill="none" stroke="#143a50" stroke-width="6" stroke-linecap="round"/>
+<path d="M96 204 V548" fill="none" stroke="#11bad6" stroke-width="6" stroke-linecap="round" opacity=".78"/>
+<circle r="5" fill="#64efff" filter="url(#glow)"><animateMotion dur="5.5s" repeatCount="indefinite" path="M96 204 V548"/></circle>
+<circle cx="96" cy="204" r="14" fill="#071a25" stroke="#24c9e3" stroke-width="3"/>
+<rect x="142" y="170" width="1016" height="68" rx="13" fill="#06131e" stroke="#16394d"/>
+<text x="164" y="195" fill="#5f8ca4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.2">PHASE 01 // COMPLETE</text>
+<text x="164" y="219" fill="#eaf8ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750">RESEARCH</text>
+<text x="368" y="218" fill="#83a1b3" font-family="Segoe UI,Arial,sans-serif" font-size="12">Competitive research, ecosystem mapping, security research</text>
+<circle cx="96" cy="265" r="14" fill="#071a25" stroke="#24c9e3" stroke-width="3"/>
+<rect x="142" y="231" width="1016" height="68" rx="13" fill="#06131e" stroke="#16394d"/>
+<text x="164" y="256" fill="#5f8ca4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.2">PHASE 02 // COMPLETE</text>
+<text x="164" y="280" fill="#eaf8ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750">ARCHITECTURE</text>
+<text x="368" y="279" fill="#83a1b3" font-family="Segoe UI,Arial,sans-serif" font-size="12">Platform boundaries, repositories, interfaces, release model</text>
+<circle cx="96" cy="326" r="14" fill="#071a25" stroke="#24c9e3" stroke-width="3"/>
+<rect x="142" y="292" width="1016" height="68" rx="13" fill="#06131e" stroke="#16394d"/>
+<text x="164" y="317" fill="#5f8ca4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.2">PHASE 03 // COMPLETE</text>
+<text x="164" y="341" fill="#eaf8ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750">FOUNDATION</text>
+<text x="368" y="340" fill="#83a1b3" font-family="Segoe UI,Arial,sans-serif" font-size="12">Launcher core, build system, authentication foundation</text>
+<circle cx="96" cy="387" r="14" fill="#071a25" stroke="#24c9e3" stroke-width="3"/>
+<rect x="142" y="353" width="1016" height="68" rx="13" fill="#06131e" stroke="#16394d"/>
+<text x="164" y="378" fill="#5f8ca4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.2">PHASE 04 // ACTIVE</text>
+<text x="164" y="402" fill="#eaf8ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750">INTEGRATION</text>
+<text x="368" y="401" fill="#83a1b3" font-family="Segoe UI,Arial,sans-serif" font-size="12">Client, APIs, Cast, installer, updater, connected services</text>
+<circle cx="96" cy="448" r="14" fill="#071a25" stroke="#24c9e3" stroke-width="3"/>
+<rect x="142" y="414" width="1016" height="68" rx="13" fill="#06131e" stroke="#16394d"/>
+<text x="164" y="439" fill="#5f8ca4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.2">PHASE 05 // ACTIVE</text>
+<text x="164" y="463" fill="#eaf8ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750">SECURITY</text>
+<text x="368" y="462" fill="#83a1b3" font-family="Segoe UI,Arial,sans-serif" font-size="12">Threat hardening, Nimbus, privacy controls, validation gates</text>
+<circle cx="96" cy="509" r="14" fill="#071a25" stroke="#24c9e3" stroke-width="3"/>
+<rect x="142" y="475" width="1016" height="68" rx="13" fill="#06131e" stroke="#16394d"/>
+<text x="164" y="500" fill="#5f8ca4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.2">PHASE 06 // ACTIVE</text>
+<text x="164" y="524" fill="#eaf8ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750">TESTING</text>
+<text x="368" y="523" fill="#83a1b3" font-family="Segoe UI,Arial,sans-serif" font-size="12">Windows retests, compatibility, failure recovery, device validation</text>
+<circle cx="96" cy="570" r="20" fill="#0b2938" stroke="#69f1ff" stroke-width="3" filter="url(#glow)"/>
+<rect x="142" y="536" width="1016" height="68" rx="13" fill="#06131e" stroke="#16394d"/>
+<text x="164" y="561" fill="#5f8ca4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.2">PHASE 07 // CURRENT</text>
+<text x="164" y="585" fill="#69f1ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750">STABILIZATION</text>
+<text x="368" y="584" fill="#83a1b3" font-family="Segoe UI,Arial,sans-serif" font-size="12">v51.0.6 internal baseline, bug fixing, regression control</text>
+<circle cx="96" cy="570" r="7" fill="#70f2ff"><animate attributeName="r" values="5;9;5" dur="2s" repeatCount="indefinite"/></circle>
+<text x="1110" y="575" text-anchor="end" fill="#67efff" font-family="ui-monospace,Consolas,monospace" font-size="11">CURRENT FOCUS</text>
+<circle cx="96" cy="631" r="14" fill="#081219" stroke="#405c6c" stroke-width="3"/>
+<rect x="142" y="597" width="1016" height="68" rx="13" fill="#06131e" stroke="#16394d"/>
+<text x="164" y="622" fill="#5f8ca4" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.2">PHASE 08 // LOCKED</text>
+<text x="164" y="646" fill="#eaf8ff" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="750">RELEASE PREP</text>
+<text x="368" y="645" fill="#83a1b3" font-family="Segoe UI,Arial,sans-serif" font-size="12">Release checks, signing, distribution validation, documentation</text>
+<rect x="42" y="654" width="1116" height="38" rx="10" fill="#07141e" stroke="#203c4d"/>
+<text x="600" y="678" text-anchor="middle" fill="#7898aa" font-family="ui-monospace,Consolas,monospace" font-size="11">PUBLIC RELEASE GATE REMAINS CLOSED UNTIL VALIDATION, SECURITY, COMPATIBILITY AND DISTRIBUTION CHECKS ARE COMPLETE</text>
 </svg>
