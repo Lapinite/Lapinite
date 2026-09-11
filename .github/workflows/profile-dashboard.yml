@@ -10,6 +10,9 @@ on:
     paths:
       - "tools/update-profile-dashboard.py"
       - "tools/generate-profile-visuals.py"
+      - "tools/generate-profile-analytics-v2.py"
+      - "tools/generate-profile-live-panels.py"
+      - "tools/style-profile-layout.py"
       - "tools/cleanup-profile-readme.py"
       - ".github/workflows/profile-dashboard.yml"
 
@@ -47,6 +50,19 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/generate-profile-visuals.py
 
+      - name: Generate unified analytics dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/generate-profile-analytics-v2.py
+
+      - name: Generate live activity panels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/generate-profile-live-panels.py
+
+      - name: Apply cohesive profile layout
+        run: python tools/style-profile-layout.py
+
       - name: Remove private and redundant profile copy
         run: python tools/cleanup-profile-readme.py
 
@@ -76,8 +92,13 @@ jobs:
               "<!-- PUBLIC_ANALYTICS_END -->",
               "Public Commit Activity in the Last Year",
               "Public Development Analytics",
+              "Live Public Activity",
+              "Public Repository Health",
               "Leviathan Neural Core",
               "Development Roadmap",
+              "assets/profile/analytics-overview.svg",
+              "assets/profile/activity-feed.svg",
+              "assets/profile/repository-health.svg",
           ]
 
           missing_text = [item for item in required_text if item not in text]
@@ -92,14 +113,13 @@ jobs:
 
           required_assets = [
               Path("assets/profile/contributions.svg"),
-              Path("assets/profile/languages.svg"),
-              Path("assets/profile/activity-types.svg"),
-              Path("assets/profile/repository-sizes.svg"),
-              Path("assets/profile/activity-trend.svg"),
               Path("assets/profile/neural-core.svg"),
               Path("assets/profile/roadmap.svg"),
               Path("assets/profile/command-core.svg"),
               Path("assets/profile/pacman.svg"),
+              Path("assets/profile/analytics-overview.svg"),
+              Path("assets/profile/activity-feed.svg"),
+              Path("assets/profile/repository-health.svg"),
           ]
 
           missing_assets = [str(path) for path in required_assets if not path.is_file() or path.stat().st_size == 0]
@@ -122,14 +142,13 @@ jobs:
           if missing_text or leaked_text or missing_assets:
               raise SystemExit(1)
 
-          languages = Path("assets/profile/languages.svg").read_text(encoding="utf-8")
-          if "Public Repository Language Mix" not in languages:
-              raise SystemExit("Public language analytics label is misleading or missing")
-
           visual_checks = {
               "assets/profile/contributions.svg": ["TOTAL COMMITS", "MONTHLY OUTPUT", "365 DAY SIGNAL"],
               "assets/profile/roadmap.svg": ["OUTSTANDING MANUAL GATES", "PHASE 07", "PUBLIC RELEASE GATE REMAINS CLOSED"],
               "assets/profile/neural-core.svg": ["PUBLIC ARCHITECTURE MAP", "INTEGRATIONS", "PUBLIC SANITIZED MODEL"],
+              "assets/profile/analytics-overview.svg": ["PUBLIC DEVELOPMENT TELEMETRY", "14-Day Public Activity Signal", "PUBLIC REPOS"],
+              "assets/profile/activity-feed.svg": ["LIVE PUBLIC ACTIVITY FEED"],
+              "assets/profile/repository-health.svg": ["PUBLIC REPOSITORY HEALTH"],
           }
           for filename, markers in visual_checks.items():
               content = Path(filename).read_text(encoding="utf-8")
