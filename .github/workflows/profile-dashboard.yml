@@ -51,6 +51,20 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/generate-profile-visuals.py
 
+      - name: Polish generated visual layout
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('assets/profile/roadmap.svg')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace(
+              '<text x="760" y="141" fill="#b7d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="12">Legacy Fabric 1.8.9 • Modrinth pagination • Installer/uninstall • Physical Android TV Cast</text>',
+              '<text x="760" y="138" fill="#b7d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">Legacy Fabric 1.8.9 • Modrinth pagination • Installer/uninstall</text><text x="760" y="150" fill="#8faebe" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">Physical Android TV Cast validation</text>'
+          )
+          p.write_text(s, encoding='utf-8')
+          PY
+
       - name: Generate unified analytics dashboard
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -99,12 +113,14 @@ jobs:
               "Live Public Activity",
               "Public Repository Health",
               "Leviathan Neural Core",
-              "Leviathan Data Platform",
+              "Leviathan Ecosystem",
+              "Data Platform",
               "Development Roadmap",
               "assets/profile/analytics-overview.svg",
               "assets/profile/activity-feed.svg",
               "assets/profile/repository-health.svg",
               "assets/profile/data-platform.svg",
+              "assets/profile/ecosystem-overview.svg",
           ]
 
           missing_text = [item for item in required_text if item not in text]
@@ -121,6 +137,7 @@ jobs:
               Path("assets/profile/contributions.svg"),
               Path("assets/profile/neural-core.svg"),
               Path("assets/profile/data-platform.svg"),
+              Path("assets/profile/ecosystem-overview.svg"),
               Path("assets/profile/roadmap.svg"),
               Path("assets/profile/command-core.svg"),
               Path("assets/profile/pacman.svg"),
@@ -151,9 +168,10 @@ jobs:
 
           visual_checks = {
               "assets/profile/contributions.svg": ["TOTAL COMMITS", "MONTHLY OUTPUT", "365 DAY SIGNAL"],
-              "assets/profile/roadmap.svg": ["OUTSTANDING MANUAL GATES", "PHASE 07", "PUBLIC RELEASE GATE REMAINS CLOSED"],
+              "assets/profile/roadmap.svg": ["OUTSTANDING MANUAL GATES", "PHASE 07", "PUBLIC RELEASE GATE REMAINS CLOSED", "Physical Android TV Cast validation"],
               "assets/profile/neural-core.svg": ["PUBLIC ARCHITECTURE MAP", "INTEGRATIONS", "PUBLIC SANITIZED MODEL"],
               "assets/profile/data-platform.svg": ["LEVIATHAN DATA PLATFORM", "POSTGRESQL", "EVENT PIPELINE"],
+              "assets/profile/ecosystem-overview.svg": ["LEVIATHAN ECOSYSTEM", "PLAYER SOFTWARE", "OBSERVABILITY"],
               "assets/profile/analytics-overview.svg": ["PUBLIC DEVELOPMENT TELEMETRY", "14-Day Public Activity Signal", "PUBLIC REPOS"],
               "assets/profile/activity-feed.svg": ["LIVE PUBLIC ACTIVITY FEED"],
               "assets/profile/repository-health.svg": ["PUBLIC REPOSITORY HEALTH"],
