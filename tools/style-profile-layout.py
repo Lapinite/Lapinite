@@ -13,13 +13,13 @@ def replace_marked(text,start,end,body):
 analytics='''<h3 align="center">Public Development Analytics</h3>
 
 <p align="center">
-  <img width="100%" src="assets/profile/analytics-overview.svg" alt="Leviathan public development telemetry dashboard">
+  <img width="100%" src="assets/profile/analytics-overview-v2.svg" alt="Leviathan public development telemetry dashboard">
 </p>'''
 activity='''<p align="center">
-  <img width="100%" src="assets/profile/activity-feed.svg" alt="Live public GitHub activity feed">
+  <img width="100%" src="assets/profile/activity-feed-v2.svg" alt="Live public GitHub activity feed">
 </p>'''
 repos='''<p align="center">
-  <img width="100%" src="assets/profile/repository-health.svg" alt="Public repository health dashboard">
+  <img width="100%" src="assets/profile/repository-health-v2.svg" alt="Public repository health dashboard">
 </p>'''
 
 t=replace_marked(t,'<!-- PUBLIC_ANALYTICS_START -->','<!-- PUBLIC_ANALYTICS_END -->',analytics)
@@ -32,11 +32,11 @@ t=t.replace('<h3 align="center">Repository Freshness</h3>','<h3 align="center">P
 external='''## Identity & External Services
 
 <p align="center">
-  <img width="100%" src="assets/profile/external-services.svg" alt="Animated Microsoft, Xbox, Minecraft and Leviathan identity service boundary map">
+  <img width="100%" src="assets/profile/external-services-v2.svg" alt="Animated Microsoft, Xbox, Minecraft and Leviathan identity service boundary map">
 </p>
 
 Microsoft account services, Xbox Live, XSTS, Minecraft Services and Mojang/Minecraft platform systems remain external trust boundaries. Leviathan owns only its own account mapping, session/permission state, product state, device/Cast state, telemetry, licensing and other platform data required for Leviathan functionality.'''
-if 'assets/profile/external-services.svg' not in t:
+if 'assets/profile/external-services-v2.svg' not in t:
     anchor='## Leviathan Data Platform'
     if anchor in t:
         t=t.replace(anchor,external+'\n\n'+anchor,1)
@@ -45,28 +45,28 @@ platform_pattern=re.compile(r'## Platform Areas\n\n<table width="100%">.*?</tabl
 ecosystem='''## Leviathan Ecosystem
 
 <p align="center">
-  <img width="100%" src="assets/profile/ecosystem-overview.svg" alt="Animated Leviathan ecosystem overview">
+  <img width="100%" src="assets/profile/ecosystem-overview-v2.svg" alt="Animated Leviathan ecosystem overview">
 </p>'''
 if platform_pattern.search(t):
     t=platform_pattern.sub(ecosystem,t,count=1)
-elif 'assets/profile/ecosystem-overview.svg' not in t:
+elif 'assets/profile/ecosystem-overview-v2.svg' not in t:
     anchor='## Public Developer Repositories'
     t=t.replace(anchor,ecosystem+'\n\n'+anchor,1)
 
 experience='''## Experience & Commerce Flows
 
 <p align="center">
-  <img width="100%" src="assets/profile/experience-commerce.svg" alt="Animated Leviathan website, mobile, launcher, client, cosmetics, LeviCoins and commerce flow">
+  <img width="100%" src="assets/profile/experience-commerce-v2.svg" alt="Animated Leviathan website, mobile, launcher, client, cosmetics, LeviCoins and commerce flow">
 </p>
 
 The public model separates player-facing experiences from the commerce and entitlement path: website and mobile account/store surfaces, launcher/client consumption, external payment processing, verified orders, Leviathan entitlements, cosmetics ownership, LeviCoins ledger state, referrals and creator/campaign attribution. Payment credentials remain with the payment provider.'''
-if 'assets/profile/experience-commerce.svg' not in t:
+if 'assets/profile/experience-commerce-v2.svg' not in t:
     anchor='## Public Developer Repositories'
     if anchor in t:
         t=t.replace(anchor,experience+'\n\n'+anchor,1)
 
 if '## Leviathan Data Platform' in t:
-    duplicate=re.compile(r'\n## Data Platform\n\n<p align="center">\n  <img width="100%" src="assets/profile/data-platform\.svg".*?</p>\n\nThe data layer is planned.*?(?=\n## Public Developer Repositories)',re.S)
+    duplicate=re.compile(r'\n## Data Platform\n\n<p align="center">\n  <img width="100%" src="assets/profile/data-platform(?:-v2)?\.svg".*?</p>\n\nThe data layer is planned.*?(?=\n## Public Developer Repositories)',re.S)
     t=duplicate.sub('',t,count=1)
 
 p.write_text(t,encoding='utf-8',newline='\n')
