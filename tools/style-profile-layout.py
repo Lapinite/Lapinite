@@ -29,6 +29,20 @@ t=replace_marked(t,'<!-- REPOSITORY_FRESHNESS_START -->','<!-- REPOSITORY_FRESHN
 t=t.replace('<h3 align="center">Recent Public Activity</h3>','<h3 align="center">Live Public Activity</h3>')
 t=t.replace('<h3 align="center">Repository Freshness</h3>','<h3 align="center">Public Repository Health</h3>')
 
+# Insert the external identity/service trust-boundary map once, immediately
+# before the canonical data-platform section.
+external='''## Identity & External Services
+
+<p align="center">
+  <img width="100%" src="assets/profile/external-services.svg" alt="Animated Microsoft, Xbox, Minecraft and Leviathan identity service boundary map">
+</p>
+
+Microsoft account services, Xbox Live, XSTS, Minecraft Services and Mojang/Minecraft platform systems remain external trust boundaries. Leviathan owns only its own account mapping, session/permission state, product state, device/Cast state, telemetry, licensing and other platform data required for Leviathan functionality.'''
+if 'assets/profile/external-services.svg' not in t:
+    anchor='## Leviathan Data Platform'
+    if anchor in t:
+        t=t.replace(anchor,external+'\n\n'+anchor,1)
+
 # Replace the plain Platform Areas table with one cohesive animated ecosystem visual.
 platform_pattern=re.compile(r'## Platform Areas\n\n<table width="100%">.*?</table>',re.S)
 ecosystem='''## Leviathan Ecosystem
