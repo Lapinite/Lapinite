@@ -38,6 +38,14 @@ Leviathan is under active internal development. The current internal baseline is
 
 The Neural Core is a deliberately simplified public system map. It communicates the product ecosystem without exposing proprietary source code, private endpoints, internal service topology, credentials or sensitive implementation details.
 
+## Identity & External Services
+
+<p align="center">
+  <img width="100%" src="assets/profile/external-services.svg" alt="Animated Microsoft, Xbox, Minecraft and Leviathan identity service boundary map">
+</p>
+
+Microsoft account services, Xbox Live, XSTS, Minecraft Services and Mojang/Minecraft platform systems remain external trust boundaries. Leviathan owns only its own account mapping, session/permission state, product state, device/Cast state, telemetry, licensing and other platform data required for Leviathan functionality.
+
 ## Leviathan Data Platform
 
 <p align="center">

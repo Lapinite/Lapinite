@@ -13,44 +13,44 @@
 <rect x="42" y="172" width="1116" height="40" rx="9" fill="#061621" stroke="#14394d"/>
 <text x="56" y="197" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Status</text>
 <text x="655" y="197" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="830" y="197" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">5 KB</text>
+<text x="830" y="197" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">13 KB</text>
 <text x="970" y="197" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <circle cx="1098" cy="192" r="4" fill="#4cefa8" filter="url(#g)"/><text x="1112" y="196" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <rect x="42" y="222" width="1116" height="40" rx="9" fill="#061621" stroke="#14394d"/>
 <text x="56" y="247" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Server-Tools</text>
 <text x="655" y="247" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="830" y="247" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">5 KB</text>
+<text x="830" y="247" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">12 KB</text>
 <text x="970" y="247" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <circle cx="1098" cy="242" r="4" fill="#4cefa8" filter="url(#g)"/><text x="1112" y="246" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <rect x="42" y="272" width="1116" height="40" rx="9" fill="#061621" stroke="#14394d"/>
 <text x="56" y="297" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Examples</text>
 <text x="655" y="297" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="830" y="297" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">9 KB</text>
+<text x="830" y="297" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">17 KB</text>
 <text x="970" y="297" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <circle cx="1098" cy="292" r="4" fill="#4cefa8" filter="url(#g)"/><text x="1112" y="296" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <rect x="42" y="322" width="1116" height="40" rx="9" fill="#061621" stroke="#14394d"/>
 <text x="56" y="347" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Integrations</text>
 <text x="655" y="347" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="830" y="347" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">9 KB</text>
+<text x="830" y="347" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">17 KB</text>
 <text x="970" y="347" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <circle cx="1098" cy="342" r="4" fill="#4cefa8" filter="url(#g)"/><text x="1112" y="346" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <rect x="42" y="372" width="1116" height="40" rx="9" fill="#061621" stroke="#14394d"/>
 <text x="56" y="397" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-API-Docs</text>
 <text x="655" y="397" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="830" y="397" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">7 KB</text>
+<text x="830" y="397" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">14 KB</text>
 <text x="970" y="397" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <circle cx="1098" cy="392" r="4" fill="#4cefa8" filter="url(#g)"/><text x="1112" y="396" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <rect x="42" y="422" width="1116" height="40" rx="9" fill="#061621" stroke="#14394d"/>
 <text x="56" y="447" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-SDK</text>
 <text x="655" y="447" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="830" y="447" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">9 KB</text>
+<text x="830" y="447" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">17 KB</text>
 <text x="970" y="447" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <circle cx="1098" cy="442" r="4" fill="#4cefa8" filter="url(#g)"/><text x="1112" y="446" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <rect x="42" y="472" width="1116" height="40" rx="9" fill="#061621" stroke="#14394d"/>
-<text x="56" y="497" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Launcher</text>
+<text x="56" y="497" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Docs</text>
 <text x="655" y="497" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="830" y="497" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">347 KB</text>
-<text x="970" y="497" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="830" y="497" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">14 KB</text>
+<text x="970" y="497" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">1</text>
 <circle cx="1098" cy="492" r="4" fill="#4cefa8" filter="url(#g)"/><text x="1112" y="496" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 
 <!-- LEVIATHAN_GLOW_BORDER_V1 -->
