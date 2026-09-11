@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - main
-      - feat/animated-glow-borders
+      - feat/external-services-map
     paths:
       - "tools/update-profile-dashboard.py"
       - "tools/generate-profile-visuals.py"
@@ -119,9 +119,11 @@ jobs:
               "Live Public Activity",
               "Public Repository Health",
               "Leviathan Neural Core",
+              "Identity & External Services",
               "Leviathan Ecosystem",
               "Data Platform",
               "Development Roadmap",
+              "assets/profile/external-services.svg",
               "assets/profile/analytics-overview.svg",
               "assets/profile/activity-feed.svg",
               "assets/profile/repository-health.svg",
@@ -144,6 +146,7 @@ jobs:
               Path("assets/hero-light.svg"),
               Path("assets/profile/contributions.svg"),
               Path("assets/profile/neural-core.svg"),
+              Path("assets/profile/external-services.svg"),
               Path("assets/profile/data-platform.svg"),
               Path("assets/profile/ecosystem-overview.svg"),
               Path("assets/profile/roadmap.svg"),
@@ -178,6 +181,7 @@ jobs:
               "assets/profile/contributions.svg": ["TOTAL COMMITS", "MONTHLY OUTPUT", "365 DAY SIGNAL"],
               "assets/profile/roadmap.svg": ["OUTSTANDING MANUAL GATES", "PHASE 07", "PUBLIC RELEASE GATE REMAINS CLOSED", "Physical Android TV Cast validation"],
               "assets/profile/neural-core.svg": ["PUBLIC ARCHITECTURE MAP", "INTEGRATIONS", "PUBLIC SANITIZED MODEL"],
+              "assets/profile/external-services.svg": ["IDENTITY &amp; EXTERNAL SERVICE BOUNDARIES", "MICROSOFT", "MINECRAFT"],
               "assets/profile/data-platform.svg": ["LEVIATHAN DATA PLATFORM", "POSTGRESQL", "EVENT PIPELINE"],
               "assets/profile/ecosystem-overview.svg": ["LEVIATHAN ECOSYSTEM", "PLAYER SOFTWARE", "OBSERVABILITY"],
               "assets/profile/analytics-overview.svg": ["PUBLIC DEVELOPMENT TELEMETRY", "14-Day Public Activity Signal", "PUBLIC REPOS"],
