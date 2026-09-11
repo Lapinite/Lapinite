@@ -1,36 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#f8fcff"/>
-      <stop offset="0.52" stop-color="#eef8ff"/>
-      <stop offset="1" stop-color="#f5fbff"/>
-    </linearGradient>
-    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#007acc"/>
-      <stop offset="0.5" stop-color="#00a8d8"/>
-      <stop offset="1" stop-color="#005fe0"/>
-    </linearGradient>
-    <radialGradient id="core">
-      <stop offset="0" stop-color="#3dd8ff" stop-opacity="0.65"/>
-      <stop offset="0.35" stop-color="#3dcfff" stop-opacity="0.24"/>
-      <stop offset="1" stop-color="#6fb7ff" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 L 0 0 0 36" fill="none" stroke="#9ec5dc" stroke-width="1" opacity="0.28"/></pattern>
-  </defs>
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="358" rx="27" fill="none" stroke="#bfd9e8"/>
-  <g opacity="0.38"><path d="M760 80 C890 15 1045 55 1135 142 C1028 107 930 130 863 213 C817 270 783 302 705 312" fill="none" stroke="#139ed0" stroke-width="2"/><path d="M810 112 C920 61 1038 92 1092 165 C1018 142 939 155 884 213 C844 254 807 282 745 290" fill="none" stroke="#0fbfdc" stroke-width="1.3"/><path d="M842 144 C925 114 1008 126 1048 179 C991 167 940 177 901 220 C872 250 842 267 799 272" fill="none" stroke="#4cc9df" stroke-width="1"/></g>
-  <circle cx="1015" cy="180" r="154" fill="url(#core)" opacity="0.55"><animate attributeName="opacity" values="0.35;0.62;0.35" dur="5s" repeatCount="indefinite"/></circle>
-  <circle cx="1015" cy="180" r="92" fill="none" stroke="#08a9d2" stroke-width="1.5" opacity="0.42" stroke-dasharray="8 10"><animateTransform attributeName="transform" type="rotate" from="0 1015 180" to="360 1015 180" dur="18s" repeatCount="indefinite"/></circle>
-  <circle cx="1015" cy="180" r="66" fill="none" stroke="#1fc3db" stroke-width="1" opacity="0.48" stroke-dasharray="3 8"><animateTransform attributeName="transform" type="rotate" from="360 1015 180" to="0 1015 180" dur="12s" repeatCount="indefinite"/></circle>
-  <circle cx="1015" cy="180" r="8" fill="#00a8d8"><animate attributeName="r" values="6;10;6" dur="2.4s" repeatCount="indefinite"/></circle>
-  <rect x="72" y="74" width="8" height="208" rx="4" fill="url(#cyan)"/>
-  <text x="110" y="115" fill="#007c9f" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="700" letter-spacing="4">LEVIATHAN // SYSTEM INTERFACE</text>
-  <text x="108" y="183" fill="#102432" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="850" letter-spacing="1">LEVIATHAN</text>
-  <text x="111" y="224" fill="#405f72" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22">Minecraft software, security, services and developer tooling.</text>
-  <text x="111" y="258" fill="#63859a" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15">LAUNCHER  •  CLIENT  •  PLATFORM  •  NIMBUS  •  API  •  TELEMETRY</text>
-  <g transform="translate(110 295)"><circle cx="5" cy="-5" r="5" fill="#159a5d"><animate attributeName="opacity" values="0.55;1;0.55" dur="1.8s" repeatCount="indefinite"/></circle><text x="22" y="0" fill="#58778a" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="1">ACTIVE DEVELOPMENT // SOURCE PRIVATE // PUBLIC SYSTEMS ONLINE</text></g>
-  <g fill="#0ba8c8" opacity="0.55"><circle cx="760" cy="80" r="3"/><circle cx="863" cy="213" r="3"/><circle cx="1092" cy="165" r="3"/><circle cx="884" cy="213" r="3"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7fcff"/><stop offset=".5" stop-color="#eaf7ff"/><stop offset="1" stop-color="#f8fcff"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0875d8"/><stop offset=".5" stop-color="#10b8d7"/><stop offset="1" stop-color="#006ddc"/></linearGradient>
+  <radialGradient id="halo"><stop offset="0" stop-color="#20b8dc" stop-opacity=".38"/><stop offset=".35" stop-color="#28bfe0" stop-opacity=".14"/><stop offset="1" stop-color="#3b83e8" stop-opacity="0"/></radialGradient>
+  <linearGradient id="serpent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05a9c5"/><stop offset="1" stop-color="#176ed6"/></linearGradient>
+  <filter id="glow" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8fb9d0" stroke-width="1" opacity=".24"/></pattern>
+  <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#8eb8cf" opacity=".18"/></pattern>
+</defs>
+
+<rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+<rect width="1200" height="430" rx="28" fill="url(#micro)"/>
+<rect x="1" y="1" width="1198" height="428" rx="27" fill="none" stroke="#b9d7e7"/>
+
+<g font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">
+  <text x="54" y="31" fill="#6b8fa2">SYSTEM</text><text x="111" y="31" fill="#0c8faa">LEVIATHAN</text>
+  <text x="248" y="31" fill="#6b8fa2">MODE</text><text x="295" y="31" fill="#3f6679">INTERNAL DEVELOPMENT</text>
+  <text x="522" y="31" fill="#6b8fa2">BASELINE</text><text x="593" y="31" fill="#3f6679">v51.0.6</text>
+  <text x="719" y="31" fill="#6b8fa2">STATE</text><text x="763" y="31" fill="#168d5a">STABILIZATION</text>
+  <circle cx="1124" cy="27" r="4" fill="#1c9b63"><animate attributeName="opacity" values=".45;1;.45" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="1138" y="31" fill="#5c7f91">ONLINE</text>
+</g>
+<line x1="42" y1="47" x2="1158" y2="47" stroke="#bed7e4"/>
+
+<rect x="58" y="92" width="7" height="230" rx="3.5" fill="url(#cyan)"/>
+<text x="95" y="120" fill="#0787a4" font-family="ui-monospace,Consolas,monospace" font-size="14" font-weight="700" letter-spacing="4">LEVIATHAN // COMMAND INTERFACE</text>
+<text x="92" y="200" fill="#102735" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="74" font-weight="850" letter-spacing="1">LEVIATHAN</text>
+<text x="95" y="239" fill="#405f72" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21">Minecraft software, security, services and developer tooling.</text>
+
+<g font-family="ui-monospace,Consolas,monospace" font-size="12" letter-spacing="1.2">
+  <text x="95" y="282" fill="#6a8798">LAUNCHER</text><circle cx="168" cy="278" r="3" fill="#0aabc9"/>
+  <text x="185" y="282" fill="#6a8798">CLIENT</text><circle cx="241" cy="278" r="3" fill="#0aabc9"/>
+  <text x="258" y="282" fill="#6a8798">PLATFORM</text><circle cx="337" cy="278" r="3" fill="#0aabc9"/>
+  <text x="354" y="282" fill="#6a8798">NIMBUS</text><circle cx="415" cy="278" r="3" fill="#0aabc9"/>
+  <text x="432" y="282" fill="#6a8798">API</text><circle cx="461" cy="278" r="3" fill="#0aabc9"/>
+  <text x="478" y="282" fill="#6a8798">CAST</text><circle cx="517" cy="278" r="3" fill="#0aabc9"/>
+  <text x="534" y="282" fill="#6a8798">TELEMETRY</text>
+</g>
+
+<rect x="94" y="306" width="532" height="53" rx="12" fill="#f2f9fc" stroke="#bcd8e6"/>
+<circle cx="116" cy="332" r="5" fill="#1f9d66"><animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/></circle>
+<text x="134" y="329" fill="#7693a2" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.1">CURRENT PHASE</text>
+<text x="134" y="347" fill="#18333f" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">STABILIZATION + VALIDATION</text>
+<text x="401" y="329" fill="#7693a2" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.1">SOURCE</text>
+<text x="401" y="347" fill="#18333f" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="700">PRIVATE</text>
+
+<circle cx="940" cy="223" r="192" fill="url(#halo)" opacity=".5"><animate attributeName="opacity" values=".25;.58;.25" dur="6s" repeatCount="indefinite"/></circle>
+<circle cx="940" cy="223" r="135" fill="none" stroke="#0b91b1" stroke-width="1.5" stroke-dasharray="5 12" opacity=".45"><animateTransform attributeName="transform" type="rotate" from="0 940 223" to="360 940 223" dur="22s" repeatCount="indefinite"/></circle>
+<circle cx="940" cy="223" r="107" fill="none" stroke="#12a9c4" stroke-width="1" stroke-dasharray="2 8" opacity=".55"><animateTransform attributeName="transform" type="rotate" from="360 940 223" to="0 940 223" dur="15s" repeatCount="indefinite"/></circle>
+<circle cx="940" cy="223" r="77" fill="none" stroke="#4e90b7" stroke-width="1" stroke-dasharray="14 6" opacity=".45"><animateTransform attributeName="transform" type="rotate" from="0 940 223" to="360 940 223" dur="30s" repeatCount="indefinite"/></circle>
+
+<path id="serpentPath" d="M865 178 C905 142 981 148 1014 186 C1040 215 1024 247 994 258 C957 272 918 254 909 228 C901 205 919 191 940 192 C963 193 975 211 970 228 C965 246 944 252 928 245" fill="none" stroke="url(#serpent)" stroke-width="9" stroke-linecap="round" opacity=".84"/>
+<path d="M857 170 L874 174 L865 189 Z" fill="#0faec8" opacity=".9"/>
+<circle cx="864" cy="178" r="3" fill="#ffffff"/>
+<circle r="4" fill="#20b5d0"><animateMotion dur="4.8s" repeatCount="indefinite"><mpath href="#serpentPath"/></animateMotion></circle>
+
+<g font-family="ui-monospace,Consolas,monospace" font-size="9" text-anchor="middle">
+  <g><circle cx="940" cy="73" r="5" fill="#0faec8"/><text x="940" y="58" fill="#66889a">SECURITY</text></g>
+  <g><circle cx="1081" cy="170" r="5" fill="#706be0"/><text x="1081" y="153" fill="#66889a">PLATFORM</text></g>
+  <g><circle cx="1042" cy="346" r="5" fill="#2aa676"/><text x="1042" y="366" fill="#66889a">OBSERVABILITY</text></g>
+  <g><circle cx="798" cy="321" r="5" fill="#11a2bd"/><text x="798" y="342" fill="#66889a">PLAYER</text></g>
+</g>
+<g stroke="#8cb6ca" stroke-width="1" opacity=".55"><line x1="940" y1="88" x2="940" y2="116"/><line x1="1067" y1="178" x2="1038" y2="188"/><line x1="1029" y1="332" x2="1008" y2="308"/><line x1="812" y1="310" x2="841" y2="287"/></g>
+
+<rect x="720" y="81" width="450" height="1" fill="#0faec8" opacity=".14"><animate attributeName="y" values="81;365;81" dur="7s" repeatCount="indefinite"/></rect>
+
+<line x1="42" y1="382" x2="1158" y2="382" stroke="#bed7e4"/>
+<g font-family="ui-monospace,Consolas,monospace" font-size="9" letter-spacing="1">
+  <text x="54" y="405" fill="#6c8d9f">PUBLIC SURFACE</text><text x="155" y="405" fill="#53788b">PROFILE / DOCS / SDK / API DOCS / EXAMPLES / INTEGRATIONS / STATUS</text>
+  <text x="1027" y="405" fill="#6c8d9f">SYSTEM PULSE</text>
+  <circle cx="1146" cy="401" r="3" fill="#0faec8"><animate attributeName="opacity" values=".2;1;.2" dur="1.3s" repeatCount="indefinite"/></circle>
+</g>
 </svg>
