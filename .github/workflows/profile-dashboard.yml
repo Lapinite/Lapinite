@@ -1,0 +1,58 @@
+name: Profile Dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches:
+      - chore/profile-live-dashboard
+    paths:
+      - "tools/update-profile-dashboard.py"
+      - ".github/workflows/profile-dashboard.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-dashboard-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - name: Generate live profile dashboard
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/update-profile-dashboard.py
+
+      - name: Validate README markers
+        shell: bash
+        run: |
+          grep -q '<!-- RECENT_ACTIVITY_START -->' README.md
+          grep -q '<!-- RECENT_ACTIVITY_END -->' README.md
+          grep -q '<!-- REPOSITORY_FRESHNESS_START -->' README.md
+          grep -q '<!-- REPOSITORY_FRESHNESS_END -->' README.md
+          grep -q 'Contributions in the Last Year' README.md
+
+      - name: Commit dashboard refresh
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "Profile dashboard already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh profile dashboard"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
