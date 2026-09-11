@@ -13,6 +13,7 @@ on:
       - "tools/generate-profile-analytics-v2.py"
       - "tools/generate-profile-live-panels.py"
       - "tools/style-profile-layout.py"
+      - "tools/add-data-platform-section.py"
       - "tools/cleanup-profile-readme.py"
       - ".github/workflows/profile-dashboard.yml"
 
@@ -63,6 +64,9 @@ jobs:
       - name: Apply cohesive profile layout
         run: python tools/style-profile-layout.py
 
+      - name: Add data platform section
+        run: python tools/add-data-platform-section.py
+
       - name: Remove private and redundant profile copy
         run: python tools/cleanup-profile-readme.py
 
@@ -95,10 +99,12 @@ jobs:
               "Live Public Activity",
               "Public Repository Health",
               "Leviathan Neural Core",
+              "Leviathan Data Platform",
               "Development Roadmap",
               "assets/profile/analytics-overview.svg",
               "assets/profile/activity-feed.svg",
               "assets/profile/repository-health.svg",
+              "assets/profile/data-platform.svg",
           ]
 
           missing_text = [item for item in required_text if item not in text]
@@ -114,6 +120,7 @@ jobs:
           required_assets = [
               Path("assets/profile/contributions.svg"),
               Path("assets/profile/neural-core.svg"),
+              Path("assets/profile/data-platform.svg"),
               Path("assets/profile/roadmap.svg"),
               Path("assets/profile/command-core.svg"),
               Path("assets/profile/pacman.svg"),
@@ -146,6 +153,7 @@ jobs:
               "assets/profile/contributions.svg": ["TOTAL COMMITS", "MONTHLY OUTPUT", "365 DAY SIGNAL"],
               "assets/profile/roadmap.svg": ["OUTSTANDING MANUAL GATES", "PHASE 07", "PUBLIC RELEASE GATE REMAINS CLOSED"],
               "assets/profile/neural-core.svg": ["PUBLIC ARCHITECTURE MAP", "INTEGRATIONS", "PUBLIC SANITIZED MODEL"],
+              "assets/profile/data-platform.svg": ["LEVIATHAN DATA PLATFORM", "POSTGRESQL", "EVENT PIPELINE"],
               "assets/profile/analytics-overview.svg": ["PUBLIC DEVELOPMENT TELEMETRY", "14-Day Public Activity Signal", "PUBLIC REPOS"],
               "assets/profile/activity-feed.svg": ["LIVE PUBLIC ACTIVITY FEED"],
               "assets/profile/repository-health.svg": ["PUBLIC REPOSITORY HEALTH"],
