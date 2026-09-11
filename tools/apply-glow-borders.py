@@ -18,6 +18,10 @@ TARGETS = [
     Path("assets/profile/repository-health.svg"),
     Path("assets/profile/analytics-overview.svg"),
     Path("assets/profile/pacman.svg"),
+    Path("assets/profile/core-products.svg"),
+    Path("assets/profile/tech-stack.svg"),
+    Path("assets/profile/platform-areas.svg"),
+    Path("assets/profile/developer-network.svg"),
 ]
 
 MARKER = "LEVIATHAN_GLOW_BORDER_V1"
