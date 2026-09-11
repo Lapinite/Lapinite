@@ -7,7 +7,7 @@ text = path.read_text(encoding="utf-8")
 core = '''## Core Products
 
 <p align="center">
-  <img width="100%" src="assets/profile/core-products.svg" alt="Animated Leviathan core product map">
+  <img width="100%" src="assets/profile/core-products-v2.svg" alt="Animated Leviathan core product map">
 </p>
 
 <p align="center"><sub>Leviathan player software and Nimbus server protection are separate product lines connected by shared platform and security principles.</sub></p>
@@ -17,7 +17,7 @@ core = '''## Core Products
 stack = '''## Current Leviathan Development Stack
 
 <p align="center">
-  <img width="100%" src="assets/profile/tech-stack.svg" alt="Animated high-level Leviathan development technology stack">
+  <img width="100%" src="assets/profile/tech-stack-v2.svg" alt="Animated high-level Leviathan development technology stack">
 </p>
 
 <p align="center"><sub>High-level technology names only. Proprietary implementation remains private.</sub></p>
@@ -27,7 +27,7 @@ stack = '''## Current Leviathan Development Stack
 areas = '''## Platform Areas
 
 <p align="center">
-  <img width="100%" src="assets/profile/platform-areas.svg" alt="Animated public Leviathan platform areas">
+  <img width="100%" src="assets/profile/platform-areas-v2.svg" alt="Animated public Leviathan platform areas">
 </p>
 
 <p align="center"><sub>Player software, platform services, protection and observability shown as a deliberately simplified public domain map.</sub></p>
@@ -37,7 +37,7 @@ areas = '''## Platform Areas
 network = '''## Public Developer Repositories
 
 <p align="center">
-  <img width="100%" src="assets/profile/developer-network.svg" alt="Animated Leviathan public developer repository network">
+  <img width="100%" src="assets/profile/developer-network-v2.svg" alt="Animated Leviathan public developer repository network">
 </p>
 
 <p align="center">
@@ -56,7 +56,6 @@ network = '''## Public Developer Repositories
 text = re.sub(r'## Core Products\n.*?(?=## Current Leviathan Development Stack\n)', core, text, flags=re.S)
 text = re.sub(r'## Current Leviathan Development Stack\n.*?(?=## Leviathan Ecosystem\n)', stack, text, flags=re.S)
 
-# Insert or refresh the platform-area panel immediately after the ecosystem overview.
 text = re.sub(r'\n## Platform Areas\n.*?(?=\n## Experience & Commerce Flows\n)', '\n' + areas.rstrip() + '\n', text, flags=re.S)
 if '## Platform Areas\n' not in text:
     marker = '## Experience & Commerce Flows\n'
@@ -64,7 +63,6 @@ if '## Platform Areas\n' not in text:
 
 text = re.sub(r'## Public Developer Repositories\n.*?(?=## Leviathan Development Activity\n)', network, text, flags=re.S)
 
-# Keep generated architecture sections visual-first, with only a short explanatory caption.
 replacements = {
     'Leviathan is under active internal development. The current internal baseline is **v51.0.6**, with stabilization and validation work in progress. No public launcher or installer release is implied by this profile.':
         '<p align="center"><sub>Internal baseline <strong>v51.0.6</strong> • stabilization + validation • no public launcher or installer release</sub></p>',
