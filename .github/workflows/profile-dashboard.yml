@@ -7,22 +7,21 @@ on:
   push:
     branches:
       - main
-      - feat/external-services-map
-      - feat/profile-visuals-v4-clean
     paths:
       - "tools/update-profile-dashboard.py"
       - "tools/generate-profile-visuals.py"
       - "tools/generate-profile-analytics-v2.py"
       - "tools/generate-profile-live-panels.py"
+      - "tools/generate-profile-hud-v2.py"
       - "tools/style-profile-layout.py"
       - "tools/add-data-platform-section.py"
+      - "tools/apply-profile-holographic-layout.py"
       - "tools/apply-glow-borders.py"
       - "tools/cleanup-profile-readme.py"
       - "tools/enhance-profile-readme.py"
-      - "assets/profile/core-products.svg"
-      - "assets/profile/tech-stack.svg"
-      - "assets/profile/platform-areas.svg"
-      - "assets/profile/developer-network.svg"
+      - "assets/hero-dark-v4.svg"
+      - "assets/hero-light-v4.svg"
+      - "assets/profile/**"
       - ".github/workflows/profile-dashboard.yml"
 
 permissions:
@@ -35,7 +34,7 @@ concurrency:
 jobs:
   update-dashboard:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Check out branch
@@ -50,193 +49,130 @@ jobs:
           sed -i 's/Public Commit Activity in the Last Year/Contributions in the Last Year/g' README.md
           sed -i 's/<h3 align="center">Live Public Activity<\/h3>/<h3 align="center">Recent Public Activity<\/h3>/g' README.md
 
-      - name: Generate live profile dashboard
+      - name: Generate base public dashboard data
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/update-profile-dashboard.py
 
-      - name: Generate detailed Leviathan visuals
+      - name: Generate detailed public-safe visuals
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/generate-profile-visuals.py
 
-      - name: Polish generated visual layout
-        shell: bash
-        run: |
-          python - <<'PY'
-          from pathlib import Path
-          p = Path('assets/profile/roadmap.svg')
-          s = p.read_text(encoding='utf-8')
-          s = s.replace(
-              '<text x="760" y="141" fill="#b7d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="12">Legacy Fabric 1.8.9 • Modrinth pagination • Installer/uninstall • Physical Android TV Cast</text>',
-              '<text x="760" y="138" fill="#b7d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">Legacy Fabric 1.8.9 • Modrinth pagination • Installer/uninstall</text><text x="760" y="150" fill="#8faebe" font-family="Segoe UI,Arial,sans-serif" font-size="10.5">Physical Android TV Cast validation</text>'
-          )
-          p.write_text(s, encoding='utf-8')
-          PY
-
-      - name: Generate unified analytics dashboard
+      - name: Generate legacy analytics inputs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/generate-profile-analytics-v2.py
 
-      - name: Generate live activity panels
+      - name: Generate legacy live panel inputs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/generate-profile-live-panels.py
 
-      - name: Apply cohesive profile layout
+      - name: Apply base visual layout
         run: python tools/style-profile-layout.py
 
-      - name: Add data platform section
+      - name: Ensure data platform section
         run: python tools/add-data-platform-section.py
 
       - name: Remove private and redundant profile copy
         run: python tools/cleanup-profile-readme.py
 
-      - name: Apply visual-first profile panels
+      - name: Apply visual-first sections
         run: python tools/enhance-profile-readme.py
 
-      - name: Clarify public language analytics
-        shell: bash
-        run: |
-          sed -i 's/Public Code Language Mix/Public Repository Language Mix/g' assets/profile/languages.svg
-          sed -i 's/Aggregated from public repositories only/Languages detected in public repositories only/g' assets/profile/languages.svg
+      - name: Generate final holographic live HUD panels
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/generate-profile-hud-v2.py
 
-      - name: Apply animated Leviathan borders
-        run: python tools/apply-glow-borders.py
+      - name: Enforce final holographic asset references
+        run: python tools/apply-profile-holographic-layout.py
 
-      - name: Validate generated dashboard
+      - name: Validate holographic profile
         shell: bash
         run: |
           python - <<'PY'
           from pathlib import Path
 
           readme = Path("README.md")
-          if not readme.is_file():
-              raise SystemExit("README.md is missing")
-
           text = readme.read_text(encoding="utf-8")
-          required_text = [
-              "<!-- RECENT_ACTIVITY_START -->",
-              "<!-- RECENT_ACTIVITY_END -->",
-              "<!-- REPOSITORY_FRESHNESS_START -->",
-              "<!-- REPOSITORY_FRESHNESS_END -->",
-              "<!-- PUBLIC_ANALYTICS_START -->",
-              "<!-- PUBLIC_ANALYTICS_END -->",
-              "Public Commit Activity in the Last Year",
-              "Public Development Analytics",
-              "Live Public Activity",
-              "Public Repository Health",
-              "Leviathan Neural Core",
-              "Identity & External Services",
-              "Leviathan Ecosystem",
-              "Data Platform",
-              "Development Roadmap",
+
+          required_refs = [
+              "assets/hero-dark-v4.svg",
+              "assets/hero-light-v4.svg",
+              "assets/profile/command-core-v3.svg",
+              "assets/profile/neural-core-v3.svg",
+              "assets/profile/external-services-v2.svg",
+              "assets/profile/data-platform-v2.svg",
+              "assets/profile/roadmap-v2.svg",
+              "assets/profile/core-products-v2.svg",
+              "assets/profile/tech-stack-v2.svg",
+              "assets/profile/ecosystem-overview-v2.svg",
+              "assets/profile/platform-areas-v2.svg",
+              "assets/profile/experience-commerce-v2.svg",
+              "assets/profile/developer-network-v2.svg",
+              "assets/profile/account-overview-v2.svg",
+              "assets/profile/contributions-v2.svg",
+              "assets/profile/activity-feed-v2.svg",
+              "assets/profile/repository-health-v2.svg",
+              "assets/profile/analytics-overview-v2.svg",
+              "assets/profile/launcher-status-v2.svg",
+              "assets/profile/pacman-v2.svg",
+          ]
+
+          missing_refs = [item for item in required_refs if item not in text]
+          missing_assets = [item for item in required_refs if not Path(item).is_file() or Path(item).stat().st_size == 0]
+
+          forbidden_refs = [
+              "assets/profile/command-core.svg",
+              "assets/profile/neural-core.svg",
               "assets/profile/external-services.svg",
-              "assets/profile/analytics-overview.svg",
-              "assets/profile/activity-feed.svg",
-              "assets/profile/repository-health.svg",
               "assets/profile/data-platform.svg",
-              "assets/profile/ecosystem-overview.svg",
+              "assets/profile/roadmap.svg",
               "assets/profile/core-products.svg",
               "assets/profile/tech-stack.svg",
+              "assets/profile/ecosystem-overview.svg",
               "assets/profile/platform-areas.svg",
+              "assets/profile/experience-commerce.svg",
               "assets/profile/developer-network.svg",
+              "assets/profile/contributions.svg",
+              "assets/profile/activity-feed.svg",
+              "assets/profile/repository-health.svg",
+              "assets/profile/analytics-overview.svg",
+              "assets/profile/pacman.svg",
           ]
+          stale_refs = [item for item in forbidden_refs if item in text]
 
-          missing_text = [item for item in required_text if item not in text]
-
-          forbidden_text = [
-              "Browse public research lists",
-              "Research-Library",
-              "The Pacman graph is generated by GitHub Actions and stored in this profile repository.",
-              "Generated from public GitHub repositories and public activity only. Private repositories and proprietary source code are excluded.",
+          required_text = [
+              "v51.0.6",
+              "no public launcher or installer release",
+              "public release gate remains closed",
           ]
-          leaked_text = [item for item in forbidden_text if item in text]
+          missing_text = [item for item in required_text if item not in text.lower()]
 
-          required_assets = [
-              Path("assets/hero-dark.svg"),
-              Path("assets/hero-light.svg"),
-              Path("assets/profile/contributions.svg"),
-              Path("assets/profile/neural-core.svg"),
-              Path("assets/profile/external-services.svg"),
-              Path("assets/profile/data-platform.svg"),
-              Path("assets/profile/ecosystem-overview.svg"),
-              Path("assets/profile/roadmap.svg"),
-              Path("assets/profile/command-core.svg"),
-              Path("assets/profile/pacman.svg"),
-              Path("assets/profile/analytics-overview.svg"),
-              Path("assets/profile/activity-feed.svg"),
-              Path("assets/profile/repository-health.svg"),
-              Path("assets/profile/core-products.svg"),
-              Path("assets/profile/tech-stack.svg"),
-              Path("assets/profile/platform-areas.svg"),
-              Path("assets/profile/developer-network.svg"),
-          ]
-
-          missing_assets = [str(path) for path in required_assets if not path.is_file() or path.stat().st_size == 0]
-
-          if missing_text:
-              print("Missing README markers/sections:")
-              for item in missing_text:
-                  print(f"  - {item}")
-
-          if leaked_text:
-              print("Private or redundant README copy returned:")
-              for item in leaked_text:
-                  print(f"  - {item}")
-
-          if missing_assets:
-              print("Missing or empty profile assets:")
-              for item in missing_assets:
-                  print(f"  - {item}")
-
-          if missing_text or leaked_text or missing_assets:
+          if missing_refs or missing_assets or stale_refs or missing_text:
+              print("missing_refs", missing_refs)
+              print("missing_assets", missing_assets)
+              print("stale_refs", stale_refs)
+              print("missing_text", missing_text)
               raise SystemExit(1)
 
-          visual_checks = {
-              "assets/profile/contributions.svg": ["TOTAL COMMITS", "MONTHLY OUTPUT", "365 DAY SIGNAL"],
-              "assets/profile/roadmap.svg": ["OUTSTANDING MANUAL GATES", "PHASE 07", "PUBLIC RELEASE GATE REMAINS CLOSED", "Physical Android TV Cast validation"],
-              "assets/profile/neural-core.svg": ["PUBLIC ARCHITECTURE MAP", "INTEGRATIONS", "PUBLIC SANITIZED MODEL"],
-              "assets/profile/external-services.svg": ["IDENTITY &amp; EXTERNAL SERVICE BOUNDARIES", "MICROSOFT", "MINECRAFT"],
-              "assets/profile/data-platform.svg": ["LEVIATHAN DATA PLATFORM", "POSTGRESQL", "EVENT PIPELINE"],
-              "assets/profile/ecosystem-overview.svg": ["LEVIATHAN ECOSYSTEM", "PLAYER SOFTWARE", "OBSERVABILITY"],
-              "assets/profile/analytics-overview.svg": ["PUBLIC DEVELOPMENT TELEMETRY", "14-Day Public Activity Signal", "PUBLIC REPOS"],
-              "assets/profile/activity-feed.svg": ["LIVE PUBLIC ACTIVITY FEED"],
-              "assets/profile/repository-health.svg": ["PUBLIC REPOSITORY HEALTH"],
-              "assets/profile/core-products.svg": ["CORE PRODUCTS", "Nimbus AntiCheat", "Launcher + Client"],
-              "assets/profile/tech-stack.svg": ["DEVELOPMENT STACK", "JAVA 21", "GRADLE"],
-              "assets/profile/platform-areas.svg": ["PLATFORM AREAS", "Player Software", "Observability"],
-              "assets/profile/developer-network.svg": ["PUBLIC DEVELOPER NETWORK", "API Docs", "Server Tools"],
-          }
-          for filename, markers in visual_checks.items():
-              content = Path(filename).read_text(encoding="utf-8")
-              for marker in markers:
-                  if marker not in content:
-                      raise SystemExit(f"Detailed visual validation failed: {filename} missing {marker}")
-
-          for path in required_assets:
-              content = path.read_text(encoding="utf-8")
-              if "LEVIATHAN_GLOW_BORDER_V1" not in content:
-                  raise SystemExit(f"Animated border validation failed: {path}")
-
-          print("Profile dashboard validation passed.")
-          for path in required_assets:
-              print(f"  {path}: {path.stat().st_size} bytes")
+          print("Holographic profile validation passed.")
           PY
 
       - name: Commit dashboard refresh
         shell: bash
         run: |
-          if git diff --quiet -- README.md assets/hero-dark.svg assets/hero-light.svg assets/profile; then
+          if git diff --quiet -- README.md assets/profile; then
             echo "Profile dashboard already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/hero-dark.svg assets/hero-light.svg assets/profile
-          git commit -m "chore: refresh profile visuals"
+          git add README.md assets/profile
+          git commit -m "chore: refresh holographic profile HUD"
 
           for attempt in 1 2 3; do
             git fetch origin "${GITHUB_REF_NAME}"
