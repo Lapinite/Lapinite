@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020913"/><stop offset=".58" stop-color="#061725"/><stop offset="1" stop-color="#020b13"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#087dff"/><stop offset=".5" stop-color="#2be8ff"/><stop offset="1" stop-color="#00a8ff"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c98b28"/><stop offset=".5" stop-color="#ffd56a"/><stop offset="1" stop-color="#d8a531"/></linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#12364b" stroke-width="1" opacity=".18"/></pattern>
+</defs>
+<rect width="1200" height="760" rx="24" fill="url(#bg)"/><rect width="1200" height="760" rx="24" fill="url(#grid)"/><rect x="1" y="1" width="1198" height="758" rx="23" fill="none" stroke="#173b51"/>
+<text x="42" y="46" fill="#58eaff" font-family="ui-monospace,Consolas,monospace" font-size="15" letter-spacing="3">LEVIATHAN EXPERIENCE + COMMERCE // PUBLIC DIRECTION</text>
+<text x="42" y="72" fill="#7d9fb2" font-family="Segoe UI,Arial,sans-serif" font-size="12">Website, mobile, launcher/client, cosmetics, LeviCoins, payments, entitlements and connected platform flows.</text>
+
+<!-- user surfaces -->
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+  <g><rect x="55" y="120" width="200" height="88" rx="15" fill="#061722" stroke="#22bddb"/><text x="155" y="152" fill="#eefcff" font-size="17" font-weight="750">WEBSITE</text><text x="155" y="178" fill="#88a7b7" font-size="10">account • store • news • support</text></g>
+  <g><rect x="285" y="120" width="200" height="88" rx="15" fill="#061722" stroke="#22bddb"/><text x="385" y="152" fill="#eefcff" font-size="17" font-weight="750">MOBILE APP</text><text x="385" y="178" fill="#88a7b7" font-size="10">account • cosmetics • Cast • alerts</text></g>
+  <g><rect x="715" y="120" width="200" height="88" rx="15" fill="#061722" stroke="#22bddb"/><text x="815" y="152" fill="#eefcff" font-size="17" font-weight="750">LAUNCHER</text><text x="815" y="178" fill="#88a7b7" font-size="10">profiles • instances • store state</text></g>
+  <g><rect x="945" y="120" width="200" height="88" rx="15" fill="#061722" stroke="#22bddb"/><text x="1045" y="152" fill="#eefcff" font-size="17" font-weight="750">CLIENT</text><text x="1045" y="178" fill="#88a7b7" font-size="10">cosmetics • entitlements • gameplay UX</text></g>
+</g>
+
+<!-- platform core -->
+<circle cx="600" cy="290" r="88" fill="#061a28" stroke="#35e8f8" stroke-width="2.5" filter="url(#glow)"/>
+<circle cx="600" cy="290" r="65" fill="none" stroke="#168fb6" stroke-dasharray="5 8"><animateTransform attributeName="transform" type="rotate" from="0 600 290" to="360 600 290" dur="14s" repeatCount="indefinite"/></circle>
+<text x="600" y="278" text-anchor="middle" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">LEVIATHAN</text>
+<text x="600" y="302" text-anchor="middle" fill="#62dce9" font-family="ui-monospace,Consolas,monospace" font-size="10">AUTH • API • ACCOUNT STATE</text>
+<text x="600" y="322" text-anchor="middle" fill="#668a9d" font-family="Segoe UI,Arial,sans-serif" font-size="9">public-safe platform boundary</text>
+
+<!-- surface paths -->
+<g fill="none" stroke="#176987" stroke-width="1.7" opacity=".58">
+  <path id="w" d="M155 208 Q330 245 513 277"/><path id="m" d="M385 208 Q480 240 520 265"/>
+  <path id="l" d="M815 208 Q720 240 680 265"/><path id="c" d="M1045 208 Q870 245 687 277"/>
+</g>
+<g fill="#63f2ff" filter="url(#glow)"><circle r="4"><animateMotion dur="5s" repeatCount="indefinite"><mpath href="#w"/></animateMotion></circle><circle r="4"><animateMotion dur="4.6s" begin=".7s" repeatCount="indefinite"><mpath href="#m"/></animateMotion></circle><circle r="4"><animateMotion dur="4.8s" begin="1.2s" repeatCount="indefinite"><mpath href="#l"/></animateMotion></circle><circle r="4"><animateMotion dur="5.2s" begin="1.7s" repeatCount="indefinite"><mpath href="#c"/></animateMotion></circle></g>
+
+<!-- commerce lane -->
+<text x="42" y="420" fill="#6f93a6" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">COMMERCE + ENTITLEMENT FLOW</text>
+<path id="commerce" d="M100 490 H1095" fill="none" stroke="#5a4a21" stroke-width="5" stroke-linecap="round" opacity=".6"/>
+<circle r="5" fill="#ffd56a" filter="url(#glow)"><animateMotion dur="10s" repeatCount="indefinite"><mpath href="#commerce"/></animateMotion></circle>
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+  <g><rect x="55" y="447" width="170" height="86" rx="14" fill="#15140d" stroke="#d8a531"/><text x="140" y="478" fill="#fff3c9" font-size="15" font-weight="750">STORE / CATALOG</text><text x="140" y="502" fill="#af9b67" font-size="10">cosmetics • bundles • plans</text></g>
+  <g><rect x="260" y="447" width="170" height="86" rx="14" fill="#15140d" stroke="#d8a531"/><text x="345" y="478" fill="#fff3c9" font-size="15" font-weight="750">CHECKOUT</text><text x="345" y="502" fill="#af9b67" font-size="10">price • tax • order intent</text></g>
+  <g><rect x="465" y="447" width="170" height="86" rx="14" fill="#15140d" stroke="#d8a531"/><text x="550" y="472" fill="#fff3c9" font-size="14" font-weight="750">PAYMENT</text><text x="550" y="489" fill="#fff3c9" font-size="14" font-weight="750">PROVIDER</text><text x="550" y="508" fill="#af9b67" font-size="9.5">external card/payment boundary</text></g>
+  <g><rect x="670" y="447" width="170" height="86" rx="14" fill="#15140d" stroke="#d8a531"/><text x="755" y="478" fill="#fff3c9" font-size="15" font-weight="750">ORDER VERIFY</text><text x="755" y="502" fill="#af9b67" font-size="10">provider event • fraud checks</text></g>
+  <g><rect x="875" y="447" width="170" height="86" rx="14" fill="#15140d" stroke="#d8a531"/><text x="960" y="478" fill="#fff3c9" font-size="15" font-weight="750">ENTITLEMENT</text><text x="960" y="502" fill="#af9b67" font-size="10">grant • revoke • refund state</text></g>
+</g>
+
+<!-- economy/cosmetics -->
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+  <g><rect x="120" y="590" width="250" height="95" rx="15" fill="#061722" stroke="#aa78ff"/><text x="245" y="621" fill="#eefcff" font-size="16" font-weight="750">COSMETICS SERVICE</text><text x="245" y="646" fill="#8ba7b7" font-size="10">catalog • ownership • equipped state</text><text x="245" y="665" fill="#688a9d" font-size="9.5">client/launcher/web/mobile presentation</text></g>
+  <g><rect x="475" y="590" width="250" height="95" rx="15" fill="#061722" stroke="#ffd56a"/><text x="600" y="621" fill="#fff3c9" font-size="16" font-weight="750">LEVICOINS / WALLET</text><text x="600" y="646" fill="#b2a071" font-size="10">balance ledger • grants • spends • adjustments</text><text x="600" y="665" fill="#857a58" font-size="9.5">virtual economy direction, not payment-card storage</text></g>
+  <g><rect x="830" y="590" width="250" height="95" rx="15" fill="#061722" stroke="#43d9a3"/><text x="955" y="621" fill="#eefcff" font-size="16" font-weight="750">GROWTH + ATTRIBUTION</text><text x="955" y="646" fill="#8ba7b7" font-size="10">referrals • creators • campaigns • rewards</text><text x="955" y="665" fill="#688a9d" font-size="9.5">analytics and anti-abuse boundaries</text></g>
+</g>
+<g fill="none" stroke-width="1.5" opacity=".6"><path id="e1" d="M960 533 Q820 570 725 620" stroke="#b18d36"/><path id="e2" d="M960 533 Q620 555 370 620" stroke="#8d66c6"/><path id="e3" d="M755 533 Q880 565 955 590" stroke="#348f70"/><path id="e4" d="M600 378 V590" stroke="#176987" stroke-dasharray="5 8"/></g>
+<g filter="url(#glow)"><circle r="4" fill="#ffd56a"><animateMotion dur="5.5s" repeatCount="indefinite"><mpath href="#e1"/></animateMotion></circle><circle r="4" fill="#bf95ff"><animateMotion dur="6s" begin="1s" repeatCount="indefinite"><mpath href="#e2"/></animateMotion></circle><circle r="4" fill="#54e4ae"><animateMotion dur="5s" begin=".6s" repeatCount="indefinite"><mpath href="#e3"/></animateMotion></circle><circle r="4" fill="#58eaff"><animateMotion dur="4.7s" repeatCount="indefinite"><mpath href="#e4"/></animateMotion></circle></g>
+
+<text x="600" y="718" text-anchor="middle" fill="#5f8194" font-family="ui-monospace,Consolas,monospace" font-size="10">DIRECTIONAL PUBLIC MODEL • PAYMENT CREDENTIALS STAY WITH THE PAYMENT PROVIDER • PRIVATE SCHEMAS AND FRAUD LOGIC EXCLUDED</text>
+</svg>
