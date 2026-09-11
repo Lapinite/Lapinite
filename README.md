@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark-v2.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light-v2.svg">
-  <img width="100%" alt="Leviathan Project" src="./assets/hero-light-v2.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark-v3.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light-v3.svg">
+  <img width="100%" alt="Leviathan Project" src="./assets/hero-light-v3.svg">
 </picture>
 
 <br>
@@ -25,7 +25,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Leviathan Command Core
 
 <p align="center">
-  <img width="100%" src="assets/profile/command-core.svg" alt="Leviathan Command Core development status HUD">
+  <img width="100%" src="assets/profile/command-core-v2.svg" alt="Leviathan Command Core development status HUD">
 </p>
 
 <p align="center"><sub>Internal baseline <strong>v51.0.6</strong> • stabilization + validation • no public launcher or installer release</sub></p>
@@ -33,7 +33,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Leviathan Neural Core
 
 <p align="center">
-  <img width="100%" src="assets/profile/neural-core.svg" alt="Animated high-level public Leviathan system architecture">
+  <img width="100%" src="assets/profile/neural-core-v2.svg" alt="Animated high-level public Leviathan holographic system architecture">
 </p>
 
 <p align="center"><sub>Sanitized public architecture view. Proprietary implementation and private topology remain private.</sub></p>
@@ -180,7 +180,6 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 <p align="center">
   <img width="100%" src="assets/profile/pacman.svg" alt="Pacman-style GitHub contribution activity">
 </p>
-
 
 ## Developer Resources
 
