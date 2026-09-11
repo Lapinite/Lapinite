@@ -1,0 +1,39 @@
+name: Profile README Update
+
+on:
+  push:
+    branches:
+      - chore/profile-languages-links
+    paths:
+      - tools/update-profile-readme.py
+      - .github/workflows/profile-readme-update.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: chore/profile-languages-links
+          fetch-depth: 0
+
+      - name: Apply targeted README updates
+        run: python tools/update-profile-readme.py
+
+      - name: Commit README change
+        shell: bash
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "README already up to date."
+            exit 0
+          fi
+          git config user.name "Lapinite"
+          git config user.email "135764216+Lapinite@users.noreply.github.com"
+          git add README.md
+          git commit -m "docs: update development stack and profile links"
+          git push origin HEAD:chore/profile-languages-links
