@@ -133,51 +133,28 @@ The current focus is stabilization, testing and internal release preparation. Pu
   <a href="https://github.com/Lapinite?tab=overview"><img width="100%" src="assets/profile/contributions.svg" alt="Public commit activity in the last year"></a>
 </p>
 
-<h3 align="center">Recent Public Activity</h3>
+<h3 align="center">Live Public Activity</h3>
 
 <!-- RECENT_ACTIVITY_START -->
-<table align="center" width="100%">
-<tr><th align="left">Activity</th><th align="right">When</th></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite">Merged pull request #5 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 16:01 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite">Opened pull request #5 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 16:01 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/feat/profile-visuals-v3">Pushed updates to Lapinite/Lapinite (feat/profile-visuals-v3)</a></td><td align="right"><sub>2026-09-11 16:01 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite">Created branch feat/profile-visuals-v3 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 15:57 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite">Merged pull request #4 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 15:50 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/main">Pushed updates to Lapinite/Lapinite (main)</a></td><td align="right"><sub>2026-09-11 15:50 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite">Opened pull request #4 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 15:49 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/feat/leviathan-profile-v2">Pushed updates to Lapinite/Lapinite (feat/leviathan-profile-v2)</a></td><td align="right"><sub>2026-09-11 15:48 UTC</sub></td></tr>
-</table>
+<p align="center">
+  <img width="100%" src="assets/profile/activity-feed.svg" alt="Live public GitHub activity feed">
+</p>
 <!-- RECENT_ACTIVITY_END -->
 
-<h3 align="center">Repository Freshness</h3>
+<h3 align="center">Public Repository Health</h3>
 
 <!-- REPOSITORY_FRESHNESS_START -->
-<table align="center" width="100%">
-<tr><th align="left">Repository</th><th align="left">Last Push</th><th align="right">Size</th><th align="right">Stars</th><th align="right">Forks</th><th align="right">Open Issues</th></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite">Lapinite</a></td><td>2026-09-11</td><td align="right">175 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Status">Leviathan-Status</a></td><td>2026-09-11</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Server-Tools">Leviathan-Server-Tools</a></td><td>2026-09-11</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Examples">Leviathan-Examples</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Integrations">Leviathan-Integrations</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-SDK">Leviathan-SDK</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-API-Docs">Leviathan-API-Docs</a></td><td>2026-09-11</td><td align="right">7 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-</table>
+<p align="center">
+  <img width="100%" src="assets/profile/repository-health.svg" alt="Public repository health dashboard">
+</p>
 <!-- REPOSITORY_FRESHNESS_END -->
 
 <!-- PUBLIC_ANALYTICS_START -->
 <h3 align="center">Public Development Analytics</h3>
 
-<table align="center" width="100%">
-<tr>
-<td width="50%" valign="top"><img width="100%" src="assets/profile/languages.svg" alt="Public code language mix"></td>
-<td width="50%" valign="top"><img width="100%" src="assets/profile/activity-types.svg" alt="Recent public activity mix"></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><img width="100%" src="assets/profile/repository-sizes.svg" alt="Largest public repositories"></td>
-<td width="50%" valign="top"><img width="100%" src="assets/profile/activity-trend.svg" alt="Recent public activity trend"></td>
-</tr>
-</table>
-
+<p align="center">
+  <img width="100%" src="assets/profile/analytics-overview.svg" alt="Leviathan public development telemetry dashboard">
+</p>
 <!-- PUBLIC_ANALYTICS_END -->
 
 <h3 align="center">Leviathan Launcher</h3>
