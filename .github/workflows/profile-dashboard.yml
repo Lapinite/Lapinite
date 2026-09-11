@@ -7,10 +7,18 @@ on:
   push:
     branches:
       - main
+      - feat/profile-visuals-v4
     paths:
       - "tools/update-profile-dashboard.py"
       - "tools/generate-profile-visuals.py"
       - "tools/cleanup-profile-readme.py"
+      - "tools/enhance-profile-readme.py"
+      - "assets/hero-dark.svg"
+      - "assets/hero-light.svg"
+      - "assets/profile/core-products.svg"
+      - "assets/profile/tech-stack.svg"
+      - "assets/profile/platform-areas.svg"
+      - "assets/profile/developer-network.svg"
       - ".github/workflows/profile-dashboard.yml"
 
 permissions:
@@ -50,6 +58,9 @@ jobs:
       - name: Remove private and redundant profile copy
         run: python tools/cleanup-profile-readme.py
 
+      - name: Apply visual-first profile layout
+        run: python tools/enhance-profile-readme.py
+
       - name: Clarify public language analytics
         shell: bash
         run: |
@@ -78,6 +89,10 @@ jobs:
               "Public Development Analytics",
               "Leviathan Neural Core",
               "Development Roadmap",
+              "assets/profile/core-products.svg",
+              "assets/profile/tech-stack.svg",
+              "assets/profile/platform-areas.svg",
+              "assets/profile/developer-network.svg",
           ]
 
           missing_text = [item for item in required_text if item not in text]
@@ -91,6 +106,8 @@ jobs:
           leaked_text = [item for item in forbidden_text if item in text]
 
           required_assets = [
+              Path("assets/hero-dark.svg"),
+              Path("assets/hero-light.svg"),
               Path("assets/profile/contributions.svg"),
               Path("assets/profile/languages.svg"),
               Path("assets/profile/activity-types.svg"),
@@ -100,6 +117,10 @@ jobs:
               Path("assets/profile/roadmap.svg"),
               Path("assets/profile/command-core.svg"),
               Path("assets/profile/pacman.svg"),
+              Path("assets/profile/core-products.svg"),
+              Path("assets/profile/tech-stack.svg"),
+              Path("assets/profile/platform-areas.svg"),
+              Path("assets/profile/developer-network.svg"),
           ]
 
           missing_assets = [str(path) for path in required_assets if not path.is_file() or path.stat().st_size == 0]
@@ -130,6 +151,10 @@ jobs:
               "assets/profile/contributions.svg": ["TOTAL COMMITS", "MONTHLY OUTPUT", "365 DAY SIGNAL"],
               "assets/profile/roadmap.svg": ["OUTSTANDING MANUAL GATES", "PHASE 07", "PUBLIC RELEASE GATE REMAINS CLOSED"],
               "assets/profile/neural-core.svg": ["PUBLIC ARCHITECTURE MAP", "INTEGRATIONS", "PUBLIC SANITIZED MODEL"],
+              "assets/profile/core-products.svg": ["CORE PRODUCTS", "Nimbus AntiCheat", "Launcher + Client"],
+              "assets/profile/tech-stack.svg": ["DEVELOPMENT STACK", "JAVA 21", "GRADLE"],
+              "assets/profile/platform-areas.svg": ["PLATFORM AREAS", "Player Software", "Observability"],
+              "assets/profile/developer-network.svg": ["PUBLIC DEVELOPER NETWORK", "API Docs", "Server Tools"],
           }
           for filename, markers in visual_checks.items():
               content = Path(filename).read_text(encoding="utf-8")
