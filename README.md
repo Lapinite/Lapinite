@@ -88,14 +88,6 @@ The current focus is stabilization, testing and internal release preparation. Pu
   <img width="100%" src="assets/profile/ecosystem-overview.svg" alt="Animated Leviathan ecosystem overview">
 </p>
 
-## Data Platform
-
-<p align="center">
-  <img width="100%" src="assets/profile/data-platform.svg" alt="Animated Leviathan database and data platform architecture">
-</p>
-
-The data layer is planned around a relational core with separate ephemeral caching, object storage and event processing. Public diagrams stay intentionally high-level while schemas, hosts, credentials and sensitive implementation details remain private.
-
 ## Public Developer Repositories
 
 <table width="100%">

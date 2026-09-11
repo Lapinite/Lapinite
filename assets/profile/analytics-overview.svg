@@ -88,11 +88,11 @@
 <circle cx="900" cy="618" r="3" fill="#51eaff"><title>2026-09-05: 0 events</title></circle>
 <circle cx="936" cy="618" r="3" fill="#51eaff"><title>2026-09-06: 0 events</title></circle>
 <circle cx="972" cy="618" r="3" fill="#51eaff"><title>2026-09-07: 0 events</title></circle>
-<circle cx="1008" cy="610" r="3" fill="#51eaff"><title>2026-09-08: 9 events</title></circle>
+<circle cx="1008" cy="611" r="3" fill="#51eaff"><title>2026-09-08: 8 events</title></circle>
 <circle cx="1043" cy="617" r="3" fill="#51eaff"><title>2026-09-09: 1 events</title></circle>
 <circle cx="1079" cy="618" r="3" fill="#51eaff"><title>2026-09-10: 0 events</title></circle>
-<circle cx="1115" cy="540" r="3" fill="#51eaff"><title>2026-09-11: 90 events</title></circle>
-<polyline points="650,618 686,618 722,618 757,618 793,618 829,618 865,618 900,618 936,618 972,618 1008,610 1043,617 1079,618 1115,540" fill="none" stroke="#4fcfff" stroke-width="2.5"/>
+<circle cx="1115" cy="540" r="3" fill="#51eaff"><title>2026-09-11: 91 events</title></circle>
+<polyline points="650,618 686,618 722,618 757,618 793,618 829,618 865,618 900,618 936,618 972,618 1008,611 1043,617 1079,618 1115,540" fill="none" stroke="#4fcfff" stroke-width="2.5"/>
 <text x="650" y="638" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9">Aug 29</text>
 <text x="1115" y="638" text-anchor="end" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9">Sep 11</text>
 <rect x="42" y="675" width="1116" height="2" rx="1" fill="#0c5067"><animate attributeName="x" values="42;1080;42" dur="9s" repeatCount="indefinite"/></rect>
