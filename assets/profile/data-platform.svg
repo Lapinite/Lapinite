@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#020913"/><stop offset=".55" stop-color="#061725"/><stop offset="1" stop-color="#020b13"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#087dff"/><stop offset=".5" stop-color="#2be8ff"/><stop offset="1" stop-color="#00a8ff"/></linearGradient>
+  <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#12364b" stroke-width="1" opacity=".2"/></pattern>
+</defs>
+<rect width="1200" height="640" rx="24" fill="url(#bg)"/><rect width="1200" height="640" rx="24" fill="url(#grid)"/><rect x="1" y="1" width="1198" height="638" rx="23" fill="none" stroke="#173b51"/>
+<text x="42" y="45" fill="#58eaff" font-family="ui-monospace,Consolas,monospace" font-size="15" letter-spacing="3">LEVIATHAN DATA PLATFORM // ARCHITECTURE DIRECTION</text>
+<text x="42" y="70" fill="#7d9fb2" font-family="Segoe UI,Arial,sans-serif" font-size="12">Sanitized platform model for identity, product state, telemetry, security, commerce and operations.</text>
+
+<!-- central database core -->
+<circle cx="600" cy="325" r="118" fill="#061a28" stroke="#31e9fa" stroke-width="2.5" filter="url(#glow)"/>
+<circle cx="600" cy="325" r="91" fill="none" stroke="#159cc6" stroke-width="1.4" stroke-dasharray="6 10"><animateTransform attributeName="transform" type="rotate" from="0 600 325" to="360 600 325" dur="18s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="325" r="68" fill="none" stroke="#55efff" stroke-width="1" stroke-dasharray="2 8"><animateTransform attributeName="transform" type="rotate" from="360 600 325" to="0 600 325" dur="12s" repeatCount="indefinite"/></circle>
+<ellipse cx="600" cy="300" rx="49" ry="16" fill="#092636" stroke="#5befff"/><path d="M551 300v53c0 9 22 16 49 16s49-7 49-16v-53" fill="#092636" stroke="#5befff"/><ellipse cx="600" cy="353" rx="49" ry="16" fill="#092636" stroke="#5befff"/>
+<text x="600" y="401" text-anchor="middle" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="800">POSTGRESQL</text>
+<text x="600" y="423" text-anchor="middle" fill="#62dce9" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.3">PRIMARY RELATIONAL DATA</text>
+
+<!-- connecting paths -->
+<g fill="none" stroke="#176b8a" stroke-width="1.5" opacity=".55">
+<path id="p1" d="M250 175 Q410 215 505 285"/><path id="p2" d="M250 325 Q410 325 482 325"/><path id="p3" d="M250 475 Q410 430 505 365"/>
+<path id="p4" d="M950 175 Q790 215 695 285"/><path id="p5" d="M950 325 Q790 325 718 325"/><path id="p6" d="M950 475 Q790 430 695 365"/>
+<path id="p7" d="M600 110 V207"/><path id="p8" d="M600 443 V548"/>
+</g>
+<g fill="#66f2ff" filter="url(#glow)">
+<circle r="4"><animateMotion dur="5.2s" repeatCount="indefinite"><mpath href="#p1"/></animateMotion></circle>
+<circle r="4"><animateMotion dur="4.3s" begin=".7s" repeatCount="indefinite"><mpath href="#p2"/></animateMotion></circle>
+<circle r="4"><animateMotion dur="5.8s" begin="1.4s" repeatCount="indefinite"><mpath href="#p3"/></animateMotion></circle>
+<circle r="4"><animateMotion dur="5.1s" begin=".4s" repeatCount="indefinite"><mpath href="#p4"/></animateMotion></circle>
+<circle r="4"><animateMotion dur="4.7s" begin="1.1s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion></circle>
+<circle r="4"><animateMotion dur="5.6s" begin="1.8s" repeatCount="indefinite"><mpath href="#p6"/></animateMotion></circle>
+<circle r="4"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#p7"/></animateMotion></circle>
+<circle r="4"><animateMotion dur="4.5s" repeatCount="indefinite"><mpath href="#p8"/></animateMotion></circle>
+</g>
+
+<!-- nodes -->
+<g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle">
+<g><rect x="126" y="133" width="248" height="84" rx="14" fill="#061722" stroke="#20bfdd"/><text x="250" y="165" fill="#eefbff" font-size="16" font-weight="750">IDENTITY &amp; ACCOUNTS</text><text x="250" y="189" fill="#7898aa" font-size="10">users • linked identities • preferences • entitlements</text></g>
+<g><rect x="126" y="283" width="248" height="84" rx="14" fill="#061722" stroke="#20bfdd"/><text x="250" y="315" fill="#eefbff" font-size="16" font-weight="750">LAUNCHER &amp; CLIENT</text><text x="250" y="339" fill="#7898aa" font-size="10">profiles • instances • settings • device state</text></g>
+<g><rect x="126" y="433" width="248" height="84" rx="14" fill="#061722" stroke="#ff9d43"/><text x="250" y="465" fill="#eefbff" font-size="16" font-weight="750">NIMBUS &amp; SECURITY</text><text x="250" y="489" fill="#7898aa" font-size="10">violations • evidence metadata • audit state</text></g>
+<g><rect x="826" y="133" width="248" height="84" rx="14" fill="#061722" stroke="#8174ff"/><text x="950" y="165" fill="#eefbff" font-size="16" font-weight="750">API &amp; PLATFORM</text><text x="950" y="189" fill="#7898aa" font-size="10">public clients • permissions • integrations • webhooks</text></g>
+<g><rect x="826" y="283" width="248" height="84" rx="14" fill="#061722" stroke="#43d9a3"/><text x="950" y="315" fill="#eefbff" font-size="16" font-weight="750">TELEMETRY &amp; ANALYTICS</text><text x="950" y="339" fill="#7898aa" font-size="10">launches • crashes • performance • product signals</text></g>
+<g><rect x="826" y="433" width="248" height="84" rx="14" fill="#061722" stroke="#d9a441"/><text x="950" y="465" fill="#eefbff" font-size="16" font-weight="750">LICENSING &amp; COMMERCE</text><text x="950" y="489" fill="#7898aa" font-size="10">products • orders • license state • transaction refs</text></g>
+<g><rect x="476" y="84" width="248" height="70" rx="14" fill="#061722" stroke="#4dc7ef"/><text x="600" y="113" fill="#eefbff" font-size="15" font-weight="750">CACHE / EPHEMERAL STATE</text><text x="600" y="135" fill="#7898aa" font-size="10">sessions • rate limits • short-lived acceleration</text></g>
+<g><rect x="476" y="526" width="248" height="70" rx="14" fill="#061722" stroke="#6ed99b"/><text x="600" y="555" fill="#eefbff" font-size="15" font-weight="750">OBJECT STORAGE &amp; BACKUPS</text><text x="600" y="577" fill="#7898aa" font-size="10">diagnostics • evidence • exports • restore points</text></g>
+</g>
+
+<!-- event bus -->
+<rect x="398" y="470" width="404" height="30" rx="15" fill="#071823" stroke="#23526b"/>
+<text x="600" y="490" text-anchor="middle" fill="#78a7ba" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">EVENT PIPELINE / ASYNC WORK</text>
+<rect x="410" y="483" width="20" height="4" rx="2" fill="#54efff"><animate attributeName="x" values="410;770;410" dur="5s" repeatCount="indefinite"/></rect>
+
+<text x="42" y="620" fill="#5d8093" font-family="ui-monospace,Consolas,monospace" font-size="10">PUBLIC SANITIZED ARCHITECTURE • IMPLEMENTATION DETAILS, SCHEMA, HOSTS AND CREDENTIALS REMAIN PRIVATE</text>
+</svg>
