@@ -7,7 +7,7 @@ on:
   push:
     branches:
       - main
-      - chore/profile-analytics-dashboard
+      - feat/leviathan-profile-v2
     paths:
       - "tools/update-profile-dashboard.py"
       - ".github/workflows/profile-dashboard.yml"
@@ -30,6 +30,11 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
+
+      - name: Normalize contribution heading for generator
+        shell: bash
+        run: |
+          sed -i 's/Public Commit Activity in the Last Year/Contributions in the Last Year/g' README.md
 
       - name: Generate live profile dashboard
         env:
@@ -56,6 +61,8 @@ jobs:
               "<!-- PUBLIC_ANALYTICS_END -->",
               "Public Commit Activity in the Last Year",
               "Public Development Analytics",
+              "Leviathan Neural Core",
+              "Development Roadmap",
           ]
 
           missing_text = [item for item in required_text if item not in text]
@@ -66,6 +73,10 @@ jobs:
               Path("assets/profile/activity-types.svg"),
               Path("assets/profile/repository-sizes.svg"),
               Path("assets/profile/activity-trend.svg"),
+              Path("assets/profile/neural-core.svg"),
+              Path("assets/profile/roadmap.svg"),
+              Path("assets/profile/command-core.svg"),
+              Path("assets/profile/pacman.svg"),
           ]
 
           missing_assets = [str(path) for path in required_assets if not path.is_file() or path.stat().st_size == 0]
@@ -76,14 +87,14 @@ jobs:
                   print(f"  - {item}")
 
           if missing_assets:
-              print("Missing or empty analytics assets:")
+              print("Missing or empty profile assets:")
               for item in missing_assets:
                   print(f"  - {item}")
 
           if missing_text or missing_assets:
               raise SystemExit(1)
 
-          print("Profile analytics validation passed.")
+          print("Profile dashboard validation passed.")
           for path in required_assets:
               print(f"  {path}: {path.stat().st_size} bytes")
           PY
