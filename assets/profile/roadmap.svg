@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#03101a"/><stop offset="1" stop-color="#071b28"/></linearGradient><filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="300" rx="22" fill="url(#bg)"/><rect x="1" y="1" width="1198" height="298" rx="21" fill="none" stroke="#16364a"/>
+<text x="42" y="46" fill="#53e9ff" font-family="ui-monospace,Consolas,monospace" font-size="15" letter-spacing="3">LEVIATHAN DEVELOPMENT ROADMAP</text>
+<text x="42" y="72" fill="#7c9cb0" font-family="Segoe UI,Arial" font-size="12">Internal development status. No public release is implied.</text>
+<path d="M110 170 H1090" fill="none" stroke="#183c50" stroke-width="6" stroke-linecap="round"/>
+<path d="M110 170 H890" fill="none" stroke="#0aa8d8" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+<circle r="5" fill="#63efff" filter="url(#g)"><animateMotion dur="5s" repeatCount="indefinite" path="M110 170 H890"/></circle>
+<g font-family="Segoe UI,Arial" text-anchor="middle">
+  <g transform="translate(110 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Research</text></g>
+  <g transform="translate(250 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Architecture</text></g>
+  <g transform="translate(390 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Build</text></g>
+  <g transform="translate(530 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Integration</text></g>
+  <g transform="translate(670 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Security</text></g>
+  <g transform="translate(810 170)"><circle r="14" fill="#0d2b3a" stroke="#43eaff" stroke-width="3"/><text y="48" fill="#cdebf5" font-size="13">Testing</text></g>
+  <g transform="translate(890 170)"><circle r="22" fill="#082335" stroke="#71f4ff" stroke-width="3" filter="url(#g)"><animate attributeName="r" values="19;23;19" dur="2s" repeatCount="indefinite"/></circle><circle r="7" fill="#71f4ff"/><text y="-38" fill="#71f4ff" font-size="13" font-weight="700">CURRENT</text><text y="48" fill="#ffffff" font-size="13" font-weight="700">Stabilization</text></g>
+  <g transform="translate(1090 170)"><circle r="14" fill="#0a131b" stroke="#46606f" stroke-width="2"/><text y="48" fill="#718b9b" font-size="13">Release Prep</text></g>
+</g>
+<text x="890" y="260" fill="#7898aa" font-family="ui-monospace,Consolas,monospace" font-size="11" text-anchor="middle">v51.0.6 INTERNAL BASELINE</text>
+</svg>
