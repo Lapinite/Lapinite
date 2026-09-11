@@ -18,7 +18,7 @@ Building Minecraft launchers, client systems, server tools, security systems, AP
 
 <a href="https://github.com/Lapinite"><img width="30" height="30" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" alt="GitHub"></a>
 &nbsp;&nbsp;
-<a href="https://discord.gg/MREADUBJ97"><img width="30" height="30" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/discord.svg" alt="Discord"></a>
+<a href="https://discord.gg/f75VJjPea"><img width="30" height="30" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/discord.svg" alt="Discord"></a>
 &nbsp;&nbsp;
 <a href="https://youtube.com/@leviathanclient"><img width="30" height="30" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/youtube.svg" alt="YouTube"></a>
 &nbsp;&nbsp;
@@ -35,6 +35,7 @@ Building Minecraft launchers, client systems, server tools, security systems, AP
 <a href="https://github.com/Lapinite/Leviathan-Launcher"><img src="https://img.shields.io/badge/Leviathan-Launcher-151515?style=flat-square&logo=github" alt="Leviathan Launcher"></a>
 <a href="https://github.com/Lapinite/Leviathan-Docs"><img src="https://img.shields.io/badge/Leviathan-Docs-151515?style=flat-square&logo=readthedocs" alt="Leviathan Docs"></a>
 <a href="https://github.com/Lapinite?tab=projects"><img src="https://img.shields.io/badge/GitHub-Projects-151515?style=flat-square&logo=github" alt="GitHub Projects"></a>
+<a href="https://github.com/Lapinite?tab=stars"><img src="https://img.shields.io/badge/GitHub-Research%20Lists-151515?style=flat-square&logo=github" alt="GitHub Research Lists"></a>
 <a href="https://www.spigotmc.org/members/leviathanclient.2607111/"><img src="https://img.shields.io/badge/SpigotMC-LeviathanClient-ED8106?style=flat-square" alt="SpigotMC LeviathanClient"></a>
 <img src="https://img.shields.io/badge/Development-Active-151515?style=flat-square" alt="Active development">
 
@@ -115,6 +116,18 @@ Leviathan Ecosystem
 │   ├── Staff & Moderation Systems
 │   └── Nimbus AntiCheat
 │
+├── Research & Intelligence
+│   ├── Competitive Research
+│   ├── Minecraft Launchers & Clients
+│   ├── Modding Platforms
+│   ├── Server Software & Plugins
+│   ├── Security & Anti-Cheat
+│   ├── Backend & Infrastructure
+│   ├── Data & Analytics
+│   ├── AI & Developer Tools
+│   ├── Growth & Marketing
+│   └── Crawling & Archiving
+│
 └── Infrastructure & Security
     ├── CI/CD
     ├── Release Engineering
@@ -152,6 +165,8 @@ Leviathan Launcher is a third-party Minecraft: Java Edition desktop launcher for
 <a href="https://github.com/Lapinite/Leviathan-Docs"><strong>Documentation</strong></a>
 &nbsp;|&nbsp;
 <a href="https://github.com/Lapinite?tab=projects"><strong>Projects</strong></a>
+&nbsp;•&nbsp;
+<a href="https://github.com/Lapinite?tab=stars"><strong>Research Lists</strong></a>
 </p>
 
 </td>
@@ -369,25 +384,168 @@ Development is coordinated through dedicated GitHub Project boards that separate
 <h2 align="center">Research & Intelligence</h2>
 
 <p align="center">
-Research is treated as part of the engineering process. The project tracks official documentation, source code, developer ecosystems, product behavior, platform changes and community knowledge across the Minecraft and broader gaming software landscape.
+Research is treated as part of the Leviathan engineering, product and security process. GitHub research lists organize useful projects, technologies, platforms, developer tools, infrastructure, security references and competitive material across Minecraft and the wider software ecosystem.
+</p>
+
+<p align="center">
+<a href="https://github.com/Lapinite?tab=stars"><strong>Browse the complete GitHub research library →</strong></a>
 </p>
 
 <table align="center" width="100%">
 <tr>
-<td width="33%" valign="top">
-<h3 align="center">Minecraft Ecosystem</h3>
-<p align="center"><sub>Minecraft launchers · clients · server software · Paper · SpigotMC · Bukkit · Forge · Fabric · Legacy Fabric · CurseForge · Modrinth · plugin and mod ecosystems</sub></p>
+<td width="33%" valign="top" align="center">
+<h3>Minecraft Research</h3>
+<sub>Launchers · clients · modding platforms · loaders · servers · plugins · performance · cosmetics · game content</sub>
 </td>
-<td width="33%" valign="top">
-<h3 align="center">Engineering Sources</h3>
-<p align="center"><sub>GitHub repositories · source code · issue trackers · releases · APIs · SDKs · developer documentation · libraries · build systems · configuration formats</sub></p>
+<td width="33%" valign="top" align="center">
+<h3>Engineering Research</h3>
+<sub>Backend · APIs · authentication · telemetry · CI/CD · developer tools · AI · crawlers · infrastructure · security</sub>
 </td>
-<td width="33%" valign="top">
-<h3 align="center">Product & Growth</h3>
-<p align="center"><sub>Competitive analysis · branding · social platforms · advertising · creators · influencers · acquisition · retention · referrals · community operations</sub></p>
+<td width="33%" valign="top" align="center">
+<h3>Product & Growth Research</h3>
+<sub>Competitive analysis · ecommerce · payments · marketing · acquisition · creators · community · UI · design systems</sub>
 </td>
 </tr>
 </table>
+
+<br>
+
+<h3 align="center">GitHub Research Lists</h3>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### [Minecraft Launchers & Clients](https://github.com/stars/Lapinite/lists/minecraft-launchers-clients)
+
+Minecraft launchers, clients, instance managers, account systems, mod loaders, client architecture, update systems and related projects researched for Leviathan.
+
+</td>
+<td width="50%" valign="top">
+
+### [Leviathan Competitive Research](https://github.com/stars/Lapinite/lists/leviathan-competitive-research)
+
+Launchers, clients, platforms and products studied for product, UX, architecture and feature comparison.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Minecraft Modding & Platforms](https://github.com/stars/Lapinite/lists/minecraft-modding-platforms)
+
+Fabric, Legacy Fabric, Forge, NeoForge, Modrinth, CurseForge, mappings, loaders, modding APIs and compatibility tooling.
+
+</td>
+<td width="50%" valign="top">
+
+### [Minecraft Servers & Plugins](https://github.com/stars/Lapinite/lists/minecraft-servers-plugins)
+
+Minecraft server software, Paper, Spigot, Velocity, proxies, plugins, server tooling and infrastructure.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Security & Anti-Cheat](https://github.com/stars/Lapinite/lists/security-anti-cheat)
+
+Application security, Minecraft anti-cheat, authentication security, exploit prevention, hardening and defensive security research.
+
+</td>
+<td width="50%" valign="top">
+
+### [Performance & Optimization](https://github.com/stars/Lapinite/lists/performance-optimization)
+
+Java performance, rendering, networking, memory optimization, profiling and Minecraft performance projects.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Backend, APIs & Auth](https://github.com/stars/Lapinite/lists/backend-apis-auth)
+
+Backend architecture, APIs, authentication, authorization, account systems, databases, caching and platform infrastructure.
+
+</td>
+<td width="50%" valign="top">
+
+### [Data, Analytics & Telemetry](https://github.com/stars/Lapinite/lists/data-analytics-telemetry)
+
+Analytics, telemetry, event pipelines, observability, logging, monitoring, dashboards, experimentation and data infrastructure.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Web, UI & Design Systems](https://github.com/stars/Lapinite/lists/web-ui-design-systems)
+
+Frontend frameworks, websites, dashboards, launcher interfaces, design systems, animations and UI inspiration.
+
+</td>
+<td width="50%" valign="top">
+
+### [Discord & Community Tools](https://github.com/stars/Lapinite/lists/discord-community-tools)
+
+Discord bots, moderation systems, APIs, webhooks, community automation, integrations and community-management tooling.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [CI-CD & Release Engineering](https://github.com/stars/Lapinite/lists/ci-cd-release-engineering)
+
+GitHub Actions, build systems, installers, packaging, code signing, releases, auto-updates and deployment tooling.
+
+</td>
+<td width="50%" valign="top">
+
+### [AI & Developer Tools](https://github.com/stars/Lapinite/lists/ai-developer-tools)
+
+Claude, MCP, coding agents, developer automation, AI workflows, testing tools and engineering productivity projects.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Research, Crawlers & Archiving](https://github.com/stars/Lapinite/lists/research-crawlers-archiving)
+
+Crawlers, scrapers, downloaders, indexing, search, media archiving, metadata collection and large-scale research systems.
+
+</td>
+<td width="50%" valign="top">
+
+### [Cosmetics & Game Content](https://github.com/stars/Lapinite/lists/cosmetics-game-content)
+
+Cosmetic systems, skins, capes, emotes, 3D models, animation systems and Minecraft content tooling.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Ecommerce & Payments](https://github.com/stars/Lapinite/lists/ecommerce-payments)
+
+Storefronts, checkout systems, subscriptions, licensing, entitlements and digital product infrastructure.
+
+</td>
+<td width="50%" valign="top">
+
+### [Marketing & Growth](https://github.com/stars/Lapinite/lists/marketing-growth)
+
+Growth tooling, attribution, referrals, social publishing, creator programs, SEO and user acquisition infrastructure.
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+<sub>Research lists are curated references for study and comparison. Inclusion does not imply affiliation, endorsement, dependency or use within Leviathan.</sub>
+</p>
 
 ---
 
@@ -583,6 +741,8 @@ Research is treated as part of the engineering process. The project tracks offic
 <a href="https://github.com/Lapinite?tab=repositories">Browse repositories</a>
 &nbsp;•&nbsp;
 <a href="https://github.com/Lapinite?tab=projects">View projects</a>
+&nbsp;•&nbsp;
+<a href="https://github.com/Lapinite?tab=stars">Browse research lists</a>
 </p>
 
 ---
@@ -611,7 +771,7 @@ Research is treated as part of the engineering process. The project tracks offic
 <p align="center">
 <a href="https://github.com/Lapinite"><img width="30" height="30" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/github.svg" alt="GitHub"></a>
 &nbsp;&nbsp;
-<a href="https://discord.gg/MREADUBJ97"><img width="30" height="30" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/discord.svg" alt="Discord"></a>
+<a href="https://discord.gg/f75VJjPea"><img width="30" height="30" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/discord.svg" alt="Discord"></a>
 &nbsp;&nbsp;
 <a href="https://youtube.com/@leviathanclient"><img width="30" height="30" src="https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/youtube.svg" alt="YouTube"></a>
 &nbsp;&nbsp;
@@ -634,6 +794,8 @@ Research is treated as part of the engineering process. The project tracks offic
 <a href="https://github.com/Lapinite/Leviathan-Status">Status</a>
 &nbsp;|&nbsp;
 <a href="https://github.com/Lapinite?tab=projects">Projects</a>
+&nbsp;|&nbsp;
+<a href="https://github.com/Lapinite?tab=stars">Research Lists</a>
 &nbsp;|&nbsp;
 <a href="https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md">Security</a>
 &nbsp;|&nbsp;
