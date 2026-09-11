@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - main
-      - feat/leviathan-profile-v2
     paths:
       - "tools/update-profile-dashboard.py"
       - ".github/workflows/profile-dashboard.yml"
