@@ -29,8 +29,6 @@ t=replace_marked(t,'<!-- REPOSITORY_FRESHNESS_START -->','<!-- REPOSITORY_FRESHN
 t=t.replace('<h3 align="center">Recent Public Activity</h3>','<h3 align="center">Live Public Activity</h3>')
 t=t.replace('<h3 align="center">Repository Freshness</h3>','<h3 align="center">Public Repository Health</h3>')
 
-# Insert the external identity/service trust-boundary map once, immediately
-# before the canonical data-platform section.
 external='''## Identity & External Services
 
 <p align="center">
@@ -43,7 +41,6 @@ if 'assets/profile/external-services.svg' not in t:
     if anchor in t:
         t=t.replace(anchor,external+'\n\n'+anchor,1)
 
-# Replace the plain Platform Areas table with one cohesive animated ecosystem visual.
 platform_pattern=re.compile(r'## Platform Areas\n\n<table width="100%">.*?</table>',re.S)
 ecosystem='''## Leviathan Ecosystem
 
@@ -56,8 +53,18 @@ elif 'assets/profile/ecosystem-overview.svg' not in t:
     anchor='## Public Developer Repositories'
     t=t.replace(anchor,ecosystem+'\n\n'+anchor,1)
 
-# Remove an older duplicate Data Platform block if both the canonical
-# "Leviathan Data Platform" section and the old generic section exist.
+experience='''## Experience & Commerce Flows
+
+<p align="center">
+  <img width="100%" src="assets/profile/experience-commerce.svg" alt="Animated Leviathan website, mobile, launcher, client, cosmetics, LeviCoins and commerce flow">
+</p>
+
+The public model separates player-facing experiences from the commerce and entitlement path: website and mobile account/store surfaces, launcher/client consumption, external payment processing, verified orders, Leviathan entitlements, cosmetics ownership, LeviCoins ledger state, referrals and creator/campaign attribution. Payment credentials remain with the payment provider.'''
+if 'assets/profile/experience-commerce.svg' not in t:
+    anchor='## Public Developer Repositories'
+    if anchor in t:
+        t=t.replace(anchor,experience+'\n\n'+anchor,1)
+
 if '## Leviathan Data Platform' in t:
     duplicate=re.compile(r'\n## Data Platform\n\n<p align="center">\n  <img width="100%" src="assets/profile/data-platform\.svg".*?</p>\n\nThe data layer is planned.*?(?=\n## Public Developer Repositories)',re.S)
     t=duplicate.sub('',t,count=1)
