@@ -6,7 +6,8 @@ on:
     - cron: "17 */6 * * *"
   push:
     branches:
-      - chore/profile-live-dashboard
+      - main
+      - chore/profile-analytics-dashboard
     paths:
       - "tools/update-profile-dashboard.py"
       - ".github/workflows/profile-dashboard.yml"
@@ -25,7 +26,7 @@ jobs:
 
     steps:
       - name: Check out branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
@@ -35,24 +36,31 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/update-profile-dashboard.py
 
-      - name: Validate README markers
+      - name: Validate generated dashboard
         shell: bash
         run: |
           grep -q '<!-- RECENT_ACTIVITY_START -->' README.md
           grep -q '<!-- RECENT_ACTIVITY_END -->' README.md
           grep -q '<!-- REPOSITORY_FRESHNESS_START -->' README.md
           grep -q '<!-- REPOSITORY_FRESHNESS_END -->' README.md
+          grep -q '<!-- PUBLIC_ANALYTICS_START -->' README.md
+          grep -q '<!-- PUBLIC_ANALYTICS_END -->' README.md
           grep -q 'Contributions in the Last Year' README.md
+          test -s assets/profile/contributions.svg
+          test -s assets/profile/languages.svg
+          test -s assets/profile/activity-types.svg
+          test -s assets/profile/repository-sizes.svg
+          test -s assets/profile/activity-trend.svg
 
       - name: Commit dashboard refresh
         shell: bash
         run: |
-          if git diff --quiet -- README.md; then
+          if git diff --quiet -- README.md assets/profile; then
             echo "Profile dashboard already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "chore: refresh profile dashboard"
+          git add README.md assets/profile
+          git commit -m "chore: refresh profile analytics"
           git push origin "HEAD:${GITHUB_REF_NAME}"
