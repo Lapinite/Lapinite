@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - main
-      - feat/profile-cohesion-v5
     paths:
       - "tools/update-profile-dashboard.py"
       - "tools/generate-profile-visuals.py"
