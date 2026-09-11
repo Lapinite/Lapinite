@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="116" viewBox="0 0 760 116">
+<rect x="0.5" y="0.5" width="99.85%" height="99.4%" rx="12" fill="#0d1117" stroke="#30363d"/>
+<text x="24" y="32" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="700">Public Repository Language Mix</text>
+<text x="24" y="51" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="10">Languages detected in public repositories only</text>
+<text x="24" y="85" fill="#c9d1d9" font-family="Segoe UI,Arial,sans-serif" font-size="11">Python</text>
+<rect x="210" y="72" width="410" height="16" rx="4" fill="#21262d"/>
+<rect x="210" y="72" width="410" height="16" rx="4" fill="#00b4d8"/>
+<text x="638" y="85" fill="#f0f6fc" font-family="Segoe UI,Arial,sans-serif" font-size="11">100.0%</text>
+</svg>

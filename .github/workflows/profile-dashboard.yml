@@ -6,7 +6,7 @@ on:
     - cron: "17 */6 * * *"
   push:
     branches:
-      - chore/profile-live-dashboard
+      - main
     paths:
       - "tools/update-profile-dashboard.py"
       - ".github/workflows/profile-dashboard.yml"
@@ -25,34 +25,98 @@ jobs:
 
     steps:
       - name: Check out branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
+
+      - name: Normalize contribution heading for generator
+        shell: bash
+        run: |
+          sed -i 's/Public Commit Activity in the Last Year/Contributions in the Last Year/g' README.md
 
       - name: Generate live profile dashboard
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/update-profile-dashboard.py
 
-      - name: Validate README markers
+      - name: Clarify public language analytics
         shell: bash
         run: |
-          grep -q '<!-- RECENT_ACTIVITY_START -->' README.md
-          grep -q '<!-- RECENT_ACTIVITY_END -->' README.md
-          grep -q '<!-- REPOSITORY_FRESHNESS_START -->' README.md
-          grep -q '<!-- REPOSITORY_FRESHNESS_END -->' README.md
-          grep -q 'Contributions in the Last Year' README.md
+          sed -i 's/Public Code Language Mix/Public Repository Language Mix/g' assets/profile/languages.svg
+          sed -i 's/Aggregated from public repositories only/Languages detected in public repositories only/g' assets/profile/languages.svg
+
+      - name: Validate generated dashboard
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          readme = Path("README.md")
+          if not readme.is_file():
+              raise SystemExit("README.md is missing")
+
+          text = readme.read_text(encoding="utf-8")
+          required_text = [
+              "<!-- RECENT_ACTIVITY_START -->",
+              "<!-- RECENT_ACTIVITY_END -->",
+              "<!-- REPOSITORY_FRESHNESS_START -->",
+              "<!-- REPOSITORY_FRESHNESS_END -->",
+              "<!-- PUBLIC_ANALYTICS_START -->",
+              "<!-- PUBLIC_ANALYTICS_END -->",
+              "Public Commit Activity in the Last Year",
+              "Public Development Analytics",
+              "Leviathan Neural Core",
+              "Development Roadmap",
+          ]
+
+          missing_text = [item for item in required_text if item not in text]
+
+          required_assets = [
+              Path("assets/profile/contributions.svg"),
+              Path("assets/profile/languages.svg"),
+              Path("assets/profile/activity-types.svg"),
+              Path("assets/profile/repository-sizes.svg"),
+              Path("assets/profile/activity-trend.svg"),
+              Path("assets/profile/neural-core.svg"),
+              Path("assets/profile/roadmap.svg"),
+              Path("assets/profile/command-core.svg"),
+              Path("assets/profile/pacman.svg"),
+          ]
+
+          missing_assets = [str(path) for path in required_assets if not path.is_file() or path.stat().st_size == 0]
+
+          if missing_text:
+              print("Missing README markers/sections:")
+              for item in missing_text:
+                  print(f"  - {item}")
+
+          if missing_assets:
+              print("Missing or empty profile assets:")
+              for item in missing_assets:
+                  print(f"  - {item}")
+
+          if missing_text or missing_assets:
+              raise SystemExit(1)
+
+          languages = Path("assets/profile/languages.svg").read_text(encoding="utf-8")
+          if "Public Repository Language Mix" not in languages:
+              raise SystemExit("Public language analytics label is misleading or missing")
+
+          print("Profile dashboard validation passed.")
+          for path in required_assets:
+              print(f"  {path}: {path.stat().st_size} bytes")
+          PY
 
       - name: Commit dashboard refresh
         shell: bash
         run: |
-          if git diff --quiet -- README.md; then
+          if git diff --quiet -- README.md assets/profile; then
             echo "Profile dashboard already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "chore: refresh profile dashboard"
+          git add README.md assets/profile
+          git commit -m "chore: refresh profile analytics"
           git push origin "HEAD:${GITHUB_REF_NAME}"
