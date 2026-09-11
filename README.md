@@ -733,13 +733,27 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Lapinite&theme=github_dark&utcOffset=2" alt="Productive commit time in Denmark local time">
 </p>
 
+<h3 align="center">Contributions in the Last Year</h3>
+
+<p align="center">
+  <a href="https://github.com/Lapinite?tab=overview">
+    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true&hide_title=true" alt="Lapinite contributions in the last year">
+  </a>
+</p>
+
 <h3 align="center">Recent Public Activity</h3>
 
 <!-- RECENT_ACTIVITY_START -->
 <table align="center" width="100%">
-<tr>
-<td align="center"><strong>Dashboard automation will populate this section from GitHub public activity.</strong></td>
-</tr>
+<tr><th align="left">Activity</th><th align="right">When</th></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Merged pull request #2 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:29 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Opened pull request #2 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:29 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-languages-links">Pushed 0 commits to Lapinite/Lapinite (chore/profile-languages-links)</a></td><td align="right"><sub>2026-09-11 14:29 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-languages-links">Pushed 0 commits to Lapinite/Lapinite (chore/profile-languages-links)</a></td><td align="right"><sub>2026-09-11 14:28 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Created branch chore/profile-languages-links in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:27 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Status">Merged pull request #1 in Lapinite/Leviathan-Status</a></td><td align="right"><sub>2026-09-11 11:49 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Status/commits/main">Pushed 0 commits to Lapinite/Leviathan-Status (main)</a></td><td align="right"><sub>2026-09-11 11:49 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Server-Tools">Merged pull request #1 in Lapinite/Leviathan-Server-Tools</a></td><td align="right"><sub>2026-09-11 11:49 UTC</sub></td></tr>
 </table>
 <!-- RECENT_ACTIVITY_END -->
 
@@ -755,11 +769,13 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 <th align="right">Forks</th>
 <th align="right">Open Issues</th>
 </tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Launcher">Leviathan-Launcher</a></td><td>recent</td><td align="right">315 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite">Lapinite</a></td><td>recent</td><td align="right">154 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-SDK">Leviathan-SDK</a></td><td>recent</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Examples">Leviathan-Examples</a></td><td>recent</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Integrations">Leviathan-Integrations</a></td><td>recent</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Lapinite</a></td><td>2026-09-11</td><td align="right">188 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Status">Leviathan-Status</a></td><td>2026-09-11</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Server-Tools">Leviathan-Server-Tools</a></td><td>2026-09-11</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Examples">Leviathan-Examples</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Integrations">Leviathan-Integrations</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-SDK">Leviathan-SDK</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-API-Docs">Leviathan-API-Docs</a></td><td>2026-09-11</td><td align="right">7 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
 </table>
 <!-- REPOSITORY_FRESHNESS_END -->
 
