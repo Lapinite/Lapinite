@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img width="100%" alt="Leviathan Project" src="./assets/hero-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark-v2.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light-v2.svg">
+  <img width="100%" alt="Leviathan Project" src="./assets/hero-light-v2.svg">
 </picture>
 
 <br>
