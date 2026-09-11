@@ -8,4 +8,25 @@
 <text x="42" y="212" fill="#5f8296" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">SYSTEM AREAS</text><g font-family="Segoe UI,Arial,sans-serif" font-size="11"><g><rect x="42" y="228" width="128" height="42" rx="10" fill="#061722" stroke="#164056"/><rect x="55" y="245" width="8" height="8" rx="2" fill="#35d997"/><text x="72" y="253" fill="#c9dce6">Launcher</text></g><g><rect x="181" y="228" width="128" height="42" rx="10" fill="#061722" stroke="#164056"/><rect x="194" y="245" width="8" height="8" rx="2" fill="#35d997"/><text x="211" y="253" fill="#c9dce6">Client</text></g><g><rect x="320" y="228" width="128" height="42" rx="10" fill="#061722" stroke="#164056"/><rect x="333" y="245" width="8" height="8" rx="2" fill="#ffad4f"/><text x="350" y="253" fill="#c9dce6">Nimbus</text></g><g><rect x="459" y="228" width="128" height="42" rx="10" fill="#061722" stroke="#164056"/><rect x="472" y="245" width="8" height="8" rx="2" fill="#7d74ff"/><text x="489" y="253" fill="#c9dce6">API</text></g><g><rect x="598" y="228" width="128" height="42" rx="10" fill="#061722" stroke="#164056"/><rect x="611" y="245" width="8" height="8" rx="2" fill="#20c9e7"/><text x="628" y="253" fill="#c9dce6">Cast</text></g><g><rect x="737" y="228" width="128" height="42" rx="10" fill="#061722" stroke="#164056"/><rect x="750" y="245" width="8" height="8" rx="2" fill="#43dca2"/><text x="767" y="253" fill="#c9dce6">Telemetry</text></g><g><rect x="876" y="228" width="128" height="42" rx="10" fill="#061722" stroke="#164056"/><rect x="889" y="245" width="8" height="8" rx="2" fill="#43dca2"/><text x="906" y="253" fill="#c9dce6">Analytics</text></g><g><rect x="1015" y="228" width="143" height="42" rx="10" fill="#061722" stroke="#164056"/><rect x="1028" y="245" width="8" height="8" rx="2" fill="#35d997"/><text x="1045" y="253" fill="#c9dce6">Status</text></g></g>
 <path id="bus" d="M60 300 H1140" fill="none" stroke="#14465e" stroke-width="3"/><path d="M60 300 H940" fill="none" stroke="url(#cyan)" stroke-width="3" opacity=".46"/><rect width="8" height="8" rx="2" fill="#6bf3ff" filter="url(#g)"><animateMotion dur="5s" repeatCount="indefinite" path="M60 300 H1140"/></rect><rect width="6" height="6" rx="2" fill="#33df9b"><animateMotion dur="7s" begin="2s" repeatCount="indefinite" path="M1140 300 H60"/></rect><g font-family="ui-monospace,Consolas,monospace" font-size="9"><text x="42" y="329" fill="#5e8195">PIPELINE</text><text x="104" y="329" fill="#7b9eb1">RESEARCH → ARCHITECTURE → BUILD → INTEGRATION → SECURITY → TESTING → STABILIZATION → RELEASE PREPARATION</text></g>
 <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#067dff"/><stop offset=".34" stop-color="#32efff"/><stop offset=".62" stop-color="#11bddf"/><stop offset="1" stop-color="#4a65ff"/></linearGradient><rect x="4" y="4" width="1192" height="352" rx="22" fill="none" stroke="#0b3346" stroke-width="1.5"/><rect x="4" y="4" width="1192" height="352" rx="22" fill="none" stroke="url(#border)" stroke-width="3" stroke-dasharray="405 1482" filter="url(#g)" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-1887" dur="10s" repeatCount="indefinite"/></rect>
+
+<!-- LEVIATHAN_GLOW_BORDER_V1 -->
+<defs>
+  <linearGradient id="leviathanBorderGradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#067dff"/>
+    <stop offset="0.34" stop-color="#32efff"/>
+    <stop offset="0.62" stop-color="#11bddf"/>
+    <stop offset="1" stop-color="#4a65ff"/>
+  </linearGradient>
+  <filter id="leviathanBorderGlow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="4" y="4" width="1192" height="352" rx="22" fill="none" stroke="#0b3346" stroke-width="1.5" opacity="0.9"/>
+<rect x="4" y="4" width="1192" height="352" rx="22" fill="none" stroke="url(#leviathanBorderGradient)" stroke-width="3" stroke-linecap="round" stroke-dasharray="405 1482" filter="url(#leviathanBorderGlow)" opacity="0.92">
+  <animate attributeName="stroke-dashoffset" values="0;-1887" dur="10s" repeatCount="indefinite"/>
+</rect>
+<rect x="12" y="12" width="1176" height="336" rx="14" fill="none" stroke="#27dff5" stroke-width="0.7" stroke-dasharray="2 12" opacity="0.2">
+  <animate attributeName="stroke-dashoffset" values="0;28" dur="5s" repeatCount="indefinite"/>
+</rect>
 </svg>

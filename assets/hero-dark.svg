@@ -31,4 +31,25 @@
 <rect x="716" y="74" width="455" height="1.2" fill="#55efff" opacity=".16"><animate attributeName="y" values="74;397;74" dur="7s" repeatCount="indefinite"/></rect>
 <line x1="40" y1="421" x2="1160" y2="421" stroke="#14364b"/><g font-family="ui-monospace,Consolas,monospace" font-size="8.5"><text x="49" y="450" fill="#557e92">PUBLIC SURFACE</text><text x="145" y="450" fill="#7ba1b5">PROFILE / DOCS / SDK / API / EXAMPLES / INTEGRATIONS / STATUS</text><text x="875" y="450" fill="#557e92">SYSTEM</text><text x="931" y="450" fill="#4deca8">NOMINAL</text><text x="1000" y="450" fill="#557e92">RELEASE</text><text x="1058" y="450" fill="#ffad56">INTERNAL ONLY</text></g>
 <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#067dff"/><stop offset=".34" stop-color="#32efff"/><stop offset=".62" stop-color="#11bddf"/><stop offset="1" stop-color="#4a65ff"/></linearGradient><rect x="4" y="4" width="1192" height="492" rx="27" fill="none" stroke="#0b3346" stroke-width="1.5"/><rect x="4" y="4" width="1192" height="492" rx="27" fill="none" stroke="url(#border)" stroke-width="3" stroke-dasharray="440 1620" filter="url(#glow)" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-2060" dur="8s" repeatCount="indefinite"/></rect>
+
+<!-- LEVIATHAN_GLOW_BORDER_V1 -->
+<defs>
+  <linearGradient id="leviathanBorderGradient" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#067dff"/>
+    <stop offset="0.34" stop-color="#32efff"/>
+    <stop offset="0.62" stop-color="#11bddf"/>
+    <stop offset="1" stop-color="#4a65ff"/>
+  </linearGradient>
+  <filter id="leviathanBorderGlow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x="4" y="4" width="1192" height="492" rx="26" fill="none" stroke="#0b3346" stroke-width="1.5" opacity="0.9"/>
+<rect x="4" y="4" width="1192" height="492" rx="26" fill="none" stroke="url(#leviathanBorderGradient)" stroke-width="3" stroke-linecap="round" stroke-dasharray="442 1615" filter="url(#leviathanBorderGlow)" opacity="0.92">
+  <animate attributeName="stroke-dashoffset" values="0;-2057" dur="8s" repeatCount="indefinite"/>
+</rect>
+<rect x="12" y="12" width="1176" height="476" rx="18" fill="none" stroke="#27dff5" stroke-width="0.7" stroke-dasharray="2 12" opacity="0.2">
+  <animate attributeName="stroke-dashoffset" values="0;28" dur="5s" repeatCount="indefinite"/>
+</rect>
 </svg>
