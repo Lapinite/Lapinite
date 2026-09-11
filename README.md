@@ -123,30 +123,24 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 
 <!-- PROFILE_SUMMARY_START -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Public%20Repos-9-06131d?style=flat-square&logo=github" alt="Public repositories">
-  <img src="https://img.shields.io/badge/Development-Active-06131d?style=flat-square" alt="Active development">
-  <img src="https://img.shields.io/badge/Source-Private-06131d?style=flat-square&logo=github" alt="Private source">
-  <img src="https://img.shields.io/badge/Location-Denmark-06131d?style=flat-square" alt="Location Denmark">
+  <img width="100%" src="assets/profile/account-overview-v2.svg" alt="Leviathan public account overview HUD">
 </p>
 <!-- PROFILE_SUMMARY_END -->
 
 <!-- REPOSITORY_AGGREGATES_START -->
-<p align="center">
-  <img src="https://img.shields.io/badge/Public%20Dashboard-Auto%20Refresh-06131d?style=flat-square&logo=githubactions" alt="Automatically refreshed public dashboard">
-</p>
 <!-- REPOSITORY_AGGREGATES_END -->
 
 <h3 align="center">Public Commit Activity in the Last Year</h3>
 
 <p align="center">
-  <a href="https://github.com/Lapinite?tab=overview"><img width="100%" src="assets/profile/contributions.svg" alt="Public commit activity in the last year"></a>
+  <a href="https://github.com/Lapinite?tab=overview"><img width="100%" src="assets/profile/contributions-v2.svg" alt="Public commit activity in the last year"></a>
 </p>
 
 <h3 align="center">Live Public Activity</h3>
 
 <!-- RECENT_ACTIVITY_START -->
 <p align="center">
-  <img width="100%" src="assets/profile/activity-feed.svg" alt="Live public GitHub activity feed">
+  <img width="100%" src="assets/profile/activity-feed-v2.svg" alt="Live public GitHub activity feed">
 </p>
 <!-- RECENT_ACTIVITY_END -->
 
@@ -154,7 +148,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 
 <!-- REPOSITORY_FRESHNESS_START -->
 <p align="center">
-  <img width="100%" src="assets/profile/repository-health.svg" alt="Public repository health dashboard">
+  <img width="100%" src="assets/profile/repository-health-v2.svg" alt="Public repository health dashboard">
 </p>
 <!-- REPOSITORY_FRESHNESS_END -->
 
@@ -162,23 +156,20 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 <h3 align="center">Public Development Analytics</h3>
 
 <p align="center">
-  <img width="100%" src="assets/profile/analytics-overview.svg" alt="Leviathan public development telemetry dashboard">
+  <img width="100%" src="assets/profile/analytics-overview-v2.svg" alt="Leviathan public development telemetry dashboard">
 </p>
 <!-- PUBLIC_ANALYTICS_END -->
 
 <h3 align="center">Leviathan Launcher</h3>
 
 <p align="center">
-  <a href="https://github.com/Lapinite/Leviathan-Launcher/actions/workflows/build.yml"><img src="https://github.com/Lapinite/Leviathan-Launcher/actions/workflows/build.yml/badge.svg?branch=main" alt="Launcher build status"></a>
-  <a href="https://github.com/Lapinite/Leviathan-Launcher/commits/main"><img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Last%20Commit" alt="Last commit"></a>
-  <a href="https://github.com/Lapinite/Leviathan-Launcher"><img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Repo%20Size" alt="Repository size"></a>
-  <a href="https://github.com/Lapinite/Leviathan-Launcher/issues"><img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20Issues" alt="Open issues"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher"><img width="100%" src="assets/profile/launcher-status-v2.svg" alt="Leviathan Launcher public status HUD"></a>
 </p>
 
 ## Contribution Activity
 
 <p align="center">
-  <img width="100%" src="assets/profile/pacman.svg" alt="Pacman-style GitHub contribution activity">
+  <img width="100%" src="assets/profile/pacman-v2.svg" alt="Pacman-style GitHub contribution activity">
 </p>
 
 ## Developer Resources

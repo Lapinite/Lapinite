@@ -1,1 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560"><defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020812"/><stop offset=".55" stop-color="#061725"/><stop offset="1" stop-color="#020b13"/></linearGradient><linearGradient id="c"><stop stop-color="#087dff"/><stop offset=".5" stop-color="#2be8ff"/><stop offset="1" stop-color="#00a8ff"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="4" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><rect width="1200" height="560" rx="24" fill="url(#b)"/><rect x="1" y="1" width="1198" height="558" rx="23" fill="none" stroke="#173b51"/><text x="42" y="45" fill="#58eaff" font-family="ui-monospace,Consolas,monospace" font-size="15" letter-spacing="3">PUBLIC REPOSITORY HEALTH // SERVICE MATRIX</text><text x="42" y="70" fill="#7899ac" font-family="Segoe UI,Arial,sans-serif" font-size="11">Auto-refreshed freshness, size and issue-state channels.</text><g font-family="ui-monospace,Consolas,monospace" font-size="9" fill="#597f94"><text x="58" y="105">REPOSITORY</text><text x="660" y="105">LAST PUSH</text><text x="825" y="105">SIZE</text><text x="955" y="105">ISSUES</text><text x="1080" y="105">STATE</text></g><g font-family="Segoe UI,Arial,sans-serif"><g transform="translate(0 120)"><path d="M42 0 H1142 L1158 16 V44 H58 L42 28 Z" fill="#061621" stroke="#14394d"/><rect x="55" y="17" width="8" height="8" rx="2" fill="#4cefa8"/><text x="78" y="28" fill="#dcecf4" font-size="12" font-weight="700">Leviathan public surfaces</text><text x="1080" y="28" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">LIVE</text></g><g transform="translate(0 171)"><path d="M42 0 H1142 L1158 16 V44 H58 L42 28 Z" fill="#061621" stroke="#14394d"/><rect x="55" y="17" width="8" height="8" rx="2" fill="#4cefa8"/><text x="78" y="28" fill="#dcecf4" font-size="12" font-weight="700">Freshness channel</text><text x="1080" y="28" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">AUTO</text></g><g transform="translate(0 222)"><path d="M42 0 H1142 L1158 16 V44 H58 L42 28 Z" fill="#061621" stroke="#14394d"/><rect x="55" y="17" width="8" height="8" rx="2" fill="#4cefa8"/><text x="78" y="28" fill="#dcecf4" font-size="12" font-weight="700">Issue-state channel</text><text x="1080" y="28" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">AUTO</text></g><g transform="translate(0 273)"><path d="M42 0 H1142 L1158 16 V44 H58 L42 28 Z" fill="#061621" stroke="#14394d"/><rect x="55" y="17" width="8" height="8" rx="2" fill="#4cefa8"/><text x="78" y="28" fill="#dcecf4" font-size="12" font-weight="700">Repository mass channel</text><text x="1080" y="28" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">AUTO</text></g></g><path id="r" d="M65 505 H1135" stroke="#16495f" stroke-width="2"/><rect width="95" height="3" rx="1.5" fill="url(#c)" filter="url(#g)"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#r"/></animateMotion></rect><rect x="4" y="4" width="1192" height="552" rx="21" fill="none" stroke="url(#c)" stroke-width="3" stroke-dasharray="455 1660" filter="url(#g)" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-2115" dur="10s" repeatCount="indefinite"/></rect></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020812"/><stop offset=".55" stop-color="#061725"/><stop offset="1" stop-color="#020b13"/></linearGradient>
+<linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#087dff"/><stop offset=".5" stop-color="#2be8ff"/><stop offset="1" stop-color="#00a8ff"/></linearGradient>
+<linearGradient id="amber" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff9c31"/><stop offset=".5" stop-color="#ffd37c"/><stop offset="1" stop-color="#ff8c1f"/></linearGradient>
+<filter id="g" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#12344b" opacity=".18"/></pattern>
+</defs>
+<rect width="1200" height="560" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="560" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="558" rx="23" fill="none" stroke="#173b51"/>
+<text x="42" y="45" fill="#58eaff" font-family="ui-monospace,Consolas,monospace" font-size="15" letter-spacing="3">PUBLIC REPOSITORY HEALTH // SERVICE MATRIX</text>
+<text x="42" y="70" fill="#7899ac" font-family="Segoe UI,Arial,sans-serif" font-size="11">Freshness, size and issue state across active public surfaces.</text>
+<text x="58" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">REPOSITORY</text><text x="660" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">LAST PUSH</text><text x="825" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">SIZE</text><text x="955" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">ISSUES</text><text x="1080" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">STATE</text>
+<path d="M42 120 H1142 L1158 136 V164 H58 L42 148 Z" fill="#061621" stroke="#14394d"/>
+<rect x="55" y="137" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.50s" repeatCount="indefinite"/></rect>
+<text x="78" y="148" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Lapinite</text>
+<text x="660" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
+<text x="825" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">366 KB</text>
+<text x="955" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="1080" y="148" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
+<path d="M42 171 H1142 L1158 187 V215 H58 L42 199 Z" fill="#061621" stroke="#14394d"/>
+<rect x="55" y="188" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.58s" repeatCount="indefinite"/></rect>
+<text x="78" y="199" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Status</text>
+<text x="660" y="199" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
+<text x="825" y="199" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">26 KB</text>
+<text x="955" y="199" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="1080" y="199" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
+<path d="M42 222 H1142 L1158 238 V266 H58 L42 250 Z" fill="#061621" stroke="#14394d"/>
+<rect x="55" y="239" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.66s" repeatCount="indefinite"/></rect>
+<text x="78" y="250" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Server-Tools</text>
+<text x="660" y="250" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
+<text x="825" y="250" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">26 KB</text>
+<text x="955" y="250" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="1080" y="250" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
+<path d="M42 273 H1142 L1158 289 V317 H58 L42 301 Z" fill="#061621" stroke="#14394d"/>
+<rect x="55" y="290" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.74s" repeatCount="indefinite"/></rect>
+<text x="78" y="301" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Examples</text>
+<text x="660" y="301" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
+<text x="825" y="301" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">31 KB</text>
+<text x="955" y="301" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="1080" y="301" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
+<path d="M42 324 H1142 L1158 340 V368 H58 L42 352 Z" fill="#061621" stroke="#14394d"/>
+<rect x="55" y="341" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.82s" repeatCount="indefinite"/></rect>
+<text x="78" y="352" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Integrations</text>
+<text x="660" y="352" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
+<text x="825" y="352" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">37 KB</text>
+<text x="955" y="352" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="1080" y="352" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
+<path d="M42 375 H1142 L1158 391 V419 H58 L42 403 Z" fill="#061621" stroke="#14394d"/>
+<rect x="55" y="392" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.90s" repeatCount="indefinite"/></rect>
+<text x="78" y="403" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-API-Docs</text>
+<text x="660" y="403" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
+<text x="825" y="403" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">26 KB</text>
+<text x="955" y="403" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="1080" y="403" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
+<path d="M42 426 H1142 L1158 442 V470 H58 L42 454 Z" fill="#061621" stroke="#14394d"/>
+<rect x="55" y="443" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.98s" repeatCount="indefinite"/></rect>
+<text x="78" y="454" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-SDK</text>
+<text x="660" y="454" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
+<text x="825" y="454" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">30 KB</text>
+<text x="955" y="454" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="1080" y="454" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
+<path d="M42 477 H1142 L1158 493 V521 H58 L42 505 Z" fill="#061621" stroke="#14394d"/>
+<rect x="55" y="494" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="2.06s" repeatCount="indefinite"/></rect>
+<text x="78" y="505" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Docs</text>
+<text x="660" y="505" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
+<text x="825" y="505" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">36 KB</text>
+<text x="955" y="505" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="1080" y="505" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
+<rect x="4" y="4" width="1192" height="552" rx="21" fill="none" stroke="url(#cyan)" stroke-width="3" stroke-dasharray="732 2756" filter="url(#g)" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-3488" dur="10s" repeatCount="indefinite"/></rect>
+</svg>
