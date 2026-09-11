@@ -154,9 +154,9 @@ Leviathan Ecosystem
 Leviathan Launcher is a third-party Minecraft: Java Edition desktop launcher for legitimate game owners. It focuses on Microsoft authentication, game ownership verification, profiles, instances, customization, cosmetics, updates and integration with the broader Leviathan platform.
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Last%20Commit" alt="Last commit">
-  <img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Size" alt="Repository size">
-  <img src="https://img.shields.io/github/languages/top/Lapinite/Leviathan-Launcher?style=flat-square&label=Language" alt="Top language">
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/commits/main"><img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Last%20Commit" alt="Last commit"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher"><img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Size" alt="Repository size"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher"><img src="https://img.shields.io/github/languages/top/Lapinite/Leviathan-Launcher?style=flat-square&label=Language" alt="Top language"></a>
 </p>
 
 <p align="center">
@@ -595,9 +595,10 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 <table align="center" width="100%">
 <tr>
 <td width="50%" valign="top">
-<h3 align="center">Languages & Markup</h3>
-<p align="center"><img src="https://skillicons.dev/icons?i=java,c,cpp,cs,js,kotlin,py,lua,php,powershell,html,css,md&perline=7" alt="Languages"></p>
-<p align="center"><sub>Java 21 · JavaScript · PHP · Kotlin · Python · C · C++ · C# · Lua · PowerShell · Skript · HTML · CSS · Markdown · JSON · YAML</sub></p>
+<h3 align="center">Current Leviathan Development Stack</h3>
+<p align="center"><img src="https://skillicons.dev/icons?i=java,js,kotlin,powershell,html,css,gradle,githubactions,windows&perline=9" alt="Current Leviathan development stack"></p>
+<p align="center"><sub>Java 21 · JavaScript · HTML · CSS · PowerShell · Kotlin DSL / Gradle · Windows CMD · Shell · Inno Setup · JSON · YAML · Markdown</sub></p>
+<p align="center"><sub>High-level technology names only. Proprietary Leviathan source code remains private.</sub></p>
 </td>
 <td width="50%" valign="top">
 <h3 align="center">Frontend & Web</h3>
@@ -705,20 +706,20 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 
 <p align="center">
   <a href="https://github.com/Lapinite/Leviathan-Launcher/actions/workflows/build.yml"><img src="https://github.com/Lapinite/Leviathan-Launcher/actions/workflows/build.yml/badge.svg?branch=main" alt="Launcher build status"></a>
-  <img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Last%20Commit" alt="Last commit">
-  <img src="https://img.shields.io/github/commit-activity/m/Lapinite/Leviathan-Launcher?style=flat-square&label=Monthly%20Commits" alt="Monthly commit activity">
-  <img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Repo%20Size" alt="Repository size">
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/commits/main"><img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Last%20Commit" alt="Last commit"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/commits/main"><img src="https://img.shields.io/github/commit-activity/m/Lapinite/Leviathan-Launcher?style=flat-square&label=Monthly%20Commits" alt="Monthly commit activity"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher"><img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Repo%20Size" alt="Repository size"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=flat-square&label=Stars" alt="Stars">
-  <img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=flat-square&label=Forks" alt="Forks">
-  <img src="https://img.shields.io/github/watchers/Lapinite/Leviathan-Launcher?style=flat-square&label=Watchers" alt="Watchers">
-  <img src="https://img.shields.io/github/contributors/Lapinite/Leviathan-Launcher?style=flat-square&label=Contributors" alt="Contributors">
-  <img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20Issues" alt="Open issues">
-  <img src="https://img.shields.io/github/issues-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20Issues" alt="Closed issues">
-  <img src="https://img.shields.io/github/issues-pr/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20PRs" alt="Open pull requests">
-  <img src="https://img.shields.io/github/issues-pr-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20PRs" alt="Closed pull requests">
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/stargazers"><img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=flat-square&label=Stars" alt="Stars"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/forks"><img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=flat-square&label=Forks" alt="Forks"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/watchers"><img src="https://img.shields.io/github/watchers/Lapinite/Leviathan-Launcher?style=flat-square&label=Watchers" alt="Watchers"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/graphs/contributors"><img src="https://img.shields.io/github/contributors/Lapinite/Leviathan-Launcher?style=flat-square&label=Contributors" alt="Contributors"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/issues"><img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20Issues" alt="Open issues"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20Issues" alt="Closed issues"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/pulls"><img src="https://img.shields.io/github/issues-pr/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20PRs" alt="Open pull requests"></a>
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20PRs" alt="Closed pull requests"></a>
 </p>
 
 <h3 align="center">GitHub Statistics</h3>
@@ -770,16 +771,16 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 <a href="https://github.com/Lapinite/Leviathan-Launcher"><img width="100%" src="https://github-stats-extended.vercel.app/api/pin/?username=Lapinite&repo=Leviathan-Launcher&show_owner=false&hide_border=true&theme=transparent" alt="Leviathan Launcher repository"></a>
 </td>
 <td width="40%" valign="middle" align="center">
-<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=flat-square&label=Stars" alt="Stars">
-<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=flat-square&label=Forks" alt="Forks">
-<img src="https://img.shields.io/github/watchers/Lapinite/Leviathan-Launcher?style=flat-square&label=Watchers" alt="Watchers">
-<img src="https://img.shields.io/github/contributors/Lapinite/Leviathan-Launcher?style=flat-square&label=Contributors" alt="Contributors">
+<a href="https://github.com/Lapinite/Leviathan-Launcher/stargazers"><img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=flat-square&label=Stars" alt="Stars"></a>
+<a href="https://github.com/Lapinite/Leviathan-Launcher/forks"><img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=flat-square&label=Forks" alt="Forks"></a>
+<a href="https://github.com/Lapinite/Leviathan-Launcher/watchers"><img src="https://img.shields.io/github/watchers/Lapinite/Leviathan-Launcher?style=flat-square&label=Watchers" alt="Watchers"></a>
+<a href="https://github.com/Lapinite/Leviathan-Launcher/graphs/contributors"><img src="https://img.shields.io/github/contributors/Lapinite/Leviathan-Launcher?style=flat-square&label=Contributors" alt="Contributors"></a>
 <br><br>
-<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20Issues" alt="Open issues">
-<img src="https://img.shields.io/github/issues-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20Issues" alt="Closed issues">
+<a href="https://github.com/Lapinite/Leviathan-Launcher/issues"><img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20Issues" alt="Open issues"></a>
+<a href="https://github.com/Lapinite/Leviathan-Launcher/issues?q=is%3Aissue+is%3Aclosed"><img src="https://img.shields.io/github/issues-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20Issues" alt="Closed issues"></a>
 <br>
-<img src="https://img.shields.io/github/issues-pr/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20PRs" alt="Open PRs">
-<img src="https://img.shields.io/github/issues-pr-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20PRs" alt="Closed PRs">
+<a href="https://github.com/Lapinite/Leviathan-Launcher/pulls"><img src="https://img.shields.io/github/issues-pr/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20PRs" alt="Open PRs"></a>
+<a href="https://github.com/Lapinite/Leviathan-Launcher/pulls?q=is%3Apr+is%3Aclosed"><img src="https://img.shields.io/github/issues-pr-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20PRs" alt="Closed PRs"></a>
 </td>
 </tr>
 </table>
