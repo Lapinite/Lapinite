@@ -36,10 +36,11 @@ jobs:
           ref: ${{ github.ref_name }}
           fetch-depth: 0
 
-      - name: Normalize contribution heading for generator
+      - name: Normalize headings for generator
         shell: bash
         run: |
           sed -i 's/Public Commit Activity in the Last Year/Contributions in the Last Year/g' README.md
+          sed -i 's/<h3 align="center">Live Public Activity<\/h3>/<h3 align="center">Recent Public Activity<\/h3>/g' README.md
 
       - name: Generate live profile dashboard
         env:
