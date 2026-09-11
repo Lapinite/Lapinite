@@ -8,6 +8,7 @@ on:
     branches:
       - main
       - feat/external-services-map
+      - feat/profile-visuals-v4-clean
     paths:
       - "tools/update-profile-dashboard.py"
       - "tools/generate-profile-visuals.py"
@@ -17,6 +18,11 @@ on:
       - "tools/add-data-platform-section.py"
       - "tools/apply-glow-borders.py"
       - "tools/cleanup-profile-readme.py"
+      - "tools/enhance-profile-readme.py"
+      - "assets/profile/core-products.svg"
+      - "assets/profile/tech-stack.svg"
+      - "assets/profile/platform-areas.svg"
+      - "assets/profile/developer-network.svg"
       - ".github/workflows/profile-dashboard.yml"
 
 permissions:
@@ -87,6 +93,9 @@ jobs:
       - name: Remove private and redundant profile copy
         run: python tools/cleanup-profile-readme.py
 
+      - name: Apply visual-first profile panels
+        run: python tools/enhance-profile-readme.py
+
       - name: Clarify public language analytics
         shell: bash
         run: |
@@ -129,6 +138,10 @@ jobs:
               "assets/profile/repository-health.svg",
               "assets/profile/data-platform.svg",
               "assets/profile/ecosystem-overview.svg",
+              "assets/profile/core-products.svg",
+              "assets/profile/tech-stack.svg",
+              "assets/profile/platform-areas.svg",
+              "assets/profile/developer-network.svg",
           ]
 
           missing_text = [item for item in required_text if item not in text]
@@ -155,6 +168,10 @@ jobs:
               Path("assets/profile/analytics-overview.svg"),
               Path("assets/profile/activity-feed.svg"),
               Path("assets/profile/repository-health.svg"),
+              Path("assets/profile/core-products.svg"),
+              Path("assets/profile/tech-stack.svg"),
+              Path("assets/profile/platform-areas.svg"),
+              Path("assets/profile/developer-network.svg"),
           ]
 
           missing_assets = [str(path) for path in required_assets if not path.is_file() or path.stat().st_size == 0]
@@ -187,6 +204,10 @@ jobs:
               "assets/profile/analytics-overview.svg": ["PUBLIC DEVELOPMENT TELEMETRY", "14-Day Public Activity Signal", "PUBLIC REPOS"],
               "assets/profile/activity-feed.svg": ["LIVE PUBLIC ACTIVITY FEED"],
               "assets/profile/repository-health.svg": ["PUBLIC REPOSITORY HEALTH"],
+              "assets/profile/core-products.svg": ["CORE PRODUCTS", "Nimbus AntiCheat", "Launcher + Client"],
+              "assets/profile/tech-stack.svg": ["DEVELOPMENT STACK", "JAVA 21", "GRADLE"],
+              "assets/profile/platform-areas.svg": ["PLATFORM AREAS", "Player Software", "Observability"],
+              "assets/profile/developer-network.svg": ["PUBLIC DEVELOPER NETWORK", "API Docs", "Server Tools"],
           }
           for filename, markers in visual_checks.items():
               content = Path(filename).read_text(encoding="utf-8")
