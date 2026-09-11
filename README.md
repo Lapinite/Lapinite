@@ -733,12 +733,10 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Lapinite&theme=github_dark&utcOffset=2" alt="Productive commit time in Denmark local time">
 </p>
 
-<h3 align="center">Contributions in the Last Year</h3>
+<h3 align="center">Public Commit Activity in the Last Year</h3>
 
 <p align="center">
-  <a href="https://github.com/Lapinite?tab=overview">
-    <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Lapinite&theme=github-compact&hide_border=true&area=true&hide_title=true" alt="Lapinite contributions in the last year">
-  </a>
+  <a href="https://github.com/Lapinite?tab=overview"><img width="100%" src="assets/profile/contributions.svg" alt="Public commit activity in the last year"></a>
 </p>
 
 <h3 align="center">Recent Public Activity</h3>
@@ -746,14 +744,14 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 <!-- RECENT_ACTIVITY_START -->
 <table align="center" width="100%">
 <tr><th align="left">Activity</th><th align="right">When</th></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-analytics-dashboard">Pushed updates to Lapinite/Lapinite (chore/profile-analytics-dashboard)</a></td><td align="right"><sub>2026-09-11 15:10 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-analytics-dashboard">Pushed updates to Lapinite/Lapinite (chore/profile-analytics-dashboard)</a></td><td align="right"><sub>2026-09-11 15:10 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-analytics-dashboard">Pushed updates to Lapinite/Lapinite (chore/profile-analytics-dashboard)</a></td><td align="right"><sub>2026-09-11 15:04 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Merged pull request #3 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:45 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Opened pull request #3 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:45 UTC</sub></td></tr>
 <tr><td><a href="https://github.com/Lapinite/Lapinite">Merged pull request #2 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:29 UTC</sub></td></tr>
 <tr><td><a href="https://github.com/Lapinite/Lapinite">Opened pull request #2 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:29 UTC</sub></td></tr>
 <tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-languages-links">Pushed updates to Lapinite/Lapinite (chore/profile-languages-links)</a></td><td align="right"><sub>2026-09-11 14:29 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-languages-links">Pushed updates to Lapinite/Lapinite (chore/profile-languages-links)</a></td><td align="right"><sub>2026-09-11 14:28 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Lapinite">Created branch chore/profile-languages-links in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:27 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Status">Merged pull request #1 in Lapinite/Leviathan-Status</a></td><td align="right"><sub>2026-09-11 11:49 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Status/commits/main">Pushed updates to Lapinite/Leviathan-Status (main)</a></td><td align="right"><sub>2026-09-11 11:49 UTC</sub></td></tr>
-<tr><td><a href="https://github.com/Lapinite/Leviathan-Server-Tools">Merged pull request #1 in Lapinite/Leviathan-Server-Tools</a></td><td align="right"><sub>2026-09-11 11:49 UTC</sub></td></tr>
 </table>
 <!-- RECENT_ACTIVITY_END -->
 
@@ -761,14 +759,7 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 
 <!-- REPOSITORY_FRESHNESS_START -->
 <table align="center" width="100%">
-<tr>
-<th align="left">Repository</th>
-<th align="left">Last Push</th>
-<th align="right">Size</th>
-<th align="right">Stars</th>
-<th align="right">Forks</th>
-<th align="right">Open Issues</th>
-</tr>
+<tr><th align="left">Repository</th><th align="left">Last Push</th><th align="right">Size</th><th align="right">Stars</th><th align="right">Forks</th><th align="right">Open Issues</th></tr>
 <tr><td><a href="https://github.com/Lapinite/Lapinite">Lapinite</a></td><td>2026-09-11</td><td align="right">188 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
 <tr><td><a href="https://github.com/Lapinite/Leviathan-Status">Leviathan-Status</a></td><td>2026-09-11</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
 <tr><td><a href="https://github.com/Lapinite/Leviathan-Server-Tools">Leviathan-Server-Tools</a></td><td>2026-09-11</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
@@ -778,6 +769,23 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 <tr><td><a href="https://github.com/Lapinite/Leviathan-API-Docs">Leviathan-API-Docs</a></td><td>2026-09-11</td><td align="right">7 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
 </table>
 <!-- REPOSITORY_FRESHNESS_END -->
+
+<!-- PUBLIC_ANALYTICS_START -->
+<h3 align="center">Public Development Analytics</h3>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top"><img width="100%" src="assets/profile/languages.svg" alt="Public code language mix"></td>
+<td width="50%" valign="top"><img width="100%" src="assets/profile/activity-types.svg" alt="Recent public activity mix"></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><img width="100%" src="assets/profile/repository-sizes.svg" alt="Largest public repositories"></td>
+<td width="50%" valign="top"><img width="100%" src="assets/profile/activity-trend.svg" alt="Recent public activity trend"></td>
+</tr>
+</table>
+
+<p align="center"><sub>Generated from public GitHub repositories and public activity only. Private repositories and proprietary source code are excluded.</sub></p>
+<!-- PUBLIC_ANALYTICS_END -->
 
 <h3 align="center">Leviathan Launcher</h3>
 
@@ -901,7 +909,6 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 </td>
 </tr>
 </table>
----
 
 <h2 align="center">Contribution Activity</h2>
 
