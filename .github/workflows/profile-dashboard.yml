@@ -1,4 +1,3 @@
-# Leviathan profile v2 validation
 name: Profile Dashboard
 
 on:
@@ -41,6 +40,12 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python tools/update-profile-dashboard.py
+
+      - name: Clarify public language analytics
+        shell: bash
+        run: |
+          sed -i 's/Public Code Language Mix/Public Repository Language Mix/g' assets/profile/languages.svg
+          sed -i 's/Aggregated from public repositories only/Languages detected in public repositories only/g' assets/profile/languages.svg
 
       - name: Validate generated dashboard
         shell: bash
@@ -94,6 +99,10 @@ jobs:
 
           if missing_text or missing_assets:
               raise SystemExit(1)
+
+          languages = Path("assets/profile/languages.svg").read_text(encoding="utf-8")
+          if "Public Repository Language Mix" not in languages:
+              raise SystemExit("Public language analytics label is misleading or missing")
 
           print("Profile dashboard validation passed.")
           for path in required_assets:
