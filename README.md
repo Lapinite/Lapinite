@@ -28,7 +28,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
   <img width="100%" src="assets/profile/command-core.svg" alt="Leviathan Command Core development status HUD">
 </p>
 
-Leviathan is under active internal development. The current internal baseline is **v51.0.6**, with stabilization and validation work in progress. No public launcher or installer release is implied by this profile.
+<p align="center"><sub>Internal baseline <strong>v51.0.6</strong> • stabilization + validation • no public launcher or installer release</sub></p>
 
 ## Leviathan Neural Core
 
@@ -36,7 +36,7 @@ Leviathan is under active internal development. The current internal baseline is
   <img width="100%" src="assets/profile/neural-core.svg" alt="Animated high-level public Leviathan system architecture">
 </p>
 
-The Neural Core is a deliberately simplified public system map. It communicates the product ecosystem without exposing proprietary source code, private endpoints, internal service topology, credentials or sensitive implementation details.
+<p align="center"><sub>Sanitized public architecture view. Proprietary implementation and private topology remain private.</sub></p>
 
 ## Identity & External Services
 
@@ -44,7 +44,7 @@ The Neural Core is a deliberately simplified public system map. It communicates 
   <img width="100%" src="assets/profile/external-services.svg" alt="Animated Microsoft, Xbox, Minecraft and Leviathan identity service boundary map">
 </p>
 
-Microsoft account services, Xbox Live, XSTS, Minecraft Services and Mojang/Minecraft platform systems remain external trust boundaries. Leviathan owns only its own account mapping, session/permission state, product state, device/Cast state, telemetry, licensing and other platform data required for Leviathan functionality.
+<p align="center"><sub>External identity and game-service trust boundaries remain outside Leviathan ownership.</sub></p>
 
 ## Leviathan Data Platform
 
@@ -52,7 +52,7 @@ Microsoft account services, Xbox Live, XSTS, Minecraft Services and Mojang/Minec
   <img width="100%" src="assets/profile/data-platform.svg" alt="Animated high-level Leviathan data platform architecture">
 </p>
 
-The data layer is designed as a shared platform capability for accounts, launcher/client state, APIs, telemetry, analytics, Nimbus/security metadata, licensing, commerce, operations and recovery. The public diagram is intentionally high level; schemas, hosts, credentials and sensitive implementation details remain private.
+<p align="center"><sub>High-level public data-platform view. Schemas, hosts, credentials and sensitive topology remain private.</sub></p>
 
 ## Development Roadmap
 
@@ -60,35 +60,23 @@ The data layer is designed as a shared platform capability for accounts, launche
   <img width="100%" src="assets/profile/roadmap.svg" alt="Animated Leviathan development roadmap">
 </p>
 
-The current focus is stabilization, testing and internal release preparation. Public release only happens after the required validation and release gates are complete.
+<p align="center"><sub>Current phase: stabilization and validation. The public release gate remains closed.</sub></p>
 
 ## Core Products
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-<h3 align="center">Leviathan Launcher & Client</h3>
-<p align="center"><strong>Minecraft: Java Edition launcher and connected player platform</strong></p>
-<p>Leviathan focuses on legitimate Microsoft authentication, game ownership validation, profiles, instances, customization, updates, connected services and the broader Leviathan player experience.</p>
-<p align="center"><a href="https://github.com/Lapinite/Leviathan-Launcher"><strong>Public Repository</strong></a> · <a href="https://github.com/Lapinite/Leviathan-Docs"><strong>Docs</strong></a></p>
-</td>
-<td width="50%" valign="top">
-<h3 align="center">Nimbus AntiCheat</h3>
-<p align="center"><strong>Packet-based Minecraft server security</strong></p>
-<p>Nimbus focuses on packet inspection, movement and combat validation, latency compensation, violation tracking, staff tooling, calibration and false-positive control.</p>
-<p align="center"><a href="https://www.spigotmc.org/members/leviathanclient.2607111/"><strong>LeviathanClient on SpigotMC</strong></a></p>
-</td>
-</tr>
-</table>
+<p align="center">
+  <img width="100%" src="assets/profile/core-products.svg" alt="Animated Leviathan core product map">
+</p>
+
+<p align="center"><sub>Leviathan player software and Nimbus server protection are separate product lines connected by shared platform and security principles.</sub></p>
 
 ## Current Leviathan Development Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,js,kotlin,powershell,html,css,gradle,githubactions,windows&perline=9" alt="Current Leviathan development stack">
+  <img width="100%" src="assets/profile/tech-stack.svg" alt="Animated high-level Leviathan development technology stack">
 </p>
 
-<p align="center"><sub>Java 21 · JavaScript · HTML · CSS · PowerShell · Kotlin DSL / Gradle · Windows CMD · Shell · Inno Setup · JSON · YAML · Markdown</sub></p>
-<p align="center"><sub>High-level technology names only. Proprietary Leviathan source code remains private.</sub></p>
+<p align="center"><sub>High-level technology names only. Proprietary implementation remains private.</sub></p>
 
 ## Leviathan Ecosystem
 
@@ -96,36 +84,38 @@ The current focus is stabilization, testing and internal release preparation. Pu
   <img width="100%" src="assets/profile/ecosystem-overview.svg" alt="Animated Leviathan ecosystem overview">
 </p>
 
+## Platform Areas
+
+<p align="center">
+  <img width="100%" src="assets/profile/platform-areas.svg" alt="Animated public Leviathan platform areas">
+</p>
+
+<p align="center"><sub>Player software, platform services, protection and observability shown as a deliberately simplified public domain map.</sub></p>
+
 ## Experience & Commerce Flows
 
 <p align="center">
   <img width="100%" src="assets/profile/experience-commerce.svg" alt="Animated Leviathan website, mobile, launcher, client, cosmetics, LeviCoins and commerce flow">
 </p>
 
-The public model separates player-facing experiences from the commerce and entitlement path: website and mobile account/store surfaces, launcher/client consumption, external payment processing, verified orders, Leviathan entitlements, cosmetics ownership, LeviCoins ledger state, referrals and creator/campaign attribution. Payment credentials remain with the payment provider.
+<p align="center"><sub>Player experiences and commerce/entitlement flows remain separated, with payment credentials handled by the payment provider.</sub></p>
 
 ## Public Developer Repositories
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top"><strong><a href="https://github.com/Lapinite/Leviathan-Launcher">Leviathan-Launcher</a></strong><br><sub>Public launcher repository, documentation, policies, roadmap and release-facing project information.</sub></td>
-<td width="50%" valign="top"><strong><a href="https://github.com/Lapinite/Leviathan-Docs">Leviathan-Docs</a></strong><br><sub>Official documentation for the Leviathan ecosystem.</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><strong><a href="https://github.com/Lapinite/Leviathan-API-Docs">Leviathan-API-Docs</a></strong><br><sub>Public API references and integration documentation.</sub></td>
-<td width="50%" valign="top"><strong><a href="https://github.com/Lapinite/Leviathan-SDK">Leviathan-SDK</a></strong><br><sub>Developer SDK for supported public integrations.</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><strong><a href="https://github.com/Lapinite/Leviathan-Integrations">Leviathan-Integrations</a></strong><br><sub>Supported integration patterns, plugins and webhooks.</sub></td>
-<td width="50%" valign="top"><strong><a href="https://github.com/Lapinite/Leviathan-Examples">Leviathan-Examples</a></strong><br><sub>Example projects for public SDKs, APIs and integrations.</sub></td>
-</tr>
-<tr>
-<td width="50%" valign="top"><strong><a href="https://github.com/Lapinite/Leviathan-Server-Tools">Leviathan-Server-Tools</a></strong><br><sub>Minecraft server tools and utilities intended for public use.</sub></td>
-<td width="50%" valign="top"><strong><a href="https://github.com/Lapinite/Leviathan-Status">Leviathan-Status</a></strong><br><sub>Public service status and incident visibility.</sub></td>
-</tr>
-</table>
+<p align="center">
+  <img width="100%" src="assets/profile/developer-network.svg" alt="Animated Leviathan public developer repository network">
+</p>
 
-<p align="center"><a href="https://github.com/Lapinite?tab=repositories"><strong>Browse all repositories</strong></a></p>
+<p align="center">
+<a href="https://github.com/Lapinite/Leviathan-Launcher"><strong>Launcher</strong></a> ·
+<a href="https://github.com/Lapinite/Leviathan-Docs"><strong>Docs</strong></a> ·
+<a href="https://github.com/Lapinite/Leviathan-API-Docs"><strong>API Docs</strong></a> ·
+<a href="https://github.com/Lapinite/Leviathan-SDK"><strong>SDK</strong></a> ·
+<a href="https://github.com/Lapinite/Leviathan-Integrations"><strong>Integrations</strong></a> ·
+<a href="https://github.com/Lapinite/Leviathan-Examples"><strong>Examples</strong></a> ·
+<a href="https://github.com/Lapinite/Leviathan-Server-Tools"><strong>Server Tools</strong></a> ·
+<a href="https://github.com/Lapinite/Leviathan-Status"><strong>Status</strong></a>
+</p>
 
 ## Leviathan Development Activity
 
