@@ -11,6 +11,7 @@ TARGETS = [
     Path("assets/profile/external-services.svg"),
     Path("assets/profile/data-platform.svg"),
     Path("assets/profile/ecosystem-overview.svg"),
+    Path("assets/profile/experience-commerce.svg"),
     Path("assets/profile/roadmap.svg"),
     Path("assets/profile/contributions.svg"),
     Path("assets/profile/activity-feed.svg"),
