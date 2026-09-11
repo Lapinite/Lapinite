@@ -39,14 +39,14 @@
 <text x="630" y="308" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="11">PullRequest</text>
 <rect x="775" y="296" width="300" height="14" rx="5" fill="#102532"/>
 <rect x="775" y="296" width="300" height="14" rx="5" fill="#3988ff"/>
-<text x="1093" y="308" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">54</text>
+<text x="1093" y="308" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">55</text>
 <text x="630" y="338" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="11">Push</text>
 <rect x="775" y="326" width="300" height="14" rx="5" fill="#102532"/>
-<rect x="775" y="326" width="194" height="14" rx="5" fill="#3988ff"/>
-<text x="1093" y="338" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">35</text>
+<rect x="775" y="326" width="185" height="14" rx="5" fill="#3988ff"/>
+<text x="1093" y="338" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">34</text>
 <text x="630" y="368" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="11">Create</text>
 <rect x="775" y="356" width="300" height="14" rx="5" fill="#102532"/>
-<rect x="775" y="356" width="61" height="14" rx="5" fill="#3988ff"/>
+<rect x="775" y="356" width="60" height="14" rx="5" fill="#3988ff"/>
 <text x="1093" y="368" fill="#eaf9ff" font-family="ui-monospace,Consolas,monospace" font-size="10">11</text>
 <rect x="42" y="464" width="548" height="190" rx="16" fill="#05131d" stroke="#173b50"/>
 <text x="62" y="494" fill="#eaf9ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">Largest Public Repositories</text>
