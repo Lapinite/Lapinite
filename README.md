@@ -124,7 +124,7 @@ Leviathan Ecosystem
 │   ├── Security & Anti-Cheat
 │   ├── Backend & Infrastructure
 │   ├── Data & Analytics
-│   ├── AI & Developer Tools
+│   ├── Performance & Optimization
 │   ├── Growth & Marketing
 │   └── Crawling & Archiving
 │
@@ -384,11 +384,11 @@ Development is coordinated through dedicated GitHub Project boards that separate
 <h2 align="center">Research & Intelligence</h2>
 
 <p align="center">
-Research is treated as part of the Leviathan engineering, product and security process. GitHub research lists organize useful projects, technologies, platforms, developer tools, infrastructure, security references and competitive material across Minecraft and the wider software ecosystem.
+Research is treated as part of the Leviathan engineering, product and security process. Public GitHub research lists organize selected projects, technologies, platforms, developer tools, infrastructure, security references and competitive material across Minecraft and the wider software ecosystem.
 </p>
 
 <p align="center">
-<a href="https://github.com/Lapinite?tab=stars"><strong>Browse the complete GitHub research library →</strong></a>
+<a href="https://github.com/Lapinite?tab=stars"><strong>Browse the public GitHub research library →</strong></a>
 </p>
 
 <table align="center" width="100%">
@@ -399,7 +399,7 @@ Research is treated as part of the Leviathan engineering, product and security p
 </td>
 <td width="33%" valign="top" align="center">
 <h3>Engineering Research</h3>
-<sub>Backend · APIs · authentication · telemetry · CI/CD · developer tools · AI · crawlers · infrastructure · security</sub>
+<sub>Backend · APIs · authentication · telemetry · CI/CD · developer tools · crawlers · infrastructure · security</sub>
 </td>
 <td width="33%" valign="top" align="center">
 <h3>Product & Growth Research</h3>
@@ -410,7 +410,7 @@ Research is treated as part of the Leviathan engineering, product and security p
 
 <br>
 
-<h3 align="center">GitHub Research Lists</h3>
+<h3 align="center">Public GitHub Research Lists</h3>
 
 <table align="center" width="100%">
 <tr>
@@ -503,20 +503,13 @@ GitHub Actions, build systems, installers, packaging, code signing, releases, au
 </td>
 <td width="50%" valign="top">
 
-### [AI & Developer Tools](https://github.com/stars/Lapinite/lists/ai-developer-tools)
-
-Claude, MCP, coding agents, developer automation, AI workflows, testing tools and engineering productivity projects.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### [Research, Crawlers & Archiving](https://github.com/stars/Lapinite/lists/research-crawlers-archiving)
 
 Crawlers, scrapers, downloaders, indexing, search, media archiving, metadata collection and large-scale research systems.
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### [Cosmetics & Game Content](https://github.com/stars/Lapinite/lists/cosmetics-game-content)
@@ -524,8 +517,6 @@ Crawlers, scrapers, downloaders, indexing, search, media archiving, metadata col
 Cosmetic systems, skins, capes, emotes, 3D models, animation systems and Minecraft content tooling.
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### [Ecommerce & Payments](https://github.com/stars/Lapinite/lists/ecommerce-payments)
@@ -533,7 +524,9 @@ Cosmetic systems, skins, capes, emotes, 3D models, animation systems and Minecra
 Storefronts, checkout systems, subscriptions, licensing, entitlements and digital product infrastructure.
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td colspan="2" valign="top" align="center">
 
 ### [Marketing & Growth](https://github.com/stars/Lapinite/lists/marketing-growth)
 
@@ -544,7 +537,7 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 </table>
 
 <p align="center">
-<sub>Research lists are curated references for study and comparison. Inclusion does not imply affiliation, endorsement, dependency or use within Leviathan.</sub>
+<sub>Public research lists are curated references for study and comparison. Inclusion does not imply affiliation, endorsement, dependency or use within Leviathan.</sub>
 </p>
 
 ---
@@ -638,7 +631,7 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 </td>
 <td width="50%" valign="top">
 <h3 align="center">Testing, Integration & Creative</h3>
-<p align="center"><img src="https://skillicons.dev/icons?i=discord,blender,ps,ai,ae&perline=5" alt="Creative tools and integrations"></p>
+<p align="center"><img src="https://skillicons.dev/icons?i=discord,blender,ps,ae&perline=4" alt="Creative tools and integrations"></p>
 <p align="center"><sub>JUnit 5 · regression testing · smoke testing · configuration validation · Discord · webhooks · Blender · Photoshop · Illustrator · After Effects · Canva · UI/UX</sub></p>
 </td>
 </tr>
@@ -682,26 +675,94 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 
 ---
 
-<h2 align="center">GitHub Dashboard</h2>
+<h2 align="center">Leviathan Development Activity</h2>
+
+<h3 align="center">Live Account Overview</h3>
+
+<!-- PROFILE_SUMMARY_START -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Public%20Repos-9-151515?style=flat-square&logo=github" alt="Public repositories">
+  <img src="https://img.shields.io/badge/Following-0-151515?style=flat-square&logo=github" alt="Following">
+  <img src="https://img.shields.io/badge/Total%20Public%20Stars-0-151515?style=flat-square&logo=github" alt="Total public stars">
+  <img src="https://img.shields.io/badge/Total%20Public%20Forks-0-151515?style=flat-square&logo=github" alt="Total public forks">
+  <img src="https://img.shields.io/badge/Public%20Repo%20Size-488%20KB-151515?style=flat-square&logo=github" alt="Combined public repository size">
+  <img src="https://img.shields.io/badge/Location-Denmark-151515?style=flat-square" alt="Location Denmark">
+  <img src="https://img.shields.io/badge/Time%20Zone-Europe%2FCopenhagen%20UTC%2B2-151515?style=flat-square" alt="Europe Copenhagen time zone">
+  <img src="https://img.shields.io/badge/Member%20Since-2023-151515?style=flat-square&logo=github" alt="GitHub member since 2023">
+</p>
+<!-- PROFILE_SUMMARY_END -->
+
+<h3 align="center">Public Repository Overview</h3>
+
+<!-- REPOSITORY_AGGREGATES_START -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Active%20Repos%20%287d%29-9-151515?style=flat-square" alt="Repositories updated in the last 7 days">
+  <img src="https://img.shields.io/badge/Open%20Issues-0-151515?style=flat-square&logo=github" alt="Open issues across public repositories">
+</p>
+<!-- REPOSITORY_AGGREGATES_END -->
+
+<h3 align="center">Launcher Repository Health</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Launcher%20Last%20Commit" alt="Last commit">
-  <img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Launcher%20Size" alt="Repository size">
-  <img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=flat-square&label=Launcher%20Stars" alt="Stars">
-  <img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=flat-square&label=Launcher%20Forks" alt="Forks">
+  <a href="https://github.com/Lapinite/Leviathan-Launcher/actions/workflows/build.yml"><img src="https://github.com/Lapinite/Leviathan-Launcher/actions/workflows/build.yml/badge.svg?branch=main" alt="Launcher build status"></a>
+  <img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Last%20Commit" alt="Last commit">
+  <img src="https://img.shields.io/github/commit-activity/m/Lapinite/Leviathan-Launcher?style=flat-square&label=Monthly%20Commits" alt="Monthly commit activity">
+  <img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Repo%20Size" alt="Repository size">
 </p>
 
-<p align="center"><img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Lapinite&theme=github_dark" alt="Contribution and repository activity"></p>
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=flat-square&label=Stars" alt="Stars">
+  <img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=flat-square&label=Forks" alt="Forks">
+  <img src="https://img.shields.io/github/watchers/Lapinite/Leviathan-Launcher?style=flat-square&label=Watchers" alt="Watchers">
+  <img src="https://img.shields.io/github/contributors/Lapinite/Leviathan-Launcher?style=flat-square&label=Contributors" alt="Contributors">
+  <img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20Issues" alt="Open issues">
+  <img src="https://img.shields.io/github/issues-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20Issues" alt="Closed issues">
+  <img src="https://img.shields.io/github/issues-pr/Lapinite/Leviathan-Launcher?style=flat-square&label=Open%20PRs" alt="Open pull requests">
+  <img src="https://img.shields.io/github/issues-pr-closed/Lapinite/Leviathan-Launcher?style=flat-square&label=Closed%20PRs" alt="Closed pull requests">
+</p>
+
+<h3 align="center">GitHub Statistics</h3>
 
 <p align="center">
-  <img width="49%" src="https://github-stats-extended.vercel.app/api?username=Lapinite&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=percentile&number_format=long&hide_border=true&theme=transparent" alt="GitHub statistics">
-  <img width="49%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Lapinite&layout=compact&langs_count=12&size_weight=0.5&count_weight=0.5&hide_border=true&theme=transparent" alt="Top languages">
+  <img width="72%" src="https://github-stats-extended.vercel.app/api?username=Lapinite&show_icons=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&rank_icon=percentile&number_format=long&hide_border=true&theme=transparent" alt="GitHub development statistics">
 </p>
 
 <p align="center">
   <img width="49%" src="https://streak-stats.demolab.com/?user=Lapinite&theme=github-dark-blue&hide_border=true" alt="Contribution streak">
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Lapinite&theme=github_dark&utcOffset=2" alt="Productive commit time">
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Lapinite&theme=github_dark&utcOffset=2" alt="Productive commit time in Denmark local time">
 </p>
+
+<h3 align="center">Recent Public Activity</h3>
+
+<!-- RECENT_ACTIVITY_START -->
+<table align="center" width="100%">
+<tr>
+<td align="center"><strong>Dashboard automation will populate this section from GitHub public activity.</strong></td>
+</tr>
+</table>
+<!-- RECENT_ACTIVITY_END -->
+
+<h3 align="center">Repository Freshness</h3>
+
+<!-- REPOSITORY_FRESHNESS_START -->
+<table align="center" width="100%">
+<tr>
+<th align="left">Repository</th>
+<th align="left">Last Push</th>
+<th align="right">Size</th>
+<th align="right">Stars</th>
+<th align="right">Forks</th>
+<th align="right">Open Issues</th>
+</tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Launcher">Leviathan-Launcher</a></td><td>recent</td><td align="right">315 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Lapinite</a></td><td>recent</td><td align="right">154 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-SDK">Leviathan-SDK</a></td><td>recent</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Examples">Leviathan-Examples</a></td><td>recent</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Integrations">Leviathan-Integrations</a></td><td>recent</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+</table>
+<!-- REPOSITORY_FRESHNESS_END -->
+
+<h3 align="center">Leviathan Launcher</h3>
 
 <table align="center" width="100%">
 <tr>
@@ -723,6 +784,106 @@ Growth tooling, attribution, referrals, social publishing, creator programs, SEO
 </tr>
 </table>
 
+<h3 align="center">Public Repository Pulse</h3>
+
+<table align="center" width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### [Leviathan-Launcher](https://github.com/Lapinite/Leviathan-Launcher)
+
+<img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Launcher?style=flat-square&label=Last%20Commit" alt="Leviathan-Launcher last commit">
+<img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Launcher?style=flat-square&label=Size" alt="Leviathan-Launcher size">
+<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Launcher?style=flat-square&label=Stars" alt="Leviathan-Launcher stars">
+<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Launcher?style=flat-square&label=Forks" alt="Leviathan-Launcher forks">
+<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Launcher?style=flat-square&label=Issues" alt="Leviathan-Launcher open issues">
+
+</td>
+<td width="50%" valign="top">
+
+### [Leviathan-Docs](https://github.com/Lapinite/Leviathan-Docs)
+
+<img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Docs?style=flat-square&label=Last%20Commit" alt="Leviathan-Docs last commit">
+<img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Docs?style=flat-square&label=Size" alt="Leviathan-Docs size">
+<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Docs?style=flat-square&label=Stars" alt="Leviathan-Docs stars">
+<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Docs?style=flat-square&label=Forks" alt="Leviathan-Docs forks">
+<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Docs?style=flat-square&label=Issues" alt="Leviathan-Docs open issues">
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Leviathan-API-Docs](https://github.com/Lapinite/Leviathan-API-Docs)
+
+<img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-API-Docs?style=flat-square&label=Last%20Commit" alt="Leviathan-API-Docs last commit">
+<img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-API-Docs?style=flat-square&label=Size" alt="Leviathan-API-Docs size">
+<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-API-Docs?style=flat-square&label=Stars" alt="Leviathan-API-Docs stars">
+<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-API-Docs?style=flat-square&label=Forks" alt="Leviathan-API-Docs forks">
+<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-API-Docs?style=flat-square&label=Issues" alt="Leviathan-API-Docs open issues">
+
+</td>
+<td width="50%" valign="top">
+
+### [Leviathan-SDK](https://github.com/Lapinite/Leviathan-SDK)
+
+<img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-SDK?style=flat-square&label=Last%20Commit" alt="Leviathan-SDK last commit">
+<img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-SDK?style=flat-square&label=Size" alt="Leviathan-SDK size">
+<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-SDK?style=flat-square&label=Stars" alt="Leviathan-SDK stars">
+<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-SDK?style=flat-square&label=Forks" alt="Leviathan-SDK forks">
+<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-SDK?style=flat-square&label=Issues" alt="Leviathan-SDK open issues">
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Leviathan-Integrations](https://github.com/Lapinite/Leviathan-Integrations)
+
+<img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Integrations?style=flat-square&label=Last%20Commit" alt="Leviathan-Integrations last commit">
+<img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Integrations?style=flat-square&label=Size" alt="Leviathan-Integrations size">
+<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Integrations?style=flat-square&label=Stars" alt="Leviathan-Integrations stars">
+<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Integrations?style=flat-square&label=Forks" alt="Leviathan-Integrations forks">
+<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Integrations?style=flat-square&label=Issues" alt="Leviathan-Integrations open issues">
+
+</td>
+<td width="50%" valign="top">
+
+### [Leviathan-Examples](https://github.com/Lapinite/Leviathan-Examples)
+
+<img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Examples?style=flat-square&label=Last%20Commit" alt="Leviathan-Examples last commit">
+<img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Examples?style=flat-square&label=Size" alt="Leviathan-Examples size">
+<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Examples?style=flat-square&label=Stars" alt="Leviathan-Examples stars">
+<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Examples?style=flat-square&label=Forks" alt="Leviathan-Examples forks">
+<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Examples?style=flat-square&label=Issues" alt="Leviathan-Examples open issues">
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Leviathan-Server-Tools](https://github.com/Lapinite/Leviathan-Server-Tools)
+
+<img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Server-Tools?style=flat-square&label=Last%20Commit" alt="Leviathan-Server-Tools last commit">
+<img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Server-Tools?style=flat-square&label=Size" alt="Leviathan-Server-Tools size">
+<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Server-Tools?style=flat-square&label=Stars" alt="Leviathan-Server-Tools stars">
+<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Server-Tools?style=flat-square&label=Forks" alt="Leviathan-Server-Tools forks">
+<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Server-Tools?style=flat-square&label=Issues" alt="Leviathan-Server-Tools open issues">
+
+</td>
+<td width="50%" valign="top">
+
+### [Leviathan-Status](https://github.com/Lapinite/Leviathan-Status)
+
+<img src="https://img.shields.io/github/last-commit/Lapinite/Leviathan-Status?style=flat-square&label=Last%20Commit" alt="Leviathan-Status last commit">
+<img src="https://img.shields.io/github/repo-size/Lapinite/Leviathan-Status?style=flat-square&label=Size" alt="Leviathan-Status size">
+<img src="https://img.shields.io/github/stars/Lapinite/Leviathan-Status?style=flat-square&label=Stars" alt="Leviathan-Status stars">
+<img src="https://img.shields.io/github/forks/Lapinite/Leviathan-Status?style=flat-square&label=Forks" alt="Leviathan-Status forks">
+<img src="https://img.shields.io/github/issues/Lapinite/Leviathan-Status?style=flat-square&label=Issues" alt="Leviathan-Status open issues">
+
+</td>
+</tr>
+</table>
 ---
 
 <h2 align="center">Contribution Activity</h2>
