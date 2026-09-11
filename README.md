@@ -96,6 +96,14 @@ The current focus is stabilization, testing and internal release preparation. Pu
   <img width="100%" src="assets/profile/ecosystem-overview.svg" alt="Animated Leviathan ecosystem overview">
 </p>
 
+## Experience & Commerce Flows
+
+<p align="center">
+  <img width="100%" src="assets/profile/experience-commerce.svg" alt="Animated Leviathan website, mobile, launcher, client, cosmetics, LeviCoins and commerce flow">
+</p>
+
+The public model separates player-facing experiences from the commerce and entitlement path: website and mobile account/store surfaces, launcher/client consumption, external payment processing, verified orders, Leviathan entitlements, cosmetics ownership, LeviCoins ledger state, referrals and creator/campaign attribution. Payment credentials remain with the payment provider.
+
 ## Public Developer Repositories
 
 <table width="100%">
