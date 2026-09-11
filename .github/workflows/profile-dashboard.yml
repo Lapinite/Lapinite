@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - main
+      - feat/animated-glow-borders
     paths:
       - "tools/update-profile-dashboard.py"
       - "tools/generate-profile-visuals.py"
@@ -14,6 +15,7 @@ on:
       - "tools/generate-profile-live-panels.py"
       - "tools/style-profile-layout.py"
       - "tools/add-data-platform-section.py"
+      - "tools/apply-glow-borders.py"
       - "tools/cleanup-profile-readme.py"
       - ".github/workflows/profile-dashboard.yml"
 
@@ -91,6 +93,9 @@ jobs:
           sed -i 's/Public Code Language Mix/Public Repository Language Mix/g' assets/profile/languages.svg
           sed -i 's/Aggregated from public repositories only/Languages detected in public repositories only/g' assets/profile/languages.svg
 
+      - name: Apply animated Leviathan borders
+        run: python tools/apply-glow-borders.py
+
       - name: Validate generated dashboard
         shell: bash
         run: |
@@ -135,6 +140,8 @@ jobs:
           leaked_text = [item for item in forbidden_text if item in text]
 
           required_assets = [
+              Path("assets/hero-dark.svg"),
+              Path("assets/hero-light.svg"),
               Path("assets/profile/contributions.svg"),
               Path("assets/profile/neural-core.svg"),
               Path("assets/profile/data-platform.svg"),
@@ -183,6 +190,11 @@ jobs:
                   if marker not in content:
                       raise SystemExit(f"Detailed visual validation failed: {filename} missing {marker}")
 
+          for path in required_assets:
+              content = path.read_text(encoding="utf-8")
+              if "LEVIATHAN_GLOW_BORDER_V1" not in content:
+                  raise SystemExit(f"Animated border validation failed: {path}")
+
           print("Profile dashboard validation passed.")
           for path in required_assets:
               print(f"  {path}: {path.stat().st_size} bytes")
@@ -191,15 +203,15 @@ jobs:
       - name: Commit dashboard refresh
         shell: bash
         run: |
-          if git diff --quiet -- README.md assets/profile; then
+          if git diff --quiet -- README.md assets/hero-dark.svg assets/hero-light.svg assets/profile; then
             echo "Profile dashboard already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/profile
-          git commit -m "chore: refresh profile analytics"
+          git add README.md assets/hero-dark.svg assets/hero-light.svg assets/profile
+          git commit -m "chore: refresh profile visuals"
 
           for attempt in 1 2 3; do
             git fetch origin "${GITHUB_REF_NAME}"
