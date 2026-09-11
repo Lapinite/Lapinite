@@ -137,13 +137,32 @@ The current focus is stabilization, testing and internal release preparation. Pu
 <h3 align="center">Recent Public Activity</h3>
 
 <!-- RECENT_ACTIVITY_START -->
-<table align="center" width="100%"><tr><td>Automatically refreshed from public GitHub activity.</td></tr></table>
+<table align="center" width="100%">
+<tr><th align="left">Activity</th><th align="right">When</th></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/feat/leviathan-profile-v2">Pushed updates to Lapinite/Lapinite (feat/leviathan-profile-v2)</a></td><td align="right"><sub>2026-09-11 15:42 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/feat/leviathan-profile-v2">Pushed updates to Lapinite/Lapinite (feat/leviathan-profile-v2)</a></td><td align="right"><sub>2026-09-11 15:41 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/feat/leviathan-profile-v2">Pushed updates to Lapinite/Lapinite (feat/leviathan-profile-v2)</a></td><td align="right"><sub>2026-09-11 15:40 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-analytics-dashboard">Pushed updates to Lapinite/Lapinite (chore/profile-analytics-dashboard)</a></td><td align="right"><sub>2026-09-11 15:10 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-analytics-dashboard">Pushed updates to Lapinite/Lapinite (chore/profile-analytics-dashboard)</a></td><td align="right"><sub>2026-09-11 15:10 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite/commits/chore/profile-analytics-dashboard">Pushed updates to Lapinite/Lapinite (chore/profile-analytics-dashboard)</a></td><td align="right"><sub>2026-09-11 15:04 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Merged pull request #3 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:45 UTC</sub></td></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Opened pull request #3 in Lapinite/Lapinite</a></td><td align="right"><sub>2026-09-11 14:45 UTC</sub></td></tr>
+</table>
 <!-- RECENT_ACTIVITY_END -->
 
 <h3 align="center">Repository Freshness</h3>
 
 <!-- REPOSITORY_FRESHNESS_START -->
-<table align="center" width="100%"><tr><td>Automatically refreshed from public repositories.</td></tr></table>
+<table align="center" width="100%">
+<tr><th align="left">Repository</th><th align="left">Last Push</th><th align="right">Size</th><th align="right">Stars</th><th align="right">Forks</th><th align="right">Open Issues</th></tr>
+<tr><td><a href="https://github.com/Lapinite/Lapinite">Lapinite</a></td><td>2026-09-11</td><td align="right">175 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Status">Leviathan-Status</a></td><td>2026-09-11</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Server-Tools">Leviathan-Server-Tools</a></td><td>2026-09-11</td><td align="right">5 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Examples">Leviathan-Examples</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-Integrations">Leviathan-Integrations</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-SDK">Leviathan-SDK</a></td><td>2026-09-11</td><td align="right">9 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+<tr><td><a href="https://github.com/Lapinite/Leviathan-API-Docs">Leviathan-API-Docs</a></td><td>2026-09-11</td><td align="right">7 KB</td><td align="right">0</td><td align="right">0</td><td align="right">0</td></tr>
+</table>
 <!-- REPOSITORY_FRESHNESS_END -->
 
 <!-- PUBLIC_ANALYTICS_START -->
