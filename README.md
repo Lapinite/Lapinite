@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark-v3.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light-v3.svg">
-  <img width="100%" alt="Leviathan Project" src="./assets/hero-light-v3.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark-v4.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light-v4.svg">
+  <img width="100%" alt="Leviathan Project" src="./assets/hero-light-v4.svg">
 </picture>
 
 <br>
@@ -25,7 +25,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Leviathan Command Core
 
 <p align="center">
-  <img width="100%" src="assets/profile/command-core-v2.svg" alt="Leviathan Command Core development status HUD">
+  <img width="100%" src="assets/profile/command-core-v3.svg" alt="Leviathan Command Core development status HUD">
 </p>
 
 <p align="center"><sub>Internal baseline <strong>v51.0.6</strong> • stabilization + validation • no public launcher or installer release</sub></p>
@@ -33,7 +33,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Leviathan Neural Core
 
 <p align="center">
-  <img width="100%" src="assets/profile/neural-core-v2.svg" alt="Animated high-level public Leviathan holographic system architecture">
+  <img width="100%" src="assets/profile/neural-core-v3.svg" alt="Animated high-level public Leviathan holographic system architecture">
 </p>
 
 <p align="center"><sub>Sanitized public architecture view. Proprietary implementation and private topology remain private.</sub></p>
@@ -41,7 +41,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Identity & External Services
 
 <p align="center">
-  <img width="100%" src="assets/profile/external-services.svg" alt="Animated Microsoft, Xbox, Minecraft and Leviathan identity service boundary map">
+  <img width="100%" src="assets/profile/external-services-v2.svg" alt="Animated Microsoft, Xbox, Minecraft and Leviathan identity service boundary map">
 </p>
 
 <p align="center"><sub>External identity and game-service trust boundaries remain outside Leviathan ownership.</sub></p>
@@ -57,7 +57,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Development Roadmap
 
 <p align="center">
-  <img width="100%" src="assets/profile/roadmap.svg" alt="Animated Leviathan development roadmap">
+  <img width="100%" src="assets/profile/roadmap-v2.svg" alt="Animated Leviathan development roadmap">
 </p>
 
 <p align="center"><sub>Current phase: stabilization and validation. The public release gate remains closed.</sub></p>
@@ -73,7 +73,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Current Leviathan Development Stack
 
 <p align="center">
-  <img width="100%" src="assets/profile/tech-stack.svg" alt="Animated high-level Leviathan development technology stack">
+  <img width="100%" src="assets/profile/tech-stack-v2.svg" alt="Animated high-level Leviathan development technology stack">
 </p>
 
 <p align="center"><sub>High-level technology names only. Proprietary implementation remains private.</sub></p>
@@ -87,7 +87,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Platform Areas
 
 <p align="center">
-  <img width="100%" src="assets/profile/platform-areas.svg" alt="Animated public Leviathan platform areas">
+  <img width="100%" src="assets/profile/platform-areas-v2.svg" alt="Animated public Leviathan platform areas">
 </p>
 
 <p align="center"><sub>Player software, platform services, protection and observability shown as a deliberately simplified public domain map.</sub></p>
