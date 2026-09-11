@@ -8,6 +8,7 @@ TARGETS = [
     Path("assets/hero-light.svg"),
     Path("assets/profile/command-core.svg"),
     Path("assets/profile/neural-core.svg"),
+    Path("assets/profile/external-services.svg"),
     Path("assets/profile/data-platform.svg"),
     Path("assets/profile/ecosystem-overview.svg"),
     Path("assets/profile/roadmap.svg"),
