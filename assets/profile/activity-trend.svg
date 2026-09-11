@@ -15,9 +15,9 @@
 <circle cx="467" cy="195" r="3" fill="#58a6ff"><title>2026-09-06: 0 events</title></circle>
 <circle cx="519" cy="195" r="3" fill="#58a6ff"><title>2026-09-07: 0 events</title></circle>
 <circle cx="571" cy="195" r="3" fill="#58a6ff"><title>2026-09-08: 0 events</title></circle>
-<circle cx="623" cy="194" r="3" fill="#58a6ff"><title>2026-09-09: 1 events</title></circle>
+<circle cx="623" cy="195" r="3" fill="#58a6ff"><title>2026-09-09: 0 events</title></circle>
 <circle cx="675" cy="195" r="3" fill="#58a6ff"><title>2026-09-10: 0 events</title></circle>
-<circle cx="727" cy="75" r="3" fill="#58a6ff"><title>2026-09-11: 99 events</title></circle>
+<circle cx="727" cy="75" r="3" fill="#58a6ff"><title>2026-09-11: 100 events</title></circle>
 <text x="727" y="222" text-anchor="middle" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="10">Sep 11</text>
-<polyline points="52,195 104,195 156,195 208,195 260,195 312,195 364,195 415,195 467,195 519,195 571,195 623,194 675,195 727,75" fill="none" stroke="#58a6ff" stroke-width="3"/>
+<polyline points="52,195 104,195 156,195 208,195 260,195 312,195 364,195 415,195 467,195 519,195 571,195 623,195 675,195 727,75" fill="none" stroke="#58a6ff" stroke-width="3"/>
 </svg>
