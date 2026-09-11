@@ -49,7 +49,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Leviathan Data Platform
 
 <p align="center">
-  <img width="100%" src="assets/profile/data-platform.svg" alt="Animated high-level Leviathan data platform architecture">
+  <img width="100%" src="assets/profile/data-platform-v2.svg" alt="Animated high-level Leviathan data platform architecture">
 </p>
 
 <p align="center"><sub>High-level public data-platform view. Schemas, hosts, credentials and sensitive topology remain private.</sub></p>
@@ -65,7 +65,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Core Products
 
 <p align="center">
-  <img width="100%" src="assets/profile/core-products.svg" alt="Animated Leviathan core product map">
+  <img width="100%" src="assets/profile/core-products-v2.svg" alt="Animated Leviathan core product map">
 </p>
 
 <p align="center"><sub>Leviathan player software and Nimbus server protection are separate product lines connected by shared platform and security principles.</sub></p>
@@ -81,7 +81,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Leviathan Ecosystem
 
 <p align="center">
-  <img width="100%" src="assets/profile/ecosystem-overview.svg" alt="Animated Leviathan ecosystem overview">
+  <img width="100%" src="assets/profile/ecosystem-overview-v2.svg" alt="Animated Leviathan ecosystem overview">
 </p>
 
 ## Platform Areas
@@ -95,7 +95,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Experience & Commerce Flows
 
 <p align="center">
-  <img width="100%" src="assets/profile/experience-commerce.svg" alt="Animated Leviathan website, mobile, launcher, client, cosmetics, LeviCoins and commerce flow">
+  <img width="100%" src="assets/profile/experience-commerce-v2.svg" alt="Animated Leviathan website, mobile, launcher, client, cosmetics, LeviCoins and commerce flow">
 </p>
 
 <p align="center"><sub>Player experiences and commerce/entitlement flows remain separated, with payment credentials handled by the payment provider.</sub></p>
@@ -103,7 +103,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Public Developer Repositories
 
 <p align="center">
-  <img width="100%" src="assets/profile/developer-network.svg" alt="Animated Leviathan public developer repository network">
+  <img width="100%" src="assets/profile/developer-network-v2.svg" alt="Animated Leviathan public developer repository network">
 </p>
 
 <p align="center">
