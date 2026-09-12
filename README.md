@@ -33,10 +33,10 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Leviathan Neural Core
 
 <p align="center">
-  <img width="100%" src="assets/profile/neural-core-v3.svg" alt="Animated high-level public Leviathan holographic system architecture">
+  <img width="100%" src="assets/profile/neural-globe-v1.svg" alt="Animated Leviathan neural particle globe">
 </p>
 
-<p align="center"><sub>Sanitized public architecture view. Proprietary implementation and private topology remain private.</sub></p>
+<p align="center"><sub>Particle links, synchronized orbital layers and the Leviathan intelligence core visualized as one centered neural system.</sub></p>
 
 ## Identity & External Services
 
