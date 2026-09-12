@@ -23,17 +23,16 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 <p align="center"><sub>Synchronized neural volume, central intelligence core, orbital layers and signal flow.</sub></p>
 
 ## Leviathan Command Core
-<p align="center"><img width="100%" src="assets/profile/command-core-v4.svg" alt="Leviathan Command Core development status HUD"></p>
-<p align="center"><sub>Internal baseline <strong>v51.0.6</strong> • stabilization + validation • no public launcher or installer release</sub></p>
+<p align="center"><img width="100%" src="assets/profile/command-core-v5.svg" alt="Leviathan Command Core operations HUD"></p>
 
 ## Identity & External Services
 <p align="center"><img width="100%" src="assets/profile/external-services-v2.svg" alt="Animated external service boundary map"></p>
 
 ## Leviathan Data Platform
-<p align="center"><img width="100%" src="assets/profile/data-platform-v3.svg" alt="Animated high-level Leviathan data platform architecture"></p>
+<p align="center"><img width="100%" src="assets/profile/data-platform-v4.svg" alt="Leviathan data platform control plane"></p>
 
 ## Development Roadmap
-<p align="center"><img width="100%" src="assets/profile/roadmap-v3.svg" alt="Animated Leviathan development roadmap"></p>
+<p align="center"><img width="100%" src="assets/profile/roadmap-v4.svg" alt="Leviathan development delivery sequence"></p>
 
 ## Core Products
 <p align="center"><img width="100%" src="assets/profile/core-products-v3.svg" alt="Animated Leviathan core product map"></p>
@@ -74,7 +73,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 <p align="center"><a href="https://github.com/Lapinite/Leviathan-Launcher"><img width="100%" src="assets/profile/launcher-status-v3.svg" alt="Leviathan Launcher public status HUD"></a></p>
 
 ## Contribution Activity
-<p align="center"><img width="100%" src="assets/profile/pacman-v3.svg" alt="Pacman-style GitHub contribution activity"></p>
+<p align="center"><img width="100%" src="assets/profile/contribution-activity-v1.svg" alt="Leviathan contribution activity signal monitor"></p>
 
 ## Developer Resources
 <p align="center"><a href="https://github.com/Lapinite/Leviathan-Docs"><strong>Documentation</strong></a> · <a href="https://github.com/Lapinite/Leviathan-API-Docs"><strong>API Reference</strong></a> · <a href="https://github.com/Lapinite/Leviathan-SDK"><strong>SDK</strong></a> · <a href="https://github.com/Lapinite/Leviathan-Examples"><strong>Examples</strong></a> · <a href="https://github.com/Lapinite/Leviathan-Integrations"><strong>Integrations</strong></a> · <a href="https://github.com/Lapinite/Leviathan-Status"><strong>Status</strong></a></p>
