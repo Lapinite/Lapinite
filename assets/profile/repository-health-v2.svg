@@ -15,8 +15,8 @@
 <path d="M42 120 H1142 L1158 136 V164 H58 L42 148 Z" fill="#061621" stroke="#14394d"/>
 <rect x="55" y="137" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.50s" repeatCount="indefinite"/></rect>
 <text x="78" y="148" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Lapinite</text>
-<text x="660" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="825" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">366 KB</text>
+<text x="660" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-12</text>
+<text x="825" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">442 KB</text>
 <text x="955" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <text x="1080" y="148" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <path d="M42 171 H1142 L1158 187 V215 H58 L42 199 Z" fill="#061621" stroke="#14394d"/>

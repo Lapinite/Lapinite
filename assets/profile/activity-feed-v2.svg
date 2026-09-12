@@ -13,45 +13,45 @@
 <text x="42" y="70" fill="#7899ac" font-family="Segoe UI,Arial,sans-serif" font-size="11">Recent GitHub events rendered as an operational signal feed.</text>
 <path d="M73 103 V450" stroke="#16485e" stroke-width="2"/><path d="M73 103 V450" stroke="#29e7ff" stroke-width="2" stroke-dasharray="20 18"><animate attributeName="stroke-dashoffset" values="0;-76" dur="3s" repeatCount="indefinite"/></path>
 <path d="M73 122 H104 L120 106 H1138" fill="none" stroke="#14394d"/>
-<rect x="66" y="115" width="14" height="14" rx="2" fill="#ffb45e" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="1.40s" repeatCount="indefinite"/></rect>
+<rect x="66" y="115" width="14" height="14" rx="2" fill="#58eaff" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="1.40s" repeatCount="indefinite"/></rect>
 <path d="M120 106 H1138 V144 H132 L120 132 Z" fill="#061621" stroke="#14394d"/>
-<text x="145" y="129" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PR MERGED // Lapinite #21</text>
-<text x="1118" y="129" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:20 UTC</text>
+<text x="145" y="129" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">CREATE // Leviathan-Integrations</text>
+<text x="1118" y="129" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">05:14 UTC</text>
 <path d="M73 169 H104 L120 153 H1138" fill="none" stroke="#14394d"/>
 <rect x="66" y="162" width="14" height="14" rx="2" fill="#58eaff" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="1.49s" repeatCount="indefinite"/></rect>
 <path d="M120 153 H1138 V191 H132 L120 179 Z" fill="#061621" stroke="#14394d"/>
-<text x="145" y="176" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PR OPENED // Lapinite #21</text>
-<text x="1118" y="176" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:20 UTC</text>
+<text x="145" y="176" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PUSH // Lapinite</text>
+<text x="1118" y="176" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:17 UTC</text>
 <path d="M73 216 H104 L120 200 H1138" fill="none" stroke="#14394d"/>
 <rect x="66" y="209" width="14" height="14" rx="2" fill="#58eaff" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="1.58s" repeatCount="indefinite"/></rect>
 <path d="M120 200 H1138 V238 H132 L120 226 Z" fill="#061621" stroke="#14394d"/>
 <text x="145" y="223" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PUSH // Lapinite</text>
-<text x="1118" y="223" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:19 UTC</text>
+<text x="1118" y="223" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:17 UTC</text>
 <path d="M73 263 H104 L120 247 H1138" fill="none" stroke="#14394d"/>
 <rect x="66" y="256" width="14" height="14" rx="2" fill="#58eaff" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="1.67s" repeatCount="indefinite"/></rect>
 <path d="M120 247 H1138 V285 H132 L120 273 Z" fill="#061621" stroke="#14394d"/>
 <text x="145" y="270" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PUSH // Lapinite</text>
-<text x="1118" y="270" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:19 UTC</text>
+<text x="1118" y="270" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:10 UTC</text>
 <path d="M73 310 H104 L120 294 H1138" fill="none" stroke="#14394d"/>
 <rect x="66" y="303" width="14" height="14" rx="2" fill="#58eaff" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="1.76s" repeatCount="indefinite"/></rect>
 <path d="M120 294 H1138 V332 H132 L120 320 Z" fill="#061621" stroke="#14394d"/>
 <text x="145" y="317" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PUSH // Lapinite</text>
-<text x="1118" y="317" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:18 UTC</text>
+<text x="1118" y="317" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:08 UTC</text>
 <path d="M73 357 H104 L120 341 H1138" fill="none" stroke="#14394d"/>
 <rect x="66" y="350" width="14" height="14" rx="2" fill="#58eaff" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="1.85s" repeatCount="indefinite"/></rect>
 <path d="M120 341 H1138 V379 H132 L120 367 Z" fill="#061621" stroke="#14394d"/>
 <text x="145" y="364" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PUSH // Lapinite</text>
-<text x="1118" y="364" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:17 UTC</text>
+<text x="1118" y="364" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:08 UTC</text>
 <path d="M73 404 H104 L120 388 H1138" fill="none" stroke="#14394d"/>
 <rect x="66" y="397" width="14" height="14" rx="2" fill="#58eaff" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="1.94s" repeatCount="indefinite"/></rect>
 <path d="M120 388 H1138 V426 H132 L120 414 Z" fill="#061621" stroke="#14394d"/>
 <text x="145" y="411" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PUSH // Lapinite</text>
-<text x="1118" y="411" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:16 UTC</text>
+<text x="1118" y="411" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:07 UTC</text>
 <path d="M73 451 H104 L120 435 H1138" fill="none" stroke="#14394d"/>
-<rect x="66" y="444" width="14" height="14" rx="2" fill="#ffb45e" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="2.03s" repeatCount="indefinite"/></rect>
+<rect x="66" y="444" width="14" height="14" rx="2" fill="#58eaff" filter="url(#g)"><animate attributeName="opacity" values=".35;1;.35" dur="2.03s" repeatCount="indefinite"/></rect>
 <path d="M120 435 H1138 V473 H132 L120 461 Z" fill="#061621" stroke="#14394d"/>
-<text x="145" y="458" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PR MERGED // Lapinite #20</text>
-<text x="1118" y="458" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">22:10 UTC</text>
+<text x="145" y="458" fill="#dcecf4" font-family="ui-monospace,Consolas,monospace" font-size="11">PUSH // Leviathan-API-Docs</text>
+<text x="1118" y="458" text-anchor="end" fill="#6e92a5" font-family="ui-monospace,Consolas,monospace" font-size="9">19:55 UTC</text>
 <rect x="120" y="480" width="180" height="2" rx="1" fill="url(#cyan)"><animate attributeName="x" values="120;930;120" dur="8s" repeatCount="indefinite"/></rect>
 <rect x="4" y="4" width="1192" height="502" rx="21" fill="none" stroke="url(#cyan)" stroke-width="3" stroke-dasharray="711 2677" filter="url(#g)" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-3388" dur="10s" repeatCount="indefinite"/></rect>
 </svg>
