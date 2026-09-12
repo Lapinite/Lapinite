@@ -1,10 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark-v4.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light-v4.svg">
-  <img width="100%" alt="Leviathan Project" src="./assets/hero-light-v4.svg">
-</picture>
+<img width="100%" alt="Leviathan Project" src="./assets/hero-dark-v5.svg">
 
 <br>
 
@@ -22,6 +18,14 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 
 </div>
 
+## Leviathan Neural Core
+
+<p align="center">
+  <img width="100%" src="assets/profile/neural-globe-v2.svg" alt="Animated Leviathan neural particle globe">
+</p>
+
+<p align="center"><sub>A synchronized neural volume with a visible central intelligence core, counter-rotating orbital layers and signal flow aligned to the Leviathan visual system.</sub></p>
+
 ## Leviathan Command Core
 
 <p align="center">
@@ -30,181 +34,69 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 
 <p align="center"><sub>Internal baseline <strong>v51.0.6</strong> • stabilization + validation • no public launcher or installer release</sub></p>
 
-## Leviathan Neural Core
-
-<p align="center">
-  <img width="100%" src="assets/profile/neural-globe-v1.svg" alt="Animated Leviathan neural particle globe">
-</p>
-
-<p align="center"><sub>Particle links, synchronized orbital layers and the Leviathan intelligence core visualized as one centered neural system.</sub></p>
-
 ## Identity & External Services
 
-<p align="center">
-  <img width="100%" src="assets/profile/external-services-v2.svg" alt="Animated Microsoft, Xbox, Minecraft and Leviathan identity service boundary map">
-</p>
-
-<p align="center"><sub>External identity and game-service trust boundaries remain outside Leviathan ownership.</sub></p>
+<p align="center"><img width="100%" src="assets/profile/external-services-v2.svg" alt="Animated external service boundary map"></p>
 
 ## Leviathan Data Platform
 
-<p align="center">
-  <img width="100%" src="assets/profile/data-platform-v2.svg" alt="Animated high-level Leviathan data platform architecture">
-</p>
-
-<p align="center"><sub>High-level public data-platform view. Schemas, hosts, credentials and sensitive topology remain private.</sub></p>
+<p align="center"><img width="100%" src="assets/profile/data-platform-v2.svg" alt="Animated high-level Leviathan data platform architecture"></p>
 
 ## Development Roadmap
 
-<p align="center">
-  <img width="100%" src="assets/profile/roadmap-v2.svg" alt="Animated Leviathan development roadmap">
-</p>
-
-<p align="center"><sub>Current phase: stabilization and validation. The public release gate remains closed.</sub></p>
+<p align="center"><img width="100%" src="assets/profile/roadmap-v2.svg" alt="Animated Leviathan development roadmap"></p>
 
 ## Core Products
 
-<p align="center">
-  <img width="100%" src="assets/profile/core-products-v2.svg" alt="Animated Leviathan core product map">
-</p>
-
-<p align="center"><sub>Leviathan player software and Nimbus server protection are separate product lines connected by shared platform and security principles.</sub></p>
+<p align="center"><img width="100%" src="assets/profile/core-products-v2.svg" alt="Animated Leviathan core product map"></p>
 
 ## Current Leviathan Development Stack
 
-<p align="center">
-  <img width="100%" src="assets/profile/tech-stack-v2.svg" alt="Animated high-level Leviathan development technology stack">
-</p>
-
-<p align="center"><sub>High-level technology names only. Proprietary implementation remains private.</sub></p>
+<p align="center"><img width="100%" src="assets/profile/tech-stack-v2.svg" alt="Animated Leviathan development technology stack"></p>
 
 ## Leviathan Ecosystem
 
-<p align="center">
-  <img width="100%" src="assets/profile/ecosystem-overview-v2.svg" alt="Animated Leviathan ecosystem overview">
-</p>
+<p align="center"><img width="100%" src="assets/profile/ecosystem-overview-v2.svg" alt="Animated Leviathan ecosystem overview"></p>
 
 ## Platform Areas
 
-<p align="center">
-  <img width="100%" src="assets/profile/platform-areas-v2.svg" alt="Animated public Leviathan platform areas">
-</p>
-
-<p align="center"><sub>Player software, platform services, protection and observability shown as a deliberately simplified public domain map.</sub></p>
+<p align="center"><img width="100%" src="assets/profile/platform-areas-v2.svg" alt="Animated public Leviathan platform areas"></p>
 
 ## Experience & Commerce Flows
 
-<p align="center">
-  <img width="100%" src="assets/profile/experience-commerce-v2.svg" alt="Animated Leviathan website, mobile, launcher, client, cosmetics, LeviCoins and commerce flow">
-</p>
-
-<p align="center"><sub>Player experiences and commerce/entitlement flows remain separated, with payment credentials handled by the payment provider.</sub></p>
+<p align="center"><img width="100%" src="assets/profile/experience-commerce-v2.svg" alt="Animated Leviathan experience and commerce flow"></p>
 
 ## Public Developer Repositories
 
-<p align="center">
-  <img width="100%" src="assets/profile/developer-network-v2.svg" alt="Animated Leviathan public developer repository network">
-</p>
-
-<p align="center">
-<a href="https://github.com/Lapinite/Leviathan-Launcher"><strong>Launcher</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-Docs"><strong>Docs</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-API-Docs"><strong>API Docs</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-SDK"><strong>SDK</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-Integrations"><strong>Integrations</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-Examples"><strong>Examples</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-Server-Tools"><strong>Server Tools</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-Status"><strong>Status</strong></a>
-</p>
+<p align="center"><img width="100%" src="assets/profile/developer-network-v2.svg" alt="Animated Leviathan public developer repository network"></p>
 
 ## Leviathan Development Activity
 
 <h3 align="center">Live Account Overview</h3>
-
-<!-- PROFILE_SUMMARY_START -->
-<p align="center">
-  <img width="100%" src="assets/profile/account-overview-v2.svg" alt="Leviathan public account overview HUD">
-</p>
-<!-- PROFILE_SUMMARY_END -->
-
-<!-- REPOSITORY_AGGREGATES_START -->
-<!-- REPOSITORY_AGGREGATES_END -->
+<p align="center"><img width="100%" src="assets/profile/account-overview-v2.svg" alt="Leviathan public account overview HUD"></p>
 
 <h3 align="center">Public Commit Activity in the Last Year</h3>
-
-<p align="center">
-  <a href="https://github.com/Lapinite?tab=overview"><img width="100%" src="assets/profile/contributions-v2.svg" alt="Public commit activity in the last year"></a>
-</p>
+<p align="center"><a href="https://github.com/Lapinite?tab=overview"><img width="100%" src="assets/profile/contributions-v2.svg" alt="Public commit activity in the last year"></a></p>
 
 <h3 align="center">Live Public Activity</h3>
-
-<!-- RECENT_ACTIVITY_START -->
-<p align="center">
-  <img width="100%" src="assets/profile/activity-feed-v2.svg" alt="Live public GitHub activity feed">
-</p>
-<!-- RECENT_ACTIVITY_END -->
+<p align="center"><img width="100%" src="assets/profile/activity-feed-v2.svg" alt="Live public GitHub activity feed"></p>
 
 <h3 align="center">Public Repository Health</h3>
+<p align="center"><img width="100%" src="assets/profile/repository-health-v2.svg" alt="Public repository health dashboard"></p>
 
-<!-- REPOSITORY_FRESHNESS_START -->
-<p align="center">
-  <img width="100%" src="assets/profile/repository-health-v2.svg" alt="Public repository health dashboard">
-</p>
-<!-- REPOSITORY_FRESHNESS_END -->
-
-<!-- PUBLIC_ANALYTICS_START -->
 <h3 align="center">Public Development Analytics</h3>
-
-<p align="center">
-  <img width="100%" src="assets/profile/analytics-overview-v2.svg" alt="Leviathan public development telemetry dashboard">
-</p>
-<!-- PUBLIC_ANALYTICS_END -->
+<p align="center"><img width="100%" src="assets/profile/analytics-overview-v2.svg" alt="Leviathan public development telemetry dashboard"></p>
 
 <h3 align="center">Leviathan Launcher</h3>
-
-<p align="center">
-  <a href="https://github.com/Lapinite/Leviathan-Launcher"><img width="100%" src="assets/profile/launcher-status-v2.svg" alt="Leviathan Launcher public status HUD"></a>
-</p>
+<p align="center"><a href="https://github.com/Lapinite/Leviathan-Launcher"><img width="100%" src="assets/profile/launcher-status-v2.svg" alt="Leviathan Launcher public status HUD"></a></p>
 
 ## Contribution Activity
-
-<p align="center">
-  <img width="100%" src="assets/profile/pacman-v2.svg" alt="Pacman-style GitHub contribution activity">
-</p>
+<p align="center"><img width="100%" src="assets/profile/pacman-v2.svg" alt="Pacman-style GitHub contribution activity"></p>
 
 ## Developer Resources
-
-<p align="center">
-<a href="https://github.com/Lapinite/Leviathan-Docs"><strong>Documentation</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-API-Docs"><strong>API Reference</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-SDK"><strong>SDK</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-Examples"><strong>Examples</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-Integrations"><strong>Integrations</strong></a> ·
-<a href="https://github.com/Lapinite/Leviathan-Status"><strong>Status</strong></a>
-</p>
+<p align="center"><a href="https://github.com/Lapinite/Leviathan-Docs"><strong>Documentation</strong></a> · <a href="https://github.com/Lapinite/Leviathan-API-Docs"><strong>API Reference</strong></a> · <a href="https://github.com/Lapinite/Leviathan-SDK"><strong>SDK</strong></a> · <a href="https://github.com/Lapinite/Leviathan-Examples"><strong>Examples</strong></a> · <a href="https://github.com/Lapinite/Leviathan-Integrations"><strong>Integrations</strong></a> · <a href="https://github.com/Lapinite/Leviathan-Status"><strong>Status</strong></a></p>
 
 ## Connect
+<p align="center"><a href="https://discord.gg/f75VJjPea"><img src="https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a> <a href="https://youtube.com/@leviathanclient"><img src="https://img.shields.io/badge/YouTube-LeviathanClient-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a> <a href="https://twitch.tv/leviathanclient"><img src="https://img.shields.io/badge/Twitch-LeviathanClient-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch"></a> <a href="https://bsky.app/profile/leviathanclient.bsky.social"><img src="https://img.shields.io/badge/Bluesky-LeviathanClient-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky"></a></p>
 
-<p align="center">
-<a href="https://discord.gg/f75VJjPea"><img src="https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
-<a href="https://youtube.com/@leviathanclient"><img src="https://img.shields.io/badge/YouTube-LeviathanClient-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
-<a href="https://twitch.tv/leviathanclient"><img src="https://img.shields.io/badge/Twitch-LeviathanClient-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch"></a>
-<a href="https://bsky.app/profile/leviathanclient.bsky.social"><img src="https://img.shields.io/badge/Bluesky-LeviathanClient-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky"></a>
-</p>
-
-<p align="center">
-<a href="https://www.spigotmc.org/members/leviathanclient.2607111/">SpigotMC</a> ·
-<a href="https://github.com/Lapinite/Leviathan-Launcher/blob/main/SECURITY.md">Security</a> ·
-<a href="https://github.com/Lapinite/Leviathan-Launcher/blob/main/SUPPORT.md">Support</a> ·
-<a href="https://github.com/Lapinite/Leviathan-Launcher/blob/main/LEGAL.md">Legal</a>
-</p>
-
-<div align="center">
-
-<sub>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</sub>
-
-<br>
-
-<sub>© 2026 Leviathan project owner. All Rights Reserved.</sub>
-
-</div>
+<div align="center"><sub>NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.</sub><br><sub>© 2026 Leviathan project owner. All Rights Reserved.</sub></div>
