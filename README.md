@@ -93,6 +93,7 @@ Building connected Minecraft software, security systems, server tooling, APIs, d
 
 <p align="center"><sub>Detailed public-safe directory of Leviathan product families and project surfaces. Private source, credentials, sensitive topology and anti-cheat internals remain excluded.</sub></p>
 
+
 ## Platform Areas
 
 <p align="center">
