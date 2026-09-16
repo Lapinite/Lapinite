@@ -1,16 +1,88 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
-<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020811"/><stop offset=".54" stop-color="#061723"/><stop offset="1" stop-color="#020a12"/></linearGradient><linearGradient id="q"><stop stop-color="#087dff"/><stop offset=".5" stop-color="#35e9ff"/><stop offset="1" stop-color="#00a5ff"/></linearGradient><radialGradient id="rg"><stop stop-color="#70f7ff" stop-opacity=".7"/><stop offset=".3" stop-color="#21dfff" stop-opacity=".12"/><stop offset="1" stop-color="#02101a" stop-opacity="0"/></radialGradient><filter id="gl"><feGaussianBlur stdDeviation="3" result="x"/><feMerge><feMergeNode in="x"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="gr" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#12374d" opacity=".15"/></pattern></defs>
-<rect width="1200" height="640" rx="24" fill="url(#b)"/><rect width="1200" height="640" rx="24" fill="url(#gr)"/><rect x="1" y="1" width="1198" height="638" rx="23" fill="none" stroke="#173d52"/><text x="42" y="42" fill="#58eaff" font-family="monospace" font-size="14" letter-spacing="2.8">LEVIATHAN DEVELOPMENT PIPELINE // CONTINUOUS WORKSTREAMS</text><text x="42" y="66" fill="#789aac" font-family="Arial" font-size="11">A circular pipeline dial drives eight aligned release phases.</text><path d="M42 84H1158" stroke="#13384b"/><rect x="42" y="82" width="120" height="3" rx="2" fill="url(#q)" filter="url(#gl)"><animate attributeName="x" values="42;1038;42" dur="10s" repeatCount="indefinite"/></rect>
-<g transform="translate(210 336)"><circle r="136" fill="url(#rg)"/><circle r="124" fill="none" stroke="#35e9ff" stroke-width="2" stroke-dasharray="62 18 15 11" filter="url(#gl)"><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="16s" repeatCount="indefinite"/></circle><circle r="105" fill="none" stroke="#28718b" stroke-dasharray="26 12 7 10"><animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="11s" repeatCount="indefinite"/></circle><circle r="78" fill="#04131d" stroke="#35e9ff"/><circle r="4" fill="#a9fbff" filter="url(#gl)"/><text x="0" y="-3" text-anchor="middle" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">PIPELINE</text><text x="0" y="14" text-anchor="middle" fill="#6aa1b5" font-family="monospace" font-size="7">RESEARCH → RELEASE</text></g>
-<circle cx="390" cy="120" r="7" fill="#061722" stroke="#35e9ff" stroke-width="2"/><path d="M397 120H430" stroke="#35e9ff"/><path d="M430 98H1128L1142 112V142H430Z" fill="#061722" stroke="#19445a"/><text x="452" y="116" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">RESEARCH</text><text x="700" y="116" fill="#789aac" font-family="Arial" font-size="9">ecosystem, compatibility, user needs</text>
-<circle cx="390" cy="181" r="7" fill="#061722" stroke="#35e9ff" stroke-width="2"/><path d="M397 181H430" stroke="#35e9ff"/><path d="M430 159H1128L1142 173V203H430Z" fill="#061722" stroke="#19445a"/><text x="452" y="177" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">ARCHITECTURE</text><text x="700" y="177" fill="#789aac" font-family="Arial" font-size="9">boundaries, APIs, data, security controls</text>
-<circle cx="390" cy="242" r="7" fill="#061722" stroke="#35e9ff" stroke-width="2"/><path d="M397 242H430" stroke="#35e9ff"/><path d="M430 220H1128L1142 234V264H430Z" fill="#061722" stroke="#19445a"/><text x="452" y="238" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">BUILD</text><text x="700" y="238" fill="#789aac" font-family="Arial" font-size="9">launcher, client, web, app, server, platform</text>
-<circle cx="390" cy="303" r="7" fill="#061722" stroke="#35e9ff" stroke-width="2"/><path d="M397 303H430" stroke="#35e9ff"/><path d="M430 281H1128L1142 295V325H430Z" fill="#061722" stroke="#19445a"/><text x="452" y="299" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">INTEGRATION</text><text x="700" y="299" fill="#789aac" font-family="Arial" font-size="9">auth, API, server links, device and web flows</text>
-<circle cx="390" cy="364" r="7" fill="#061722" stroke="#ffb44e" stroke-width="2"/><path d="M397 364H430" stroke="#ffb44e"/><path d="M430 342H1128L1142 356V386H430Z" fill="#061722" stroke="#19445a"/><text x="452" y="360" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">SECURITY &amp; INTEGRITY</text><text x="700" y="360" fill="#789aac" font-family="Arial" font-size="9">anticheat, abuse controls, privacy, diagnostics</text>
-<circle cx="390" cy="425" r="7" fill="#061722" stroke="#55e4ae" stroke-width="2"/><path d="M397 425H430" stroke="#55e4ae"/><path d="M430 403H1128L1142 417V447H430Z" fill="#061722" stroke="#19445a"/><text x="452" y="421" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">TEST &amp; VALIDATE</text><text x="700" y="421" fill="#789aac" font-family="Arial" font-size="9">compatibility, recovery, regression, devices</text>
-<circle cx="390" cy="486" r="7" fill="#061722" stroke="#8b7cff" stroke-width="2"/><path d="M397 486H430" stroke="#8b7cff"/><path d="M430 464H1128L1142 478V508H430Z" fill="#061722" stroke="#19445a"/><text x="452" y="482" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">OPERATE &amp; OBSERVE</text><text x="700" y="482" fill="#789aac" font-family="Arial" font-size="9">telemetry, analytics, status, support, logs</text>
-<circle cx="390" cy="547" r="7" fill="#061722" stroke="#35e9ff" stroke-width="2"/><path d="M397 547H430" stroke="#35e9ff"/><path d="M430 525H1128L1142 539V569H430Z" fill="#061722" stroke="#19445a"/><text x="452" y="543" fill="#effcff" font-family="Arial" font-size="13" font-weight="700">RELEASE &amp; IMPROVE</text><text x="700" y="543" fill="#789aac" font-family="Arial" font-size="9">signing, distribution, docs, feedback</text>
-<path id="rr" d="M390 120V547" stroke="#19495f" stroke-width="2"/><circle r="4" fill="#73f3ff"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#rr"/></animateMotion></circle>
-<path id="rc" d="M322 336H390" fill="none" stroke="#35e9ff" stroke-width="1.6" stroke-opacity=".72"/><circle r="4" fill="#c0fbff" filter="url(#gl)"><animateMotion dur="3s" begin="0s" repeatCount="indefinite"><mpath href="#rc"/></animateMotion></circle>
-<text x="42" y="618" fill="#557b8f" font-family="monospace" font-size="8.5">PUBLIC-SAFE SYSTEM VIEW // PRIVATE SOURCE, SECRETS AND SENSITIVE IMPLEMENTATION EXCLUDED</text>
-<path d="M6 6H1194V634H6Z" fill="none" stroke="url(#q)" stroke-width="2" stroke-dasharray="180 2400" filter="url(#gl)"><animate attributeName="stroke-dashoffset" values="0;-2580" dur="14s" repeatCount="indefinite"/></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop stop-color="#020811"/><stop offset=".55" stop-color="#061723"/><stop offset="1" stop-color="#020a12"/>
+</linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+  <stop stop-color="#087dff"/><stop offset=".5" stop-color="#35e9ff"/><stop offset="1" stop-color="#00a5ff"/>
+</linearGradient>
+<radialGradient id="energy">
+  <stop stop-color="#8ff9ff" stop-opacity=".55"/><stop offset=".28" stop-color="#22dfff" stop-opacity=".15"/><stop offset="1" stop-color="#02101a" stop-opacity="0"/>
+</radialGradient>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+  <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+  <path d="M28 0H0V28" fill="none" stroke="#12374d" opacity=".14"/>
+</pattern>
+</defs>
+<rect width="1200" height="670" rx="24" fill="url(#bg)"/>
+<rect width="1200" height="670" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="668" rx="23" fill="none" stroke="#173d52"/>
+<text x="42" y="43" fill="#58eaff" font-family="ui-monospace,Consolas,monospace" font-size="14" letter-spacing="2.8">LEVIATHAN DEVELOPMENT PIPELINE // CONTINUOUS WORKSTREAMS</text>
+<text x="42" y="67" fill="#7e9caf" font-family="Segoe UI,Arial,sans-serif" font-size="11">A circular pipeline dial drives eight aligned release phases.</text>
+<path d="M42 86H1158" stroke="#14384a"/>
+<rect x="42" y="84" width="120" height="3" rx="1.5" fill="url(#edge)" filter="url(#glow)"><animate attributeName="x" values="42;1038;42" dur="12s" repeatCount="indefinite"/></rect>
+<g transform="translate(208 348)">
+<circle r="138" fill="url(#energy)"/>
+<circle r="124" fill="none" stroke="#35e9ff" stroke-width="2.4" stroke-dasharray="42 16 9 12" filter="url(#glow)">
+  <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="22s" repeatCount="indefinite"/>
+</circle>
+<circle r="112" fill="none" stroke="#2a7590" stroke-width="1.1" stroke-dasharray="18 15">
+  <animateTransform attributeName="transform" type="rotate" from="360 0 0" to="0 0 0" dur="16s" repeatCount="indefinite"/>
+</circle>
+<g transform="rotate(0)"><path d="M0 -93 L-8 -74 L8 -74 Z" fill="#35e9ff" fill-opacity=".16" stroke="#35e9ff" stroke-opacity=".62"/></g><g transform="rotate(60)"><path d="M0 -93 L-8 -74 L8 -74 Z" fill="#35e9ff" fill-opacity=".16" stroke="#35e9ff" stroke-opacity=".62"/></g><g transform="rotate(120)"><path d="M0 -93 L-8 -74 L8 -74 Z" fill="#35e9ff" fill-opacity=".16" stroke="#35e9ff" stroke-opacity=".62"/></g><g transform="rotate(180)"><path d="M0 -93 L-8 -74 L8 -74 Z" fill="#35e9ff" fill-opacity=".16" stroke="#35e9ff" stroke-opacity=".62"/></g><g transform="rotate(240)"><path d="M0 -93 L-8 -74 L8 -74 Z" fill="#35e9ff" fill-opacity=".16" stroke="#35e9ff" stroke-opacity=".62"/></g><g transform="rotate(300)"><path d="M0 -93 L-8 -74 L8 -74 Z" fill="#35e9ff" fill-opacity=".16" stroke="#35e9ff" stroke-opacity=".62"/></g>
+<polygon points="0,-54 47,-27 47,27 0,54 -47,27 -47,-27"
+ fill="#04131d" stroke="#35e9ff" stroke-width="1.4"/>
+<path d="M-16 -19V16H15 M-16 -19L-3 -28M15 16L24 7" fill="none" stroke="#35e9ff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+  <animate attributeName="stroke-opacity" values=".68;1;.68" dur="3.8s" repeatCount="indefinite"/>
+</path>
+<text x="0" y="71" text-anchor="middle" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">PIPELINE</text>
+<text x="0" y="87" text-anchor="middle" fill="#6b9aad" font-family="ui-monospace,Consolas,monospace" font-size="7">RESEARCH • RELEASE</text>
+</g>
+<path id="roadspine" d="M360 126V570" fill="none" stroke="#25829d" stroke-width="2"/>
+<circle r="4" fill="#b8fbff" filter="url(#glow)" opacity="0"><animateMotion dur="9s" repeatCount="indefinite" calcMode="paced"><mpath href="#roadspine"/></animateMotion><animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.04;.9;.96;1"/></circle>
+<circle cx="360" cy="127" r="6" fill="#061722" stroke="#35e9ff" stroke-width="2"/>
+<path d="M366 127H395" stroke="#35e9ff" stroke-opacity=".7"/>
+<path d="M395 105H1138L1150 117V149H395Z" fill="#061722" stroke="#1a4c61"/>
+<text x="418" y="132" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">RESEARCH</text>
+<text x="660" y="132" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.5">ecosystem, compatibility, user needs</text>
+<circle cx="360" cy="185" r="6" fill="#061722" stroke="#35e9ff" stroke-width="2"/>
+<path d="M366 185H395" stroke="#35e9ff" stroke-opacity=".7"/>
+<path d="M395 163H1138L1150 175V207H395Z" fill="#061722" stroke="#1a4c61"/>
+<text x="418" y="190" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">ARCHITECTURE</text>
+<text x="660" y="190" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.5">boundaries, APIs, data, security controls</text>
+<circle cx="360" cy="243" r="6" fill="#061722" stroke="#35e9ff" stroke-width="2"/>
+<path d="M366 243H395" stroke="#35e9ff" stroke-opacity=".7"/>
+<path d="M395 221H1138L1150 233V265H395Z" fill="#061722" stroke="#1a4c61"/>
+<text x="418" y="248" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">BUILD</text>
+<text x="660" y="248" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.5">launcher, client, web, app, server, platform</text>
+<circle cx="360" cy="301" r="6" fill="#061722" stroke="#35e9ff" stroke-width="2"/>
+<path d="M366 301H395" stroke="#35e9ff" stroke-opacity=".7"/>
+<path d="M395 279H1138L1150 291V323H395Z" fill="#061722" stroke="#1a4c61"/>
+<text x="418" y="306" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">INTEGRATION</text>
+<text x="660" y="306" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.5">auth, API, server links, devices, cross-product flows</text>
+<circle cx="360" cy="359" r="6" fill="#061722" stroke="#ffb44e" stroke-width="2"/>
+<path d="M366 359H395" stroke="#ffb44e" stroke-opacity=".7"/>
+<path d="M395 337H1138L1150 349V381H395Z" fill="#061722" stroke="#1a4c61"/>
+<text x="418" y="364" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">SECURITY &amp; INTEGRITY</text>
+<text x="660" y="364" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.5">anticheat, abuse controls, privacy, diagnostics</text>
+<circle cx="360" cy="417" r="6" fill="#061722" stroke="#55e4ae" stroke-width="2"/>
+<path d="M366 417H395" stroke="#55e4ae" stroke-opacity=".7"/>
+<path d="M395 395H1138L1150 407V439H395Z" fill="#061722" stroke="#1a4c61"/>
+<text x="418" y="422" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">TEST &amp; VALIDATE</text>
+<text x="660" y="422" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.5">compatibility, recovery, regression, devices</text>
+<circle cx="360" cy="475" r="6" fill="#061722" stroke="#8b7cff" stroke-width="2"/>
+<path d="M366 475H395" stroke="#8b7cff" stroke-opacity=".7"/>
+<path d="M395 453H1138L1150 465V497H395Z" fill="#061722" stroke="#1a4c61"/>
+<text x="418" y="480" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">OPERATE &amp; OBSERVE</text>
+<text x="660" y="480" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.5">telemetry, analytics, status, support, logs</text>
+<circle cx="360" cy="533" r="6" fill="#061722" stroke="#35e9ff" stroke-width="2"/>
+<path d="M366 533H395" stroke="#35e9ff" stroke-opacity=".7"/>
+<path d="M395 511H1138L1150 523V555H395Z" fill="#061722" stroke="#1a4c61"/>
+<text x="418" y="538" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">RELEASE &amp; IMPROVE</text>
+<text x="660" y="538" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.5">signing, distribution, docs, feedback</text>
+<path id="roadlink" d="M316 348H360" fill="none" stroke="#35e9ff" stroke-width="1.55" stroke-opacity="0.72"/><circle r="3.7" fill="#c9fbff" filter="url(#glow)" opacity="0"><animateMotion dur="4.4s" begin="1s" repeatCount="indefinite" calcMode="paced"><mpath href="#roadlink"/></animateMotion><animate attributeName="opacity" dur="4.4s" begin="1s" repeatCount="indefinite" values="0;1;1;0;0" keyTimes="0;.08;.78;.9;1"/></circle>
+<text x="42" y="648" fill="#557b8f" font-family="ui-monospace,Consolas,monospace" font-size="8.5">PUBLIC-SAFE SYSTEM VIEW // PRIVATE SOURCE, SECRETS AND SENSITIVE IMPLEMENTATION EXCLUDED</text>
+<path d="M6 6H1194V664H6Z" fill="none" stroke="url(#edge)" stroke-width="2" stroke-dasharray="170 2500" filter="url(#glow)" opacity=".85"><animate attributeName="stroke-dashoffset" values="0;-2670" dur="18s" repeatCount="indefinite"/></path>
+</svg>
