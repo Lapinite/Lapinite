@@ -18,6 +18,7 @@ on:
       - "tools/generate-profile-radial-v4.py"
       - "tools/generate-profile-final-v5.py"
       - "tools/generate-profile-final-v6.py"
+      - "tools/generate-profile-final-v7.py"
       - "tools/style-profile-layout.py"
       - "tools/add-data-platform-section.py"
       - "tools/apply-profile-holographic-layout.py"
@@ -106,6 +107,9 @@ jobs:
       - name: Apply Leviathan reactor core v6
         run: python tools/generate-profile-final-v6.py
 
+      - name: Apply JARVIS semantic color system v7
+        run: python tools/generate-profile-final-v7.py
+
       - name: Enforce final holographic asset references
         run: python tools/apply-profile-holographic-layout.py
 
@@ -173,14 +177,37 @@ jobs:
           lowered = text.lower()
           missing_text = [item for item in required_text if item not in lowered]
 
-          if missing_refs or missing_assets or stale_refs or missing_text:
+          jarvis_assets = [
+              "assets/hero-dark-v4.svg",
+              "assets/hero-light-v4.svg",
+              "assets/profile/command-core-v3.svg",
+              "assets/profile/neural-core-v3.svg",
+              "assets/profile/external-services-v2.svg",
+              "assets/profile/data-platform-v2.svg",
+              "assets/profile/roadmap-v2.svg",
+              "assets/profile/core-products-v2.svg",
+              "assets/profile/tech-stack-v2.svg",
+              "assets/profile/ecosystem-overview-v2.svg",
+              "assets/profile/systems-matrix-v1.svg",
+              "assets/profile/platform-areas-v2.svg",
+              "assets/profile/experience-commerce-v2.svg",
+              "assets/profile/developer-network-v2.svg",
+              "assets/profile/project-signal-v1.svg",
+          ]
+          missing_jarvis_v7 = [
+              item for item in jarvis_assets
+              if "LEVIATHAN_JARVIS_V7" not in Path(item).read_text(encoding="utf-8")
+          ]
+
+          if missing_refs or missing_assets or stale_refs or missing_text or missing_jarvis_v7:
               print("missing_refs", missing_refs)
               print("missing_assets", missing_assets)
               print("stale_refs", stale_refs)
               print("missing_text", missing_text)
+              print("missing_jarvis_v7", missing_jarvis_v7)
               raise SystemExit(1)
 
-          print("Holographic profile validation passed.")
+          print("Holographic profile validation passed with JARVIS v7.")
           PY
 
       - name: Commit dashboard refresh
