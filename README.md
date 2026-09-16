@@ -195,7 +195,6 @@ Building connected Minecraft software, security systems, server tooling, APIs, d
 <a href="https://discord.gg/MREADUBJ97"><img src="https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 <a href="https://x.com/leviathanrealm"><img src="https://img.shields.io/badge/X-Leviathan-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
 <a href="https://www.instagram.com/leviathanclient/"><img src="https://img.shields.io/badge/Instagram-Leviathan-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
-<a href="https://www.tiktok.com/@leviathanclient"><img src="https://img.shields.io/badge/TikTok-Leviathan-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
 <a href="https://youtube.com/@leviathanclient"><img src="https://img.shields.io/badge/YouTube-LeviathanClient-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
 <a href="https://twitch.tv/leviathanclient"><img src="https://img.shields.io/badge/Twitch-LeviathanClient-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch"></a>
 <a href="https://bsky.app/profile/leviathanclient.bsky.social"><img src="https://img.shields.io/badge/Bluesky-LeviathanClient-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky"></a>
