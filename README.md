@@ -85,6 +85,14 @@ Building connected Minecraft software, security systems, server tooling, APIs, d
   <img width="100%" src="assets/profile/ecosystem-overview-v2.svg" alt="Animated Leviathan ecosystem overview">
 </p>
 
+## Leviathan Systems Matrix
+
+<p align="center">
+  <img width="100%" src="assets/profile/systems-matrix-v1.svg" alt="Animated detailed Leviathan systems and project directory">
+</p>
+
+<p align="center"><sub>Detailed public-safe directory of Leviathan product families and project surfaces. Private source, credentials, sensitive topology and anti-cheat internals remain excluded.</sub></p>
+
 ## Platform Areas
 
 <p align="center">
