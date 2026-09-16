@@ -54,25 +54,25 @@
 <path d="M371 369H402" stroke="#ffb44e" stroke-opacity=".75"/>
 <path d="M402 344H1138L1150 356V394H402Z" fill="#061722" stroke="#1a4c61"/>
 <text x="423" y="366" fill="#ffb44e" font-family="ui-monospace,Consolas,monospace" font-size="8.3">05</text>
-<text x="456" y="375" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">SECURITY & INTEGRITY</text>
+<text x="456" y="375" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">SECURITY &amp; INTEGRITY</text>
 <text x="690" y="375" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.3">anticheat • abuse controls • privacy • diagnostics</text>
 <circle cx="365" cy="429" r="6" fill="#04131d" stroke="#55e4ae" stroke-width="2"/>
 <path d="M371 429H402" stroke="#55e4ae" stroke-opacity=".75"/>
 <path d="M402 404H1138L1150 416V454H402Z" fill="#061722" stroke="#1a4c61"/>
 <text x="423" y="426" fill="#55e4ae" font-family="ui-monospace,Consolas,monospace" font-size="8.3">06</text>
-<text x="456" y="435" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">TEST & VALIDATE</text>
+<text x="456" y="435" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">TEST &amp; VALIDATE</text>
 <text x="690" y="435" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.3">compatibility • recovery • regression • devices</text>
 <circle cx="365" cy="489" r="6" fill="#04131d" stroke="#8b7cff" stroke-width="2"/>
 <path d="M371 489H402" stroke="#8b7cff" stroke-opacity=".75"/>
 <path d="M402 464H1138L1150 476V514H402Z" fill="#061722" stroke="#1a4c61"/>
 <text x="423" y="486" fill="#8b7cff" font-family="ui-monospace,Consolas,monospace" font-size="8.3">07</text>
-<text x="456" y="495" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">OPERATE & OBSERVE</text>
+<text x="456" y="495" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">OPERATE &amp; OBSERVE</text>
 <text x="690" y="495" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.3">telemetry • analytics • status • support • logs</text>
 <circle cx="365" cy="549" r="6" fill="#04131d" stroke="#55e4ae" stroke-width="2"/>
 <path d="M371 549H402" stroke="#55e4ae" stroke-opacity=".75"/>
 <path d="M402 524H1138L1150 536V574H402Z" fill="#061722" stroke="#1a4c61"/>
 <text x="423" y="546" fill="#55e4ae" font-family="ui-monospace,Consolas,monospace" font-size="8.3">08</text>
-<text x="456" y="555" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">RELEASE & IMPROVE</text>
+<text x="456" y="555" fill="#effcff" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700">RELEASE &amp; IMPROVE</text>
 <text x="690" y="555" fill="#7ea4b6" font-family="ui-monospace,Consolas,monospace" font-size="8.3">signing • distribution • docs • feedback</text>
 <text x="42" y="678" fill="#557b8f" font-family="ui-monospace,Consolas,monospace" font-size="8.5">PUBLIC-SAFE PROJECT PIPELINE // PRODUCT-SPECIFIC STATUS REMAINS IN EACH REPOSITORY</text>
 <path d="M6 6H1194V694H6Z" fill="none" stroke="url(#edge)" stroke-width="2" stroke-dasharray="170 2500" filter="url(#glow)" opacity=".7"><animate attributeName="stroke-dashoffset" from="0" to="-2670" dur="22s" repeatCount="indefinite"/></path>
