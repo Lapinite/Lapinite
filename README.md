@@ -8,24 +8,25 @@
 
 <br>
 
-<strong>Founder of Leviathan and Nimbus</strong>
+<strong>Founder and developer of the Leviathan ecosystem and Nimbus AntiCheat</strong>
 
 <br>
 
-Building Minecraft software, security systems, APIs, developer tooling and connected gaming platforms.
+Building connected Minecraft software, security systems, server tooling, APIs, developer infrastructure and community platforms.
 
 <br><br>
 
+<a href="https://leviathanclient.com"><img src="https://img.shields.io/badge/Leviathan-Website-06131d?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Leviathan Website"></a>
 <a href="https://github.com/Lapinite/Leviathan-Launcher"><img src="https://img.shields.io/badge/Leviathan-Launcher-06131d?style=for-the-badge&logo=github&logoColor=white" alt="Leviathan Launcher"></a>
 <a href="https://github.com/Lapinite/Leviathan-Docs"><img src="https://img.shields.io/badge/Leviathan-Docs-06131d?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Leviathan Docs"></a>
-<a href="https://discord.gg/f75VJjPea"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+<a href="https://discord.gg/MREADUBJ97"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 
 </div>
 
 ## Leviathan Command Core
 
 <p align="center">
-  <img width="100%" src="assets/profile/command-core-v3.svg" alt="Leviathan Command Core development status HUD">
+  <img width="100%" src="assets/profile/command-core-v3.svg" alt="Leviathan Command Core project overview HUD">
 </p>
 
 <p align="center"><sub>Active multi-project development across public and private project surfaces. Release state is tracked per product and repository.</sub></p>
@@ -57,7 +58,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Development Roadmap
 
 <p align="center">
-  <img width="100%" src="assets/profile/roadmap-v2.svg" alt="Animated Leviathan development roadmap">
+  <img width="100%" src="assets/profile/roadmap-v2.svg" alt="Animated Leviathan continuous development pipeline">
 </p>
 
 <p align="center"><sub>Development moves through research, build, integration, security, testing and release preparation. Exact status is tracked per product.</sub></p>
@@ -168,11 +169,13 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
   <a href="https://github.com/Lapinite/Leviathan-Launcher"><img width="100%" src="assets/profile/launcher-status-v2.svg" alt="Leviathan Launcher public status HUD"></a>
 </p>
 
-## Contribution Activity
+## Leviathan Project Signal
 
 <p align="center">
-  <img width="100%" src="assets/profile/pacman-v2.svg" alt="Pacman-style GitHub contribution activity">
+  <img width="100%" src="assets/profile/project-signal-v1.svg" alt="Animated Leviathan project routing signal HUD">
 </p>
+
+<p align="center"><sub>Animated routing field inspired by futuristic lab interfaces, translated into Leviathan's own visual language.</sub></p>
 
 ## Developer Resources
 
@@ -188,7 +191,11 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 ## Connect
 
 <p align="center">
-<a href="https://discord.gg/f75VJjPea"><img src="https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+<a href="https://leviathanclient.com"><img src="https://img.shields.io/badge/Website-Leviathan-06131d?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Website"></a>
+<a href="https://discord.gg/MREADUBJ97"><img src="https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+<a href="https://x.com/leviathanrealm"><img src="https://img.shields.io/badge/X-Leviathan-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
+<a href="https://www.instagram.com/leviathanclient/"><img src="https://img.shields.io/badge/Instagram-Leviathan-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
+<a href="https://www.tiktok.com/@leviathanclient"><img src="https://img.shields.io/badge/TikTok-Leviathan-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok"></a>
 <a href="https://youtube.com/@leviathanclient"><img src="https://img.shields.io/badge/YouTube-LeviathanClient-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
 <a href="https://twitch.tv/leviathanclient"><img src="https://img.shields.io/badge/Twitch-LeviathanClient-9146FF?style=for-the-badge&logo=twitch&logoColor=white" alt="Twitch"></a>
 <a href="https://bsky.app/profile/leviathanclient.bsky.social"><img src="https://img.shields.io/badge/Bluesky-LeviathanClient-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" alt="Bluesky"></a>
