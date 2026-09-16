@@ -16,6 +16,7 @@ on:
       - "tools/generate-project-signal.py"
       - "tools/generate-profile-overrides.py"
       - "tools/generate-profile-radial-v4.py"
+      - "tools/generate-profile-final-v5.py"
       - "tools/style-profile-layout.py"
       - "tools/add-data-platform-section.py"
       - "tools/apply-profile-holographic-layout.py"
@@ -98,6 +99,9 @@ jobs:
       - name: Generate aligned radial profile panels
         run: python tools/generate-profile-radial-v4.py
 
+      - name: Apply final Leviathan reactor visual pass
+        run: python tools/generate-profile-final-v5.py
+
       - name: Enforce final holographic asset references
         run: python tools/apply-profile-holographic-layout.py
 
@@ -178,14 +182,14 @@ jobs:
       - name: Commit dashboard refresh
         shell: bash
         run: |
-          if git diff --quiet -- README.md assets/profile; then
+          if git diff --quiet -- README.md assets/profile assets/hero-dark-v4.svg assets/hero-light-v4.svg; then
             echo "Profile dashboard already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/profile
+          git add README.md assets/profile assets/hero-dark-v4.svg assets/hero-light-v4.svg
           git commit -m "chore: refresh holographic profile HUD"
 
           for attempt in 1 2 3; do
