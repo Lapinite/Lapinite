@@ -19,7 +19,7 @@ Building connected Minecraft software, security systems, server tooling, APIs, d
 <a href="https://leviathanclient.com"><img src="https://img.shields.io/badge/Leviathan-Website-06131d?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Leviathan Website"></a>
 <a href="https://github.com/Lapinite/Leviathan-Launcher"><img src="https://img.shields.io/badge/Leviathan-Launcher-06131d?style=for-the-badge&logo=github&logoColor=white" alt="Leviathan Launcher"></a>
 <a href="https://github.com/Lapinite/Leviathan-Docs"><img src="https://img.shields.io/badge/Leviathan-Docs-06131d?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Leviathan Docs"></a>
-<a href="https://discord.gg/MREADUBJ97"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+<a href="https://discord.gg/f75VJjPea"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 
 </div>
 
@@ -201,7 +201,7 @@ Building connected Minecraft software, security systems, server tooling, APIs, d
 
 <p align="center">
 <a href="https://leviathanclient.com"><img src="https://img.shields.io/badge/Website-Leviathan-06131d?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Website"></a>
-<a href="https://discord.gg/MREADUBJ97"><img src="https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+<a href="https://discord.gg/f75VJjPea"><img src="https://img.shields.io/badge/Discord-Leviathan-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 <a href="https://x.com/leviathanrealm"><img src="https://img.shields.io/badge/X-Leviathan-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
 <a href="https://www.instagram.com/leviathanclient/"><img src="https://img.shields.io/badge/Instagram-Leviathan-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
 <a href="https://youtube.com/@leviathanclient"><img src="https://img.shields.io/badge/YouTube-LeviathanClient-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"></a>
