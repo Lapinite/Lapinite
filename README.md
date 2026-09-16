@@ -28,7 +28,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
   <img width="100%" src="assets/profile/command-core-v3.svg" alt="Leviathan Command Core development status HUD">
 </p>
 
-<p align="center"><sub>Internal baseline <strong>v51.0.6</strong> • stabilization + validation • no public launcher or installer release</sub></p>
+<p align="center"><sub>Active multi-project development across public and private project surfaces. Release state is tracked per product and repository.</sub></p>
 
 ## Leviathan Neural Core
 
@@ -60,15 +60,15 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
   <img width="100%" src="assets/profile/roadmap-v2.svg" alt="Animated Leviathan development roadmap">
 </p>
 
-<p align="center"><sub>Current phase: stabilization and validation. The public release gate remains closed.</sub></p>
+<p align="center"><sub>Development moves through research, build, integration, security, testing and release preparation. Exact status is tracked per product.</sub></p>
 
 ## Core Products
 
 <p align="center">
-  <img width="100%" src="assets/profile/core-products-v2.svg" alt="Animated Leviathan core product map">
+  <img width="100%" src="assets/profile/core-products-v2.svg" alt="Animated Leviathan product family map">
 </p>
 
-<p align="center"><sub>Leviathan player software and Nimbus server protection are separate product lines connected by shared platform and security principles.</sub></p>
+<p align="center"><sub>Player software, web and community surfaces, server systems, protection, platform services and developer operations share one connected Leviathan ecosystem.</sub></p>
 
 ## Current Leviathan Development Stack
 
@@ -76,7 +76,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
   <img width="100%" src="assets/profile/tech-stack-v2.svg" alt="Animated high-level Leviathan development technology stack">
 </p>
 
-<p align="center"><sub>High-level technology names only. Proprietary implementation remains private.</sub></p>
+<p align="center"><sub>High-level technologies only. Private implementation details, credentials and sensitive infrastructure remain private.</sub></p>
 
 ## Leviathan Ecosystem
 
@@ -90,7 +90,7 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
   <img width="100%" src="assets/profile/platform-areas-v2.svg" alt="Animated public Leviathan platform areas">
 </p>
 
-<p align="center"><sub>Player software, platform services, protection and observability shown as a deliberately simplified public domain map.</sub></p>
+<p align="center"><sub>Player experiences, platform services, server systems, protection and observability are shown as a deliberately simplified public domain map.</sub></p>
 
 ## Experience & Commerce Flows
 
@@ -116,6 +116,8 @@ Building Minecraft software, security systems, APIs, developer tooling and conne
 <a href="https://github.com/Lapinite/Leviathan-Server-Tools"><strong>Server Tools</strong></a> ·
 <a href="https://github.com/Lapinite/Leviathan-Status"><strong>Status</strong></a>
 </p>
+
+<p align="center"><sub>Public repositories expose documentation, contracts, examples, project surfaces and selected tooling. Proprietary implementation remains private where appropriate.</sub></p>
 
 ## Leviathan Development Activity
 
