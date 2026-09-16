@@ -17,6 +17,7 @@ on:
       - "tools/generate-profile-overrides.py"
       - "tools/generate-profile-radial-v4.py"
       - "tools/generate-profile-final-v5.py"
+      - "tools/generate-profile-final-v6.py"
       - "tools/style-profile-layout.py"
       - "tools/add-data-platform-section.py"
       - "tools/apply-profile-holographic-layout.py"
@@ -101,6 +102,9 @@ jobs:
 
       - name: Apply final Leviathan reactor visual pass
         run: python tools/generate-profile-final-v5.py
+
+      - name: Apply Leviathan reactor core v6
+        run: python tools/generate-profile-final-v6.py
 
       - name: Enforce final holographic asset references
         run: python tools/apply-profile-holographic-layout.py
