@@ -19,6 +19,7 @@ on:
       - "tools/generate-profile-final-v5.py"
       - "tools/generate-profile-final-v6.py"
       - "tools/generate-profile-final-v7.py"
+      - "tools/fix-profile-svg-xml-v8.py"
       - "tools/style-profile-layout.py"
       - "tools/add-data-platform-section.py"
       - "tools/apply-profile-holographic-layout.py"
@@ -110,6 +111,9 @@ jobs:
       - name: Apply JARVIS semantic color system v7
         run: python tools/generate-profile-final-v7.py
 
+      - name: Repair and validate SVG XML
+        run: python tools/fix-profile-svg-xml-v8.py
+
       - name: Enforce final holographic asset references
         run: python tools/apply-profile-holographic-layout.py
 
@@ -118,6 +122,7 @@ jobs:
         run: |
           python - <<'PY'
           from pathlib import Path
+          import xml.etree.ElementTree as ET
 
           readme = Path("README.md")
           text = readme.read_text(encoding="utf-8")
@@ -199,15 +204,24 @@ jobs:
               if "LEVIATHAN_JARVIS_V7" not in Path(item).read_text(encoding="utf-8")
           ]
 
-          if missing_refs or missing_assets or stale_refs or missing_text or missing_jarvis_v7:
+          invalid_svg_xml = []
+          for item in required_refs:
+              if item.endswith(".svg") and Path(item).is_file():
+                  try:
+                      ET.parse(item)
+                  except ET.ParseError as exc:
+                      invalid_svg_xml.append(f"{item}: {exc}")
+
+          if missing_refs or missing_assets or stale_refs or missing_text or missing_jarvis_v7 or invalid_svg_xml:
               print("missing_refs", missing_refs)
               print("missing_assets", missing_assets)
               print("stale_refs", stale_refs)
               print("missing_text", missing_text)
               print("missing_jarvis_v7", missing_jarvis_v7)
+              print("invalid_svg_xml", invalid_svg_xml)
               raise SystemExit(1)
 
-          print("Holographic profile validation passed with JARVIS v7.")
+          print("Holographic profile validation passed with JARVIS v7 and valid SVG XML.")
           PY
 
       - name: Commit dashboard refresh
