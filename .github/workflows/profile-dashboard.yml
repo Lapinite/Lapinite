@@ -15,6 +15,7 @@ on:
       - "tools/generate-profile-hud-v2.py"
       - "tools/generate-project-signal.py"
       - "tools/generate-profile-overrides.py"
+      - "tools/generate-profile-radial-v4.py"
       - "tools/style-profile-layout.py"
       - "tools/add-data-platform-section.py"
       - "tools/apply-profile-holographic-layout.py"
@@ -94,6 +95,9 @@ jobs:
       - name: Apply durable profile HUD overrides
         run: python tools/generate-profile-overrides.py
 
+      - name: Generate aligned radial profile panels
+        run: python tools/generate-profile-radial-v4.py
+
       - name: Enforce final holographic asset references
         run: python tools/apply-profile-holographic-layout.py
 
@@ -117,6 +121,7 @@ jobs:
               "assets/profile/core-products-v2.svg",
               "assets/profile/tech-stack-v2.svg",
               "assets/profile/ecosystem-overview-v2.svg",
+              "assets/profile/systems-matrix-v1.svg",
               "assets/profile/platform-areas-v2.svg",
               "assets/profile/experience-commerce-v2.svg",
               "assets/profile/developer-network-v2.svg",
