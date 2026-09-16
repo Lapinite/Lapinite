@@ -12,12 +12,12 @@
 <circle cx="364" cy="195" r="3" fill="#58a6ff"><title>2026-09-09: 0 events</title></circle>
 <text x="364" y="222" text-anchor="middle" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="10">Sep 09</text>
 <circle cx="415" cy="195" r="3" fill="#58a6ff"><title>2026-09-10: 0 events</title></circle>
-<circle cx="467" cy="75" r="3" fill="#58a6ff"><title>2026-09-11: 78 events</title></circle>
+<circle cx="467" cy="75" r="3" fill="#58a6ff"><title>2026-09-11: 76 events</title></circle>
 <circle cx="519" cy="192" r="3" fill="#58a6ff"><title>2026-09-12: 2 events</title></circle>
 <circle cx="571" cy="195" r="3" fill="#58a6ff"><title>2026-09-13: 0 events</title></circle>
 <circle cx="623" cy="195" r="3" fill="#58a6ff"><title>2026-09-14: 0 events</title></circle>
 <circle cx="675" cy="195" r="3" fill="#58a6ff"><title>2026-09-15: 0 events</title></circle>
-<circle cx="727" cy="164" r="3" fill="#58a6ff"><title>2026-09-16: 20 events</title></circle>
+<circle cx="727" cy="160" r="3" fill="#58a6ff"><title>2026-09-16: 22 events</title></circle>
 <text x="727" y="222" text-anchor="middle" fill="#8b949e" font-family="Segoe UI,Arial,sans-serif" font-size="10">Sep 16</text>
-<polyline points="52,195 104,195 156,195 208,195 260,195 312,195 364,195 415,195 467,75 519,192 571,195 623,195 675,195 727,164" fill="none" stroke="#58a6ff" stroke-width="3"/>
+<polyline points="52,195 104,195 156,195 208,195 260,195 312,195 364,195 415,195 467,75 519,192 571,195 623,195 675,195 727,160" fill="none" stroke="#58a6ff" stroke-width="3"/>
 </svg>
