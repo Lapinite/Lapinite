@@ -14,6 +14,7 @@ on:
       - "tools/generate-profile-live-panels.py"
       - "tools/generate-profile-hud-v2.py"
       - "tools/generate-project-signal.py"
+      - "tools/generate-profile-overrides.py"
       - "tools/style-profile-layout.py"
       - "tools/add-data-platform-section.py"
       - "tools/apply-profile-holographic-layout.py"
@@ -89,6 +90,9 @@ jobs:
 
       - name: Generate Leviathan project signal
         run: python tools/generate-project-signal.py
+
+      - name: Apply durable profile HUD overrides
+        run: python tools/generate-profile-overrides.py
 
       - name: Enforce final holographic asset references
         run: python tools/apply-profile-holographic-layout.py
