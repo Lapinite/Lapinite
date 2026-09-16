@@ -24,6 +24,16 @@ stack = '''## Current Leviathan Development Stack
 
 '''
 
+matrix = '''## Leviathan Systems Matrix
+
+<p align="center">
+  <img width="100%" src="assets/profile/systems-matrix-v1.svg" alt="Animated detailed Leviathan systems and project directory">
+</p>
+
+<p align="center"><sub>Detailed public-safe directory of Leviathan product families and project surfaces. Private source, credentials, sensitive topology and anti-cheat internals remain excluded.</sub></p>
+
+'''
+
 areas = '''## Platform Areas
 
 <p align="center">
@@ -57,6 +67,21 @@ network = '''## Public Developer Repositories
 
 text = re.sub(r'## Core Products\n.*?(?=## Current Leviathan Development Stack\n)', core, text, flags=re.S)
 text = re.sub(r'## Current Leviathan Development Stack\n.*?(?=## Leviathan Ecosystem\n)', stack, text, flags=re.S)
+
+# Keep the detailed project directory stable across automated refreshes.
+text = re.sub(r'\n## Leviathan Systems Matrix\n.*?(?=\n## Platform Areas\n)', '\n', text, flags=re.S)
+ecosystem_marker = '''## Leviathan Ecosystem
+
+<p align="center">
+  <img width="100%" src="assets/profile/ecosystem-overview-v2.svg" alt="Animated Leviathan ecosystem overview">
+</p>
+
+'''
+if ecosystem_marker in text:
+    text = text.replace(ecosystem_marker, ecosystem_marker + matrix, 1)
+elif '## Leviathan Systems Matrix\n' not in text:
+    marker = '## Platform Areas\n'
+    text = text.replace(marker, matrix + marker, 1)
 
 text = re.sub(r'\n## Platform Areas\n.*?(?=\n## Experience & Commerce Flows\n)', '\n' + areas.rstrip() + '\n', text, flags=re.S)
 if '## Platform Areas\n' not in text:
