@@ -145,11 +145,11 @@ jobs:
           stale_refs = [item for item in forbidden_refs if item in text]
 
           required_text = [
-              "v51.0.6",
-              "no public launcher or installer release",
-              "public release gate remains closed",
+              "not an official minecraft product",
+              "private implementation",
           ]
-          missing_text = [item for item in required_text if item not in text.lower()]
+          lowered = text.lower()
+          missing_text = [item for item in required_text if item not in lowered]
 
           if missing_refs or missing_assets or stale_refs or missing_text:
               print("missing_refs", missing_refs)
