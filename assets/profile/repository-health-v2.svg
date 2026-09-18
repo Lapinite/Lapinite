@@ -14,37 +14,37 @@
 <text x="58" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">REPOSITORY</text><text x="660" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">LAST PUSH</text><text x="825" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">SIZE</text><text x="955" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">ISSUES</text><text x="1080" y="105" fill="#597f94" font-family="ui-monospace,Consolas,monospace" font-size="9">STATE</text>
 <path d="M42 120 H1142 L1158 136 V164 H58 L42 148 Z" fill="#061621" stroke="#14394d"/>
 <rect x="55" y="137" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.50s" repeatCount="indefinite"/></rect>
-<text x="78" y="148" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Lapinite</text>
+<text x="78" y="148" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Integrations</text>
 <text x="660" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-18</text>
-<text x="825" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">715 KB</text>
-<text x="955" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
+<text x="825" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">48 KB</text>
+<text x="955" y="148" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">1</text>
 <text x="1080" y="148" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <path d="M42 171 H1142 L1158 187 V215 H58 L42 199 Z" fill="#061621" stroke="#14394d"/>
 <rect x="55" y="188" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.58s" repeatCount="indefinite"/></rect>
-<text x="78" y="199" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Status</text>
-<text x="660" y="199" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="825" y="199" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">26 KB</text>
+<text x="78" y="199" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Lapinite</text>
+<text x="660" y="199" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-18</text>
+<text x="825" y="199" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">716 KB</text>
 <text x="955" y="199" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <text x="1080" y="199" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <path d="M42 222 H1142 L1158 238 V266 H58 L42 250 Z" fill="#061621" stroke="#14394d"/>
 <rect x="55" y="239" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.66s" repeatCount="indefinite"/></rect>
-<text x="78" y="250" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Server-Tools</text>
+<text x="78" y="250" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Status</text>
 <text x="660" y="250" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
 <text x="825" y="250" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">26 KB</text>
 <text x="955" y="250" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <text x="1080" y="250" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <path d="M42 273 H1142 L1158 289 V317 H58 L42 301 Z" fill="#061621" stroke="#14394d"/>
 <rect x="55" y="290" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.74s" repeatCount="indefinite"/></rect>
-<text x="78" y="301" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Examples</text>
+<text x="78" y="301" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Server-Tools</text>
 <text x="660" y="301" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="825" y="301" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">31 KB</text>
+<text x="825" y="301" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">26 KB</text>
 <text x="955" y="301" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <text x="1080" y="301" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <path d="M42 324 H1142 L1158 340 V368 H58 L42 352 Z" fill="#061621" stroke="#14394d"/>
 <rect x="55" y="341" width="8" height="8" rx="2" fill="#4cefa8"><animate attributeName="opacity" values=".35;1;.35" dur="1.82s" repeatCount="indefinite"/></rect>
-<text x="78" y="352" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Integrations</text>
+<text x="78" y="352" fill="#dcecf4" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="700">Leviathan-Examples</text>
 <text x="660" y="352" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">2026-09-11</text>
-<text x="825" y="352" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">37 KB</text>
+<text x="825" y="352" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">31 KB</text>
 <text x="955" y="352" fill="#8ba8b7" font-family="ui-monospace,Consolas,monospace" font-size="10">0</text>
 <text x="1080" y="352" fill="#4cefa8" font-family="ui-monospace,Consolas,monospace" font-size="9">FRESH</text>
 <path d="M42 375 H1142 L1158 391 V419 H58 L42 403 Z" fill="#061621" stroke="#14394d"/>
