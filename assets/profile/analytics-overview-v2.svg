@@ -19,7 +19,7 @@
 <text x="346" y="162" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">100</text>
 <path d="M610 98 H856 L874 116 V194 H610 Z" fill="#061723" stroke="#17465f"/>
 <text x="630" y="124" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10">PUBLIC SIZE</text>
-<text x="630" y="162" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1377 KB</text>
+<text x="630" y="162" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1378 KB</text>
 <path d="M894 98 H1140 L1158 116 V194 H894 Z" fill="#061723" stroke="#17465f"/>
 <text x="914" y="124" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10">OPEN ISSUES</text>
 <text x="914" y="162" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1</text>
