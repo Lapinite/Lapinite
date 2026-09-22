@@ -70,22 +70,22 @@
 <rect x="610" y="464" width="548" height="190" rx="16" fill="#05131d" stroke="#173b50"/>
 <text x="630" y="494" fill="#eaf9ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">14-Day Public Activity Signal</text>
 <text x="630" y="513" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="10">Public GitHub events over the last fourteen days</text>
-<circle cx="650" cy="618" r="3" fill="#51eaff"><title>2026-09-08: 0 events</title></circle>
-<circle cx="686" cy="618" r="3" fill="#51eaff"><title>2026-09-09: 0 events</title></circle>
-<circle cx="722" cy="618" r="3" fill="#51eaff"><title>2026-09-10: 0 events</title></circle>
-<circle cx="757" cy="540" r="3" fill="#51eaff"><title>2026-09-11: 97 events</title></circle>
-<circle cx="793" cy="616" r="3" fill="#51eaff"><title>2026-09-12: 2 events</title></circle>
-<circle cx="829" cy="618" r="3" fill="#51eaff"><title>2026-09-13: 0 events</title></circle>
-<circle cx="865" cy="618" r="3" fill="#51eaff"><title>2026-09-14: 0 events</title></circle>
-<circle cx="900" cy="618" r="3" fill="#51eaff"><title>2026-09-15: 0 events</title></circle>
-<circle cx="936" cy="618" r="3" fill="#51eaff"><title>2026-09-16: 0 events</title></circle>
-<circle cx="972" cy="618" r="3" fill="#51eaff"><title>2026-09-17: 0 events</title></circle>
-<circle cx="1008" cy="617" r="3" fill="#51eaff"><title>2026-09-18: 1 events</title></circle>
-<circle cx="1043" cy="618" r="3" fill="#51eaff"><title>2026-09-19: 0 events</title></circle>
-<circle cx="1079" cy="618" r="3" fill="#51eaff"><title>2026-09-20: 0 events</title></circle>
-<circle cx="1115" cy="618" r="3" fill="#51eaff"><title>2026-09-21: 0 events</title></circle>
-<polyline points="650,618 686,618 722,618 757,540 793,616 829,618 865,618 900,618 936,618 972,618 1008,617 1043,618 1079,618 1115,618" fill="none" stroke="#4fcfff" stroke-width="2.5"/>
-<text x="650" y="638" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9">Sep 08</text>
-<text x="1115" y="638" text-anchor="end" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9">Sep 21</text>
+<circle cx="650" cy="618" r="3" fill="#51eaff"><title>2026-09-09: 0 events</title></circle>
+<circle cx="686" cy="618" r="3" fill="#51eaff"><title>2026-09-10: 0 events</title></circle>
+<circle cx="722" cy="540" r="3" fill="#51eaff"><title>2026-09-11: 97 events</title></circle>
+<circle cx="757" cy="616" r="3" fill="#51eaff"><title>2026-09-12: 2 events</title></circle>
+<circle cx="793" cy="618" r="3" fill="#51eaff"><title>2026-09-13: 0 events</title></circle>
+<circle cx="829" cy="618" r="3" fill="#51eaff"><title>2026-09-14: 0 events</title></circle>
+<circle cx="865" cy="618" r="3" fill="#51eaff"><title>2026-09-15: 0 events</title></circle>
+<circle cx="900" cy="618" r="3" fill="#51eaff"><title>2026-09-16: 0 events</title></circle>
+<circle cx="936" cy="618" r="3" fill="#51eaff"><title>2026-09-17: 0 events</title></circle>
+<circle cx="972" cy="617" r="3" fill="#51eaff"><title>2026-09-18: 1 events</title></circle>
+<circle cx="1008" cy="618" r="3" fill="#51eaff"><title>2026-09-19: 0 events</title></circle>
+<circle cx="1043" cy="618" r="3" fill="#51eaff"><title>2026-09-20: 0 events</title></circle>
+<circle cx="1079" cy="618" r="3" fill="#51eaff"><title>2026-09-21: 0 events</title></circle>
+<circle cx="1115" cy="618" r="3" fill="#51eaff"><title>2026-09-22: 0 events</title></circle>
+<polyline points="650,618 686,618 722,540 757,616 793,618 829,618 865,618 900,618 936,618 972,617 1008,618 1043,618 1079,618 1115,618" fill="none" stroke="#4fcfff" stroke-width="2.5"/>
+<text x="650" y="638" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9">Sep 09</text>
+<text x="1115" y="638" text-anchor="end" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9">Sep 22</text>
 <rect x="42" y="675" width="1116" height="2" rx="1" fill="#0c5067"><animate attributeName="x" values="42;1080;42" dur="9s" repeatCount="indefinite"/></rect>
 </svg>
