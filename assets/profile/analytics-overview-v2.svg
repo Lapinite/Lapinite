@@ -19,7 +19,7 @@
 <text x="346" y="162" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">100</text>
 <path d="M610 98 H856 L874 116 V194 H610 Z" fill="#061723" stroke="#17465f"/>
 <text x="630" y="124" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10">PUBLIC SIZE</text>
-<text x="630" y="162" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1370 KB</text>
+<text x="630" y="162" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1395 KB</text>
 <path d="M894 98 H1140 L1158 116 V194 H894 Z" fill="#061723" stroke="#17465f"/>
 <text x="914" y="124" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10">OPEN ISSUES</text>
 <text x="914" y="162" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1</text>
@@ -34,15 +34,15 @@
 <text x="640" y="302" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Lapinite</text>
 <path d="M810 296 H1110" stroke="#102532" stroke-width="9"/><path d="M810 296 H1130" stroke="#2d86ff" stroke-width="9"/>
 <text x="640" y="327" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Launcher</text>
-<path d="M810 321 H1110" stroke="#102532" stroke-width="9"/><path d="M810 321 H932" stroke="#2d86ff" stroke-width="9"/>
+<path d="M810 321 H1110" stroke="#102532" stroke-width="9"/><path d="M810 321 H928" stroke="#2d86ff" stroke-width="9"/>
 <text x="640" y="352" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Integrations</text>
-<path d="M810 346 H1110" stroke="#102532" stroke-width="9"/><path d="M810 346 H829" stroke="#2d86ff" stroke-width="9"/>
+<path d="M810 346 H1110" stroke="#102532" stroke-width="9"/><path d="M810 346 H828" stroke="#2d86ff" stroke-width="9"/>
 <text x="640" y="377" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Docs</text>
 <path d="M810 371 H1110" stroke="#102532" stroke-width="9"/><path d="M810 371 H824" stroke="#2d86ff" stroke-width="9"/>
 <text x="640" y="402" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Examples</text>
 <path d="M810 396 H1110" stroke="#102532" stroke-width="9"/><path d="M810 396 H822" stroke="#2d86ff" stroke-width="9"/>
 <text x="640" y="427" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-SDK</text>
-<path d="M810 421 H1110" stroke="#102532" stroke-width="9"/><path d="M810 421 H822" stroke="#2d86ff" stroke-width="9"/>
+<path d="M810 421 H1110" stroke="#102532" stroke-width="9"/><path d="M810 421 H821" stroke="#2d86ff" stroke-width="9"/>
 <path d="M42 468 H1158" stroke="#17384d"/><text x="42" y="496" fill="#6f93a6" font-family="ui-monospace,Consolas,monospace" font-size="9">14 DAY SIGNAL TRACE</text>
 <rect x="62" y="522" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-11: 88 events</title></rect>
 <rect x="144" y="620" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-12: 2 events</title></rect>
