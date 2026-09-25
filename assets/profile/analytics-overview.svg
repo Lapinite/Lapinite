@@ -20,7 +20,7 @@
 <text x="346" y="180" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9.5">repositories with public activity</text>
 <rect x="610" y="98" width="264" height="96" rx="14" fill="#061723" stroke="#17465f"/>
 <text x="630" y="123" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">PUBLIC SIZE</text>
-<text x="630" y="158" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1396 KB</text>
+<text x="630" y="158" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1398 KB</text>
 <text x="630" y="180" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9.5">GitHub-reported repository size</text>
 <rect x="894" y="98" width="264" height="96" rx="14" fill="#061723" stroke="#17465f"/>
 <text x="914" y="123" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">OPEN ISSUES</text>
@@ -50,10 +50,10 @@
 <text x="62" y="547" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Lapinite</text>
 <rect x="225" y="536" width="270" height="12" rx="4" fill="#102532"/>
 <rect x="225" y="536" width="270" height="12" rx="4" fill="#2d86ff"/>
-<text x="520" y="547" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">848 KB</text>
+<text x="520" y="547" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">850 KB</text>
 <text x="62" y="568" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Launcher</text>
 <rect x="225" y="557" width="270" height="12" rx="4" fill="#102532"/>
-<rect x="225" y="557" width="100" height="12" rx="4" fill="#2d86ff"/>
+<rect x="225" y="557" width="99" height="12" rx="4" fill="#2d86ff"/>
 <text x="520" y="568" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">313 KB</text>
 <text x="62" y="589" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Integrations</text>
 <rect x="225" y="578" width="270" height="12" rx="4" fill="#102532"/>
