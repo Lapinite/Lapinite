@@ -16,11 +16,11 @@
 <text x="62" y="180" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9.5">visible repositories</text>
 <rect x="326" y="98" width="264" height="96" rx="14" fill="#061723" stroke="#17465f"/>
 <text x="346" y="123" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">ACTIVE 7D</text>
-<text x="346" y="158" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">3</text>
+<text x="346" y="158" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">2</text>
 <text x="346" y="180" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9.5">repositories with public activity</text>
 <rect x="610" y="98" width="264" height="96" rx="14" fill="#061723" stroke="#17465f"/>
 <text x="630" y="123" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">PUBLIC SIZE</text>
-<text x="630" y="158" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1398 KB</text>
+<text x="630" y="158" fill="#f0fbff" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="800">1223 KB</text>
 <text x="630" y="180" fill="#64879b" font-family="Segoe UI,Arial,sans-serif" font-size="9.5">GitHub-reported repository size</text>
 <rect x="894" y="98" width="264" height="96" rx="14" fill="#061723" stroke="#17465f"/>
 <text x="914" y="123" fill="#64879b" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.4">OPEN ISSUES</text>
@@ -50,26 +50,26 @@
 <text x="62" y="547" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Lapinite</text>
 <rect x="225" y="536" width="270" height="12" rx="4" fill="#102532"/>
 <rect x="225" y="536" width="270" height="12" rx="4" fill="#2d86ff"/>
-<text x="520" y="547" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">850 KB</text>
+<text x="520" y="547" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">675 KB</text>
 <text x="62" y="568" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Launcher</text>
 <rect x="225" y="557" width="270" height="12" rx="4" fill="#102532"/>
-<rect x="225" y="557" width="99" height="12" rx="4" fill="#2d86ff"/>
+<rect x="225" y="557" width="125" height="12" rx="4" fill="#2d86ff"/>
 <text x="520" y="568" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">313 KB</text>
 <text x="62" y="589" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Integrations</text>
 <rect x="225" y="578" width="270" height="12" rx="4" fill="#102532"/>
-<rect x="225" y="578" width="15" height="12" rx="4" fill="#2d86ff"/>
+<rect x="225" y="578" width="19" height="12" rx="4" fill="#2d86ff"/>
 <text x="520" y="589" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">48 KB</text>
 <text x="62" y="610" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Docs</text>
 <rect x="225" y="599" width="270" height="12" rx="4" fill="#102532"/>
-<rect x="225" y="599" width="11" height="12" rx="4" fill="#2d86ff"/>
+<rect x="225" y="599" width="14" height="12" rx="4" fill="#2d86ff"/>
 <text x="520" y="610" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">36 KB</text>
 <text x="62" y="631" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-Examples</text>
 <rect x="225" y="620" width="270" height="12" rx="4" fill="#102532"/>
-<rect x="225" y="620" width="10" height="12" rx="4" fill="#2d86ff"/>
+<rect x="225" y="620" width="12" height="12" rx="4" fill="#2d86ff"/>
 <text x="520" y="631" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">31 KB</text>
 <text x="62" y="652" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-SDK</text>
 <rect x="225" y="641" width="270" height="12" rx="4" fill="#102532"/>
-<rect x="225" y="641" width="10" height="12" rx="4" fill="#2d86ff"/>
+<rect x="225" y="641" width="12" height="12" rx="4" fill="#2d86ff"/>
 <text x="520" y="652" fill="#ddecf3" font-family="ui-monospace,Consolas,monospace" font-size="9">30 KB</text>
 <rect x="610" y="464" width="548" height="190" rx="16" fill="#05131d" stroke="#173b50"/>
 <text x="630" y="494" fill="#eaf9ff" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="750">14-Day Public Activity Signal</text>
