@@ -44,21 +44,21 @@
 <text x="640" y="427" fill="#b8d0dc" font-family="Segoe UI,Arial,sans-serif" font-size="10">Leviathan-SDK</text>
 <path d="M810 421 H1110" stroke="#102532" stroke-width="9"/><path d="M810 421 H821" stroke="#2d86ff" stroke-width="9"/>
 <path d="M42 468 H1158" stroke="#17384d"/><text x="42" y="496" fill="#6f93a6" font-family="ui-monospace,Consolas,monospace" font-size="9">14 DAY SIGNAL TRACE</text>
-<rect x="62" y="522" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-11: 88 events</title></rect>
-<rect x="144" y="620" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-12: 2 events</title></rect>
-<rect x="225" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-13: 0 events</title></rect>
-<rect x="307" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-14: 0 events</title></rect>
-<rect x="388" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-15: 0 events</title></rect>
-<rect x="470" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-16: 0 events</title></rect>
-<rect x="551" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-17: 0 events</title></rect>
-<rect x="633" y="621" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-18: 1 events</title></rect>
-<rect x="714" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-19: 0 events</title></rect>
-<rect x="796" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-20: 0 events</title></rect>
-<rect x="877" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-21: 0 events</title></rect>
-<rect x="959" y="617" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-22: 4 events</title></rect>
-<rect x="1040" y="616" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-23: 5 events</title></rect>
-<rect x="1122" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-24: 0 events</title></rect>
-<polyline points="65,525 147,623 228,625 310,625 391,625 473,625 554,625 636,624 717,625 799,625 880,625 962,620 1043,619 1125,625" fill="none" stroke="#4fcfff" stroke-width="2.5"/>
+<rect x="62" y="582" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-12: 2 events</title></rect>
+<rect x="144" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-13: 0 events</title></rect>
+<rect x="225" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-14: 0 events</title></rect>
+<rect x="307" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-15: 0 events</title></rect>
+<rect x="388" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-16: 0 events</title></rect>
+<rect x="470" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-17: 0 events</title></rect>
+<rect x="551" y="602" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-18: 1 events</title></rect>
+<rect x="633" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-19: 0 events</title></rect>
+<rect x="714" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-20: 0 events</title></rect>
+<rect x="796" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-21: 0 events</title></rect>
+<rect x="877" y="542" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-22: 4 events</title></rect>
+<rect x="959" y="522" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-23: 5 events</title></rect>
+<rect x="1040" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-24: 0 events</title></rect>
+<rect x="1122" y="622" width="6" height="6" rx="1" fill="#51eaff"><title>2026-09-25: 0 events</title></rect>
+<polyline points="65,585 147,625 228,625 310,625 391,625 473,625 554,605 636,625 717,625 799,625 880,545 962,525 1043,625 1125,625" fill="none" stroke="#4fcfff" stroke-width="2.5"/>
 <rect x="42" y="675" width="120" height="2" rx="1" fill="url(#cyan)"><animate attributeName="x" values="42;1038;42" dur="9s" repeatCount="indefinite"/></rect>
 <rect x="4" y="4" width="1192" height="692" rx="21" fill="none" stroke="url(#cyan)" stroke-width="3" stroke-dasharray="791 2977" filter="url(#g)" opacity=".9"><animate attributeName="stroke-dashoffset" values="0;-3768" dur="10s" repeatCount="indefinite"/></rect>
 </svg>
