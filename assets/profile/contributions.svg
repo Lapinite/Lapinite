@@ -413,30 +413,30 @@
 <rect x="895" y="267" width="12" height="12" rx="2.5" fill="#0a1822" stroke="#0d2b3a" stroke-width=".45"><title>2026-10-01: 0 public commits</title></rect>
 <rect x="895" y="282" width="12" height="12" rx="2.5" fill="#0a1822" stroke="#0d2b3a" stroke-width=".45"><title>2026-10-02: 0 public commits</title></rect>
 <rect x="895" y="297" width="12" height="12" rx="2.5" fill="#0a1822" stroke="#0d2b3a" stroke-width=".45"><title>2026-10-03: 0 public commits</title></rect>
-<rect x="920" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Oct: 0 public commits</title></rect>
-<text x="927" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Oct</text>
-<rect x="939" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Nov: 0 public commits</title></rect>
-<text x="946" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Nov</text>
-<rect x="958" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Dec: 0 public commits</title></rect>
-<text x="965" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Dec</text>
-<rect x="977" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Jan: 0 public commits</title></rect>
-<text x="984" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Jan</text>
-<rect x="996" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Feb: 0 public commits</title></rect>
-<text x="1003" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Feb</text>
-<rect x="1015" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Mar: 0 public commits</title></rect>
-<text x="1022" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Mar</text>
-<rect x="1034" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Apr: 0 public commits</title></rect>
-<text x="1041" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Apr</text>
-<rect x="1053" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>May: 0 public commits</title></rect>
-<text x="1060" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">May</text>
-<rect x="1072" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Jun: 0 public commits</title></rect>
-<text x="1079" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Jun</text>
-<rect x="1091" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Jul: 0 public commits</title></rect>
-<text x="1098" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Jul</text>
-<rect x="1110" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Aug: 0 public commits</title></rect>
-<text x="1117" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Aug</text>
-<rect x="1129" y="210" width="14" height="102" rx="3" fill="#18bad7"><title>Sep: 261 public commits</title></rect>
-<text x="1136" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Sep</text>
+<rect x="920" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Nov: 0 public commits</title></rect>
+<text x="927" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Nov</text>
+<rect x="939" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Dec: 0 public commits</title></rect>
+<text x="946" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Dec</text>
+<rect x="958" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Jan: 0 public commits</title></rect>
+<text x="965" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Jan</text>
+<rect x="977" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Feb: 0 public commits</title></rect>
+<text x="984" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Feb</text>
+<rect x="996" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Mar: 0 public commits</title></rect>
+<text x="1003" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Mar</text>
+<rect x="1015" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Apr: 0 public commits</title></rect>
+<text x="1022" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Apr</text>
+<rect x="1034" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>May: 0 public commits</title></rect>
+<text x="1041" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">May</text>
+<rect x="1053" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Jun: 0 public commits</title></rect>
+<text x="1060" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Jun</text>
+<rect x="1072" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Jul: 0 public commits</title></rect>
+<text x="1079" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Jul</text>
+<rect x="1091" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Aug: 0 public commits</title></rect>
+<text x="1098" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Aug</text>
+<rect x="1110" y="210" width="14" height="102" rx="3" fill="#18bad7"><title>Sep: 261 public commits</title></rect>
+<text x="1117" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Sep</text>
+<rect x="1129" y="310" width="14" height="2" rx="3" fill="#18bad7"><title>Oct: 0 public commits</title></rect>
+<text x="1136" y="329" text-anchor="middle" fill="#65869a" font-family="Segoe UI,Arial,sans-serif" font-size="7">Oct</text>
 <text x="920" y="195" fill="#84a8bc" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1">MONTHLY OUTPUT</text>
 <text x="42" y="395" fill="#66889d" font-family="Segoe UI,Arial,sans-serif" font-size="10">LOW</text>
 <rect x="78" y="385" width="12" height="12" rx="2" fill="#0a1822"/><rect x="96" y="385" width="12" height="12" rx="2" fill="#08344a"/><rect x="114" y="385" width="12" height="12" rx="2" fill="#075c78"/><rect x="132" y="385" width="12" height="12" rx="2" fill="#008aa9"/><rect x="150" y="385" width="12" height="12" rx="2" fill="#16bfd6"/><rect x="168" y="385" width="12" height="12" rx="2" fill="#61f0ff"/><text x="190" y="395" fill="#66889d" font-family="Segoe UI,Arial,sans-serif" font-size="10">HIGH</text>
